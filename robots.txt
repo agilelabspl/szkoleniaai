@@ -1,0 +1,11 @@
+# robots.txt for AI Szkolenia Hub
+# https://ai-szkolenia-hub.pl/
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://ai-szkolenia-hub.pl/sitemap.xml
+
+# Crawl-delay (optional, be nice to small servers)
+Crawl-delay: 1
