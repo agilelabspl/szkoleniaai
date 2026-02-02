@@ -1,6 +1,16 @@
 <!DOCTYPE html>
 <html lang="pl">
 <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-0PFZVTKTY7"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-0PFZVTKTY7');
+    </script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -615,6 +625,31 @@
                         <p>Darmowy kurs od Coders Lab</p>
                         <div class="card-footer">Odwiedź <span>→</span></div>
                     </a>
+                    <a href="https://szkolenia-ai.online/gpt-oferta-v1/" class="course-card" target="_blank" rel="noopener noreferrer">
+                        <h3>ChatGPT Masterclass</h3>
+                        <p>FunnelStar.io</p>
+                        <div class="card-footer">Odwiedź <span>→</span></div>
+                    </a>
+                    <a href="https://app.centrumbadan.ai/w/wyzwanie" class="course-card" target="_blank" rel="noopener noreferrer">
+                        <h3>Wyzwanie AI</h3>
+                        <p>Krajowe Centrum Badań AI</p>
+                        <div class="card-footer">Odwiedź <span>→</span></div>
+                    </a>
+                    <a href="https://aininjas.pl/" class="course-card" target="_blank" rel="noopener noreferrer">
+                        <h3>AI Ninjas</h3>
+                        <p>AI Ninjas</p>
+                        <div class="card-footer">Odwiedź <span>→</span></div>
+                    </a>
+                    <a href="https://aiarmy.pl/" class="course-card" target="_blank" rel="noopener noreferrer">
+                        <h3>AI Army</h3>
+                        <p>AI Army</p>
+                        <div class="card-footer">Odwiedź <span>→</span></div>
+                    </a>
+                    <a href="https://procesyjutra.pl/" class="course-card" target="_blank" rel="noopener noreferrer">
+                        <h3>Procesy Jutra</h3>
+                        <p>SlowBiz</p>
+                        <div class="card-footer">Odwiedź <span>→</span></div>
+                    </a>
                 </div>
             </section>
 
@@ -673,6 +708,16 @@
                         <p>Livespace - webinar</p>
                         <div class="card-footer">Odwiedź <span>→</span></div>
                     </a>
+                    <a href="https://www.aisales.pl/" class="course-card" target="_blank" rel="noopener noreferrer">
+                        <h3>AI Sales</h3>
+                        <p>AI w sprzedaży</p>
+                        <div class="card-footer">Odwiedź <span>→</span></div>
+                    </a>
+                    <a href="https://www.danielwozniak.eu/" class="course-card" target="_blank" rel="noopener noreferrer">
+                        <h3>Daniel Woźniak</h3>
+                        <p>AI w biznesie dla CEO</p>
+                        <div class="card-footer">Odwiedź <span>→</span></div>
+                    </a>
                 </div>
             </section>
 
@@ -680,6 +725,11 @@
             <section id="produkty" class="category-section">
                 <h2 class="category-title">AI w Tworzeniu Produktów</h2>
                 <div class="courses-grid">
+                    <a href="https://productpro.pl/product-discovery-pro/" class="course-card featured" target="_blank" rel="noopener noreferrer">
+                        <h3>AI-Powered Product Discovery Practitioner™</h3>
+                        <p>Sprawdzone praktyki i framework odkrywania produktu ze wsparciem AI. Opportunity Solution Tree, techniki badawcze, ideacja i testowanie.</p>
+                        <div class="card-footer">Odwiedź <span>→</span></div>
+                    </a>
                     <a href="https://www.productacademy.pl/c/10x-product-bootcamp" class="course-card" target="_blank" rel="noopener noreferrer">
                         <h3>AI Product Bootcamp</h3>
                         <p>Product Academy</p>
@@ -688,6 +738,11 @@
                     <a href="https://web-academy.com.pl/course/product-management" class="course-card" target="_blank" rel="noopener noreferrer">
                         <h3>AI Product Management</h3>
                         <p>Web Academy</p>
+                        <div class="card-footer">Odwiedź <span>→</span></div>
+                    </a>
+                    <a href="https://www.aiproductheroes.pl/" class="course-card featured" target="_blank" rel="noopener noreferrer">
+                        <h3>AI Product Heroes 2</h3>
+                        <p>5-tygodniowy program praktyczny: od badań użytkowników, przez prototypowanie, po analizę danych. Budujesz własny działający prototyp z AI.</p>
                         <div class="card-footer">Odwiedź <span>→</span></div>
                     </a>
                     <a href="https://strefakursow.pl/kursy/it_i_oprogramowanie/ai_dla_product_ownerow_i_managerow.html" class="course-card" target="_blank" rel="noopener noreferrer">
@@ -958,7 +1013,7 @@
             <section id="programisci" class="category-section">
                 <h2 class="category-title">AI dla Programistów i Developerów</h2>
                 <div class="courses-grid">
-                    <a href="https://www.aidevs.pl/" class="course-card featured" target="_blank" rel="noopener noreferrer">
+                    <a href="https://www.aidevs.pl/" class="course-card" target="_blank" rel="noopener noreferrer">
                         <h3>AI_devs 4</h3>
                         <p>Adam Gospodarczyk, Jakub Mrugalski, Mateusz Chrobok. Najpopularniejszy kurs AI dla programistów w Polsce.</p>
                         <div class="card-footer">Odwiedź <span>→</span></div>
@@ -1092,6 +1147,26 @@
                     }
                 });
             }
+
+            // Track course clicks
+            courses.forEach(card => {
+                card.addEventListener('click', () => {
+                    const courseName = card.querySelector('h3')?.innerText || 'Unknown';
+                    gtag('event', 'course_click', {
+                        'event_label': courseName
+                    });
+                });
+            });
+
+            // Track category navigation clicks
+            document.querySelectorAll('.category-nav a').forEach(link => {
+                link.addEventListener('click', () => {
+                    const categoryName = link.innerText;
+                    gtag('event', 'category_click', {
+                        'event_label': categoryName
+                    });
+                });
+            });
         });
     </script>
 
