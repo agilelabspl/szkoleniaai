@@ -584,6 +584,40 @@
             border: 1px solid #a7f3d0;
         }
 
+        /* Announcement Bar */
+        .announcement-bar {
+            background: linear-gradient(135deg, #f0f9ff 0%, #faf5ff 100%);
+            border-bottom: 1px solid var(--card-border);
+            padding: 0.6rem 1.5rem;
+            text-align: center;
+            font-size: 0.875rem;
+            color: var(--text-color);
+            position: relative;
+        }
+
+        .announcement-bar span {
+            color: var(--primary);
+            font-weight: 600;
+        }
+
+        .announcement-bar button {
+            position: absolute;
+            right: 1rem;
+            top: 50%;
+            transform: translateY(-50%);
+            background: none;
+            border: none;
+            color: var(--text-muted);
+            cursor: pointer;
+            font-size: 1.1rem;
+            padding: 0.25rem;
+            line-height: 1;
+        }
+
+        .announcement-bar button:hover {
+            color: var(--text-color);
+        }
+
         /* Responsive */
         @media (max-width: 768px) {
             .container {
@@ -612,6 +646,11 @@
     </style>
 </head>
 <body>
+
+    <div class="announcement-bar" id="announcement">
+        <span>Nowość:</span> Dodałem ceny, formaty i czas trwania do wybranych szkoleń
+        <button onclick="document.getElementById('announcement').style.display='none'" aria-label="Zamknij">&times;</button>
+    </div>
 
     <div class="container">
         <header>
