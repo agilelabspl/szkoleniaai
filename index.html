@@ -533,6 +533,57 @@
             color: var(--text-muted);
         }
 
+        /* Card Meta Tags */
+        .card-meta {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.35rem;
+            margin-top: 0.75rem;
+        }
+
+        .card-meta .tag {
+            display: inline-flex;
+            align-items: center;
+            font-size: 0.7rem;
+            font-weight: 600;
+            padding: 0.2rem 0.55rem;
+            border-radius: 4px;
+            letter-spacing: 0.2px;
+            white-space: nowrap;
+        }
+
+        .tag-price {
+            background: #f0fdf4;
+            color: #166534;
+            border: 1px solid #bbf7d0;
+        }
+
+        .card-author {
+            display: block;
+            font-size: 0.8rem;
+            font-weight: 500;
+            color: var(--text-muted);
+            margin-bottom: 0.35rem;
+        }
+
+        .tag-format {
+            background: #eff6ff;
+            color: #1e40af;
+            border: 1px solid #bfdbfe;
+        }
+
+        .tag-duration {
+            background: #f5f3ff;
+            color: #5b21b6;
+            border: 1px solid #ddd6fe;
+        }
+
+        .tag-cert {
+            background: #ecfdf5;
+            color: #065f46;
+            border: 1px solid #a7f3d0;
+        }
+
         /* Responsive */
         @media (max-width: 768px) {
             .container {
@@ -890,32 +941,72 @@
                 <div class="courses-grid">
                     <a href="https://www.profuture.ai/film-making/" class="course-card" target="_blank" rel="noopener noreferrer">
                         <h3>Filmmaking AI</h3>
-                        <p>Najbardziej kompleksowy kurs wideo AI w Polsce</p>
+                        <span class="card-author">Artur Krawczyk · ProFuture</span>
+                        <p>Od scenariusza po montaż finalny. Midjourney, Runway, Kling, Suno, ElevenLabs.</p>
+                        <div class="card-meta">
+                            <span class="tag tag-price">399 zł</span>
+                            <span class="tag tag-format">Nagranie</span>
+                            <span class="tag tag-duration">19h · 23 lekcje</span>
+                            <span class="tag tag-cert">Certyfikat</span>
+                        </div>
                         <div class="card-footer">Odwiedź <span>→</span></div>
                     </a>
                     <a href="https://www.adriankilar.com/ai-magic/" class="course-card" target="_blank" rel="noopener noreferrer">
-                        <h3>Wideo i Reklamy z AI</h3>
-                        <p>Adrian Kilar</p>
+                        <h3>AI Magic Video Editor</h3>
+                        <span class="card-author">Adrian Kilar</span>
+                        <p>Szybkie tworzenie wideo z AI bez doświadczenia. Prowadzony przez awatara AI.</p>
+                        <div class="card-meta">
+                            <span class="tag tag-price">~200 zł ($47)</span>
+                            <span class="tag tag-format">Nagranie</span>
+                            <span class="tag tag-duration">~2h · 45+ lekcji</span>
+                        </div>
                         <div class="card-footer">Odwiedź <span>→</span></div>
                     </a>
                     <a href="https://www.adriankilar.com/kurs-aimaster3/" class="course-card" target="_blank" rel="noopener noreferrer">
-                        <h3>AI MASTER</h3>
-                        <p>Adrian Kilar (Video ze Sztucznej Inteligencji)</p>
+                        <h3>AI MASTER 3</h3>
+                        <span class="card-author">Adrian Kilar</span>
+                        <p>Sora, Veo, Runway, awatary, VFX, voice cloning. 6 modułów dla twórców i marketerów.</p>
+                        <div class="card-meta">
+                            <span class="tag tag-price">1 227 zł</span>
+                            <span class="tag tag-format">Nagranie</span>
+                            <span class="tag tag-duration">6 modułów</span>
+                            <span class="tag tag-cert">Certyfikat</span>
+                        </div>
                         <div class="card-footer">Odwiedź <span>→</span></div>
                     </a>
                     <a href="https://itmedia.pl/szkolenie/kurs-ai-w-wideo/" class="course-card" target="_blank" rel="noopener noreferrer">
                         <h3>Kurs AI w wideo</h3>
-                        <p>Akademia IT Media</p>
+                        <span class="card-author">Akademia IT Media</span>
+                        <p>Runway, Photoshop Firefly, HeyGen, DaVinci Resolve. Realizacja własnego projektu.</p>
+                        <div class="card-meta">
+                            <span class="tag tag-price">1 900 zł netto</span>
+                            <span class="tag tag-format">Stacjonarnie · Warszawa</span>
+                            <span class="tag tag-duration">2 dni · 16h</span>
+                            <span class="tag tag-cert">Certyfikat</span>
+                        </div>
                         <div class="card-footer">Odwiedź <span>→</span></div>
                     </a>
                     <a href="https://videopoint.pl/kurs/ai-w-video-kurs-video-sztuczna-inteligencja-w-generowaniu-i-montazu-filmow-wlodzimierz-iwanowski,vaiwpr.htm" class="course-card" target="_blank" rel="noopener noreferrer">
                         <h3>AI w video. Kurs video</h3>
-                        <p>Włodzimierz Iwanowski (Videopoint/Helion)</p>
+                        <span class="card-author">Włodzimierz Iwanowski · Videopoint/Helion</span>
+                        <p>Runway, PikaLabs, Kaiber, Luma, ComfyUI.</p>
+                        <div class="card-meta">
+                            <span class="tag tag-price">97 zł</span>
+                            <span class="tag tag-format">Nagranie</span>
+                            <span class="tag tag-duration">3h · 40 lekcji</span>
+                            <span class="tag tag-cert">Certyfikat</span>
+                        </div>
                         <div class="card-footer">Odwiedź <span>→</span></div>
                     </a>
                     <a href="https://www.exaity.pl/kursy/kurs-video-ai-kino-jutra/" class="course-card" target="_blank" rel="noopener noreferrer">
                         <h3>Kurs Video AI: Kino Jutra</h3>
-                        <p>EXAITY.pl</p>
+                        <span class="card-author">Oliwia Gojżewska · EXAITY</span>
+                        <p>Od pomysłu po montaż. Midjourney, Kling, ElevenLabs, CapCut.</p>
+                        <div class="card-meta">
+                            <span class="tag tag-price">49 zł</span>
+                            <span class="tag tag-format">Nagranie</span>
+                            <span class="tag tag-duration">1h 49min · 8 modułów</span>
+                        </div>
                         <div class="card-footer">Odwiedź <span>→</span></div>
                     </a>
                     <a href="https://umio.to/wydarzenia/2411?editionId=3552" class="course-card" target="_blank" rel="noopener noreferrer">
