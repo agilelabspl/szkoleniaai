@@ -2559,6 +2559,16 @@
                 });
             });
 
+            // Add course counts to category nav buttons
+            document.querySelectorAll('.category-nav a').forEach(link => {
+                const sectionId = link.getAttribute('href').replace('#', '');
+                const section = document.getElementById(sectionId);
+                if (section) {
+                    const count = section.querySelectorAll('.course-card').length;
+                    link.innerText = link.innerText + ' (' + count + ')';
+                }
+            });
+
             // Track category navigation clicks
             document.querySelectorAll('.category-nav a').forEach(link => {
                 link.addEventListener('click', () => {
