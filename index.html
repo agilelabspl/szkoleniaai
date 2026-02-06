@@ -694,6 +694,175 @@
             color: var(--text-color);
         }
 
+        /* Feedback Form */
+        .feedback-section {
+            max-width: 900px;
+            margin: 0 auto 4rem;
+            padding: 2.5rem 2rem;
+            background: linear-gradient(135deg, #f0f9ff 0%, #faf5ff 100%);
+            border-radius: 16px;
+            border: 1px solid var(--card-border);
+            text-align: center;
+        }
+
+        .feedback-section .feedback-title {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--text-color);
+            margin-bottom: 0.5rem;
+        }
+
+        .feedback-section .feedback-subtitle {
+            font-size: 1rem;
+            color: var(--text-muted);
+            margin-bottom: 1.5rem;
+            line-height: 1.6;
+        }
+
+        /* MailerLite Feedback Form Overrides */
+        #mlb2-36768037.ml-form-embedContainer {
+            width: 100% !important;
+            margin: 0 !important;
+        }
+
+        #mlb2-36768037 .ml-form-embedWrapper,
+        #mlb2-36768037.ml-form-embedContainer .ml-form-embedWrapper.embedForm,
+        #mlb2-36768037.ml-form-embedContainer .ml-form-embedWrapper.embedDefault {
+            background-color: transparent !important;
+            border: none !important;
+            padding: 0 !important;
+            width: 100% !important;
+            max-width: 100% !important;
+        }
+
+        #mlb2-36768037 .ml-form-embedBody {
+            padding: 0 !important;
+        }
+
+        #mlb2-36768037 .ml-form-embedContent {
+            display: none !important;
+        }
+
+        #mlb2-36768037 .ml-form-fieldRow {
+            margin-bottom: 0.75rem !important;
+        }
+
+        #mlb2-36768037 .ml-form-fieldRow input,
+        #mlb2-36768037 .ml-form-fieldRow textarea {
+            font-family: var(--font-family) !important;
+            font-size: 0.95rem !important;
+            padding: 0.75rem 1rem !important;
+            border: 1px solid var(--card-border) !important;
+            border-radius: 8px !important;
+            background: #ffffff !important;
+            color: var(--text-color) !important;
+            transition: border-color 0.2s ease !important;
+            line-height: 1.5 !important;
+        }
+
+        #mlb2-36768037 .ml-form-fieldRow input:focus,
+        #mlb2-36768037 .ml-form-fieldRow textarea:focus {
+            border-color: var(--primary) !important;
+            outline: none !important;
+            box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.1) !important;
+        }
+
+        #mlb2-36768037 .ml-form-fieldRow input::placeholder,
+        #mlb2-36768037 .ml-form-fieldRow textarea::placeholder {
+            color: var(--text-muted) !important;
+        }
+
+        #mlb2-36768037 .ml-form-fieldRow textarea {
+            resize: vertical !important;
+            min-height: 100px !important;
+        }
+
+        #mlb2-36768037 .ml-form-fieldRow label {
+            display: none !important;
+        }
+
+        #mlb2-36768037 .ml-form-embedSubmit {
+            margin: 0.5rem 0 0 0 !important;
+            float: none !important;
+        }
+
+        #mlb2-36768037 .ml-form-embedSubmit button.primary {
+            font-family: var(--font-family) !important;
+            background: linear-gradient(135deg, var(--primary), var(--secondary)) !important;
+            border: none !important;
+            border-radius: 999px !important;
+            padding: 0.75rem 2rem !important;
+            font-size: 0.95rem !important;
+            font-weight: 600 !important;
+            color: #ffffff !important;
+            cursor: pointer !important;
+            transition: all 0.2s ease !important;
+            width: auto !important;
+        }
+
+        #mlb2-36768037 .ml-form-embedSubmit button.primary:hover {
+            transform: translateY(-2px) !important;
+            box-shadow: 0 8px 20px rgba(99, 102, 241, 0.3) !important;
+            background: linear-gradient(135deg, var(--primary-dark), var(--secondary)) !important;
+        }
+
+        #mlb2-36768037 .ml-form-successContent {
+            text-align: center !important;
+            padding: 1rem 0 !important;
+        }
+
+        #mlb2-36768037 .ml-form-successContent h4 {
+            font-family: var(--font-family) !important;
+            font-size: 1.25rem !important;
+            font-weight: 700 !important;
+            color: var(--text-color) !important;
+            margin-bottom: 0.5rem !important;
+        }
+
+        #mlb2-36768037 .ml-form-successContent p {
+            font-family: var(--font-family) !important;
+            color: var(--text-muted) !important;
+            font-size: 0.95rem !important;
+        }
+
+        .ml-form-embedSubmitLoad {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+        }
+
+        .ml-form-embedSubmitLoad:after {
+            content: " ";
+            display: block;
+            width: 11px;
+            height: 11px;
+            margin: 1px;
+            border-radius: 50%;
+            border: 4px solid #fff;
+            border-color: #ffffff #ffffff #ffffff transparent;
+            animation: ml-form-embedSubmitLoad 1.2s linear infinite;
+        }
+
+        @keyframes ml-form-embedSubmitLoad {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .sr-only {
+            position: absolute;
+            width: 1px;
+            height: 1px;
+            padding: 0;
+            margin: -1px;
+            overflow: hidden;
+            clip: rect(0,0,0,0);
+            border: 0;
+        }
+
+        .ml-error input {
+            border-color: #ef4444 !important;
+        }
+
         /* Responsive */
         @media (max-width: 768px) {
             .container {
@@ -724,7 +893,7 @@
 <body>
 
     <div class="announcement-bar" id="announcement">
-        <span>Nowość:</span> Dodałem ceny, formaty i czas trwania do wybranych szkoleń
+        <span>Nowość:</span> Dodałem ceny, formaty i czas trwania do wszystkich szkoleń
         <button onclick="document.getElementById('announcement').style.display='none'" aria-label="Zamknij">&times;</button>
     </div>
 
@@ -1097,6 +1266,56 @@
                         </div>
                         <div class="card-footer">Odwiedź <span>→</span></div>
                     </a>
+                </div>
+            </section>
+
+            <!-- FEEDBACK FORM -->
+            <section class="feedback-section">
+                <h2 class="feedback-title">Brakuje tu szkolenia?</h2>
+                <p class="feedback-subtitle">Znasz kurs AI, którego nie ma w katalogu?<br>Brakuje Ci jakiejś funkcji na stronie?<br><strong>Daj mi znać.</strong> Dzięki Tobie ta strona będzie jeszcze lepsza.</p>
+
+                <div id="mlb2-36768037" class="ml-form-embedContainer ml-subscribe-form ml-subscribe-form-36768037">
+                    <div class="ml-form-align-center">
+                        <div class="ml-form-embedWrapper embedForm">
+                            <div class="ml-form-embedBody ml-form-embedBodyDefault row-form">
+                                <div class="ml-form-embedContent" style="display:none"></div>
+                                <form class="ml-block-form" action="https://assets.mailerlite.com/jsonp/575409/forms/178628784830809567/subscribe" data-code="" method="post" target="_blank">
+                                    <div class="ml-form-formContent">
+                                        <div class="ml-form-fieldRow">
+                                            <div class="ml-field-group ml-field-name">
+                                                <input aria-label="name" type="text" class="form-control" data-inputmask="" name="fields[name]" placeholder="Imię" autocomplete="given-name">
+                                            </div>
+                                        </div>
+                                        <div class="ml-form-fieldRow">
+                                            <div class="ml-field-group ml-field-email ml-validate-email ml-validate-required">
+                                                <input aria-label="email" aria-required="true" type="email" class="form-control" data-inputmask="" name="fields[email]" placeholder="Email" autocomplete="email">
+                                            </div>
+                                        </div>
+                                        <div class="ml-form-fieldRow ml-last-item">
+                                            <div class="ml-field-group ml-field-tresc_wiadomosci ml-validate-required">
+                                                <textarea aria-label="tresc_wiadomosci" aria-required="true" class="form-control" name="fields[tresc_wiadomosci]" placeholder="Twoja wiadomość" rows="4"></textarea>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <input type="hidden" name="ml-submit" value="1">
+                                    <div class="ml-form-embedSubmit">
+                                        <button type="submit" class="primary">Wyślij wiadomość</button>
+                                        <button disabled="disabled" style="display: none;" type="button" class="loading">
+                                            <div class="ml-form-embedSubmitLoad"></div>
+                                            <span class="sr-only">Loading...</span>
+                                        </button>
+                                    </div>
+                                    <input type="hidden" name="anticsrf" value="true">
+                                </form>
+                            </div>
+                            <div class="ml-form-successBody row-success" style="display: none">
+                                <div class="ml-form-successContent">
+                                    <h4>Dzięki za wiadomość!</h4>
+                                    <p>Dzięki Tobie aiprzewodnik.pl stanie się jeszcze lepszy.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </section>
 
@@ -2300,6 +2519,25 @@
         ml('account', '575409');
     </script>
     <!-- End MailerLite Universal -->
+
+    <!-- MailerLite Feedback Form Scripts -->
+    <script>
+        function ml_webform_success_36768037() {
+            var $ = ml_jQuery || jQuery;
+            $('.ml-subscribe-form-36768037 .row-success').show();
+            $('.ml-subscribe-form-36768037 .row-form').hide();
+        }
+    </script>
+    <script src="https://groot.mailerlite.com/js/w/webforms.min.js?v95037e5bac78f29ed026832ca21a7c7b" type="text/javascript"></script>
+    <script>fetch("https://assets.mailerlite.com/jsonp/575409/forms/178628784830809567/takel")</script>
+    <script>
+        // Force MailerLite form width after their JS loads
+        (function forceFormWidth() {
+            var el = document.querySelector('#mlb2-36768037 .ml-form-embedWrapper');
+            if (el) { el.style.setProperty('max-width', '100%', 'important'); el.style.setProperty('width', '100%', 'important'); }
+            else { setTimeout(forceFormWidth, 200); }
+        })();
+    </script>
 
     <footer style="text-align: center; padding: 2rem 1rem; margin-top: 2rem; border-top: 1px solid #e2e8f0; color: #64748b;">
         <p style="margin-bottom: 0.5rem;">Twoim przewodnikiem jest <a href="https://www.linkedin.com/in/pawellewinski/" target="_blank" rel="noopener noreferrer" style="color: #6366f1; text-decoration: none; font-weight: 500;">Paweł Lewiński</a></p>
