@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-BYGTBRQ1YF"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-BYGTBRQ1YF');
+    </script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO Meta Tags -->
+    <title>Słownik AI — Terminy Sztucznej Inteligencji po Ludzku | AI Przewodnik</title>
+    <meta name="description" content="Słownik AI bez naukowego żargonu. LLM, prompt, token, hallucynacja — wszystkie terminy AI wyjaśnione prostym językiem z przykładami z życia.">
+    <meta name="keywords" content="słownik AI, terminy AI, co to jest LLM, co to jest prompt, sztuczna inteligencja słownik, AI dla początkujących">
+    <meta name="author" content="AI Przewodnik">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://aiprzewodnik.pl/slownik">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://aiprzewodnik.pl/slownik">
+    <meta property="og:title" content="Słownik AI — Terminy po Ludzku">
+    <meta property="og:description" content="LLM, prompt, token, hallucynacja — wszystkie terminy AI wyjaśnione prostym językiem.">
+    <meta property="og:image" content="https://aiprzewodnik.pl/og-image.png">
+    <meta property="og:locale" content="pl_PL">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --bg-color: #ffffff;
+            --text-color: #1a1a2e;
+            --text-muted: #64748b;
+            --primary: #6366f1;
+            --primary-dark: #4f46e5;
+            --secondary: #06b6d4;
+            --card-bg: #f8fafc;
+            --card-border: #e2e8f0;
+            --font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+        }
+
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        html {
+            scroll-behavior: smooth;
+            scroll-padding-top: 2rem;
+        }
+
+        body {
+            font-family: var(--font-family);
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.7;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem 1.5rem;
+        }
+
+        /* Header */
+        header {
+            text-align: center;
+            margin-bottom: 3rem;
+            padding-top: 2rem;
+        }
+
+        .back-link {
+            display: inline-block;
+            margin-bottom: 1.5rem;
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 0.95rem;
+        }
+
+        .back-link:hover {
+            text-decoration: underline;
+        }
+
+        .main-title {
+            font-size: clamp(2rem, 5vw, 3rem);
+            font-weight: 700;
+            color: var(--text-color);
+            margin-bottom: 0.75rem;
+        }
+
+        .main-title span {
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .subtitle {
+            font-size: 1.1rem;
+            color: var(--text-muted);
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        /* Navigation */
+        .term-nav {
+            margin: 2rem 0;
+            padding: 1.5rem;
+            background: var(--card-bg);
+            border-radius: 12px;
+            border: 1px solid var(--card-border);
+        }
+
+        .term-nav-title {
+            font-size: 0.875rem;
+            font-weight: 600;
+            color: var(--text-muted);
+            margin-bottom: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .term-nav ul {
+            list-style: none;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+
+        .term-nav a {
+            display: block;
+            padding: 0.4rem 0.8rem;
+            text-decoration: none;
+            color: var(--text-color);
+            background: white;
+            border: 1px solid var(--card-border);
+            border-radius: 6px;
+            font-size: 0.875rem;
+            transition: all 0.2s ease;
+        }
+
+        .term-nav a:hover {
+            border-color: var(--primary);
+            color: var(--primary);
+        }
+
+        /* Terms */
+        .term {
+            margin-bottom: 2.5rem;
+            padding-bottom: 2.5rem;
+            border-bottom: 1px solid var(--card-border);
+        }
+
+        .term:last-child {
+            border-bottom: none;
+        }
+
+        .term-header {
+            display: flex;
+            align-items: baseline;
+            gap: 0.75rem;
+            margin-bottom: 1rem;
+        }
+
+        .term-name {
+            font-size: 1.5rem;
+            font-weight: 700;
+            color: var(--text-color);
+        }
+
+        .term-english {
+            font-size: 0.95rem;
+            color: var(--text-muted);
+            font-style: italic;
+        }
+
+        .term-definition {
+            font-size: 1.05rem;
+            margin-bottom: 1rem;
+            color: var(--text-color);
+        }
+
+        .term-example {
+            background: linear-gradient(135deg, #f0f9ff 0%, #faf5ff 100%);
+            border-left: 4px solid var(--primary);
+            padding: 1rem 1.25rem;
+            border-radius: 0 8px 8px 0;
+            font-size: 0.95rem;
+            color: var(--text-color);
+        }
+
+        .term-example strong {
+            color: var(--primary);
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 2rem 1rem;
+            margin-top: 2rem;
+            border-top: 1px solid var(--card-border);
+            color: var(--text-muted);
+        }
+
+        footer a {
+            color: var(--primary);
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .container {
+                padding: 1.5rem 1rem;
+            }
+
+            .term-header {
+                flex-direction: column;
+                gap: 0.25rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <header>
+            <a href="index.html" class="back-link">← Wróć do katalogu szkoleń</a>
+            <h1 class="main-title">Słownik <span>AI</span></h1>
+            <p class="subtitle">Terminy sztucznej inteligencji wyjaśnione po ludzku, bez naukowego żargonu</p>
+        </header>
+
+        <nav class="term-nav">
+            <p class="term-nav-title">Przejdź do terminu</p>
+            <ul>
+                <li><a href="#llm">LLM</a></li>
+                <li><a href="#prompt">Prompt</a></li>
+                <li><a href="#token">Token</a></li>
+                <li><a href="#chatbot">Chatbot</a></li>
+                <li><a href="#gpt">GPT</a></li>
+                <li><a href="#hallucynacja">Hallucynacja</a></li>
+                <li><a href="#api">API</a></li>
+                <li><a href="#fine-tuning">Fine-tuning</a></li>
+                <li><a href="#rag">RAG</a></li>
+                <li><a href="#embedding">Embedding</a></li>
+                <li><a href="#context-window">Context window</a></li>
+                <li><a href="#temperature">Temperature</a></li>
+                <li><a href="#agent">Agent AI</a></li>
+            </ul>
+        </nav>
+
+        <main>
+            <article class="term" id="llm">
+                <div class="term-header">
+                    <h2 class="term-name">LLM</h2>
+                    <span class="term-english">Large Language Model</span>
+                </div>
+                <p class="term-definition">Duży model językowy. Wyobraź sobie, że ktoś przeczytał cały internet i teraz możesz go o wszystko zapytać. ChatGPT, Claude, Gemini — to właśnie LLM-y.</p>
+                <div class="term-example">
+                    <strong>Z życia:</strong> To jak mieć kolegę, który przeczytał wszystkie książki świata. Nie zawsze ma rację, ale zawsze ma coś do powiedzenia.
+                </div>
+            </article>
+
+            <article class="term" id="prompt">
+                <div class="term-header">
+                    <h2 class="term-name">Prompt</h2>
+                    <span class="term-english">Prompt</span>
+                </div>
+                <p class="term-definition">Polecenie lub pytanie, które wpisujesz do AI. Im lepiej opiszesz czego chcesz, tym lepszą odpowiedź dostaniesz.</p>
+                <div class="term-example">
+                    <strong>Z życia:</strong> To jak zamawianie kawy. "Kawa" da ci cokolwiek. "Podwójne espresso z odrobiną mleka owsianego, na wynos" da ci dokładnie to, czego chcesz.
+                </div>
+            </article>
+
+            <article class="term" id="token">
+                <div class="term-header">
+                    <h2 class="term-name">Token</h2>
+                    <span class="term-english">Token</span>
+                </div>
+                <p class="term-definition">Kawałek tekstu, którym "myśli" AI. Jeden token to mniej więcej 3/4 słowa. Modele mają limit tokenów — ile mogą przeczytać i napisać naraz.</p>
+                <div class="term-example">
+                    <strong>Z życia:</strong> Pomyśl o tokenach jak o jednostkach pamięci roboczej. Tak jak Ty możesz utrzymać w głowie tylko kilka rzeczy naraz, AI ma swój limit tokenów.
+                </div>
+            </article>
+
+            <article class="term" id="chatbot">
+                <div class="term-header">
+                    <h2 class="term-name">Chatbot</h2>
+                    <span class="term-english">Chatbot</span>
+                </div>
+                <p class="term-definition">Program, z którym możesz rozmawiać pisząc wiadomości. Nowoczesne chatboty (jak ChatGPT) używają AI i potrafią prowadzić sensowne rozmowy.</p>
+                <div class="term-example">
+                    <strong>Z życia:</strong> Pamiętasz te okienka "Jak mogę pomóc?" na stronach sklepów? Kiedyś były głupie jak but. Teraz są napędzane AI i faktycznie potrafią pomóc.
+                </div>
+            </article>
+
+            <article class="term" id="gpt">
+                <div class="term-header">
+                    <h2 class="term-name">GPT</h2>
+                    <span class="term-english">Generative Pre-trained Transformer</span>
+                </div>
+                <p class="term-definition">Rodzaj modelu AI stworzony przez OpenAI. "Generative" = tworzy treści, "Pre-trained" = nauczony na górze tekstu, "Transformer" = architektura (sposób budowy).</p>
+                <div class="term-example">
+                    <strong>Z życia:</strong> GPT to jak nazwa silnika. Tak jak samochody mają silniki Diesla czy benzynowe, tak AI może mieć "silnik" GPT, Claude, czy Gemini.
+                </div>
+            </article>
+
+            <article class="term" id="hallucynacja">
+                <div class="term-header">
+                    <h2 class="term-name">Hallucynacja</h2>
+                    <span class="term-english">Hallucination</span>
+                </div>
+                <p class="term-definition">Gdy AI wymyśla fakty, których nie ma. Mówi z pewnością siebie rzeczy, które są kompletną bzdurą. Poważny problem wszystkich LLM-ów.</p>
+                <div class="term-example">
+                    <strong>Z życia:</strong> Jak kolega, który nie chce przyznać że czegoś nie wie, więc wymyśla na poczekaniu. Brzmi przekonująco, ale sprawdź zanim powtórzysz.
+                </div>
+            </article>
+
+            <article class="term" id="api">
+                <div class="term-header">
+                    <h2 class="term-name">API</h2>
+                    <span class="term-english">Application Programming Interface</span>
+                </div>
+                <p class="term-definition">Sposób, w jaki programy rozmawiają ze sobą. Dzięki API możesz podłączyć ChatGPT do swojej aplikacji, Excela czy strony.</p>
+                <div class="term-example">
+                    <strong>Z życia:</strong> API to jak kelner w restauracji. Ty (aplikacja) mówisz kelnerowi (API) co chcesz, on idzie do kuchni (serwer AI), przynosi zamówienie. Nie musisz wiedzieć jak działa kuchnia.
+                </div>
+            </article>
+
+            <article class="term" id="fine-tuning">
+                <div class="term-header">
+                    <h2 class="term-name">Fine-tuning</h2>
+                    <span class="term-english">Fine-tuning</span>
+                </div>
+                <p class="term-definition">Dodatkowe szkolenie gotowego modelu AI na własnych danych. Dzięki temu AI lepiej rozumie Twoją branżę, styl czy specyfikę.</p>
+                <div class="term-example">
+                    <strong>Z życia:</strong> Masz nowego pracownika po studiach (bazowy model). Fine-tuning to wdrożenie w firmie — uczy się Waszego żargonu, procedur, specyfiki klientów.
+                </div>
+            </article>
+
+            <article class="term" id="rag">
+                <div class="term-header">
+                    <h2 class="term-name">RAG</h2>
+                    <span class="term-english">Retrieval-Augmented Generation</span>
+                </div>
+                <p class="term-definition">Technika, gdzie AI najpierw szuka w Twoich dokumentach, a potem odpowiada na ich podstawie. Zmniejsza hallucynacje i daje aktualne informacje.</p>
+                <div class="term-example">
+                    <strong>Z życia:</strong> Zamiast odpowiadać z pamięci (która może być dziurawa), AI najpierw zagląda do Twoich notatek/dokumentów i dopiero wtedy odpowiada. Jak student z otwartą książką na egzaminie.
+                </div>
+            </article>
+
+            <article class="term" id="embedding">
+                <div class="term-header">
+                    <h2 class="term-name">Embedding</h2>
+                    <span class="term-english">Embedding</span>
+                </div>
+                <p class="term-definition">Zamiana tekstu na liczby, które AI rozumie. Dzięki temu może porównywać znaczenia — wie, że "pies" jest bliżej "szczeniak" niż "samochód".</p>
+                <div class="term-example">
+                    <strong>Z życia:</strong> Jak GPS dla słów. Każde słowo ma współrzędne w przestrzeni znaczeń. Słowa o podobnym znaczeniu są blisko siebie na tej mapie.
+                </div>
+            </article>
+
+            <article class="term" id="context-window">
+                <div class="term-header">
+                    <h2 class="term-name">Context window</h2>
+                    <span class="term-english">Okno kontekstu</span>
+                </div>
+                <p class="term-definition">Ile tekstu AI może "widzieć" naraz — Twoje pytanie plus cała poprzednia rozmowa. Jak pamięć krótkotrwała. Większe okno = dłuższe dokumenty, dłuższe rozmowy.</p>
+                <div class="term-example">
+                    <strong>Z życia:</strong> Wyobraź sobie rozmowę przez szybę, która pokazuje tylko ostatnie X wiadomości. Stare znikają. Dlatego AI czasem "zapomina" co mówiłeś na początku długiej rozmowy.
+                </div>
+            </article>
+
+            <article class="term" id="temperature">
+                <div class="term-header">
+                    <h2 class="term-name">Temperature</h2>
+                    <span class="term-english">Temperatura</span>
+                </div>
+                <p class="term-definition">Parametr kontrolujący kreatywność AI. Niska (0) = przewidywalne, bezpieczne odpowiedzi. Wysoka (1+) = bardziej kreatywne, czasem dziwne.</p>
+                <div class="term-example">
+                    <strong>Z życia:</strong> Jak pokrętło "szaleństwa". Do pisania maili biznesowych — nisko. Do burzy mózgów i kreatywnych pomysłów — wysoko. Do kodu — bardzo nisko.
+                </div>
+            </article>
+
+            <article class="term" id="agent">
+                <div class="term-header">
+                    <h2 class="term-name">Agent AI</h2>
+                    <span class="term-english">AI Agent</span>
+                </div>
+                <p class="term-definition">AI, które nie tylko odpowiada, ale samo wykonuje zadania — przegląda strony, wysyła maile, pisze kod, używa narzędzi. Działa bardziej samodzielnie.</p>
+                <div class="term-example">
+                    <strong>Z życia:</strong> Zwykły ChatGPT to konsultant — doradza. Agent to asystent z dostępem do Twojego komputera — może sam zrobić to, co doradził.
+                </div>
+            </article>
+        </main>
+
+        <footer>
+            <p style="margin-bottom: 0.5rem;">Twoim przewodnikiem jest <a href="https://www.linkedin.com/in/pawellewinski/" target="_blank" rel="noopener noreferrer">Paweł Lewiński</a></p>
+            <p>Brakuje jakiegoś terminu? <a href="https://www.linkedin.com/in/pawellewinski/" target="_blank" rel="noopener noreferrer">Napisz do mnie</a></p>
+        </footer>
+    </div>
+
+</body>
+</html>
