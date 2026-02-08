@@ -500,19 +500,19 @@ const questions = [
         q: "Jak często korzystasz z narzędzi AI w pracy?",
         sub: "np. ChatGPT, Copilot, Gemini, Claude",
         options: [
-            { text: "Nigdy — jeszcze nie próbowałem/am", score: 0 },
+            { text: "Jeszcze nie próbowałem/am", score: 0 },
             { text: "Próbowałem/am kilka razy z ciekawości", score: 1 },
             { text: "Korzystam kilka razy w tygodniu", score: 2 },
-            { text: "Używam codziennie — to moje podstawowe narzędzie", score: 3 }
+            { text: "Używam codziennie, to moje podstawowe narzędzie", score: 3 }
         ]
     },
     {
         q: "Do czego wykorzystujesz AI w swojej pracy?",
         options: [
-            { text: "Nie wykorzystuję — nie wiem od czego zacząć", score: 0 },
-            { text: "Proste rzeczy — pisanie maili, streszczenia, tłumaczenia", score: 1 },
-            { text: "Regularne zadania — analizy, raporty, content, prezentacje", score: 2 },
-            { text: "Zaawansowane — automatyzacje, integracje z innymi narzędziami, własne agenty", score: 3 }
+            { text: "Nie wykorzystuję, nie wiem od czego zacząć", score: 0 },
+            { text: "Proste rzeczy: pisanie maili, streszczenia, tłumaczenia", score: 1 },
+            { text: "Regularne zadania: analizy, raporty, content, prezentacje", score: 2 },
+            { text: "Zaawansowane: automatyzacje, integracje, własne agenty", score: 3 }
         ]
     },
     {
@@ -527,7 +527,7 @@ const questions = [
     {
         q: "Jak reagujesz, gdy pojawia się nowe narzędzie AI?",
         options: [
-            { text: "Czuję się zagubiony/a — za dużo tego, nie wiem co wybrać", score: 0 },
+            { text: "Za dużo tego, nie wiem co wybrać", score: 0 },
             { text: "Czytam o nich, ale rzadko testuję", score: 1 },
             { text: "Testuję sam/a i wybieram te, które mi pasują", score: 2 },
             { text: "Od razu sprawdzam jak mogę to wpiąć w swój sposób pracy", score: 3 }
@@ -552,7 +552,7 @@ const recommendations = {
     beginner: {
         title: "Początkujący",
         badge: "Początek drogi",
-        description: "Dopiero zaczynasz przygodę z AI — i to jest świetny moment. Rynek AI rośnie szybciej niż kiedykolwiek, a Ty masz szansę wejść w to z dobrymi podstawami. Zacznij od darmowych kursów poniżej.",
+        description: "Dopiero zaczynasz przygodę z AI i to jest świetny moment. Rynek AI rośnie szybciej niż kiedykolwiek, a Ty masz szansę wejść w to z dobrymi podstawami. Zacznij od darmowych kursów poniżej.",
         className: "level-beginner",
         general: [
             { name: "AI od podstaw", provider: "PFR + Coders Lab + Escola", tag: "DARMOWY", tagClass: "tag-free", cat: "ogolne" },
@@ -587,7 +587,7 @@ const recommendations = {
     practitioner: {
         title: "Praktyk AI",
         badge: "Solidna baza",
-        description: "Znasz podstawy i zaczynasz stosować AI w codziennej pracy. Teraz czas na głębsze zanurzenie — kursy, które nauczą Cię konkretnych zastosowań w Twoim obszarze.",
+        description: "Znasz podstawy i zaczynasz stosować AI w codziennej pracy. Teraz czas na głębsze zanurzenie: kursy, które nauczą Cię konkretnych zastosowań w Twoim obszarze.",
         className: "level-practitioner",
         general: [
             { name: "Narzędziownik AI 2.0 Reloaded", provider: "Securitum", tag: "699 zł", tagClass: "tag-price", cat: "ogolne" },
