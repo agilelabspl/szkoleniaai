@@ -1,0 +1,860 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-BYGTBRQ1YF"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-BYGTBRQ1YF');
+    </script>
+
+    <!-- Ahrefs Analytics -->
+    <script src="https://analytics.ahrefs.com/analytics.js" data-key="/zVD2dmUygVPV3XAdTIR3g" async></script>
+
+    <!-- Hotjar Tracking Code -->
+    <script>
+        (function(h,o,t,j,a,r){
+            h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};
+            h._hjSettings={hjid:6638779,hjsv:6};
+            a=o.getElementsByTagName('head')[0];
+            r=o.createElement('script');r.async=1;
+            r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;
+            a.appendChild(r);
+        })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');
+    </script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Quiz: Które szkolenie AI jest dla Ciebie? | AI Szkolenia Hub</title>
+    <meta name="description" content="Odpowiedz na 5 pytań i znajdź szkolenie AI dopasowane do Twojego doświadczenia i roli. Spersonalizowane rekomendacje kursów.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://aiprzewodnik.pl/quiz.html">
+
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://aiprzewodnik.pl/quiz.html">
+    <meta property="og:title" content="Quiz: Które szkolenie AI jest dla Ciebie?">
+    <meta property="og:description" content="5 pytań, 2 minuty. Znajdź szkolenie AI dopasowane do Ciebie.">
+    <meta property="og:image" content="https://aiprzewodnik.pl/og-image.png">
+    <meta property="og:locale" content="pl_PL">
+    <meta property="og:site_name" content="AI Szkolenia Hub">
+
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Quiz: Które szkolenie AI jest dla Ciebie?">
+    <meta name="twitter:description" content="5 pytań, 2 minuty. Znajdź szkolenie AI dopasowane do Ciebie.">
+    <meta name="twitter:image" content="https://aiprzewodnik.pl/og-image.png">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --bg-color: #ffffff;
+            --text-color: #1a1a2e;
+            --text-muted: #64748b;
+            --primary: #6366f1;
+            --primary-dark: #4f46e5;
+            --secondary: #06b6d4;
+            --card-bg: #f8fafc;
+            --card-border: #e2e8f0;
+            --card-hover-border: #6366f1;
+            --free-badge: #10b981;
+            --font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+        }
+
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: var(--font-family);
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.7;
+            overflow-x: hidden;
+        }
+
+        .container {
+            max-width: 720px;
+            margin: 0 auto;
+            padding: 2rem 1.5rem;
+        }
+
+        /* Back link */
+        .back-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.35rem;
+            color: var(--text-muted);
+            text-decoration: none;
+            font-size: 0.875rem;
+            font-weight: 500;
+            margin-bottom: 2rem;
+            transition: color 0.2s;
+        }
+
+        .back-link:hover {
+            color: var(--primary);
+        }
+
+        /* Intro */
+        .quiz-intro {
+            text-align: center;
+            padding: 3rem 1rem;
+        }
+
+        .quiz-intro h1 {
+            font-size: clamp(1.75rem, 4vw, 2.5rem);
+            font-weight: 700;
+            margin-bottom: 1rem;
+            letter-spacing: -0.02em;
+        }
+
+        .quiz-intro h1 span {
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .quiz-intro p {
+            color: var(--text-muted);
+            font-size: 1.1rem;
+            max-width: 500px;
+            margin: 0 auto 2rem;
+        }
+
+        .quiz-meta {
+            display: flex;
+            justify-content: center;
+            gap: 1.5rem;
+            margin-bottom: 2.5rem;
+            font-size: 0.875rem;
+            color: var(--text-muted);
+        }
+
+        .quiz-meta-item {
+            display: flex;
+            align-items: center;
+            gap: 0.35rem;
+        }
+
+        .btn-start {
+            display: inline-block;
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            color: #fff;
+            padding: 1rem 2.5rem;
+            border: none;
+            border-radius: 999px;
+            font-family: var(--font-family);
+            font-size: 1.05rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .btn-start:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 24px rgba(99, 102, 241, 0.3);
+        }
+
+        /* Progress */
+        .progress-bar {
+            width: 100%;
+            height: 6px;
+            background: var(--card-border);
+            border-radius: 999px;
+            margin-bottom: 2rem;
+            overflow: hidden;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            border-radius: 999px;
+            transition: width 0.4s ease;
+        }
+
+        .question-counter {
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            font-weight: 500;
+            margin-bottom: 0.5rem;
+        }
+
+        /* Question */
+        .question-card {
+            animation: fadeIn 0.3s ease;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(12px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .question-card h2 {
+            font-size: 1.35rem;
+            font-weight: 700;
+            margin-bottom: 1.5rem;
+            line-height: 1.4;
+        }
+
+        .options {
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem;
+        }
+
+        .option-btn {
+            display: block;
+            width: 100%;
+            text-align: left;
+            padding: 1rem 1.25rem;
+            background: var(--card-bg);
+            border: 2px solid var(--card-border);
+            border-radius: 12px;
+            font-family: var(--font-family);
+            font-size: 0.95rem;
+            color: var(--text-color);
+            cursor: pointer;
+            transition: all 0.2s ease;
+            line-height: 1.5;
+        }
+
+        .option-btn:hover {
+            border-color: var(--primary);
+            background: #f0f0ff;
+            transform: translateX(4px);
+        }
+
+        .option-btn.selected {
+            border-color: var(--primary);
+            background: linear-gradient(135deg, #eef2ff, #f0f9ff);
+            font-weight: 500;
+        }
+
+        /* Results */
+        .results-section {
+            animation: fadeIn 0.4s ease;
+        }
+
+        .result-level {
+            text-align: center;
+            padding: 2.5rem 2rem;
+            background: linear-gradient(135deg, #f0f9ff 0%, #faf5ff 100%);
+            border-radius: 16px;
+            border: 1px solid var(--card-border);
+            margin-bottom: 2.5rem;
+        }
+
+        .result-badge {
+            display: inline-block;
+            padding: 0.4rem 1.25rem;
+            border-radius: 999px;
+            font-size: 0.8rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 1rem;
+        }
+
+        .level-beginner .result-badge {
+            background: #dbeafe;
+            color: #1e40af;
+        }
+
+        .level-practitioner .result-badge {
+            background: #e0e7ff;
+            color: #4338ca;
+        }
+
+        .level-advanced .result-badge {
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            color: #fff;
+        }
+
+        .result-level h2 {
+            font-size: 1.75rem;
+            font-weight: 700;
+            margin-bottom: 0.75rem;
+        }
+
+        .result-level p {
+            color: var(--text-muted);
+            font-size: 1rem;
+            max-width: 480px;
+            margin: 0 auto;
+            line-height: 1.6;
+        }
+
+        .score-visual {
+            display: flex;
+            justify-content: center;
+            gap: 6px;
+            margin: 1.25rem 0;
+        }
+
+        .score-dot {
+            width: 10px;
+            height: 10px;
+            border-radius: 50%;
+            background: var(--card-border);
+        }
+
+        .score-dot.filled {
+            background: var(--primary);
+        }
+
+        /* Recommendations */
+        .reco-section h3 {
+            font-size: 1.25rem;
+            font-weight: 700;
+            margin-bottom: 1.25rem;
+            padding-left: 0.75rem;
+            border-left: 4px solid var(--primary);
+        }
+
+        .reco-grid {
+            display: flex;
+            flex-direction: column;
+            gap: 0.75rem;
+            margin-bottom: 2.5rem;
+        }
+
+        .reco-card {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1.15rem 1.25rem;
+            background: var(--card-bg);
+            border: 1px solid var(--card-border);
+            border-radius: 12px;
+            text-decoration: none;
+            color: var(--text-color);
+            transition: all 0.2s ease;
+            gap: 1rem;
+        }
+
+        .reco-card:hover {
+            border-color: var(--card-hover-border);
+            transform: translateY(-2px);
+            box-shadow: 0 8px 16px rgba(99, 102, 241, 0.08);
+        }
+
+        .reco-card-info {
+            flex: 1;
+        }
+
+        .reco-card-name {
+            font-weight: 600;
+            font-size: 0.95rem;
+            margin-bottom: 0.2rem;
+        }
+
+        .reco-card-provider {
+            font-size: 0.8rem;
+            color: var(--text-muted);
+        }
+
+        .reco-card-meta {
+            display: flex;
+            gap: 0.4rem;
+            flex-shrink: 0;
+        }
+
+        .tag {
+            display: inline-flex;
+            align-items: center;
+            font-size: 0.7rem;
+            font-weight: 600;
+            padding: 0.2rem 0.55rem;
+            border-radius: 4px;
+            letter-spacing: 0.2px;
+            white-space: nowrap;
+        }
+
+        .tag-free {
+            background: #ecfdf5;
+            color: #065f46;
+            border: 1px solid #a7f3d0;
+        }
+
+        .tag-price {
+            background: #f0fdf4;
+            color: #166534;
+            border: 1px solid #bbf7d0;
+        }
+
+        .btn-restart {
+            display: inline-block;
+            margin-top: 1rem;
+            padding: 0.65rem 1.5rem;
+            background: var(--card-bg);
+            border: 1px solid var(--card-border);
+            border-radius: 999px;
+            font-family: var(--font-family);
+            font-size: 0.875rem;
+            font-weight: 500;
+            color: var(--text-muted);
+            cursor: pointer;
+            transition: all 0.2s ease;
+            text-decoration: none;
+        }
+
+        .btn-restart:hover {
+            border-color: var(--primary);
+            color: var(--primary);
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 2rem 1rem;
+            margin-top: 2rem;
+            border-top: 1px solid var(--card-border);
+            color: var(--text-muted);
+            font-size: 0.875rem;
+        }
+
+        footer a {
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        .hidden { display: none; }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 1.5rem 1rem;
+            }
+
+            .quiz-intro {
+                padding: 2rem 0;
+            }
+
+            .quiz-meta {
+                flex-direction: column;
+                align-items: center;
+                gap: 0.5rem;
+            }
+
+            .result-level {
+                padding: 2rem 1.25rem;
+            }
+
+            .reco-card {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 0.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <a href="index.html" class="back-link">&larr; Wróć do katalogu kursów</a>
+
+    <!-- INTRO -->
+    <div id="intro" class="quiz-intro">
+        <h1>Które <span>szkolenie AI</span> jest dla Ciebie?</h1>
+        <p>Odpowiedz na 5 pytań o to, jak korzystasz ze sztucznej inteligencji w pracy. Na koniec dostaniesz rekomendacje kursów dopasowanych do Ciebie.</p>
+        <div class="quiz-meta">
+            <span class="quiz-meta-item">5 pytań</span>
+            <span class="quiz-meta-item">37 sekund</span>
+            <span class="quiz-meta-item">Bez rejestracji</span>
+        </div>
+        <button class="btn-start" onclick="startQuiz()">Znajdź swoje szkolenie</button>
+    </div>
+
+    <!-- QUIZ -->
+    <div id="quiz" class="hidden">
+        <div class="progress-bar">
+            <div class="progress-fill" id="progress" style="width: 0%"></div>
+        </div>
+        <div id="question-area"></div>
+    </div>
+
+    <!-- RESULTS -->
+    <div id="results" class="hidden results-section"></div>
+</div>
+
+<footer>
+    <p>Twoim przewodnikiem jest <a href="https://www.linkedin.com/in/pawellewinski/" target="_blank" rel="noopener noreferrer">Paweł Lewiński</a></p>
+    <p><a href="index.html">Przeglądaj pełny katalog kursów AI &rarr;</a></p>
+</footer>
+
+<script>
+const questions = [
+    {
+        q: "Jak często korzystasz z narzędzi AI w pracy?",
+        sub: "np. ChatGPT, Copilot, Gemini, Claude",
+        options: [
+            { text: "Nigdy — jeszcze nie próbowałem/am", score: 0 },
+            { text: "Próbowałem/am kilka razy z ciekawości", score: 1 },
+            { text: "Korzystam kilka razy w tygodniu", score: 2 },
+            { text: "Używam codziennie — to moje podstawowe narzędzie", score: 3 }
+        ]
+    },
+    {
+        q: "Do czego wykorzystujesz AI w swojej pracy?",
+        options: [
+            { text: "Nie wykorzystuję — nie wiem od czego zacząć", score: 0 },
+            { text: "Proste rzeczy — pisanie maili, streszczenia, tłumaczenia", score: 1 },
+            { text: "Regularne zadania — analizy, raporty, content, prezentacje", score: 2 },
+            { text: "Zaawansowane — automatyzacje, integracje z innymi narzędziami, własne agenty", score: 3 }
+        ]
+    },
+    {
+        q: "Czy automatyzujesz jakieś procesy z pomocą AI?",
+        options: [
+            { text: "Nie, nie wiem jak się za to zabrać", score: 0 },
+            { text: "Nie, ale chciałbym/chciałabym zacząć", score: 1 },
+            { text: "Tak, mam kilka prostych automatyzacji", score: 2 },
+            { text: "Tak, mam rozbudowane workflow (n8n, Make, Zapier itp.)", score: 3 }
+        ]
+    },
+    {
+        q: "Jak reagujesz, gdy pojawia się nowe narzędzie AI?",
+        options: [
+            { text: "Czuję się zagubiony/a — za dużo tego, nie wiem co wybrać", score: 0 },
+            { text: "Czytam o nich, ale rzadko testuję", score: 1 },
+            { text: "Testuję sam/a i wybieram te, które mi pasują", score: 2 },
+            { text: "Od razu sprawdzam jak mogę to wpiąć w swój sposób pracy", score: 3 }
+        ]
+    },
+    {
+        q: "W jakim obszarze pracujesz?",
+        sub: "To pomoże dopasować rekomendacje kursów",
+        isRole: true,
+        options: [
+            { text: "Marketing / Content / Grafika / Wideo", role: "marketing" },
+            { text: "HR / Rekrutacja", role: "hr" },
+            { text: "Zarządzanie / Product / PM", role: "product" },
+            { text: "IT / Programowanie / Automatyzacja", role: "dev" },
+            { text: "Finanse / Księgowość", role: "finanse" },
+            { text: "Inny obszar", role: "general" }
+        ]
+    }
+];
+
+const recommendations = {
+    beginner: {
+        title: "Początkujący",
+        badge: "Początek drogi",
+        description: "Dopiero zaczynasz przygodę z AI — i to jest świetny moment. Rynek AI rośnie szybciej niż kiedykolwiek, a Ty masz szansę wejść w to z dobrymi podstawami. Zacznij od darmowych kursów poniżej.",
+        className: "level-beginner",
+        general: [
+            { name: "AI od podstaw", provider: "PFR + Coders Lab + Escola", tag: "DARMOWY", tagClass: "tag-free", cat: "ogolne" },
+            { name: "Umiejętności Jutra: AI 2.0", provider: "Google Polska + SGH", tag: "DARMOWY", tagClass: "tag-free", cat: "ogolne" },
+            { name: "AIDEAS", provider: "Generator Pomysłów", tag: "DARMOWY", tagClass: "tag-free", cat: "ogolne" },
+            { name: "Elements of AI", provider: "Uniwersytet w Helsinkach", tag: "DARMOWY", tagClass: "tag-free", cat: "ogolne" },
+            { name: "Kurs: AI w biznesie", provider: "Akademia PARP", tag: "DARMOWY", tagClass: "tag-free", cat: "biznes" }
+        ],
+        roleSpecific: {
+            marketing: [
+                { name: "AI dla marketingu", provider: "Sprawny Marketing", cat: "marketing" },
+                { name: "Tydzień z generowaniem grafiki z AI", provider: "eTwinning", tag: "DARMOWY", tagClass: "tag-free", cat: "grafika" }
+            ],
+            hr: [
+                { name: "Narzędzia AI dla specjalistów HR", provider: "Coders Lab", cat: "hr" }
+            ],
+            product: [
+                { name: "AI dla Product Ownerów i Managerów", provider: "Strefa Kursów", tag: "139 zł", tagClass: "tag-price", cat: "produkty" }
+            ],
+            dev: [
+                { name: "Microsoft AI dla Programistów", provider: "Coders Lab", tag: "DARMOWY", tagClass: "tag-free", cat: "ogolne" },
+                { name: "Kodowanie z AI", provider: "Kodowanie z AI", tag: "DARMOWY", tagClass: "tag-free", cat: "programisci" }
+            ],
+            finanse: [
+                { name: "Przyszłość funkcji finansowej w świecie AI", provider: "Wolters Kluwer", tag: "DARMOWY", tagClass: "tag-free", cat: "finanse" }
+            ],
+            general: [
+                { name: "AI: Przyszłość zaczyna się dziś", provider: "Fundacja Digital University", tag: "DARMOWY", tagClass: "tag-free", cat: "ogolne" }
+            ]
+        }
+    },
+    practitioner: {
+        title: "Praktyk AI",
+        badge: "Solidna baza",
+        description: "Znasz podstawy i zaczynasz stosować AI w codziennej pracy. Teraz czas na głębsze zanurzenie — kursy, które nauczą Cię konkretnych zastosowań w Twoim obszarze.",
+        className: "level-practitioner",
+        general: [
+            { name: "Narzędziownik AI 2.0 Reloaded", provider: "Securitum", tag: "699 zł", tagClass: "tag-price", cat: "ogolne" },
+            { name: "ChatGPT Masterclass", provider: "AI Wizards", tag: "990 zł", tagClass: "tag-price", cat: "ogolne" }
+        ],
+        roleSpecific: {
+            marketing: [
+                { name: "Szkolenie AI w Marketingu", provider: "Digitalk", tag: "1 190 zł", tagClass: "tag-price", cat: "marketing" },
+                { name: "AI Copywriting", provider: "Paweł Tkaczyk", tag: "1 290 zł", tagClass: "tag-price", cat: "marketing" },
+                { name: "Filmmaking AI", provider: "ProFuture", tag: "399 zł", tagClass: "tag-price", cat: "wideo" },
+                { name: "AI dla Designera", provider: "eduweb.pl", tag: "399 zł", tagClass: "tag-price", cat: "grafika" }
+            ],
+            hr: [
+                { name: "AI Ready HR", provider: "AI Ready HR", cat: "hr" },
+                { name: "AI w praktyce HR", provider: "ADN Akademia", tag: "1 790 zł", tagClass: "tag-price", cat: "hr" },
+                { name: "AI w pracy działów HR", provider: "BUZZcenter", cat: "hr" }
+            ],
+            product: [
+                { name: "AI-Powered Product Discovery Practitioner", provider: "ProductPro", tag: "2 000 zł", tagClass: "tag-price", cat: "produkty" },
+                { name: "AI Product Heroes 2", provider: "AI Product Heroes", cat: "produkty" },
+                { name: "AI Product Owner", provider: "AI Product Owner", tag: "1 499 zł", tagClass: "tag-price", cat: "produkty" }
+            ],
+            dev: [
+                { name: "AI_devs 4", provider: "AI_devs", cat: "programisci" },
+                { name: "10xDevs 3.0", provider: "Przeprogramowani", cat: "programisci" },
+                { name: "Agenci i Automatyzacje AI – Masterclass", provider: "StormIT", tag: "1 497 zł", tagClass: "tag-price", cat: "programisci" },
+                { name: "n8n + AI: automatyzacja firmy", provider: "JSystems", tag: "1 800 zł", tagClass: "tag-price", cat: "automatyzacja" }
+            ],
+            finanse: [
+                { name: "AI w finansach", provider: "EY Academy of Business", tag: "1 550 zł", tagClass: "tag-price", cat: "finanse" },
+                { name: "Wykorzystanie AI w księgowości", provider: "Finanse Publiczne", tag: "790 zł", tagClass: "tag-price", cat: "finanse" },
+                { name: "AI w księgowości i controllingu", provider: "Progression", cat: "finanse" }
+            ],
+            general: [
+                { name: "Jak bezpiecznie korzystać z AI", provider: "Szkolenia.ai", cat: "biznes" },
+                { name: "AI Biznes Lab – Master Program", provider: "AI Biznes Lab", cat: "biznes" },
+                { name: "Mechamind", provider: "Mechamind", cat: "biznes" }
+            ]
+        }
+    },
+    advanced: {
+        title: "Zaawansowany",
+        badge: "Power User",
+        description: "AI to Twoje codzienne narzędzie pracy. Automatyzujesz, integrujesz, eksperymentujesz. Czas na zaawansowane programy, które wyniosą Twoje umiejętności na poziom eksperta.",
+        className: "level-advanced",
+        general: [
+            { name: "AI Biznes Lab – Master Program", provider: "AI Biznes Lab", cat: "biznes" }
+        ],
+        roleSpecific: {
+            marketing: [
+                { name: "AI_marketers 2", provider: "Digitalk", cat: "marketing" },
+                { name: "Copywriting i strategie treści", provider: "KFK", tag: "1 650 zł", tagClass: "tag-price", cat: "marketing" },
+                { name: "AI MASTER 3", provider: "Adrian Kilar", tag: "1 227 zł", tagClass: "tag-price", cat: "wideo" }
+            ],
+            hr: [
+                { name: "AI w HR – studia podyplomowe", provider: "Akademia Leona Koźmińskiego", cat: "hr" },
+                { name: "AI w HR – Przyszłość rekrutacji", provider: "EY Academy of Business", tag: "2 300 zł", tagClass: "tag-price", cat: "hr" }
+            ],
+            product: [
+                { name: "AI-Empowered Product Practitioner", provider: "ProductPro", tag: "3 000 zł", tagClass: "tag-price", cat: "produkty" },
+                { name: "AI_managers", provider: "AI_managers", cat: "produkty" },
+                { name: "10x Product Bootcamp", provider: "Product Academy", cat: "produkty" }
+            ],
+            dev: [
+                { name: "AI_devs 4", provider: "AI_devs", cat: "programisci" },
+                { name: "AI & Machine Learning Engineering", provider: "Kodołamacz", tag: "9 900 zł", tagClass: "tag-price", cat: "programisci" },
+                { name: "Automatyzacja procesów z no-code i AI", provider: "Kodołamacz", tag: "2 450 zł", tagClass: "tag-price", cat: "automatyzacja" },
+                { name: "Agenci AI (low-code/no-code)", provider: "ALX Academy", tag: "2 990 zł", tagClass: "tag-price", cat: "automatyzacja" }
+            ],
+            finanse: [
+                { name: "AI w finansach i controllingu – studia podyplomowe", provider: "Akademia Leona Koźmińskiego", tag: "12 500 zł", tagClass: "tag-price", cat: "finanse" },
+                { name: "Szkolenie - AI w finansach", provider: "ALX", tag: "2 590 zł", tagClass: "tag-price", cat: "finanse" }
+            ],
+            general: [
+                { name: "CEO Circle", provider: "Daniel Woźniak", cat: "biznes" },
+                { name: "Lider AI w Transformacji Cyfrowej – studia podyplomowe", provider: "PJATK", cat: "studia-podyplomowe" },
+                { name: "Inteligentna transformacja biznesu z AI", provider: "LABA", cat: "biznes" }
+            ]
+        }
+    }
+};
+
+let currentQuestion = 0;
+let totalScore = 0;
+let selectedRole = "general";
+
+function startQuiz() {
+    document.getElementById('intro').classList.add('hidden');
+    document.getElementById('quiz').classList.remove('hidden');
+    currentQuestion = 0;
+    totalScore = 0;
+    selectedRole = "general";
+    showQuestion();
+
+    gtag('event', 'quiz_start', { event_category: 'quiz' });
+}
+
+function showQuestion() {
+    const q = questions[currentQuestion];
+    const progress = ((currentQuestion) / questions.length) * 100;
+    document.getElementById('progress').style.width = progress + '%';
+
+    let html = '<div class="question-card">';
+    html += '<div class="question-counter">Pytanie ' + (currentQuestion + 1) + ' z ' + questions.length + '</div>';
+    html += '<h2>' + q.q + '</h2>';
+    if (q.sub) {
+        html += '<p style="color: var(--text-muted); font-size: 0.9rem; margin: -0.75rem 0 1.25rem;">' + q.sub + '</p>';
+    }
+    html += '<div class="options">';
+
+    q.options.forEach(function(opt, i) {
+        html += '<button class="option-btn" onclick="selectAnswer(' + i + ')">' + opt.text + '</button>';
+    });
+
+    html += '</div></div>';
+    document.getElementById('question-area').innerHTML = html;
+}
+
+function selectAnswer(index) {
+    const q = questions[currentQuestion];
+    const opt = q.options[index];
+
+    // Visual feedback
+    var btns = document.querySelectorAll('.option-btn');
+    btns.forEach(function(b) { b.classList.remove('selected'); });
+    btns[index].classList.add('selected');
+
+    if (q.isRole) {
+        selectedRole = opt.role;
+    } else {
+        totalScore += opt.score;
+    }
+
+    gtag('event', 'quiz_answer', {
+        event_category: 'quiz',
+        event_label: 'q' + (currentQuestion + 1),
+        value: q.isRole ? 0 : opt.score
+    });
+
+    setTimeout(function() {
+        currentQuestion++;
+        if (currentQuestion < questions.length) {
+            showQuestion();
+        } else {
+            showResults();
+        }
+    }, 300);
+}
+
+function getLevel() {
+    if (totalScore <= 3) return 'beginner';
+    if (totalScore <= 7) return 'practitioner';
+    return 'advanced';
+}
+
+function showResults() {
+    document.getElementById('quiz').classList.add('hidden');
+    var resultsDiv = document.getElementById('results');
+    resultsDiv.classList.remove('hidden');
+
+    var level = getLevel();
+    var data = recommendations[level];
+
+    gtag('event', 'quiz_complete', {
+        event_category: 'quiz',
+        event_label: level,
+        value: totalScore
+    });
+
+    gtag('event', 'quiz_role', {
+        event_category: 'quiz',
+        event_label: selectedRole
+    });
+
+    // Build score dots
+    var dotsHtml = '';
+    for (var i = 0; i < 12; i++) {
+        dotsHtml += '<div class="score-dot' + (i < totalScore ? ' filled' : '') + '"></div>';
+    }
+
+    // Build recommendation cards
+    function buildCards(courses) {
+        var html = '';
+        courses.forEach(function(c) {
+            html += '<a href="index.html#' + c.cat + '" class="reco-card">';
+            html += '<div class="reco-card-info">';
+            html += '<div class="reco-card-name">' + c.name + '</div>';
+            html += '<div class="reco-card-provider">' + c.provider + '</div>';
+            html += '</div>';
+            if (c.tag) {
+                html += '<div class="reco-card-meta"><span class="tag ' + c.tagClass + '">' + c.tag + '</span></div>';
+            }
+            html += '</a>';
+        });
+        return html;
+    }
+
+    var generalCourses = data.general;
+    var roleCourses = data.roleSpecific[selectedRole] || data.roleSpecific.general;
+
+    var html = '';
+
+    // Result level card
+    html += '<div class="result-level ' + data.className + '">';
+    html += '<div class="result-badge">' + data.badge + '</div>';
+    html += '<h2>Twój poziom: ' + data.title + '</h2>';
+    html += '<div class="score-visual">' + dotsHtml + '</div>';
+    html += '<p>' + data.description + '</p>';
+    html += '</div>';
+
+    // Role-specific recommendations
+    var roleLabels = {
+        marketing: 'Marketing / Content / Grafika / Wideo',
+        hr: 'HR / Rekrutacja',
+        product: 'Zarządzanie / Product',
+        dev: 'IT / Programowanie / Automatyzacja',
+        finanse: 'Finanse / Księgowość',
+        general: 'Twój obszar'
+    };
+
+    html += '<div class="reco-section">';
+    html += '<h3>Rekomendowane dla: ' + roleLabels[selectedRole] + '</h3>';
+    html += '<div class="reco-grid">' + buildCards(roleCourses) + '</div>';
+    html += '</div>';
+
+    // General recommendations
+    html += '<div class="reco-section">';
+    html += '<h3>Dobre na start (niezależnie od roli)</h3>';
+    html += '<div class="reco-grid">' + buildCards(generalCourses) + '</div>';
+    html += '</div>';
+
+    // Share
+    html += '<div style="text-align: center; margin-top: 1rem;">';
+    html += '<button class="btn-start" onclick="shareQuiz()" id="share-btn">Poleć quiz znajomemu</button>';
+    html += '<p id="share-confirm" style="color: var(--free-badge); font-size: 0.875rem; font-weight: 500; margin-top: 0.75rem; display: none;">Link skopiowany!</p>';
+    html += '</div>';
+
+    // Restart
+    html += '<div style="text-align: center; margin-top: 0.75rem; display: flex; justify-content: center; gap: 0.75rem; flex-wrap: wrap;">';
+    html += '<button class="btn-restart" onclick="restartQuiz()">Zrób quiz ponownie</button>';
+    html += '<a href="index.html" class="btn-restart">Wróć do listy szkoleń</a>';
+    html += '</div>';
+
+    resultsDiv.innerHTML = html;
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+function shareQuiz() {
+    var url = 'https://aiprzewodnik.pl/quiz.html';
+    navigator.clipboard.writeText(url).then(function() {
+        document.getElementById('share-confirm').style.display = 'block';
+        setTimeout(function() {
+            document.getElementById('share-confirm').style.display = 'none';
+        }, 3000);
+    }).catch(function() {
+        prompt('Skopiuj link:', url);
+    });
+    gtag('event', 'quiz_share', { event_category: 'quiz' });
+}
+
+function restartQuiz() {
+    document.getElementById('results').classList.add('hidden');
+    document.getElementById('results').innerHTML = '';
+    document.getElementById('intro').classList.remove('hidden');
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+</script>
+
+</body>
+</html>
