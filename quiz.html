@@ -468,7 +468,7 @@
     <!-- INTRO -->
     <div id="intro" class="quiz-intro">
         <h1>Które <span>szkolenie AI</span> jest dla Ciebie?</h1>
-        <p>Odpowiedz na 5 pytań o to, jak korzystasz ze sztucznej inteligencji w pracy. Na koniec dostaniesz rekomendacje kursów dopasowanych do Ciebie.</p>
+        <p>Odpowiedz na 5 pytań o to, jak korzystasz ze sztucznej inteligencji w pracy. Na koniec dostaniesz rekomendacje kursów + darmowy Przewodnik po AI (PDF).</p>
         <div class="quiz-meta">
             <span class="quiz-meta-item">5 pytań</span>
             <span class="quiz-meta-item">37 sekund</span>
@@ -487,6 +487,17 @@
 
     <!-- RESULTS -->
     <div id="results" class="hidden results-section"></div>
+
+    <!-- PDF Lead Magnet CTA -->
+    <div id="pdf-cta" style="display: none; max-width: 720px; margin: 0 auto; padding: 0 1.5rem; margin-top: 3rem;">
+        <div style="padding: 2rem; background: linear-gradient(135deg, #f0f9ff 0%, #faf5ff 100%); border-radius: 16px; border: 1px solid var(--card-border); text-align: center; margin-bottom: 2rem;">
+            <img src="aiprzewodnik-pdf.png" alt="Przewodnik po AI - okładka" style="max-width: 240px; margin: 0 auto 1.5rem; display: block;">
+            <p style="font-size: 0.85rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; color: var(--primary); margin-bottom: 0.5rem;">Darmowy PDF</p>
+            <p style="font-size: 1.35rem; font-weight: 700; margin-bottom: 0.5rem; color: var(--text-color);">Twój przewodnik po świecie AI. Prosto i praktycznie.</p>
+            <p style="color: var(--text-muted); margin-bottom: 1.5rem; max-width: 480px; margin-left: auto; margin-right: auto;">Zostaw email, wyślemy Ci go jako pierwszy/a, gdy będzie gotowy.</p>
+            <div class="ml-embedded" data-form="W9FwR1"></div>
+        </div>
+    </div>
 </div>
 
 <footer>
@@ -832,6 +843,14 @@ function showResults() {
     html += '</div>';
 
     resultsDiv.innerHTML = html;
+
+    // Show PDF lead magnet CTA
+    document.getElementById('pdf-cta').style.display = 'block';
+    gtag('event', 'leadmagnet_show', {
+        event_category: 'leadmagnet',
+        event_label: level + '_' + selectedRole
+    });
+
     window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
@@ -851,10 +870,21 @@ function shareQuiz() {
 function restartQuiz() {
     document.getElementById('results').classList.add('hidden');
     document.getElementById('results').innerHTML = '';
+    document.getElementById('pdf-cta').style.display = 'none';
     document.getElementById('intro').classList.remove('hidden');
     window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 </script>
+
+<!-- MailerLite Universal -->
+<script>
+    (function(w,d,e,u,f,l,n){w[f]=w[f]||function(){(w[f].q=w[f].q||[])
+    .push(arguments);},l=d.createElement(e),l.async=1,l.src=u,
+    n=d.getElementsByTagName(e)[0],n.parentNode.insertBefore(l,n);})
+    (window,document,'script','https://assets.mailerlite.com/js/universal.js','ml');
+    ml('account', '575409');
+</script>
+<!-- End MailerLite Universal -->
 
 </body>
 </html>
