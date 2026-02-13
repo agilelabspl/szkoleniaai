@@ -14,20 +14,47 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- SEO Meta Tags -->
-    <title>Słownik AI — Terminy Sztucznej Inteligencji po Ludzku | AI Przewodnik</title>
-    <meta name="description" content="Słownik AI bez naukowego żargonu. LLM, prompt, token, hallucynacja — wszystkie terminy AI wyjaśnione prostym językiem z przykładami z życia.">
+    <title>Słownik AI: Terminy Sztucznej Inteligencji po Ludzku | AI Przewodnik</title>
+    <meta name="description" content="Słownik AI bez naukowego żargonu. LLM, prompt, token, halucynacja. Wszystkie terminy AI wyjaśnione prostym językiem z przykładami z życia.">
     <meta name="keywords" content="słownik AI, terminy AI, co to jest LLM, co to jest prompt, sztuczna inteligencja słownik, AI dla początkujących">
     <meta name="author" content="AI Przewodnik">
     <meta name="robots" content="index, follow">
-    <link rel="canonical" href="https://aiprzewodnik.pl/slownik">
+    <link rel="canonical" href="https://aiprzewodnik.pl/slownik.html">
 
     <!-- Open Graph -->
     <meta property="og:type" content="website">
-    <meta property="og:url" content="https://aiprzewodnik.pl/slownik">
-    <meta property="og:title" content="Słownik AI — Terminy po Ludzku">
-    <meta property="og:description" content="LLM, prompt, token, hallucynacja — wszystkie terminy AI wyjaśnione prostym językiem.">
+    <meta property="og:url" content="https://aiprzewodnik.pl/slownik.html">
+    <meta property="og:title" content="Słownik AI: Terminy po Ludzku">
+    <meta property="og:description" content="LLM, prompt, token, halucynacja. Wszystkie terminy AI wyjaśnione prostym językiem.">
     <meta property="og:image" content="https://aiprzewodnik.pl/og-image.png">
     <meta property="og:locale" content="pl_PL">
+
+    <!-- Schema.org ItemList -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ItemList",
+      "name": "Słownik AI",
+      "description": "Terminy sztucznej inteligencji wyjaśnione prostym językiem",
+      "numberOfItems": 14,
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Sztuczna inteligencja (AI)", "url": "https://aiprzewodnik.pl/slownik/sztuczna-inteligencja.html" },
+        { "@type": "ListItem", "position": 2, "name": "LLM", "url": "https://aiprzewodnik.pl/slownik/llm.html" },
+        { "@type": "ListItem", "position": 3, "name": "Prompt", "url": "https://aiprzewodnik.pl/slownik/prompt.html" },
+        { "@type": "ListItem", "position": 4, "name": "Token", "url": "https://aiprzewodnik.pl/slownik/token.html" },
+        { "@type": "ListItem", "position": 5, "name": "Chatbot", "url": "https://aiprzewodnik.pl/slownik/chatbot.html" },
+        { "@type": "ListItem", "position": 6, "name": "GPT", "url": "https://aiprzewodnik.pl/slownik/gpt.html" },
+        { "@type": "ListItem", "position": 7, "name": "Halucynacja AI", "url": "https://aiprzewodnik.pl/slownik/halucynacja-ai.html" },
+        { "@type": "ListItem", "position": 8, "name": "API", "url": "https://aiprzewodnik.pl/slownik/api.html" },
+        { "@type": "ListItem", "position": 9, "name": "Fine-tuning", "url": "https://aiprzewodnik.pl/slownik/fine-tuning.html" },
+        { "@type": "ListItem", "position": 10, "name": "RAG", "url": "https://aiprzewodnik.pl/slownik/rag.html" },
+        { "@type": "ListItem", "position": 11, "name": "Embedding", "url": "https://aiprzewodnik.pl/slownik/embedding.html" },
+        { "@type": "ListItem", "position": 12, "name": "Context window", "url": "https://aiprzewodnik.pl/slownik/context-window.html" },
+        { "@type": "ListItem", "position": 13, "name": "Temperature", "url": "https://aiprzewodnik.pl/slownik/temperature.html" },
+        { "@type": "ListItem", "position": 14, "name": "Agent AI", "url": "https://aiprzewodnik.pl/slownik/agent-ai.html" }
+      ]
+    }
+    </script>
 
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -197,10 +224,25 @@
             border-radius: 0 8px 8px 0;
             font-size: 0.95rem;
             color: var(--text-color);
+            margin-bottom: 0.75rem;
         }
 
         .term-example strong {
             color: var(--primary);
+        }
+
+        .read-more {
+            display: inline-block;
+            color: var(--primary);
+            text-decoration: none;
+            font-size: 0.9rem;
+            font-weight: 500;
+            transition: color 0.2s ease;
+        }
+
+        .read-more:hover {
+            color: var(--primary-dark);
+            text-decoration: underline;
         }
 
         /* Footer */
@@ -238,20 +280,21 @@
 
     <div class="container">
         <header>
-            <a href="index.html" class="back-link">← Wróć do katalogu szkoleń</a>
-            <h1 class="main-title">Słownik <span>AI</span></h1>
-            <p class="subtitle">Terminy sztucznej inteligencji wyjaśnione po ludzku, bez naukowego żargonu</p>
+            <a href="index.html" class="back-link">&larr; Wr&oacute;&#263; do katalogu szkole&#324;</a>
+            <h1 class="main-title">S&#322;ownik <span>AI</span></h1>
+            <p class="subtitle">Terminy sztucznej inteligencji wyja&#347;nione po ludzku, bez naukowego &#380;argonu</p>
         </header>
 
         <nav class="term-nav">
-            <p class="term-nav-title">Przejdź do terminu</p>
+            <p class="term-nav-title">Przejd&#378; do terminu</p>
             <ul>
+                <li><a href="#sztuczna-inteligencja">Sztuczna inteligencja</a></li>
                 <li><a href="#llm">LLM</a></li>
                 <li><a href="#prompt">Prompt</a></li>
                 <li><a href="#token">Token</a></li>
                 <li><a href="#chatbot">Chatbot</a></li>
                 <li><a href="#gpt">GPT</a></li>
-                <li><a href="#hallucynacja">Hallucynacja</a></li>
+                <li><a href="#halucynacja">Halucynacja</a></li>
                 <li><a href="#api">API</a></li>
                 <li><a href="#fine-tuning">Fine-tuning</a></li>
                 <li><a href="#rag">RAG</a></li>
@@ -263,15 +306,28 @@
         </nav>
 
         <main>
+            <article class="term" id="sztuczna-inteligencja">
+                <div class="term-header">
+                    <h2 class="term-name">Sztuczna inteligencja</h2>
+                    <span class="term-english">Artificial Intelligence, AI</span>
+                </div>
+                <p class="term-definition">Programy komputerowe, kt&oacute;re potrafi&#261; wykonywa&#263; zadania wymagaj&#261;ce ludzkiej inteligencji, pisa&#263;, rozpoznawa&#263; obrazy, decydowa&#263;. Nie my&#347;l&#261; jak cz&#322;owiek, ale w wielu zadaniach s&#261; szybsze i dok&#322;adniejsze.</p>
+                <div class="term-example">
+                    <strong>Z &#380;ycia:</strong> Kalkulator liczy szybciej ni&#380; cz&#322;owiek, ale liczy tylko to co mu ka&#380;esz. AI to kalkulator nast&#281;pnej generacji, sam rozumie co chcesz policzy&#263;.
+                </div>
+                <a href="slownik/sztuczna-inteligencja.html" class="read-more">Czytaj wi&#281;cej o sztucznej inteligencji &rarr;</a>
+            </article>
+
             <article class="term" id="llm">
                 <div class="term-header">
                     <h2 class="term-name">LLM</h2>
                     <span class="term-english">Large Language Model</span>
                 </div>
-                <p class="term-definition">Duży model językowy. Wyobraź sobie, że ktoś przeczytał cały internet i teraz możesz go o wszystko zapytać. ChatGPT, Claude, Gemini — to właśnie LLM-y.</p>
+                <p class="term-definition">Du&#380;y model j&#281;zykowy. Wyobra&#378; sobie, &#380;e kto&#347; przeczyta&#322; ca&#322;y internet i teraz mo&#380;esz go o wszystko zapyta&#263;. ChatGPT, Claude, Gemini, to w&#322;a&#347;nie LLM-y.</p>
                 <div class="term-example">
-                    <strong>Z życia:</strong> To jak mieć kolegę, który przeczytał wszystkie książki świata. Nie zawsze ma rację, ale zawsze ma coś do powiedzenia.
+                    <strong>Z &#380;ycia:</strong> To jak mie&#263; koleg&#281;, kt&oacute;ry przeczyta&#322; wszystkie ksi&#261;&#380;ki &#347;wiata. Nie zawsze ma racj&#281;, ale zawsze ma co&#347; do powiedzenia.
                 </div>
+                <a href="slownik/llm.html" class="read-more">Czytaj wi&#281;cej o LLM &rarr;</a>
             </article>
 
             <article class="term" id="prompt">
@@ -279,10 +335,11 @@
                     <h2 class="term-name">Prompt</h2>
                     <span class="term-english">Prompt</span>
                 </div>
-                <p class="term-definition">Polecenie lub pytanie, które wpisujesz do AI. Im lepiej opiszesz czego chcesz, tym lepszą odpowiedź dostaniesz.</p>
+                <p class="term-definition">Polecenie lub pytanie, kt&oacute;re wpisujesz do AI. Im lepiej opiszesz czego chcesz, tym lepsz&#261; odpowied&#378; dostaniesz.</p>
                 <div class="term-example">
-                    <strong>Z życia:</strong> To jak zamawianie kawy. "Kawa" da ci cokolwiek. "Podwójne espresso z odrobiną mleka owsianego, na wynos" da ci dokładnie to, czego chcesz.
+                    <strong>Z &#380;ycia:</strong> To jak zamawianie kawy. &bdquo;Kawa&rdquo; da ci cokolwiek. &bdquo;Podw&oacute;jne espresso z odrobin&#261; mleka owsianego, na wynos&rdquo; da ci dok&#322;adnie to, czego chcesz.
                 </div>
+                <a href="slownik/prompt.html" class="read-more">Czytaj wi&#281;cej o promptach &rarr;</a>
             </article>
 
             <article class="term" id="token">
@@ -290,10 +347,11 @@
                     <h2 class="term-name">Token</h2>
                     <span class="term-english">Token</span>
                 </div>
-                <p class="term-definition">Kawałek tekstu, którym "myśli" AI. Jeden token to mniej więcej 3/4 słowa. Modele mają limit tokenów — ile mogą przeczytać i napisać naraz.</p>
+                <p class="term-definition">Kawa&#322;ek tekstu, kt&oacute;rym &bdquo;my&#347;li&rdquo; AI. Jeden token to mniej wi&#281;cej 3/4 s&#322;owa. Modele maj&#261; limit token&oacute;w, ile mog&#261; przeczyta&#263; i napisa&#263; naraz.</p>
                 <div class="term-example">
-                    <strong>Z życia:</strong> Pomyśl o tokenach jak o jednostkach pamięci roboczej. Tak jak Ty możesz utrzymać w głowie tylko kilka rzeczy naraz, AI ma swój limit tokenów.
+                    <strong>Z &#380;ycia:</strong> Pomy&#347;l o tokenach jak o jednostkach pami&#281;ci roboczej. Tak jak Ty mo&#380;esz utrzyma&#263; w g&#322;owie tylko kilka rzeczy naraz, AI ma sw&oacute;j limit token&oacute;w.
                 </div>
+                <a href="slownik/token.html" class="read-more">Czytaj wi&#281;cej o tokenach &rarr;</a>
             </article>
 
             <article class="term" id="chatbot">
@@ -301,10 +359,11 @@
                     <h2 class="term-name">Chatbot</h2>
                     <span class="term-english">Chatbot</span>
                 </div>
-                <p class="term-definition">Program, z którym możesz rozmawiać pisząc wiadomości. Nowoczesne chatboty (jak ChatGPT) używają AI i potrafią prowadzić sensowne rozmowy.</p>
+                <p class="term-definition">Program, z kt&oacute;rym mo&#380;esz rozmawia&#263; pisz&#261;c wiadomo&#347;ci. Nowoczesne chatboty (jak ChatGPT) u&#380;ywaj&#261; AI i potrafi&#261; prowadzi&#263; sensowne rozmowy.</p>
                 <div class="term-example">
-                    <strong>Z życia:</strong> Pamiętasz te okienka "Jak mogę pomóc?" na stronach sklepów? Kiedyś były głupie jak but. Teraz są napędzane AI i faktycznie potrafią pomóc.
+                    <strong>Z &#380;ycia:</strong> Pami&#281;tasz te okienka &bdquo;Jak mog&#281; pom&oacute;c?&rdquo; na stronach sklep&oacute;w? Kiedy&#347; by&#322;y g&#322;upie jak but. Teraz s&#261; nap&#281;dzane AI i faktycznie potrafi&#261; pom&oacute;c.
                 </div>
+                <a href="slownik/chatbot.html" class="read-more">Czytaj wi&#281;cej o chatbotach &rarr;</a>
             </article>
 
             <article class="term" id="gpt">
@@ -312,21 +371,23 @@
                     <h2 class="term-name">GPT</h2>
                     <span class="term-english">Generative Pre-trained Transformer</span>
                 </div>
-                <p class="term-definition">Rodzaj modelu AI stworzony przez OpenAI. "Generative" = tworzy treści, "Pre-trained" = nauczony na górze tekstu, "Transformer" = architektura (sposób budowy).</p>
+                <p class="term-definition">Rodzaj modelu AI stworzony przez OpenAI. &bdquo;Generative&rdquo; = tworzy tre&#347;ci, &bdquo;Pre-trained&rdquo; = nauczony na g&oacute;rze tekstu, &bdquo;Transformer&rdquo; = architektura (spos&oacute;b budowy).</p>
                 <div class="term-example">
-                    <strong>Z życia:</strong> GPT to jak nazwa silnika. Tak jak samochody mają silniki Diesla czy benzynowe, tak AI może mieć "silnik" GPT, Claude, czy Gemini.
+                    <strong>Z &#380;ycia:</strong> GPT to jak nazwa silnika. Tak jak samochody maj&#261; silniki Diesla czy benzynowe, tak AI mo&#380;e mie&#263; &bdquo;silnik&rdquo; GPT, Claude, czy Gemini.
                 </div>
+                <a href="slownik/gpt.html" class="read-more">Czytaj wi&#281;cej o GPT &rarr;</a>
             </article>
 
-            <article class="term" id="hallucynacja">
+            <article class="term" id="halucynacja">
                 <div class="term-header">
-                    <h2 class="term-name">Hallucynacja</h2>
-                    <span class="term-english">Hallucination</span>
+                    <h2 class="term-name">Halucynacja AI</h2>
+                    <span class="term-english">AI Hallucination</span>
                 </div>
-                <p class="term-definition">Gdy AI wymyśla fakty, których nie ma. Mówi z pewnością siebie rzeczy, które są kompletną bzdurą. Poważny problem wszystkich LLM-ów.</p>
+                <p class="term-definition">Gdy AI wymy&#347;la fakty, kt&oacute;rych nie ma. M&oacute;wi z pewno&#347;ci&#261; siebie rzeczy, kt&oacute;re s&#261; kompletn&#261; bzdur&#261;. Powa&#380;ny problem wszystkich LLM-&oacute;w.</p>
                 <div class="term-example">
-                    <strong>Z życia:</strong> Jak kolega, który nie chce przyznać że czegoś nie wie, więc wymyśla na poczekaniu. Brzmi przekonująco, ale sprawdź zanim powtórzysz.
+                    <strong>Z &#380;ycia:</strong> Jak kolega, kt&oacute;ry nie chce przyzna&#263; &#380;e czego&#347; nie wie, wi&#281;c wymy&#347;la na poczekaniu. Brzmi przekonuj&#261;co, ale sprawd&#378; zanim powt&oacute;rzysz.
                 </div>
+                <a href="slownik/halucynacja-ai.html" class="read-more">Czytaj wi&#281;cej o halucynacjach AI &rarr;</a>
             </article>
 
             <article class="term" id="api">
@@ -334,10 +395,11 @@
                     <h2 class="term-name">API</h2>
                     <span class="term-english">Application Programming Interface</span>
                 </div>
-                <p class="term-definition">Sposób, w jaki programy rozmawiają ze sobą. Dzięki API możesz podłączyć ChatGPT do swojej aplikacji, Excela czy strony.</p>
+                <p class="term-definition">Spos&oacute;b, w jaki programy rozmawiaj&#261; ze sob&#261;. Dzi&#281;ki API mo&#380;esz pod&#322;&#261;czy&#263; ChatGPT do swojej aplikacji, Excela czy strony.</p>
                 <div class="term-example">
-                    <strong>Z życia:</strong> API to jak kelner w restauracji. Ty (aplikacja) mówisz kelnerowi (API) co chcesz, on idzie do kuchni (serwer AI), przynosi zamówienie. Nie musisz wiedzieć jak działa kuchnia.
+                    <strong>Z &#380;ycia:</strong> API to jak kelner w restauracji. Ty (aplikacja) m&oacute;wisz kelnerowi (API) co chcesz, on idzie do kuchni (serwer AI), przynosi zam&oacute;wienie. Nie musisz wiedzie&#263; jak dzia&#322;a kuchnia.
                 </div>
+                <a href="slownik/api.html" class="read-more">Czytaj wi&#281;cej o API &rarr;</a>
             </article>
 
             <article class="term" id="fine-tuning">
@@ -345,10 +407,11 @@
                     <h2 class="term-name">Fine-tuning</h2>
                     <span class="term-english">Fine-tuning</span>
                 </div>
-                <p class="term-definition">Dodatkowe szkolenie gotowego modelu AI na własnych danych. Dzięki temu AI lepiej rozumie Twoją branżę, styl czy specyfikę.</p>
+                <p class="term-definition">Dodatkowe szkolenie gotowego modelu AI na w&#322;asnych danych. Dzi&#281;ki temu AI lepiej rozumie Twoj&#261; bran&#380;&#281;, styl czy specyfik&#281;.</p>
                 <div class="term-example">
-                    <strong>Z życia:</strong> Masz nowego pracownika po studiach (bazowy model). Fine-tuning to wdrożenie w firmie — uczy się Waszego żargonu, procedur, specyfiki klientów.
+                    <strong>Z &#380;ycia:</strong> Masz nowego pracownika po studiach (bazowy model). Fine-tuning to wdro&#380;enie w firmie, uczy si&#281; Waszego &#380;argonu, procedur, specyfiki klient&oacute;w.
                 </div>
+                <a href="slownik/fine-tuning.html" class="read-more">Czytaj wi&#281;cej o fine-tuningu &rarr;</a>
             </article>
 
             <article class="term" id="rag">
@@ -356,10 +419,11 @@
                     <h2 class="term-name">RAG</h2>
                     <span class="term-english">Retrieval-Augmented Generation</span>
                 </div>
-                <p class="term-definition">Technika, gdzie AI najpierw szuka w Twoich dokumentach, a potem odpowiada na ich podstawie. Zmniejsza hallucynacje i daje aktualne informacje.</p>
+                <p class="term-definition">Technika, gdzie AI najpierw szuka w Twoich dokumentach, a potem odpowiada na ich podstawie. Zmniejsza halucynacje i daje aktualne informacje.</p>
                 <div class="term-example">
-                    <strong>Z życia:</strong> Zamiast odpowiadać z pamięci (która może być dziurawa), AI najpierw zagląda do Twoich notatek/dokumentów i dopiero wtedy odpowiada. Jak student z otwartą książką na egzaminie.
+                    <strong>Z &#380;ycia:</strong> Zamiast odpowiada&#263; z pami&#281;ci (kt&oacute;ra mo&#380;e by&#263; dziurawa), AI najpierw zagl&#261;da do Twoich notatek/dokument&oacute;w i dopiero wtedy odpowiada. Jak student z otwart&#261; ksi&#261;&#380;k&#261; na egzaminie.
                 </div>
+                <a href="slownik/rag.html" class="read-more">Czytaj wi&#281;cej o RAG &rarr;</a>
             </article>
 
             <article class="term" id="embedding">
@@ -367,10 +431,11 @@
                     <h2 class="term-name">Embedding</h2>
                     <span class="term-english">Embedding</span>
                 </div>
-                <p class="term-definition">Zamiana tekstu na liczby, które AI rozumie. Dzięki temu może porównywać znaczenia — wie, że "pies" jest bliżej "szczeniak" niż "samochód".</p>
+                <p class="term-definition">Zamiana tekstu na liczby, kt&oacute;re AI rozumie. Dzi&#281;ki temu mo&#380;e por&oacute;wnywa&#263; znaczenia, wie, &#380;e &bdquo;pies&rdquo; jest bli&#380;ej &bdquo;szczeniak&rdquo; ni&#380; &bdquo;samoch&oacute;d&rdquo;.</p>
                 <div class="term-example">
-                    <strong>Z życia:</strong> Jak GPS dla słów. Każde słowo ma współrzędne w przestrzeni znaczeń. Słowa o podobnym znaczeniu są blisko siebie na tej mapie.
+                    <strong>Z &#380;ycia:</strong> Jak GPS dla s&#322;&oacute;w. Ka&#380;de s&#322;owo ma wsp&oacute;&#322;rz&#281;dne w przestrzeni znacze&#324;. S&#322;owa o podobnym znaczeniu s&#261; blisko siebie na tej mapie.
                 </div>
+                <a href="slownik/embedding.html" class="read-more">Czytaj wi&#281;cej o embeddingach &rarr;</a>
             </article>
 
             <article class="term" id="context-window">
@@ -378,10 +443,11 @@
                     <h2 class="term-name">Context window</h2>
                     <span class="term-english">Okno kontekstu</span>
                 </div>
-                <p class="term-definition">Ile tekstu AI może "widzieć" naraz — Twoje pytanie plus cała poprzednia rozmowa. Jak pamięć krótkotrwała. Większe okno = dłuższe dokumenty, dłuższe rozmowy.</p>
+                <p class="term-definition">Ile tekstu AI mo&#380;e &bdquo;widzie&#263;&rdquo; naraz, Twoje pytanie plus ca&#322;a poprzednia rozmowa. Jak pami&#281;&#263; kr&oacute;tkotrwa&#322;a. Wi&#281;ksze okno = d&#322;u&#380;sze dokumenty, d&#322;u&#380;sze rozmowy.</p>
                 <div class="term-example">
-                    <strong>Z życia:</strong> Wyobraź sobie rozmowę przez szybę, która pokazuje tylko ostatnie X wiadomości. Stare znikają. Dlatego AI czasem "zapomina" co mówiłeś na początku długiej rozmowy.
+                    <strong>Z &#380;ycia:</strong> Wyobra&#378; sobie rozmow&#281; przez szyb&#281;, kt&oacute;ra pokazuje tylko ostatnie X wiadomo&#347;ci. Stare znikaj&#261;. Dlatego AI czasem &bdquo;zapomina&rdquo; co m&oacute;wi&#322;e&#347; na pocz&#261;tku d&#322;ugiej rozmowy.
                 </div>
+                <a href="slownik/context-window.html" class="read-more">Czytaj wi&#281;cej o oknie kontekstu &rarr;</a>
             </article>
 
             <article class="term" id="temperature">
@@ -389,10 +455,11 @@
                     <h2 class="term-name">Temperature</h2>
                     <span class="term-english">Temperatura</span>
                 </div>
-                <p class="term-definition">Parametr kontrolujący kreatywność AI. Niska (0) = przewidywalne, bezpieczne odpowiedzi. Wysoka (1+) = bardziej kreatywne, czasem dziwne.</p>
+                <p class="term-definition">Parametr kontroluj&#261;cy kreatywno&#347;&#263; AI. Niska (0) = przewidywalne, bezpieczne odpowiedzi. Wysoka (1+) = bardziej kreatywne, czasem dziwne.</p>
                 <div class="term-example">
-                    <strong>Z życia:</strong> Jak pokrętło "szaleństwa". Do pisania maili biznesowych — nisko. Do burzy mózgów i kreatywnych pomysłów — wysoko. Do kodu — bardzo nisko.
+                    <strong>Z &#380;ycia:</strong> Jak pokr&#281;t&#322;o &bdquo;szale&#324;stwa&rdquo;. Do pisania maili biznesowych, nisko. Do burzy m&oacute;zg&oacute;w i kreatywnych pomys&#322;&oacute;w, wysoko. Do kodu, bardzo nisko.
                 </div>
+                <a href="slownik/temperature.html" class="read-more">Czytaj wi&#281;cej o temperaturze &rarr;</a>
             </article>
 
             <article class="term" id="agent">
@@ -400,16 +467,17 @@
                     <h2 class="term-name">Agent AI</h2>
                     <span class="term-english">AI Agent</span>
                 </div>
-                <p class="term-definition">AI, które nie tylko odpowiada, ale samo wykonuje zadania — przegląda strony, wysyła maile, pisze kod, używa narzędzi. Działa bardziej samodzielnie.</p>
+                <p class="term-definition">AI, kt&oacute;re nie tylko odpowiada, ale samo wykonuje zadania, przegl&#261;da strony, wysy&#322;a maile, pisze kod, u&#380;ywa narz&#281;dzi. Dzia&#322;a bardziej samodzielnie.</p>
                 <div class="term-example">
-                    <strong>Z życia:</strong> Zwykły ChatGPT to konsultant — doradza. Agent to asystent z dostępem do Twojego komputera — może sam zrobić to, co doradził.
+                    <strong>Z &#380;ycia:</strong> Zwyk&#322;y ChatGPT to konsultant, doradza. Agent to asystent z dost&#281;pem do Twojego komputera, mo&#380;e sam zrobi&#263; to, co doradzi&#322;.
                 </div>
+                <a href="slownik/agent-ai.html" class="read-more">Czytaj wi&#281;cej o agentach AI &rarr;</a>
             </article>
         </main>
 
         <footer>
-            <p style="margin-bottom: 0.5rem;">Twoim przewodnikiem jest <a href="https://www.linkedin.com/in/pawellewinski/" target="_blank" rel="noopener noreferrer">Paweł Lewiński</a></p>
-            <p>Brakuje jakiegoś terminu? <a href="https://www.linkedin.com/in/pawellewinski/" target="_blank" rel="noopener noreferrer">Napisz do mnie</a></p>
+            <p style="margin-bottom: 0.5rem;">Twoim przewodnikiem jest <a href="https://www.linkedin.com/in/pawellewinski/" target="_blank" rel="noopener noreferrer">Pawe&#322; Lewi&#324;ski</a></p>
+            <p>Brakuje jakiego&#347; terminu? <a href="https://www.linkedin.com/in/pawellewinski/" target="_blank" rel="noopener noreferrer">Napisz do mnie</a></p>
         </footer>
     </div>
 

@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-BYGTBRQ1YF"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-BYGTBRQ1YF');
+    </script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>LLM (Large Language Model): co to jest i jak działa? | AI Przewodnik</title>
+    <meta name="description" content="LLM to program, który przeczytał miliardy tekstów i nauczył się odpowiadać na pytania po ludzku. ChatGPT, Claude, Gemini, to LLM-y. Proste wyjaśnienie.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://aiprzewodnik.pl/slownik/llm.html">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://aiprzewodnik.pl/slownik/llm.html">
+    <meta property="og:title" content="LLM: co to jest? Proste wyjaśnienie | AI Przewodnik">
+    <meta property="og:description" content="LLM to program, który przeczytał miliardy tekstów i nauczył się odpowiadać na pytania po ludzku. ChatGPT, Claude, Gemini, to LLM-y.">
+    <meta property="og:image" content="https://aiprzewodnik.pl/og-image.png">
+    <meta property="og:locale" content="pl_PL">
+
+    <!-- Schema.org FAQPage -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Czy LLM rozumie to co pisze?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Nie w ludzkim sensie. LLM przewiduje statystycznie jakie słowo powinno być następne. Robi to tak dobrze, że wygląda na rozumienie, ale to wyrafinowane dopasowywanie wzorców, nie świadomość."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Czym LLM różni się od wyszukiwarki?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Wyszukiwarka (Google) znajduje istniejące strony. LLM generuje NOWY tekst. Pisze odpowiedzi, tłumaczy, streszcza, tworzy kod. Nie szuka linków, tylko tworzy treść."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Jakie są najpopularniejsze LLM-y?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "GPT-4 i GPT-4o (OpenAI/ChatGPT), Claude (Anthropic), Gemini (Google), Llama (Meta, open source), Mistral (francuski, open source). Każdy ma inne mocne strony. GPT jest wszechstronny, Claude świetny w analizie długich tekstów."
+          }
+        }
+      ]
+    }
+    </script>
+
+    <!-- Schema.org BreadcrumbList -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "AI Przewodnik", "item": "https://aiprzewodnik.pl/" },
+        { "@type": "ListItem", "position": 2, "name": "Słownik AI", "item": "https://aiprzewodnik.pl/slownik.html" },
+        { "@type": "ListItem", "position": 3, "name": "LLM" }
+      ]
+    }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --bg-color: #ffffff;
+            --text-color: #1a1a2e;
+            --text-muted: #64748b;
+            --primary: #6366f1;
+            --primary-dark: #4f46e5;
+            --secondary: #06b6d4;
+            --card-bg: #f8fafc;
+            --card-border: #e2e8f0;
+            --font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+        }
+
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        html { scroll-behavior: smooth; }
+
+        body {
+            font-family: var(--font-family);
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.7;
+        }
+
+        .container { max-width: 720px; margin: 0 auto; padding: 2rem 1.5rem; }
+
+        /* Breadcrumb */
+        .breadcrumb {
+            display: flex;
+            gap: 0.5rem;
+            font-size: 0.875rem;
+            color: var(--text-muted);
+            margin-bottom: 2rem;
+            flex-wrap: wrap;
+        }
+        .breadcrumb a {
+            color: var(--primary);
+            text-decoration: none;
+        }
+        .breadcrumb a:hover { text-decoration: underline; }
+        .breadcrumb .separator { color: var(--card-border); }
+
+        /* Article */
+        h1 {
+            font-size: clamp(1.75rem, 4vw, 2.25rem);
+            font-weight: 700;
+            line-height: 1.3;
+            margin-bottom: 1.25rem;
+        }
+
+        .lead {
+            font-size: 1.125rem;
+            font-weight: 500;
+            color: var(--text-color);
+            margin-bottom: 2rem;
+            line-height: 1.6;
+        }
+
+        h2 {
+            font-size: 1.35rem;
+            font-weight: 700;
+            margin-top: 2.5rem;
+            margin-bottom: 1rem;
+            color: var(--text-color);
+        }
+
+        p { margin-bottom: 1rem; }
+
+        .analogy {
+            background: linear-gradient(135deg, #f0f9ff 0%, #faf5ff 100%);
+            border-left: 4px solid var(--primary);
+            padding: 1.25rem 1.5rem;
+            border-radius: 0 10px 10px 0;
+            margin: 1.5rem 0;
+        }
+
+        .analogy p { margin-bottom: 0.75rem; }
+        .analogy p:last-child { margin-bottom: 0; }
+
+        ul { margin: 0.75rem 0 1rem 1.5rem; }
+        li { margin-bottom: 0.5rem; }
+
+        /* FAQ */
+        .faq {
+            margin-top: 2.5rem;
+            border-top: 1px solid var(--card-border);
+            padding-top: 2rem;
+        }
+
+        .faq-item {
+            margin-bottom: 1.75rem;
+        }
+
+        .faq-item h3 {
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            color: var(--text-color);
+        }
+
+        .faq-item p {
+            color: #374151;
+        }
+
+        /* Related */
+        .related {
+            margin-top: 2.5rem;
+            padding: 1.5rem;
+            background: var(--card-bg);
+            border-radius: 12px;
+            border: 1px solid var(--card-border);
+        }
+
+        .related-title {
+            font-size: 0.8rem;
+            font-weight: 600;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 0.75rem;
+        }
+
+        .related a {
+            display: inline-block;
+            padding: 0.4rem 0.85rem;
+            margin: 0.25rem 0.25rem 0.25rem 0;
+            text-decoration: none;
+            color: var(--text-color);
+            background: white;
+            border: 1px solid var(--card-border);
+            border-radius: 6px;
+            font-size: 0.875rem;
+            transition: all 0.2s ease;
+        }
+
+        .related a:hover {
+            border-color: var(--primary);
+            color: var(--primary);
+        }
+
+        /* CTA */
+        .cta {
+            margin-top: 2.5rem;
+            text-align: center;
+            padding: 2rem;
+            background: linear-gradient(135deg, #eef2ff 0%, #e0f2fe 100%);
+            border-radius: 12px;
+        }
+
+        .cta p {
+            font-size: 1.05rem;
+            margin-bottom: 1rem;
+            font-weight: 500;
+        }
+
+        .cta a {
+            display: inline-block;
+            padding: 0.75rem 1.75rem;
+            background: var(--primary);
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 600;
+            font-size: 0.95rem;
+            transition: background 0.2s ease;
+        }
+
+        .cta a:hover { background: var(--primary-dark); }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 2rem 1rem;
+            margin-top: 3rem;
+            border-top: 1px solid var(--card-border);
+            color: var(--text-muted);
+            font-size: 0.875rem;
+        }
+
+        footer a { color: var(--primary); text-decoration: none; }
+        footer a:hover { text-decoration: underline; }
+
+        @media (max-width: 768px) {
+            .container { padding: 1.5rem 1rem; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <nav class="breadcrumb">
+        <a href="../index.html">Szkolenia AI</a>
+        <span class="separator">/</span>
+        <a href="../slownik.html">Słownik AI</a>
+        <span class="separator">/</span>
+        <span>LLM</span>
+    </nav>
+
+    <article>
+        <h1>LLM (Large Language Model): co to jest i jak działa?</h1>
+
+        <p class="lead">LLM to program, który przeczytał miliardy tekstów i nauczył się z nich pisać, tłumaczyć i odpowiadać na pytania po ludzku.</p>
+
+        <h2>Wyobraź sobie...</h2>
+
+        <div class="analogy">
+            <p>Kolega, który przeczytał wszystkie książki, artykuły i strony internetowe na świecie. Nie zawsze ma rację (bo czytał też bzdury), ale zawsze ma coś do powiedzenia i potrafi pisać w każdym stylu.</p>
+            <p>LLM to taki cyfrowy kolega, nie rozumie tego co pisze tak jak człowiek, ale statystycznie wie, jakie słowo powinno być następne. I robi to tak dobrze, że wygląda jakby rozumiał.</p>
+        </div>
+
+        <h2>Gdzie to spotkasz?</h2>
+
+        <ul>
+            <li><strong>ChatGPT</strong> (OpenAI) – najpopularniejszy LLM na świecie, wszechstronny w zadaniach tekstowych i kodowaniu</li>
+            <li><strong>Claude</strong> (Anthropic) – świetny w analizie długich dokumentów i bezpiecznych odpowiedziach</li>
+            <li><strong>Gemini</strong> (Google) – zintegrowany z ekosystemem Google, działa w wyszukiwarce i Workspace</li>
+            <li><strong>Copilot</strong> (Microsoft) – LLM wbudowany w Office, Windows i narzędzia programistyczne</li>
+        </ul>
+
+        <p>Każdy z nich ma inny „charakter" i mocne strony, ale pod spodem działają na tej samej zasadzie, przewidują, jakie słowo powinno pojawić się jako następne.</p>
+
+        <div class="faq">
+            <h2>Najczęstsze pytania o LLM</h2>
+
+            <div class="faq-item">
+                <h3>Czy LLM rozumie to co pisze?</h3>
+                <p>Nie w ludzkim sensie. LLM przewiduje statystycznie jakie słowo powinno być następne. Robi to tak dobrze, że wygląda na rozumienie, ale to wyrafinowane dopasowywanie wzorców, nie świadomość.</p>
+            </div>
+
+            <div class="faq-item">
+                <h3>Czym LLM różni się od wyszukiwarki?</h3>
+                <p>Wyszukiwarka (Google) znajduje istniejące strony. LLM generuje NOWY tekst. Pisze odpowiedzi, tłumaczy, streszcza, tworzy kod. Nie szuka linków, tylko tworzy treść.</p>
+            </div>
+
+            <div class="faq-item">
+                <h3>Jakie są najpopularniejsze LLM-y?</h3>
+                <p>GPT-4 i GPT-4o (OpenAI/ChatGPT), Claude (Anthropic), Gemini (Google), Llama (Meta, open source), Mistral (francuski, open source). Każdy ma inne mocne strony. GPT jest wszechstronny, Claude świetny w analizie długich tekstów.</p>
+            </div>
+        </div>
+    </article>
+
+    <div class="related">
+        <p class="related-title">Powiązane pojęcia</p>
+        <a href="gpt.html">GPT – najpopularniejsza rodzina LLM-ów</a>
+        <a href="token.html">Token – jak LLM mierzy tekst</a>
+        <a href="halucynacja-ai.html">Halucynacja – dlaczego LLM-y zmyślają</a>
+        <a href="fine-tuning.html">Fine-tuning – jak uczyć LLM Twojej branży</a>
+        <a href="context-window.html">Okno kontekstu – ile LLM widzi naraz</a>
+    </div>
+
+    <div class="cta">
+        <p>Chcesz nauczyć się używać AI w praktyce?</p>
+        <a href="../index.html">Zobacz szkolenia AI w Polsce →</a>
+    </div>
+
+    <footer>
+        <p>Twoim przewodnikiem jest <a href="https://www.linkedin.com/in/pawellewinski/" target="_blank" rel="noopener noreferrer">Paweł Lewiński</a></p>
+    </footer>
+
+</div>
+
+</body>
+</html>

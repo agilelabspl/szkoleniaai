@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-BYGTBRQ1YF"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-BYGTBRQ1YF');
+    </script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Agent AI: co to jest i czym różni się od chatbota? | AI Przewodnik</title>
+    <meta name="description" content="Agent AI to sztuczna inteligencja, która sama wykonuje zadania, szuka, pisze, programuje. Czym różni się od chatbota? Proste wyjaśnienie z przykładami.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://aiprzewodnik.pl/slownik/agent-ai.html">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://aiprzewodnik.pl/slownik/agent-ai.html">
+    <meta property="og:title" content="Agent AI: co to jest? Proste wyjaśnienie | AI Przewodnik">
+    <meta property="og:description" content="Agent AI to sztuczna inteligencja, która nie tylko odpowiada na pytania, ale sama wykonuje zadania. Szuka informacji, pisze kod, używa narzędzi.">
+    <meta property="og:image" content="https://aiprzewodnik.pl/og-image.png">
+    <meta property="og:locale" content="pl_PL">
+
+    <!-- Schema.org FAQPage -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Czym agent AI różni się od chatbota?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Chatbot rozmawia, odpowiada na pytania i daje rady. Agent działa, sam wykonuje zadania, korzysta z narzędzi, podejmuje decyzje. Chatbot to GPS (mówi dokąd jechać). Agent to autonomiczny samochód (sam jedzie)."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Czy agent AI może działać sam, bez nadzoru?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Dziś, częściowo. Agenci potrafią wykonywać wielokrokowe zadania samodzielnie, ale wymagają nadzoru człowieka przy ważnych decyzjach. Za kilka lat agenci będą bardziej autonomiczni, ale \"człowiek w pętli\" pozostanie standardem dla krytycznych procesów."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Jakie zadania może wykonywać agent AI?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Badanie rynku (przeszukuje internet, zbiera dane, tworzy raport). Programowanie (pisze, testuje i poprawia kod). Obsługa klienta (odpowiada, eskaluje trudne sprawy). Analiza dokumentów (czyta 100 umów i wyciąga kluczowe punkty). Automatyzacja workflow (łączy narzędzia i wykonuje sekwencje zadań)."
+          }
+        }
+      ]
+    }
+    </script>
+
+    <!-- Schema.org BreadcrumbList -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "AI Przewodnik", "item": "https://aiprzewodnik.pl/" },
+        { "@type": "ListItem", "position": 2, "name": "Słownik AI", "item": "https://aiprzewodnik.pl/slownik.html" },
+        { "@type": "ListItem", "position": 3, "name": "Agent AI" }
+      ]
+    }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --bg-color: #ffffff;
+            --text-color: #1a1a2e;
+            --text-muted: #64748b;
+            --primary: #6366f1;
+            --primary-dark: #4f46e5;
+            --secondary: #06b6d4;
+            --card-bg: #f8fafc;
+            --card-border: #e2e8f0;
+            --font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+        }
+
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        html { scroll-behavior: smooth; }
+
+        body {
+            font-family: var(--font-family);
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.7;
+        }
+
+        .container { max-width: 720px; margin: 0 auto; padding: 2rem 1.5rem; }
+
+        /* Breadcrumb */
+        .breadcrumb {
+            display: flex;
+            gap: 0.5rem;
+            font-size: 0.875rem;
+            color: var(--text-muted);
+            margin-bottom: 2rem;
+            flex-wrap: wrap;
+        }
+        .breadcrumb a {
+            color: var(--primary);
+            text-decoration: none;
+        }
+        .breadcrumb a:hover { text-decoration: underline; }
+        .breadcrumb .separator { color: var(--card-border); }
+
+        /* Article */
+        h1 {
+            font-size: clamp(1.75rem, 4vw, 2.25rem);
+            font-weight: 700;
+            line-height: 1.3;
+            margin-bottom: 1.25rem;
+        }
+
+        .lead {
+            font-size: 1.125rem;
+            font-weight: 500;
+            color: var(--text-color);
+            margin-bottom: 2rem;
+            line-height: 1.6;
+        }
+
+        h2 {
+            font-size: 1.35rem;
+            font-weight: 700;
+            margin-top: 2.5rem;
+            margin-bottom: 1rem;
+            color: var(--text-color);
+        }
+
+        p { margin-bottom: 1rem; }
+
+        .analogy {
+            background: linear-gradient(135deg, #f0f9ff 0%, #faf5ff 100%);
+            border-left: 4px solid var(--primary);
+            padding: 1.25rem 1.5rem;
+            border-radius: 0 10px 10px 0;
+            margin: 1.5rem 0;
+        }
+
+        .analogy p { margin-bottom: 0.75rem; }
+        .analogy p:last-child { margin-bottom: 0; }
+
+        ul { margin: 0.75rem 0 1rem 1.5rem; }
+        li { margin-bottom: 0.5rem; }
+
+        /* FAQ */
+        .faq {
+            margin-top: 2.5rem;
+            border-top: 1px solid var(--card-border);
+            padding-top: 2rem;
+        }
+
+        .faq-item {
+            margin-bottom: 1.75rem;
+        }
+
+        .faq-item h3 {
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            color: var(--text-color);
+        }
+
+        .faq-item p {
+            color: #374151;
+        }
+
+        /* Related */
+        .related {
+            margin-top: 2.5rem;
+            padding: 1.5rem;
+            background: var(--card-bg);
+            border-radius: 12px;
+            border: 1px solid var(--card-border);
+        }
+
+        .related-title {
+            font-size: 0.8rem;
+            font-weight: 600;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 0.75rem;
+        }
+
+        .related a {
+            display: inline-block;
+            padding: 0.4rem 0.85rem;
+            margin: 0.25rem 0.25rem 0.25rem 0;
+            text-decoration: none;
+            color: var(--text-color);
+            background: white;
+            border: 1px solid var(--card-border);
+            border-radius: 6px;
+            font-size: 0.875rem;
+            transition: all 0.2s ease;
+        }
+
+        .related a:hover {
+            border-color: var(--primary);
+            color: var(--primary);
+        }
+
+        /* CTA */
+        .cta {
+            margin-top: 2.5rem;
+            text-align: center;
+            padding: 2rem;
+            background: linear-gradient(135deg, #eef2ff 0%, #e0f2fe 100%);
+            border-radius: 12px;
+        }
+
+        .cta p {
+            font-size: 1.05rem;
+            margin-bottom: 1rem;
+            font-weight: 500;
+        }
+
+        .cta a {
+            display: inline-block;
+            padding: 0.75rem 1.75rem;
+            background: var(--primary);
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 600;
+            font-size: 0.95rem;
+            transition: background 0.2s ease;
+        }
+
+        .cta a:hover { background: var(--primary-dark); }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 2rem 1rem;
+            margin-top: 3rem;
+            border-top: 1px solid var(--card-border);
+            color: var(--text-muted);
+            font-size: 0.875rem;
+        }
+
+        footer a { color: var(--primary); text-decoration: none; }
+        footer a:hover { text-decoration: underline; }
+
+        @media (max-width: 768px) {
+            .container { padding: 1.5rem 1rem; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <nav class="breadcrumb">
+        <a href="../index.html">Szkolenia AI</a>
+        <span class="separator">/</span>
+        <a href="../slownik.html">Słownik AI</a>
+        <span class="separator">/</span>
+        <span>Agent AI</span>
+    </nav>
+
+    <article>
+        <h1>Agent AI: co to jest i czym różni się od chatbota?</h1>
+
+        <p class="lead">Agent AI to sztuczna inteligencja, która nie tylko odpowiada na pytania, ale sama wykonuje zadania. Szuka informacji, pisze kod, używa narzędzi.</p>
+
+        <h2>Wyobraź sobie...</h2>
+
+        <div class="analogy">
+            <p>Zwykły ChatGPT to <strong>konsultant</strong>. Mówi Ci CO zrobić, "powinieneś wysłać maila, zadzwonić do klienta, sprawdzić dane w CRM". Ale robić musisz sam.</p>
+            <p><strong>Agent AI to asystent z dostępem do Twojego komputera</strong>. Sam wysyła maila, sam dzwoni, sam sprawdza CRM.</p>
+            <p>Różnica: konsultant doradza, asystent robi.</p>
+        </div>
+
+        <p>Agent AI to program, który potrafi samodzielnie planować kroki, korzystać z narzędzi (przeglądarka, kod, pliki, API) i realizować złożone zadania bez prowadzenia go za rękę na każdym etapie. Ty mówisz CO chcesz osiągnąć, agent sam wymyśla JAK to zrobić.</p>
+
+        <h2>Gdzie to spotkasz?</h2>
+
+        <ul>
+            <li><strong>Claude Code</strong> – pisze i uruchamia kod, edytuje pliki, wyszukuje w internecie</li>
+            <li><strong>Copilot w Microsoft 365</strong> – sam tworzy prezentacje, podsumowuje maile, analizuje dane w Excelu</li>
+            <li><strong>Devin</strong> (programista AI) – sam buduje aplikacje od zera</li>
+            <li><strong>Agenci w firmach</strong> – automatycznie odpowiadają klientom, kategoryzują zgłoszenia, generują raporty</li>
+        </ul>
+
+        <div class="faq">
+            <h2>Najczęstsze pytania o agentów AI</h2>
+
+            <div class="faq-item">
+                <h3>Czym agent AI różni się od chatbota?</h3>
+                <p>Chatbot rozmawia, odpowiada na pytania i daje rady. Agent działa, sam wykonuje zadania, korzysta z narzędzi, podejmuje decyzje. Chatbot to GPS (mówi dokąd jechać). Agent to autonomiczny samochód (sam jedzie).</p>
+            </div>
+
+            <div class="faq-item">
+                <h3>Czy agent AI może działać sam, bez nadzoru?</h3>
+                <p>Dziś, częściowo. Agenci potrafią wykonywać wielokrokowe zadania samodzielnie, ale wymagają nadzoru człowieka przy ważnych decyzjach. Za kilka lat agenci będą bardziej autonomiczni, ale "człowiek w pętli" pozostanie standardem dla krytycznych procesów.</p>
+            </div>
+
+            <div class="faq-item">
+                <h3>Jakie zadania może wykonywać agent AI?</h3>
+                <p>Badanie rynku (przeszukuje internet, zbiera dane, tworzy raport). Programowanie (pisze, testuje i poprawia kod). Obsługa klienta (odpowiada, eskaluje trudne sprawy). Analiza dokumentów (czyta 100 umów i wyciąga kluczowe punkty). Automatyzacja workflow (łączy narzędzia i wykonuje sekwencje zadań).</p>
+            </div>
+        </div>
+    </article>
+
+    <div class="related">
+        <p class="related-title">Powiązane pojęcia</p>
+        <a href="chatbot.html">Chatbot – prostsza forma AI do rozmów</a>
+        <a href="llm.html">LLM – mózg, który napędza agentów AI</a>
+        <a href="rag.html">RAG – agent szuka w dokumentach przed odpowiedzią</a>
+        <a href="api.html">API – agent łączy się z narzędziami przez API</a>
+    </div>
+
+    <div class="cta">
+        <p>Chcesz nauczyć się używać AI w praktyce?</p>
+        <a href="../index.html">Zobacz szkolenia AI w Polsce →</a>
+    </div>
+
+    <footer>
+        <p>Twoim przewodnikiem jest <a href="https://www.linkedin.com/in/pawellewinski/" target="_blank" rel="noopener noreferrer">Paweł Lewiński</a></p>
+    </footer>
+
+</div>
+
+</body>
+</html>

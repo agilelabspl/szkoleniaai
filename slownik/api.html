@@ -1,0 +1,340 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-BYGTBRQ1YF"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-BYGTBRQ1YF');
+    </script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>API (Application Programming Interface): co to jest i po co AI potrzebuje API? | AI Przewodnik</title>
+    <meta name="description" content="API to sposób, w jaki programy rozmawiają ze sobą. Dzięki API podłączysz AI do swojej aplikacji, Excela czy strony. Proste wyjaśnienie z przykładami.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://aiprzewodnik.pl/slownik/api.html">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://aiprzewodnik.pl/slownik/api.html">
+    <meta property="og:title" content="API: co to jest? Proste wyjaśnienie | AI Przewodnik">
+    <meta property="og:description" content="API to sposób, w jaki programy rozmawiają ze sobą. Dzięki API możesz podłączyć ChatGPT do swojej aplikacji, Excela, strony czy systemu.">
+    <meta property="og:image" content="https://aiprzewodnik.pl/og-image.png">
+    <meta property="og:locale" content="pl_PL">
+
+    <!-- Schema.org FAQPage -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Czy muszę umieć programować żeby używać API?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Bezpośrednio z API, tak, potrzeba podstaw. Ale narzędzia no-code (Make, Zapier, n8n) pozwalają korzystać z API bez programowania. Łączysz bloczki jak LEGO, „weź maila → wyślij do ChatGPT → zapisz odpowiedź w Google Sheet"."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Ile kosztuje API do AI?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Zależy od modelu i ilości użycia. Przykład: GPT-4o od OpenAI kosztuje ok. 10 zł za milion tokenów wejściowych (to ok. 750 000 słów). Dla małej firmy, zwykle 20–100 zł/miesiąc. Dużo taniej niż miesięczna subskrypcja ChatGPT Plus."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Do czego mogę podłączyć API AI?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Do prawie wszystkiego: strony internetowej, Excela/Google Sheets, systemu CRM, maila, Slacka, aplikacji mobilnej, systemu fakturowania. Jeśli coś ma możliwość łączenia się z internetem, prawdopodobnie możesz podłączyć do niego AI."
+          }
+        }
+      ]
+    }
+    </script>
+
+    <!-- Schema.org BreadcrumbList -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "AI Przewodnik", "item": "https://aiprzewodnik.pl/" },
+        { "@type": "ListItem", "position": 2, "name": "Słownik AI", "item": "https://aiprzewodnik.pl/slownik.html" },
+        { "@type": "ListItem", "position": 3, "name": "API" }
+      ]
+    }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --bg-color: #ffffff;
+            --text-color: #1a1a2e;
+            --text-muted: #64748b;
+            --primary: #6366f1;
+            --primary-dark: #4f46e5;
+            --secondary: #06b6d4;
+            --card-bg: #f8fafc;
+            --card-border: #e2e8f0;
+            --font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+        }
+
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        html { scroll-behavior: smooth; }
+
+        body {
+            font-family: var(--font-family);
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.7;
+        }
+
+        .container { max-width: 720px; margin: 0 auto; padding: 2rem 1.5rem; }
+
+        /* Breadcrumb */
+        .breadcrumb {
+            display: flex;
+            gap: 0.5rem;
+            font-size: 0.875rem;
+            color: var(--text-muted);
+            margin-bottom: 2rem;
+            flex-wrap: wrap;
+        }
+        .breadcrumb a {
+            color: var(--primary);
+            text-decoration: none;
+        }
+        .breadcrumb a:hover { text-decoration: underline; }
+        .breadcrumb .separator { color: var(--card-border); }
+
+        /* Article */
+        h1 {
+            font-size: clamp(1.75rem, 4vw, 2.25rem);
+            font-weight: 700;
+            line-height: 1.3;
+            margin-bottom: 1.25rem;
+        }
+
+        .lead {
+            font-size: 1.125rem;
+            font-weight: 500;
+            color: var(--text-color);
+            margin-bottom: 2rem;
+            line-height: 1.6;
+        }
+
+        h2 {
+            font-size: 1.35rem;
+            font-weight: 700;
+            margin-top: 2.5rem;
+            margin-bottom: 1rem;
+            color: var(--text-color);
+        }
+
+        p { margin-bottom: 1rem; }
+
+        .analogy {
+            background: linear-gradient(135deg, #f0f9ff 0%, #faf5ff 100%);
+            border-left: 4px solid var(--primary);
+            padding: 1.25rem 1.5rem;
+            border-radius: 0 10px 10px 0;
+            margin: 1.5rem 0;
+        }
+
+        .analogy p { margin-bottom: 0.75rem; }
+        .analogy p:last-child { margin-bottom: 0; }
+
+        ul { margin: 0.75rem 0 1rem 1.5rem; }
+        li { margin-bottom: 0.5rem; }
+
+        /* FAQ */
+        .faq {
+            margin-top: 2.5rem;
+            border-top: 1px solid var(--card-border);
+            padding-top: 2rem;
+        }
+
+        .faq-item {
+            margin-bottom: 1.75rem;
+        }
+
+        .faq-item h3 {
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            color: var(--text-color);
+        }
+
+        .faq-item p {
+            color: #374151;
+        }
+
+        /* Related */
+        .related {
+            margin-top: 2.5rem;
+            padding: 1.5rem;
+            background: var(--card-bg);
+            border-radius: 12px;
+            border: 1px solid var(--card-border);
+        }
+
+        .related-title {
+            font-size: 0.8rem;
+            font-weight: 600;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 0.75rem;
+        }
+
+        .related a {
+            display: inline-block;
+            padding: 0.4rem 0.85rem;
+            margin: 0.25rem 0.25rem 0.25rem 0;
+            text-decoration: none;
+            color: var(--text-color);
+            background: white;
+            border: 1px solid var(--card-border);
+            border-radius: 6px;
+            font-size: 0.875rem;
+            transition: all 0.2s ease;
+        }
+
+        .related a:hover {
+            border-color: var(--primary);
+            color: var(--primary);
+        }
+
+        /* CTA */
+        .cta {
+            margin-top: 2.5rem;
+            text-align: center;
+            padding: 2rem;
+            background: linear-gradient(135deg, #eef2ff 0%, #e0f2fe 100%);
+            border-radius: 12px;
+        }
+
+        .cta p {
+            font-size: 1.05rem;
+            margin-bottom: 1rem;
+            font-weight: 500;
+        }
+
+        .cta a {
+            display: inline-block;
+            padding: 0.75rem 1.75rem;
+            background: var(--primary);
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 600;
+            font-size: 0.95rem;
+            transition: background 0.2s ease;
+        }
+
+        .cta a:hover { background: var(--primary-dark); }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 2rem 1rem;
+            margin-top: 3rem;
+            border-top: 1px solid var(--card-border);
+            color: var(--text-muted);
+            font-size: 0.875rem;
+        }
+
+        footer a { color: var(--primary); text-decoration: none; }
+        footer a:hover { text-decoration: underline; }
+
+        @media (max-width: 768px) {
+            .container { padding: 1.5rem 1rem; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <nav class="breadcrumb">
+        <a href="../index.html">Szkolenia AI</a>
+        <span class="separator">/</span>
+        <a href="../slownik.html">Słownik AI</a>
+        <span class="separator">/</span>
+        <span>API</span>
+    </nav>
+
+    <article>
+        <h1>API (Application Programming Interface): co to jest i po co AI potrzebuje API?</h1>
+
+        <p class="lead">API to sposób, w jaki programy rozmawiają ze sobą. Dzięki API możesz podłączyć ChatGPT do swojej aplikacji, Excela, strony czy systemu.</p>
+
+        <h2>Wyobraź sobie...</h2>
+
+        <div class="analogy">
+            <p>Restauracja. Ty (aplikacja) nie wchodzisz do kuchni (serwer AI). Mówisz kelnerowi (API) co chcesz, on idzie do kuchni, przynosi zamówienie.</p>
+            <p>Nie musisz wiedzieć jak działa kuchnia, znać przepisów ani mieć kuchennego sprzętu.</p>
+            <p><strong>API robi to samo</strong>. Twoja aplikacja wysyła pytanie przez API do AI, AI odpowiada, aplikacja pokazuje Ci wynik. Cała magia dzieje się „w kuchni", Ty widzisz tylko gotowe danie.</p>
+        </div>
+
+        <h2>Gdzie to spotkasz?</h2>
+
+        <ul>
+            <li><strong>Chatboty na stronach firm</strong> – łączą się z AI przez API, żeby odpowiadać klientom w czasie rzeczywistym</li>
+            <li><strong>Automatyzacje (Make, Zapier)</strong> – łączą różne narzędzia przez API: mail + AI + arkusz kalkulacyjny</li>
+            <li><strong>Aplikacje mobilne z AI</strong> – każda appka z funkcją „zapytaj AI" korzysta pod spodem z API</li>
+            <li><strong>GitHub Copilot</strong> – podpowiadanie kodu w edytorze, które łączy się z GPT przez API</li>
+        </ul>
+
+        <div class="faq">
+            <h2>Najczęstsze pytania o API</h2>
+
+            <div class="faq-item">
+                <h3>Czy muszę umieć programować żeby używać API?</h3>
+                <p>Bezpośrednio z API, tak, potrzeba podstaw. Ale narzędzia no-code (Make, Zapier, n8n) pozwalają korzystać z API bez programowania. Łączysz bloczki jak LEGO, „weź maila, wyślij do ChatGPT, zapisz odpowiedź w Google Sheet".</p>
+            </div>
+
+            <div class="faq-item">
+                <h3>Ile kosztuje API do AI?</h3>
+                <p>Zależy od modelu i ilości użycia. Przykład: GPT-4o od OpenAI kosztuje ok. 10 zł za milion tokenów wejściowych (to ok. 750 000 słów). Dla małej firmy, zwykle 20-100 zł/miesiąc. Dużo taniej niż miesięczna subskrypcja ChatGPT Plus.</p>
+            </div>
+
+            <div class="faq-item">
+                <h3>Do czego mogę podłączyć API AI?</h3>
+                <p>Do prawie wszystkiego: strony internetowej, Excela/Google Sheets, systemu CRM, maila, Slacka, aplikacji mobilnej, systemu fakturowania. Jeśli coś ma możliwość łączenia się z internetem, prawdopodobnie możesz podłączyć do niego AI.</p>
+            </div>
+        </div>
+    </article>
+
+    <div class="related">
+        <p class="related-title">Powiązane pojęcia</p>
+        <a href="llm.html">LLM – modele dostępne przez API</a>
+        <a href="token.html">Token – jednostka rozliczeniowa w API</a>
+        <a href="chatbot.html">Chatbot – najczęstsze zastosowanie API AI</a>
+        <a href="agent-ai.html">Agent AI – używa API do łączenia się z narzędziami</a>
+    </div>
+
+    <div class="cta">
+        <p>Chcesz nauczyć się używać AI w praktyce?</p>
+        <a href="../index.html">Zobacz szkolenia AI w Polsce →</a>
+    </div>
+
+    <footer>
+        <p>Twoim przewodnikiem jest <a href="https://www.linkedin.com/in/pawellewinski/" target="_blank" rel="noopener noreferrer">Paweł Lewiński</a></p>
+    </footer>
+
+</div>
+
+</body>
+</html>

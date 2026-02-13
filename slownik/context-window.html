@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-BYGTBRQ1YF"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-BYGTBRQ1YF');
+    </script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Okno kontekstu (context window): co to jest i dlaczego AI zapomina? | AI Przewodnik</title>
+    <meta name="description" content="Okno kontekstu to limit tekstu, który AI widzi naraz. Dlaczego AI zapomina? Jak sobie z tym radzić? Proste wyjaśnienie z porównaniem modeli.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://aiprzewodnik.pl/slownik/context-window.html">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://aiprzewodnik.pl/slownik/context-window.html">
+    <meta property="og:title" content="Okno kontekstu (context window): co to jest? Proste wyjaśnienie | AI Przewodnik">
+    <meta property="og:description" content="Okno kontekstu to limit tekstu, który AI widzi naraz, Twoje pytanie i cała dotychczasowa rozmowa. Gdy limit się wyczerpie, AI zaczyna zapominać.">
+    <meta property="og:image" content="https://aiprzewodnik.pl/og-image.png">
+    <meta property="og:locale" content="pl_PL">
+
+    <!-- Schema.org FAQPage -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Dlaczego AI zapomina co mówiłem wcześniej?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Bo okno kontekstu się wyczerpało. AI widzi tylko ostatni fragment rozmowy. Rozwiązanie: podsumowuj kluczowe ustalenia co kilka wiadomości, albo użyj modelu z większym oknem (np. Claude, 200k tokenów, GPT-4o, 128k tokenów)."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Ile tekstu mieści okno kontekstu?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Zależy od modelu. GPT-4o: 128k tokenów (~96 000 słów). Claude: 200k tokenów (~150 000 słów). Gemini: do 1M tokenów. Dla porównania: średnia książka ma ok. 60 000–80 000 słów."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Jak radzić sobie z ograniczonym oknem kontekstu?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "(1) Zaczynaj nową rozmowę na nowy temat. (2) Na początku rozmowy podaj kluczowy kontekst. (3) Podsumowuj ustalenia co kilka wiadomości. (4) Dla długich dokumentów, użyj RAG zamiast wrzucania całego pliku."
+          }
+        }
+      ]
+    }
+    </script>
+
+    <!-- Schema.org BreadcrumbList -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "AI Przewodnik", "item": "https://aiprzewodnik.pl/" },
+        { "@type": "ListItem", "position": 2, "name": "Słownik AI", "item": "https://aiprzewodnik.pl/slownik.html" },
+        { "@type": "ListItem", "position": 3, "name": "Okno kontekstu" }
+      ]
+    }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --bg-color: #ffffff;
+            --text-color: #1a1a2e;
+            --text-muted: #64748b;
+            --primary: #6366f1;
+            --primary-dark: #4f46e5;
+            --secondary: #06b6d4;
+            --card-bg: #f8fafc;
+            --card-border: #e2e8f0;
+            --font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+        }
+
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        html { scroll-behavior: smooth; }
+
+        body {
+            font-family: var(--font-family);
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.7;
+        }
+
+        .container { max-width: 720px; margin: 0 auto; padding: 2rem 1.5rem; }
+
+        /* Breadcrumb */
+        .breadcrumb {
+            display: flex;
+            gap: 0.5rem;
+            font-size: 0.875rem;
+            color: var(--text-muted);
+            margin-bottom: 2rem;
+            flex-wrap: wrap;
+        }
+        .breadcrumb a {
+            color: var(--primary);
+            text-decoration: none;
+        }
+        .breadcrumb a:hover { text-decoration: underline; }
+        .breadcrumb .separator { color: var(--card-border); }
+
+        /* Article */
+        h1 {
+            font-size: clamp(1.75rem, 4vw, 2.25rem);
+            font-weight: 700;
+            line-height: 1.3;
+            margin-bottom: 1.25rem;
+        }
+
+        .lead {
+            font-size: 1.125rem;
+            font-weight: 500;
+            color: var(--text-color);
+            margin-bottom: 2rem;
+            line-height: 1.6;
+        }
+
+        h2 {
+            font-size: 1.35rem;
+            font-weight: 700;
+            margin-top: 2.5rem;
+            margin-bottom: 1rem;
+            color: var(--text-color);
+        }
+
+        p { margin-bottom: 1rem; }
+
+        .analogy {
+            background: linear-gradient(135deg, #f0f9ff 0%, #faf5ff 100%);
+            border-left: 4px solid var(--primary);
+            padding: 1.25rem 1.5rem;
+            border-radius: 0 10px 10px 0;
+            margin: 1.5rem 0;
+        }
+
+        .analogy p { margin-bottom: 0.75rem; }
+        .analogy p:last-child { margin-bottom: 0; }
+
+        ul { margin: 0.75rem 0 1rem 1.5rem; }
+        li { margin-bottom: 0.5rem; }
+
+        /* FAQ */
+        .faq {
+            margin-top: 2.5rem;
+            border-top: 1px solid var(--card-border);
+            padding-top: 2rem;
+        }
+
+        .faq-item {
+            margin-bottom: 1.75rem;
+        }
+
+        .faq-item h3 {
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            color: var(--text-color);
+        }
+
+        .faq-item p {
+            color: #374151;
+        }
+
+        /* Related */
+        .related {
+            margin-top: 2.5rem;
+            padding: 1.5rem;
+            background: var(--card-bg);
+            border-radius: 12px;
+            border: 1px solid var(--card-border);
+        }
+
+        .related-title {
+            font-size: 0.8rem;
+            font-weight: 600;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 0.75rem;
+        }
+
+        .related a {
+            display: inline-block;
+            padding: 0.4rem 0.85rem;
+            margin: 0.25rem 0.25rem 0.25rem 0;
+            text-decoration: none;
+            color: var(--text-color);
+            background: white;
+            border: 1px solid var(--card-border);
+            border-radius: 6px;
+            font-size: 0.875rem;
+            transition: all 0.2s ease;
+        }
+
+        .related a:hover {
+            border-color: var(--primary);
+            color: var(--primary);
+        }
+
+        /* CTA */
+        .cta {
+            margin-top: 2.5rem;
+            text-align: center;
+            padding: 2rem;
+            background: linear-gradient(135deg, #eef2ff 0%, #e0f2fe 100%);
+            border-radius: 12px;
+        }
+
+        .cta p {
+            font-size: 1.05rem;
+            margin-bottom: 1rem;
+            font-weight: 500;
+        }
+
+        .cta a {
+            display: inline-block;
+            padding: 0.75rem 1.75rem;
+            background: var(--primary);
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 600;
+            font-size: 0.95rem;
+            transition: background 0.2s ease;
+        }
+
+        .cta a:hover { background: var(--primary-dark); }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 2rem 1rem;
+            margin-top: 3rem;
+            border-top: 1px solid var(--card-border);
+            color: var(--text-muted);
+            font-size: 0.875rem;
+        }
+
+        footer a { color: var(--primary); text-decoration: none; }
+        footer a:hover { text-decoration: underline; }
+
+        @media (max-width: 768px) {
+            .container { padding: 1.5rem 1rem; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <nav class="breadcrumb">
+        <a href="../index.html">Szkolenia AI</a>
+        <span class="separator">/</span>
+        <a href="../slownik.html">Słownik AI</a>
+        <span class="separator">/</span>
+        <span>Okno kontekstu</span>
+    </nav>
+
+    <article>
+        <h1>Okno kontekstu (context window): co to jest i dlaczego AI zapomina?</h1>
+
+        <p class="lead">Okno kontekstu to limit tekstu, który AI widzi naraz, Twoje pytanie i cała dotychczasowa rozmowa. Gdy limit się wyczerpie, AI zaczyna "zapominać".</p>
+
+        <h2>Wyobraź sobie...</h2>
+
+        <div class="analogy">
+            <p>Rozmawiasz przez szybę, na której mieści się tylko ostatnich 20 wiadomości. Gdy napiszesz 21., pierwsza znika.</p>
+            <p>AI działa tak samo, ma limit tego, ile tekstu widzi jednocześnie. Dlatego przy długich rozmowach AI <strong>"zapomina"</strong> co mówiłeś na początku.</p>
+            <p>To nie jest bug. To ograniczenie techniczne. <strong>Im większe okno kontekstu, tym dłuższe dokumenty i rozmowy AI obsłuży.</strong></p>
+        </div>
+
+        <p>Okno kontekstu mierzy się w tokenach, jednostkach tekstu, z których AI składa słowa. Każdy model ma swój limit: jedne mieszczą krótki artykuł, inne całą książkę. Wszystko, co wysyłasz do AI (Twoje pytanie, historia rozmowy, wklejone dokumenty), musi się zmieścić w tym oknie.</p>
+
+        <h2>Gdzie to spotkasz?</h2>
+
+        <ul>
+            <li><strong>ChatGPT mówi "ta rozmowa jest za długa"</strong> – wyczerpało się okno kontekstu</li>
+            <li><strong>Wrzucasz 200-stronicowy PDF</strong> i AI odpowiada tylko o ostatnich rozdziałach – reszta "wypadła" z okna</li>
+            <li><strong>Claude ma okno 200k tokenów</strong> (~150 000 słów) – może przeczytać całą książkę naraz</li>
+            <li><strong>Gemini oferuje do 1M tokenów</strong> – teoretycznie mieści kilka książek jednocześnie</li>
+        </ul>
+
+        <div class="faq">
+            <h2>Najczęstsze pytania o okno kontekstu</h2>
+
+            <div class="faq-item">
+                <h3>Dlaczego AI zapomina co mówiłem wcześniej?</h3>
+                <p>Bo okno kontekstu się wyczerpało. AI widzi tylko ostatni fragment rozmowy. Rozwiązanie: podsumowuj kluczowe ustalenia co kilka wiadomości, albo użyj modelu z większym oknem (np. Claude, 200k tokenów, GPT-4o, 128k tokenów).</p>
+            </div>
+
+            <div class="faq-item">
+                <h3>Ile tekstu mieści okno kontekstu?</h3>
+                <p>Zależy od modelu. GPT-4o: 128k tokenów (~96 000 słów). Claude: 200k tokenów (~150 000 słów). Gemini: do 1M tokenów. Dla porównania: średnia książka ma ok. 60 000–80 000 słów.</p>
+            </div>
+
+            <div class="faq-item">
+                <h3>Jak radzić sobie z ograniczonym oknem kontekstu?</h3>
+                <p>(1) Zaczynaj nową rozmowę na nowy temat. (2) Na początku rozmowy podaj kluczowy kontekst. (3) Podsumowuj ustalenia co kilka wiadomości. (4) Dla długich dokumentów, użyj RAG zamiast wrzucania całego pliku.</p>
+            </div>
+        </div>
+    </article>
+
+    <div class="related">
+        <p class="related-title">Powiązane pojęcia</p>
+        <a href="token.html">Token – jednostka, w której mierzy się okno kontekstu</a>
+        <a href="llm.html">LLM – modele mają różne rozmiary okien kontekstu</a>
+        <a href="rag.html">RAG – rozwiązanie gdy dokument nie mieści się w oknie</a>
+        <a href="prompt.html">Prompt – jak zmieścić ważne info w ograniczonym oknie</a>
+    </div>
+
+    <div class="cta">
+        <p>Chcesz nauczyć się używać AI w praktyce?</p>
+        <a href="../index.html">Zobacz szkolenia AI w Polsce →</a>
+    </div>
+
+    <footer>
+        <p>Twoim przewodnikiem jest <a href="https://www.linkedin.com/in/pawellewinski/" target="_blank" rel="noopener noreferrer">Paweł Lewiński</a></p>
+    </footer>
+
+</div>
+
+</body>
+</html>

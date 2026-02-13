@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-BYGTBRQ1YF"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-BYGTBRQ1YF');
+    </script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Fine-tuning: co to jest i jak nauczyć AI swojej branży? | AI Przewodnik</title>
+    <meta name="description" content="Fine-tuning to dodatkowe szkolenie AI na Twoich danych. Czym różni się od RAG? Ile kosztuje? Kiedy warto? Proste wyjaśnienie z przykładami z życia.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://aiprzewodnik.pl/slownik/fine-tuning.html">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://aiprzewodnik.pl/slownik/fine-tuning.html">
+    <meta property="og:title" content="Fine-tuning: co to jest? Proste wyjaśnienie | AI Przewodnik">
+    <meta property="og:description" content="Fine-tuning to dodatkowe szkolenie gotowego modelu AI na Twoich danych, żeby lepiej rozumiał Twoją branżę, styl i specyfikę.">
+    <meta property="og:image" content="https://aiprzewodnik.pl/og-image.png">
+    <meta property="og:locale" content="pl_PL">
+
+    <!-- Schema.org FAQPage -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "Czym fine-tuning różni się od RAG?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "RAG daje AI dostęp do dokumentów w momencie pytania (jak otwarta książka na egzaminie). Fine-tuning zmienia samą wiedzę modelu (jak nauka przed egzaminem). RAG jest łatwiejszy i tańszy. Fine-tuning daje głębszą zmianę zachowania."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Czy fine-tuning jest drogi?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Zależy od skali. Dla małych zbiorów danych (kilkaset przykładów), od kilkudziesięciu złotych. Dla dużych projektów firmowych, tysiące złotych. Często RAG jest tańszą alternatywą, która daje wystarczająco dobre wyniki."
+          }
+        },
+        {
+          "@type": "Question",
+          "name": "Kiedy warto robić fine-tuning?",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Gdy potrzebujesz: (1) specyficznego stylu odpowiedzi (ton, format), (2) wiedzy branżowej, której nie ma w ogólnym modelu, (3) bardzo szybkich odpowiedzi (RAG jest wolniejszy). Dla większości zastosowań biznesowych RAG wystarcza."
+          }
+        }
+      ]
+    }
+    </script>
+
+    <!-- Schema.org BreadcrumbList -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "AI Przewodnik", "item": "https://aiprzewodnik.pl/" },
+        { "@type": "ListItem", "position": 2, "name": "Słownik AI", "item": "https://aiprzewodnik.pl/slownik.html" },
+        { "@type": "ListItem", "position": 3, "name": "Fine-tuning" }
+      ]
+    }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        :root {
+            --bg-color: #ffffff;
+            --text-color: #1a1a2e;
+            --text-muted: #64748b;
+            --primary: #6366f1;
+            --primary-dark: #4f46e5;
+            --secondary: #06b6d4;
+            --card-bg: #f8fafc;
+            --card-border: #e2e8f0;
+            --font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+        }
+
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        html { scroll-behavior: smooth; }
+
+        body {
+            font-family: var(--font-family);
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.7;
+        }
+
+        .container { max-width: 720px; margin: 0 auto; padding: 2rem 1.5rem; }
+
+        /* Breadcrumb */
+        .breadcrumb {
+            display: flex;
+            gap: 0.5rem;
+            font-size: 0.875rem;
+            color: var(--text-muted);
+            margin-bottom: 2rem;
+            flex-wrap: wrap;
+        }
+        .breadcrumb a {
+            color: var(--primary);
+            text-decoration: none;
+        }
+        .breadcrumb a:hover { text-decoration: underline; }
+        .breadcrumb .separator { color: var(--card-border); }
+
+        /* Article */
+        h1 {
+            font-size: clamp(1.75rem, 4vw, 2.25rem);
+            font-weight: 700;
+            line-height: 1.3;
+            margin-bottom: 1.25rem;
+        }
+
+        .lead {
+            font-size: 1.125rem;
+            font-weight: 500;
+            color: var(--text-color);
+            margin-bottom: 2rem;
+            line-height: 1.6;
+        }
+
+        h2 {
+            font-size: 1.35rem;
+            font-weight: 700;
+            margin-top: 2.5rem;
+            margin-bottom: 1rem;
+            color: var(--text-color);
+        }
+
+        p { margin-bottom: 1rem; }
+
+        .analogy {
+            background: linear-gradient(135deg, #f0f9ff 0%, #faf5ff 100%);
+            border-left: 4px solid var(--primary);
+            padding: 1.25rem 1.5rem;
+            border-radius: 0 10px 10px 0;
+            margin: 1.5rem 0;
+        }
+
+        .analogy p { margin-bottom: 0.75rem; }
+        .analogy p:last-child { margin-bottom: 0; }
+
+        ul { margin: 0.75rem 0 1rem 1.5rem; }
+        li { margin-bottom: 0.5rem; }
+
+        /* FAQ */
+        .faq {
+            margin-top: 2.5rem;
+            border-top: 1px solid var(--card-border);
+            padding-top: 2rem;
+        }
+
+        .faq-item {
+            margin-bottom: 1.75rem;
+        }
+
+        .faq-item h3 {
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+            color: var(--text-color);
+        }
+
+        .faq-item p {
+            color: #374151;
+        }
+
+        /* Related */
+        .related {
+            margin-top: 2.5rem;
+            padding: 1.5rem;
+            background: var(--card-bg);
+            border-radius: 12px;
+            border: 1px solid var(--card-border);
+        }
+
+        .related-title {
+            font-size: 0.8rem;
+            font-weight: 600;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 0.75rem;
+        }
+
+        .related a {
+            display: inline-block;
+            padding: 0.4rem 0.85rem;
+            margin: 0.25rem 0.25rem 0.25rem 0;
+            text-decoration: none;
+            color: var(--text-color);
+            background: white;
+            border: 1px solid var(--card-border);
+            border-radius: 6px;
+            font-size: 0.875rem;
+            transition: all 0.2s ease;
+        }
+
+        .related a:hover {
+            border-color: var(--primary);
+            color: var(--primary);
+        }
+
+        /* CTA */
+        .cta {
+            margin-top: 2.5rem;
+            text-align: center;
+            padding: 2rem;
+            background: linear-gradient(135deg, #eef2ff 0%, #e0f2fe 100%);
+            border-radius: 12px;
+        }
+
+        .cta p {
+            font-size: 1.05rem;
+            margin-bottom: 1rem;
+            font-weight: 500;
+        }
+
+        .cta a {
+            display: inline-block;
+            padding: 0.75rem 1.75rem;
+            background: var(--primary);
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 600;
+            font-size: 0.95rem;
+            transition: background 0.2s ease;
+        }
+
+        .cta a:hover { background: var(--primary-dark); }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 2rem 1rem;
+            margin-top: 3rem;
+            border-top: 1px solid var(--card-border);
+            color: var(--text-muted);
+            font-size: 0.875rem;
+        }
+
+        footer a { color: var(--primary); text-decoration: none; }
+        footer a:hover { text-decoration: underline; }
+
+        @media (max-width: 768px) {
+            .container { padding: 1.5rem 1rem; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <nav class="breadcrumb">
+        <a href="../index.html">Szkolenia AI</a>
+        <span class="separator">/</span>
+        <a href="../slownik.html">Słownik AI</a>
+        <span class="separator">/</span>
+        <span>Fine-tuning</span>
+    </nav>
+
+    <article>
+        <h1>Fine-tuning: co to jest i jak nauczyć AI swojej branży?</h1>
+
+        <p class="lead">Fine-tuning to dodatkowe szkolenie gotowego modelu AI na Twoich danych, żeby lepiej rozumiał Twoją branżę, styl i specyfikę.</p>
+
+        <h2>Wyobraź sobie...</h2>
+
+        <div class="analogy">
+            <p>Zatrudniasz absolwenta dobrej uczelni. Jest inteligentny, dużo wie ogólnie, ale nie zna Twojej firmy, Waszego żargonu, procedur, specyfiki klientów.</p>
+            <p><strong>Wdrożenie (onboarding)</strong> trwa kilka tygodni, po nim nowy pracownik mówi Waszym językiem i rozumie kontekst.</p>
+            <p><strong>Fine-tuning robi to samo z AI.</strong> Bierzesz gotowy model (np. GPT) i douczasz go na swoich danych, mailach, dokumentach, rozmowach z klientami. Po fine-tuningu model „mówi" Twoim językiem.</p>
+        </div>
+
+        <h2>Gdzie to spotkasz?</h2>
+
+        <ul>
+            <li><strong>Firmowe chatboty</strong> – douczane, żeby mówić w konkretnym tonie marki (inaczej bank, inaczej startup)</li>
+            <li><strong>Zespoły programistów</strong> – uczą AI pisać kod w ich standardach, konwencjach i z użyciem ich bibliotek</li>
+            <li><strong>Marketing</strong> – douczanie AI stylu pisania danej marki, żeby treści brzmiały spójnie z resztą komunikacji</li>
+        </ul>
+
+        <div class="faq">
+            <h2>Najczęstsze pytania o fine-tuning</h2>
+
+            <div class="faq-item">
+                <h3>Czym fine-tuning różni się od RAG?</h3>
+                <p>RAG daje AI dostęp do dokumentów w momencie pytania (jak otwarta książka na egzaminie). Fine-tuning zmienia samą wiedzę modelu (jak nauka przed egzaminem). RAG jest łatwiejszy i tańszy. Fine-tuning daje głębszą zmianę zachowania.</p>
+            </div>
+
+            <div class="faq-item">
+                <h3>Czy fine-tuning jest drogi?</h3>
+                <p>Zależy od skali. Dla małych zbiorów danych (kilkaset przykładów), od kilkudziesięciu złotych. Dla dużych projektów firmowych, tysiące złotych. Często RAG jest tańszą alternatywą, która daje wystarczająco dobre wyniki.</p>
+            </div>
+
+            <div class="faq-item">
+                <h3>Kiedy warto robić fine-tuning?</h3>
+                <p>Gdy potrzebujesz: (1) specyficznego stylu odpowiedzi (ton, format), (2) wiedzy branżowej, której nie ma w ogólnym modelu, (3) bardzo szybkich odpowiedzi (RAG jest wolniejszy). Dla większości zastosowań biznesowych RAG wystarcza.</p>
+            </div>
+        </div>
+    </article>
+
+    <div class="related">
+        <p class="related-title">Powiązane pojęcia</p>
+        <a href="rag.html">RAG – łatwiejsza alternatywa dla fine-tuningu</a>
+        <a href="llm.html">LLM – model, który fine-tuningujesz</a>
+        <a href="embedding.html">Embedding – technologia używana w fine-tuningu</a>
+        <a href="gpt.html">GPT – najczęściej fine-tuningowany model</a>
+    </div>
+
+    <div class="cta">
+        <p>Chcesz nauczyć się używać AI w praktyce?</p>
+        <a href="../index.html">Zobacz szkolenia AI w Polsce →</a>
+    </div>
+
+    <footer>
+        <p>Twoim przewodnikiem jest <a href="https://www.linkedin.com/in/pawellewinski/" target="_blank" rel="noopener noreferrer">Paweł Lewiński</a></p>
+    </footer>
+
+</div>
+
+</body>
+</html>
