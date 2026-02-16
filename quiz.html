@@ -511,37 +511,37 @@ const questions = [
         q: "Jak często korzystasz z narzędzi AI w pracy?",
         sub: "np. ChatGPT, Copilot, Gemini, Claude",
         options: [
-            { text: "Jeszcze nie próbowałem/am", score: 0 },
-            { text: "Próbowałem/am kilka razy z ciekawości", score: 1 },
-            { text: "Korzystam kilka razy w tygodniu", score: 2 },
-            { text: "Używam codziennie, to moje podstawowe narzędzie", score: 3 }
+            { text: "Jeszcze nie próbowałem/am", score: 0, id: "nigdy" },
+            { text: "Próbowałem/am kilka razy z ciekawości", score: 1, id: "kilka_razy" },
+            { text: "Korzystam kilka razy w tygodniu", score: 2, id: "co_tydzien" },
+            { text: "Używam codziennie, to moje podstawowe narzędzie", score: 3, id: "codziennie" }
         ]
     },
     {
         q: "Do czego wykorzystujesz AI w swojej pracy?",
         options: [
-            { text: "Nie wykorzystuję, nie wiem od czego zacząć", score: 0 },
-            { text: "Proste rzeczy: pisanie maili, streszczenia, tłumaczenia", score: 1 },
-            { text: "Regularne zadania: analizy, raporty, content, prezentacje", score: 2 },
-            { text: "Zaawansowane: automatyzacje, integracje, własne agenty", score: 3 }
+            { text: "Nie wykorzystuję, nie wiem od czego zacząć", score: 0, id: "nie_wykorzystuje" },
+            { text: "Proste rzeczy: pisanie maili, streszczenia, tłumaczenia", score: 1, id: "proste" },
+            { text: "Regularne zadania: analizy, raporty, content, prezentacje", score: 2, id: "regularne" },
+            { text: "Zaawansowane: automatyzacje, integracje, własne agenty", score: 3, id: "zaawansowane" }
         ]
     },
     {
         q: "Czy automatyzujesz jakieś procesy z pomocą AI?",
         options: [
-            { text: "Nie, nie wiem jak się za to zabrać", score: 0 },
-            { text: "Nie, ale chciałbym/chciałabym zacząć", score: 1 },
-            { text: "Tak, mam kilka prostych automatyzacji", score: 2 },
-            { text: "Tak, mam rozbudowane workflow (n8n, Make, Zapier itp.)", score: 3 }
+            { text: "Nie, nie wiem jak się za to zabrać", score: 0, id: "nie_wiem" },
+            { text: "Nie, ale chciałbym/chciałabym zacząć", score: 1, id: "chce_zaczac" },
+            { text: "Tak, mam kilka prostych automatyzacji", score: 2, id: "proste_auto" },
+            { text: "Tak, mam rozbudowane workflow (n8n, Make, Zapier itp.)", score: 3, id: "rozbudowane" }
         ]
     },
     {
         q: "Jak reagujesz, gdy pojawia się nowe narzędzie AI?",
         options: [
-            { text: "Za dużo tego, nie wiem co wybrać", score: 0 },
-            { text: "Czytam o nich, ale rzadko testuję", score: 1 },
-            { text: "Testuję sam/a i wybieram te, które mi pasują", score: 2 },
-            { text: "Od razu sprawdzam jak mogę to wpiąć w swój sposób pracy", score: 3 }
+            { text: "Za dużo tego, nie wiem co wybrać", score: 0, id: "za_duzo" },
+            { text: "Czytam o nich, ale rzadko testuję", score: 1, id: "czytam" },
+            { text: "Testuję sam/a i wybieram te, które mi pasują", score: 2, id: "testuje" },
+            { text: "Od razu sprawdzam jak mogę to wpiąć w swój sposób pracy", score: 3, id: "od_razu" }
         ]
     },
     {
@@ -549,12 +549,12 @@ const questions = [
         sub: "To pomoże dopasować rekomendacje kursów",
         isRole: true,
         options: [
-            { text: "Marketing / Content / Grafika / Wideo", role: "marketing" },
-            { text: "HR / Rekrutacja", role: "hr" },
-            { text: "Zarządzanie / Product / PM", role: "product" },
-            { text: "IT / Programowanie / Automatyzacja", role: "dev" },
-            { text: "Finanse / Księgowość", role: "finanse" },
-            { text: "Inny obszar", role: "general" }
+            { text: "Marketing / Content / Grafika / Wideo", role: "marketing", id: "marketing" },
+            { text: "HR / Rekrutacja", role: "hr", id: "hr" },
+            { text: "Zarządzanie / Product / PM", role: "product", id: "product" },
+            { text: "IT / Programowanie / Automatyzacja", role: "dev", id: "dev" },
+            { text: "Finanse / Księgowość", role: "finanse", id: "finanse" },
+            { text: "Inny obszar", role: "general", id: "general" }
         ]
     }
 ];
@@ -736,7 +736,7 @@ function selectAnswer(index) {
 
     gtag('event', 'quiz_answer', {
         event_category: 'quiz',
-        event_label: 'q' + (currentQuestion + 1),
+        event_label: 'q' + (currentQuestion + 1) + '_' + opt.id,
         value: q.isRole ? 0 : opt.score
     });
 
