@@ -8,7 +8,7 @@
 
     <!-- SEO Meta Tags -->
     <title>Szkolenia AI w Polsce 2026 – Katalog Kursów | AI Przewodnik</title>
-    <meta name="description" content="Szkolenia AI w Polsce 2026 — katalog 130+ kursów. Biznes, HR, finanse, marketing, programowanie, grafika. Darmowe i płatne.">
+    <meta name="description" content="Szkolenia AI w Polsce 2026 — katalog 135+ kursów. Biznes, HR, finanse, marketing, programowanie, grafika. Darmowe i płatne.">
     <meta name="keywords" content="szkolenia AI, kursy AI, szkolenia sztuczna inteligencja, kurs ChatGPT, AI dla firm, szkolenia AI Polska, darmowe kursy AI">
     <meta name="author" content="AI Szkolenia Hub">
     <meta name="robots" content="index, follow">
@@ -272,36 +272,6 @@
             font-size: 1.35rem;
             font-weight: 700;
             color: var(--text-muted);
-        }
-
-        /* SEO Text Section */
-        .seo-intro {
-            max-width: 900px;
-            margin: 2rem auto 3rem;
-            padding: 2rem;
-            background: linear-gradient(135deg, #f0f9ff 0%, #f8fafc 100%);
-            border-radius: 16px;
-            border: 1px solid var(--card-border);
-        }
-
-        .seo-intro h2 {
-            font-size: 1.5rem;
-            margin-bottom: 1rem;
-            color: var(--text-color);
-        }
-
-        .seo-intro p {
-            color: var(--text-muted);
-            margin-bottom: 1rem;
-            font-size: 1rem;
-        }
-
-        .seo-intro p:last-child {
-            margin-bottom: 0;
-        }
-
-        .seo-intro strong {
-            color: var(--text-color);
         }
 
         /* Navigation */
@@ -627,10 +597,6 @@
                 padding: 1.5rem 1rem;
             }
 
-            .seo-intro {
-                padding: 1.5rem;
-            }
-
             .courses-grid {
                 grid-template-columns: 1fr;
             }
@@ -642,9 +608,6 @@
                 right: 15px;
             }
 
-            .cta-section {
-                padding: 2rem 1.5rem;
-            }
         }
     </style>
 </head>
@@ -1464,7 +1427,7 @@
                     </a>
                     <a href="https://umio.to/wydarzenia/2411?editionId=3552" class="course-card" target="_blank" rel="noopener noreferrer">
                         <h3>AI w social media - szybkie tworzenie wideo</h3>
-                        <p>umio.to</p>
+                        <span class="card-author">umio.to</span>
                         <div class="card-footer">Odwiedź <span>→</span></div>
                     </a>
                 </div>
@@ -2290,13 +2253,6 @@
                 </div>
             </section>
 
-            <!-- CTA Section - UKRYTE
-            <section class="cta-section">
-                <h2>Znasz szkolenie AI, którego tu nie ma, a powinno?</h2>
-                <p>Stale rozbudowuję ten katalog. Jeśli prowadzisz kurs AI lub znasz taki, który warto tu dodać – napisz do mnie.</p>
-                <a href="mailto:pawel@agilelabs.pl?subject=Zg%C5%82oszenie%20szkolenia%20AI" class="cta-button">Zgłoś szkolenie →</a>
-            </section>
-            -->
 
             
         </main>
@@ -2388,7 +2344,7 @@
                 });
             });
 
-            // Add course counts to category nav buttons
+            // Add course counts + track category nav clicks
             document.querySelectorAll('.category-nav a').forEach(link => {
                 const sectionId = link.getAttribute('href').replace('#', '');
                 const section = document.getElementById(sectionId);
@@ -2396,14 +2352,9 @@
                     const count = section.querySelectorAll('.course-card').length;
                     link.innerText = link.innerText + ' (' + count + ')';
                 }
-            });
-
-            // Track category navigation clicks
-            document.querySelectorAll('.category-nav a').forEach(link => {
                 link.addEventListener('click', () => {
-                    const categoryName = link.innerText;
                     gtag('event', 'category_click', {
-                        'event_label': categoryName
+                        'event_label': link.innerText
                     });
                 });
             });
@@ -2438,8 +2389,6 @@
     <!-- Analytics (moved from head for performance) -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-BYGTBRQ1YF"></script>
     <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
       gtag('config', 'G-BYGTBRQ1YF');
     </script>
