@@ -43,7 +43,7 @@
       "name": "Zbudowane z AI w Polsce",
       "description": "Polskie produkty i projekty zbudowane z pomocą sztucznej inteligencji",
       "url": "https://aiprzewodnik.pl/zbudowane-z-ai.html",
-      "numberOfItems": 10,
+      "numberOfItems": 11,
       "itemListElement": [
         { "@type": "ListItem", "position": 1, "item": { "@type": "SoftwareApplication", "name": "CoachLog", "description": "Aplikacja dla trenerów piłki nożnej. Mów do telefonu, AI zamienia to na statystyki.", "url": "https://coachlog.app/", "author": { "@type": "Person", "name": "Jarosław Macioszek" } } },
         { "@type": "ListItem", "position": 2, "item": { "@type": "WebApplication", "name": "Pytania Maturalne", "description": "Wyszukiwanie semantyczne w arkuszach maturalnych CKE. Wpisz temat, znajdź zadania.", "url": "https://pytania-maturalne.pl", "author": { "@type": "Person", "name": "Artur Witek" }, "isAccessibleForFree": true } },
@@ -54,7 +54,8 @@
         { "@type": "ListItem", "position": 7, "item": { "@type": "WebApplication", "name": "Outcome Skills", "description": "Zarządzanie i rozwój kompetencji zawodowych dla pracowników i działów HR.", "url": "https://www.outcomeskills.com/", "author": { "@type": "Person", "name": "Łukasz Filut" } } },
         { "@type": "ListItem", "position": 8, "item": { "@type": "WebApplication", "name": "FinansAI", "description": "Integracja z KSeF, analizy finansowe, automatyczne rozliczanie PIT i VAT.", "url": "https://finansai.pl/", "author": { "@type": "Person", "name": "Piotr Włodarczyk" } } },
         { "@type": "ListItem", "position": 9, "item": { "@type": "WebApplication", "name": "Zencal", "description": "System do planowania i sprzedawania spotkań dla freelancerów i konsultantów.", "url": "https://zencal.io/pl/", "author": { "@type": "Person", "name": "Wojciech Dasiukiewicz" } } },
-        { "@type": "ListItem", "position": 10, "item": { "@type": "WebApplication", "name": "Tequipy", "description": "Zarządzanie parkiem firmowych laptopów w ponad 140 krajach.", "url": "https://tequipy.com/", "author": { "@type": "Person", "name": "Tomasz Stawarski" } } }
+        { "@type": "ListItem", "position": 10, "item": { "@type": "WebApplication", "name": "Tequipy", "description": "Zarządzanie parkiem firmowych laptopów w ponad 140 krajach.", "url": "https://tequipy.com/", "author": { "@type": "Person", "name": "Tomasz Stawarski" } } },
+        { "@type": "ListItem", "position": 11, "item": { "@type": "WebApplication", "name": "Oko z Orbity", "description": "Sprawdź w czasie rzeczywistym, które satelity przelatują nad Twoją głową. Mapa 30+ satelitów i prognoza przelotów.", "url": "https://agilelabspl.github.io/okozorbity/", "author": { "@type": "Person", "name": "Paweł Lewiński" }, "isAccessibleForFree": true } }
       ]
     }
     </script>
@@ -410,6 +411,7 @@
         .products-list > :nth-child(9) { animation-delay: 0.45s; }
         .products-list > :nth-child(10) { animation-delay: 0.50s; }
         .products-list > :nth-child(11) { animation-delay: 0.55s; }
+        .products-list > :nth-child(12) { animation-delay: 0.60s; }
 
         @keyframes fadeUp {
             to { opacity: 1; transform: translateY(0); }
@@ -435,7 +437,7 @@
             </div>
             <h1>Zbudowane z <em>AI</em> w Polsce <span style="display:inline-block;transform:scale(1.3)">🇵🇱</span></h1>
             <p class="hero-sub">Polskie produkty i projekty, które powstały z pomocą AI. Nie teoria. Realne rzeczy, które działają.</p>
-            <span class="hero-count">10 produktów · nowe co piątek</span>
+            <span class="hero-count">11 produktów · nowe co piątek</span>
         </div>
     </section>
 
@@ -531,6 +533,16 @@
                 <div class="product-creator">Tomasz Stawarski</div>
                 <p class="product-desc"><strong>Zarządzanie parkiem firmowych laptopów</strong> stało się prostsze. Działa w ponad 140 krajach.</p>
                 <span class="product-tag tag-it">IT</span>
+                <div class="card-footer">Sprawdź <span>&rarr;</span></div>
+            </a>
+
+            <!-- #11 Oko z Orbity -->
+            <a href="https://agilelabspl.github.io/okozorbity/" class="product-card" target="_blank" rel="noopener noreferrer" onclick="gtag('event','product_click',{event_label:'Oko z Orbity'})">
+                <h2>Kto na Ciebie patrzy z kosmosu?</h2>
+                <div class="product-creator">Paweł Lewiński</div>
+                <p class="product-desc">Sprawdź w czasie rzeczywistym, które <strong>satelity przelatują nad Twoją głową</strong> i właśnie Cię obserwują. Mapa 30+ satelitów live i mapa przelotów. Zobacz też, gdzie jest UFO.</p>
+                <span class="product-tag tag-edukacja">Edukacja</span>
+                <span class="product-tag tag-free">Darmowe</span>
                 <div class="card-footer">Sprawdź <span>&rarr;</span></div>
             </a>
 
