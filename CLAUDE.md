@@ -10,6 +10,7 @@ Repo: `agilelabspl/szkoleniaai` · Domena: `aiprzewodnik.pl`
 |------|-------|--------------------|
 | `index.html` | Główna strona — katalog szkoleń (karty + schema.org JSON-LD) | Dodanie/edycja szkolenia, zmiana layoutu |
 | `zbudowane-z-ai.html` | Podstrona "Zbudowane z AI w Polsce" — polskie produkty AI (karty + schema.org) | Dodanie/edycja produktu |
+| `wydarzenia-ai.html` | Mapa wydarzeń AI w Polsce — konferencje, meetupy, śniadania (Leaflet + JSON) | Dodanie/edycja wydarzenia |
 | `quiz.html` | Quiz "Jaki kurs AI jest dla Ciebie?" | Zmiana pytań/wyników quizu |
 | `slownik.html` | Strona zbiorcza słownika AI | Dodanie nowego hasła |
 | `slownik/*.html` | 14 podstron haseł (llm, prompt, rag, token...) | Edycja/dodanie hasła |
@@ -97,6 +98,24 @@ Tagi w `card-meta` są opcjonalne — dodawaj tylko te, dla których masz dane.
 ```
 
 #### 3. Zaktualizować `numberOfItems` w schema.org + badge "X produktów" w hero + animation-delay dla nowego nth-child
+
+## Struktura techniczna wydarzenia-ai.html
+- **Mapa** — Leaflet.js (OpenStreetMap), piny na 10 miastach, popupy z listą eventów
+- **Dane wydarzeń** — tablica JS `events` w `<script>` (nie JSON zewnętrzny)
+- **Karty wydarzeń** — renderowane dynamicznie z tablicy `events` przez `renderEvents()`
+- **Filtry** — typ wydarzenia (konferencja/meetup/śniadanie), filtruje karty + popupy mapy
+- **Schema.org JSON-LD** — `ItemList` z konferencjami (mają daty) + `WebPage`
+- **GA events:** `event_click`, `map_pin_click`, `filter_use`, `cta_click`, `nav_click`
+- **Licznik:** dynamiczny, aktualizowany przez `renderEvents()`
+
+### Jak dodać wydarzenie (2 kroki)
+
+#### 1. Dodać obiekt do tablicy `events`
+```js
+{ name: '[NAZWA]', city: '[MIASTO]', date: '[DATA lub CZĘSTOTLIWOŚĆ]', type: '[konferencja|meetup|sniadanie]', free: [true|false], url: '[URL]', desc: '[OPIS]' }
+```
+
+#### 2. Jeśli konferencja z datą — dodać wpis do Schema.org `itemListElement` i zaktualizować `numberOfItems`
 
 ## Dodatkowe pliki
 - `slownik.html` + `slownik/*.html` — słownik pojęć AI (14 podstron)
