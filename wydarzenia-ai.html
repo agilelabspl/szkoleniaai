@@ -468,6 +468,48 @@
             text-shadow: 0 0 3px #fff, 0 0 3px #fff, 0 0 3px #fff;
         }
 
+        /* Patronat cards */
+        .event-card.patronat {
+            background: linear-gradient(135deg, #f0f1ff 0%, #f0fbff 100%);
+            box-shadow: 0 4px 18px rgba(91, 94, 232, 0.10);
+            overflow: hidden;
+        }
+
+        .event-card.patronat::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 4px;
+            height: 100%;
+            background: linear-gradient(180deg, #5b5ee8, #06b6d4);
+            border-radius: 12px 0 0 12px;
+        }
+
+        .event-card.patronat:hover {
+            box-shadow: 0 10px 30px rgba(91, 94, 232, 0.18);
+        }
+
+        .badge-patronat {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.35rem;
+            background: linear-gradient(135deg, #5b5ee8, #06b6d4);
+            color: #fff;
+            padding: 0.25rem 0.75rem;
+            border-radius: 999px;
+            font-size: 0.7rem;
+            font-weight: 600;
+            letter-spacing: 0.02em;
+            margin-bottom: 0.6rem;
+            width: fit-content;
+        }
+
+        .badge-patronat::before {
+            content: '★';
+            font-size: 0.75rem;
+        }
+
         /* Responsive */
         @media (max-width: 768px) {
             #map {
@@ -539,6 +581,10 @@
     <script>
     // === DANE WYDARZEŃ ===
     const events = [
+        // --- PATRONAT MEDIALNY AI PRZEWODNIK ---
+        { name: 'No-Code & AI Event #4', city: 'Gdańsk', date: '7–8 maja 2026', type: 'konferencja', free: false, url: 'https://www.nocodepoland.com/', desc: 'No-Code, Low-Code i AI. Prelekcje techniczne, case study, panele dyskusyjne, networking.', patronat: true },
+        { name: 'Lean TWI Summit 2026', city: 'Wrocław', date: '9–10 czerwca 2026', type: 'konferencja', free: false, url: 'https://leantrix.com/pl/konferencja-ai-lean-twi-summit/', desc: 'Lean Management, Leadership i AI. 9 case studies + 4 warsztaty.', patronat: true },
+
         // --- KONFERENCJE ---
         { name: 'Warsaw AI Summit 2026', city: 'Warszawa', date: '3–4 marca 2026', type: 'konferencja', free: false, url: 'https://warsawaisummit.com/', desc: '2 dni, 60 prelegentów. Inżynieria AI, strategia enterprise, skalowalność, ROI.' },
         { name: 'AI Industry Expo 2026', city: 'Nadarzyn', date: '4–5 marca 2026', type: 'konferencja', free: false, url: 'https://aiindustryexpo.com/en/', desc: 'Targi technologii AI i IoT dla przemysłu. Automatyzacja, optymalizacja procesów.' },
@@ -547,13 +593,11 @@
         { name: 'Impact CEE 2026', city: 'Poznań', date: '13–14 maja 2026', type: 'konferencja', free: false, url: 'https://impactcee.com/impact/2026/', desc: 'Największa konferencja biznesowo-technologiczna w Europie Środkowo-Wschodniej.' },
         { name: 'Infoshare 2026', city: 'Gdańsk', date: '20–21 maja 2026', type: 'konferencja', free: false, url: 'https://infoshare.pl/', desc: 'Największa konferencja tech w CEE. 6500+ uczestników, 150+ prelegentów.' },
         { name: 'AI Creative Fest 2026', city: 'Warszawa', date: '11 czerwca 2026', type: 'konferencja', free: false, url: 'https://aiwizards.pl/ai-creative-fest', desc: 'AI w marketingu, tworzeniu tekstów, grafik, wideo, audio. 13 prelekcji.' },
-        { name: 'Lean TWI Summit 2026', city: 'Wrocław', date: '9–10 czerwca 2026', type: 'konferencja', free: false, url: 'https://leantrix.com/pl/konferencja-ai-lean-twi-summit/', desc: 'Lean Management, Leadership i AI. 9 case studies + 4 warsztaty.' },
         { name: 'ICAISC 2026', city: 'Zakopane', date: '14–18 czerwca 2026', type: 'konferencja', free: false, url: 'https://icaisc.eu/', desc: '25. edycja międzynarodowej konferencji naukowej o AI. Hybrydowa.' },
         { name: 'Data Science Summit 2026', city: 'Warszawa', date: '18–19 czerwca 2026', type: 'konferencja', free: false, url: 'https://ml.dssconf.pl/', desc: 'Największa niezależna konferencja data science w CEE. 3500+ uczestników.' },
         { name: 'AI Summit Poland 2026', city: 'Warszawa', date: '8–9 października 2026', type: 'konferencja', free: false, url: 'https://aisummitpoland.pl/', desc: 'Największe spotkanie praktyków AI. Realne wdrożenia AI w biznesie.' },
         { name: 'AI Biznes Forum 2026', city: 'Warszawa', date: '23–24 listopada 2026', type: 'konferencja', free: false, url: 'https://aibiznesforum.pl/', desc: 'Prelekcje + szkolenie praktyczne. AI w HR, marketingu, sprzedaży.' },
         { name: 'Konferencja AI Rzeszów', city: 'Rzeszów', date: '2026 (data do potwierdzenia)', type: 'konferencja', free: false, url: 'https://konferencja.ai.rze.pl/', desc: 'AI w marketingu, zarządzaniu, automatyzacji przemysłu. Wykłady + warsztaty.' },
-        { name: 'No-Code & AI Event #4', city: 'Gdańsk', date: '7–8 maja 2026', type: 'konferencja', free: false, url: 'https://www.nocodepoland.com/', desc: 'No-Code, Low-Code i AI. Prelekcje techniczne, case study, panele dyskusyjne, networking.' },
         { name: 'CyberWave 2026', city: 'Kraków', date: '10–11 marca 2026', type: 'konferencja', free: true, url: 'https://cyberwave.agh.edu.pl/', desc: 'AI w bezpiecznej komunikacji. Prezentacje, warsztaty, networking. AGH, Wydział Informatyki.' },
         { name: 'SoDA Conference 2026', city: 'Łódź', date: '14–15 kwietnia 2026', type: 'konferencja', free: false, url: 'https://conference.sodapl.com/', desc: 'Transformacja branży IT: AI, innowacje, eksport. Liderzy technologiczni w EC1 Łódź.' },
         { name: 'DevAI by Data Science Summit', city: 'Warszawa', date: '18–19 czerwca 2026', type: 'konferencja', free: false, url: 'https://devai.dssconf.pl/', desc: 'Konferencja dla developerów wdrażających AI. LLM, RAG, agenci AI, narzędzia dev.' },
@@ -660,10 +704,11 @@
         filteredEvents.forEach(function(ev) {
             var freeBadge = ev.free ? '<span class="badge-free">Darmowe</span>' : '';
             var freeTag = ev.free ? '<span class="tag tag-free">Darmowe</span>' : '<span class="tag tag-paid">Płatne</span>';
+            var patronatBadge = ev.patronat ? '<div class="badge-patronat">Patronat AI Przewodnik</div>' : '';
 
             var card = document.createElement('a');
             card.href = ev.url;
-            card.className = 'event-card';
+            card.className = 'event-card' + (ev.patronat ? ' patronat' : '');
             card.target = '_blank';
             card.rel = 'noopener noreferrer';
             card.setAttribute('data-city', ev.city);
@@ -675,6 +720,7 @@
 
             card.innerHTML =
                 freeBadge +
+                patronatBadge +
                 '<h3>' + ev.name + '</h3>' +
                 '<div class="card-city">' + ev.city + ' · ' + ev.date + '</div>' +
                 '<p>' + ev.desc + '</p>' +
