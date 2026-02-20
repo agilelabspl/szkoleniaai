@@ -48,7 +48,7 @@
         { "@type": "ListItem", "position": 1, "item": { "@type": "CreativeWork", "name": "autoMee", "description": "Platforma księgowa napędzana AI. Ogarnie pełną księgowość, wszystko rozliczy i każdy dostanie dokument, który ma dostać.", "url": "https://automee.pl/", "author": { "@type": "Person", "name": "Dominik Laskowski" } } },
         { "@type": "ListItem", "position": 2, "item": { "@type": "CreativeWork", "name": "Status KSeF", "description": "Sprawdź w czasie rzeczywistym, czy system KSeF działa, działa trochę, czy kompletnie leży.", "url": "https://statusksef.pl/", "author": { "@type": "Person", "name": "Piotr Brzyski" } } },
         { "@type": "ListItem", "position": 3, "item": { "@type": "CreativeWork", "name": "Zanfia", "description": "Platforma do tworzenia i sprzedawania kursów online oraz płatnych newsletterów.", "url": "https://zanfia.com/pl/", "author": { "@type": "Person", "name": "Bogusz Pękalski" } } },
-        { "@type": "ListItem", "position": 4, "item": { "@type": "CreativeWork", "name": "ai-gov.pl", "description": "Zobaczysz fakturę z KSeF zamiast XML i sprawdzisz, czy QR kod na dokumencie jest prawdziwy.", "url": "https://ai-gov.pl/ksef-pdf/", "author": { "@type": "Person", "name": "Jerzy Głowacki" } } },
+        { "@type": "ListItem", "position": 4, "item": { "@type": "CreativeWork", "name": "Wizualizator e-Faktur", "description": "Zobaczysz fakturę z KSeF zamiast XML i sprawdzisz, czy QR kod na dokumencie jest prawdziwy.", "url": "https://ai-gov.pl/ksef-pdf/", "author": { "@type": "Person", "name": "Jerzy Głowacki" } } },
         { "@type": "ListItem", "position": 5, "item": { "@type": "CreativeWork", "name": "BetterFeedback", "description": "AI prowadzi rozmowę przez awatary lub chat, żeby wyciągnąć prawdziwe opinie zamiast nudnych ankiet.", "url": "https://betterfeedback.ai/", "author": { "@type": "Person", "name": "Rafał Muszyński" } } },
         { "@type": "ListItem", "position": 6, "item": { "@type": "CreativeWork", "name": "CoachLog", "description": "Aplikacja dla trenerów piłki nożnej. Mów do telefonu, AI zamienia to na statystyki.", "url": "https://coachlog.app/", "author": { "@type": "Person", "name": "Jarosław Macioszek" } } },
         { "@type": "ListItem", "position": 7, "item": { "@type": "CreativeWork", "name": "Pytania Maturalne", "description": "Wyszukiwanie semantyczne w arkuszach maturalnych CKE. Wpisz temat, znajdź zadania.", "url": "https://pytania-maturalne.pl", "author": { "@type": "Person", "name": "Artur Witek" }, "isAccessibleForFree": true } },
@@ -359,6 +359,25 @@
             border: 1px solid #d6d3d1;
         }
 
+        /* ─── Badge NOWE ─── */
+        .product-card {
+            position: relative;
+        }
+
+        .badge-new {
+            position: absolute;
+            top: 0.75rem;
+            right: 0.75rem;
+            font-size: 0.65rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            padding: 0.2rem 0.55rem;
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            color: #fff;
+            border-radius: 4px;
+        }
+
         /* ─── Back link ─── */
         .back-section {
             text-align: center;
@@ -457,6 +476,7 @@
 
             <!-- #1 autoMee -->
             <a href="https://automee.pl/" class="product-card" target="_blank" rel="noopener noreferrer" onclick="gtag('event','product_click',{event_label:'autoMee'})">
+                <span class="badge-new">Nowe</span>
                 <h2>autoMee</h2>
                 <div class="product-creator">Dominik Laskowski</div>
                 <p class="product-desc">Platforma księgowa napędzana AI. <strong>Ogarnie pełną księgowość</strong>, wszystko rozliczy i każdy dostanie dokument, który ma dostać.</p>
@@ -466,6 +486,7 @@
 
             <!-- #2 Status KSeF -->
             <a href="https://statusksef.pl/" class="product-card" target="_blank" rel="noopener noreferrer" onclick="gtag('event','product_click',{event_label:'Status KSeF'})">
+                <span class="badge-new">Nowe</span>
                 <h2>Status KSeF</h2>
                 <div class="product-creator">Piotr Brzyski</div>
                 <p class="product-desc">KSeF znowu padł? Sprawdź w czasie rzeczywistym, <strong>czy system działa</strong>, działa trochę, czy kompletnie leży.</p>
@@ -475,6 +496,7 @@
 
             <!-- #3 Zanfia -->
             <a href="https://zanfia.com/pl/" class="product-card" target="_blank" rel="noopener noreferrer" onclick="gtag('event','product_click',{event_label:'Zanfia'})">
+                <span class="badge-new">Nowe</span>
                 <h2>Zanfia</h2>
                 <div class="product-creator">Bogusz Pękalski</div>
                 <p class="product-desc">Jesteś ekspertem i chcesz sprzedać swoją wiedzę? Zanfia pomoże Ci <strong>stworzyć i sprzedać kurs online</strong> lub płatny newsletter.</p>
@@ -482,9 +504,10 @@
                 <div class="card-footer">Sprawdź <span>&rarr;</span></div>
             </a>
 
-            <!-- #4 ai-gov.pl -->
-            <a href="https://ai-gov.pl/ksef-pdf/" class="product-card" target="_blank" rel="noopener noreferrer" onclick="gtag('event','product_click',{event_label:'ai-gov.pl'})">
-                <h2>ai-gov.pl</h2>
+            <!-- #4 Wizualizator e-Faktur -->
+            <a href="https://ai-gov.pl/ksef-pdf/" class="product-card" target="_blank" rel="noopener noreferrer" onclick="gtag('event','product_click',{event_label:'Wizualizator e-Faktur'})">
+                <span class="badge-new">Nowe</span>
+                <h2>Wizualizator e-Faktur</h2>
                 <div class="product-creator">Jerzy Głowacki</div>
                 <p class="product-desc">Życie z KSeF może być łatwiejsze. <strong>Zobaczysz fakturę zamiast XML</strong> i sprawdzisz, czy QR kod na dokumencie jest prawdziwy.</p>
                 <span class="product-tag tag-finanse">Finanse</span>
@@ -493,6 +516,7 @@
 
             <!-- #5 BetterFeedback -->
             <a href="https://betterfeedback.ai/" class="product-card" target="_blank" rel="noopener noreferrer" onclick="gtag('event','product_click',{event_label:'BetterFeedback'})">
+                <span class="badge-new">Nowe</span>
                 <h2>BetterFeedback</h2>
                 <div class="product-creator">Rafał Muszyński</div>
                 <p class="product-desc">Zbieranie feedbacku to nie nudne ankiety. <strong>AI prowadzi rozmowę</strong> przez awatary lub chat, żeby wyciągnąć prawdziwe opinie.</p>
