@@ -75,7 +75,7 @@ Tagi w `card-meta` są opcjonalne — dodawaj tylko te, dla których masz dane.
 - **Tagi domenowe** — `.tag-sport`, `.tag-edukacja`, `.tag-ecommerce`, `.tag-dzieci`, `.tag-produktywnosc`, `.tag-kariera`, `.tag-hr`, `.tag-finanse`, `.tag-it`, `.tag-free`
 - **CTA card** — klasa `.cta-card` (ostatni element siatki, link do LinkedIn)
 - **Schema.org JSON-LD** — `ItemList` z `numberOfItems` + tablica `itemListElement`
-- **Licznik:** aktualnie **10 produktów** (numberOfItems w schema.org + badge w hero)
+- **Licznik:** aktualnie **16 produktów** (numberOfItems w schema.org + badge w hero)
 - **GA events:** `product_click` (event_label = nazwa), `cta_click` (event_label = zglos_produkt)
 - **Linkowanie z index.html:** przycisk w nav (event: `nav_click`) + baner mid-page (event: `banner_click`)
 
