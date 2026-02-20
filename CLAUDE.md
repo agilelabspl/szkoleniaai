@@ -25,7 +25,7 @@ Repo: `agilelabspl/szkoleniaai` · Domena: `aiprzewodnik.pl`
 ## Struktura techniczna index.html
 - **Karty szkoleń** — klasa `.course-card` w sekcjach `.category-section`
 - **Schema.org JSON-LD** — blok `<script type="application/ld+json">` w `<head>`, pole `numberOfItems` + tablica `itemListElement`
-- **Licznik:** aktualnie **138 szkoleń** (numberOfItems w schema.org)
+- **Licznik:** aktualnie **140 szkoleń** (numberOfItems w schema.org)
 
 ## Sitemap — kiedy aktualizować
 - Nowa podstrona (np. nowe hasło słownika) → dodaj `<url>` do `sitemap.xml`
@@ -34,7 +34,7 @@ Repo: `agilelabspl/szkoleniaai` · Domena: `aiprzewodnik.pl`
 - Format daty: `YYYY-MM-DD`
 
 ## Kategorie (sekcje w HTML)
-`#ogolne` · `#biznes` · `#produkty` · `#grafika` · `#wideo` · `#hr` · `#finanse` · `#marketing` · `#programisci` · `#automatyzacja` · `#prawo` · `#studia-podyplomowe`
+`#biznes` · `#produkty` · `#marketing` · `#programisci` · `#automatyzacja` · `#ogolne` · `#grafika` · `#hr` · `#finanse` · `#prawo` · `#wideo` · `#studia-podyplomowe`
 
 ## Jak dodać szkolenie (3 kroki)
 
