@@ -611,6 +611,47 @@
             }
 
         }
+
+        /* CTA Card */
+        .cta-card {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            padding: 1.5rem 1.75rem;
+            background: linear-gradient(135deg, #f0f9ff 0%, #faf5ff 100%);
+            border: 2px dashed var(--card-border);
+            border-radius: 14px;
+            text-align: center;
+            text-decoration: none;
+            color: var(--text-color);
+            transition: border-color 0.25s ease, background 0.25s ease, transform 0.25s ease;
+            min-height: 200px;
+        }
+        .cta-card:hover {
+            border-color: var(--primary);
+            background: linear-gradient(135deg, #eef2ff 0%, #f5f3ff 100%);
+            transform: translateY(-2px);
+        }
+        .cta-card h3 {
+            font-size: 1.05rem;
+            font-weight: 700;
+            margin-bottom: 0.4rem;
+        }
+        .cta-card p {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            margin-bottom: 0.75rem;
+        }
+        .cta-card .cta-btn {
+            display: inline-block;
+            padding: 0.5rem 1.25rem;
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            color: #fff;
+            border-radius: 999px;
+            font-weight: 600;
+            font-size: 0.85rem;
+        }
     </style>
 </head>
 <body>
@@ -745,6 +786,12 @@
                             <span class="tag tag-duration">25 lekcji · 5h+</span>
                         </div>
                         <div class="card-footer">Odwiedź <span>→</span></div>
+                    </a>
+                    <!-- CTA: Zgłoś szkolenie -->
+                    <a href="https://www.linkedin.com/in/pawellewinski/" class="cta-card" target="_blank" rel="noopener noreferrer" onclick="gtag('event','cta_click',{event_label:'zglos_szkolenie'})">
+                        <h3>Znasz szkolenie AI, którego tu nie ma?</h3>
+                        <p>Daj mi znać. Chętnie je dodam.</p>
+                        <div class="cta-btn">Napisz do mnie <span>&rarr;</span></div>
                     </a>
                     <a href="https://app.centrumbadan.ai/w/wyzwanie" class="course-card" target="_blank" rel="noopener noreferrer">
                         <span class="badge-free">Darmowe</span>
