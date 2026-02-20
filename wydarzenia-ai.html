@@ -379,37 +379,18 @@
             transform: translateX(4px);
         }
 
-        .badge-free {
+        .badge-new {
             position: absolute;
-            top: 1rem;
-            right: 1rem;
-            background-color: var(--free-badge);
-            color: white;
-            padding: 0.2rem 0.6rem;
-            border-radius: 999px;
-            font-size: 0.7rem;
-            font-weight: 600;
+            top: 0.75rem;
+            right: 0.75rem;
+            font-size: 0.65rem;
+            font-weight: 700;
             text-transform: uppercase;
-            letter-spacing: 0.03em;
-        }
-
-        .badge-nowe {
-            position: absolute;
-            top: 1rem;
-            right: 1rem;
-            background: linear-gradient(135deg, #f59e0b, #ef4444);
-            color: white;
-            padding: 0.2rem 0.6rem;
-            border-radius: 999px;
-            font-size: 0.7rem;
-            font-weight: 600;
-            text-transform: uppercase;
-            letter-spacing: 0.03em;
-        }
-
-        .badge-free + .badge-nowe {
-            right: auto;
-            left: 1rem;
+            letter-spacing: 0.5px;
+            padding: 0.2rem 0.55rem;
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            color: #fff;
+            border-radius: 4px;
         }
 
         /* CTA card */
@@ -727,8 +708,8 @@
         grid.innerHTML = '';
 
         filteredEvents.forEach(function(ev) {
-            var freeBadge = ev.free ? '<span class="badge-free">Darmowe</span>' : '';
-            var noweBadge = ev.nowe ? '<span class="badge-nowe">Nowe</span>' : '';
+            var freeBadge = '';
+            var noweBadge = ev.nowe ? '<span class="badge-new">Nowe</span>' : '';
             var freeTag = ev.free ? '<span class="tag tag-free">Darmowe</span>' : '<span class="tag tag-paid">Płatne</span>';
             var patronatBadge = ev.patronat ? '<div class="badge-patronat">Patronat AI Przewodnik</div>' : '';
 
