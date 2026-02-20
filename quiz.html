@@ -549,6 +549,7 @@ const questions = [
         sub: "To pomoże dopasować rekomendacje kursów",
         isRole: true,
         options: [
+            { text: "Biznes / Sprzedaż", role: "biznes", id: "biznes" },
             { text: "Marketing / Content / Grafika / Wideo", role: "marketing", id: "marketing" },
             { text: "HR / Rekrutacja", role: "hr", id: "hr" },
             { text: "Zarządzanie / Product / PM", role: "product", id: "product" },
@@ -573,6 +574,10 @@ const recommendations = {
             { name: "Kurs: AI w biznesie", provider: "Akademia PARP", tag: "DARMOWY", tagClass: "tag-free", cat: "biznes" }
         ],
         roleSpecific: {
+            biznes: [
+                { name: "Kurs: AI w biznesie", provider: "Akademia PARP", tag: "DARMOWY", tagClass: "tag-free", cat: "biznes" },
+                { name: "AI dla Biznesu", provider: "Coders Lab", tag: "od 1 900 zł", tagClass: "tag-price", cat: "biznes" }
+            ],
             marketing: [
                 { name: "AI dla marketingu", provider: "Sprawny Marketing", cat: "marketing" },
                 { name: "Tydzień z generowaniem grafiki z AI", provider: "eTwinning", tag: "DARMOWY", tagClass: "tag-free", cat: "grafika" }
@@ -605,6 +610,11 @@ const recommendations = {
             { name: "ChatGPT Masterclass", provider: "AI Wizards", tag: "990 zł", tagClass: "tag-price", cat: "ogolne" }
         ],
         roleSpecific: {
+            biznes: [
+                { name: "Handlowcy.AI", provider: "Handlowcy.AI", cat: "biznes" },
+                { name: "AI Sales", provider: "WiseGroup", cat: "biznes" },
+                { name: "Inteligentna transformacja biznesu z AI", provider: "LABA", cat: "biznes" }
+            ],
             marketing: [
                 { name: "Szkolenie AI w Marketingu", provider: "Digitalk", tag: "1 190 zł", tagClass: "tag-price", cat: "marketing" },
                 { name: "AI Copywriting", provider: "Paweł Tkaczyk", tag: "1 290 zł", tagClass: "tag-price", cat: "marketing" },
@@ -648,6 +658,11 @@ const recommendations = {
             { name: "AI Biznes Lab – Master Program", provider: "AI Biznes Lab", cat: "biznes" }
         ],
         roleSpecific: {
+            biznes: [
+                { name: "AI Biznes Lab – Master Program", provider: "AI Biznes Lab", cat: "biznes" },
+                { name: "CEO Circle", provider: "Daniel Woźniak", cat: "biznes" },
+                { name: "Szkolenia AI dla Firm", provider: "forpeople.ai", cat: "biznes" }
+            ],
             marketing: [
                 { name: "AI_marketers 2", provider: "Digitalk", cat: "marketing" },
                 { name: "Copywriting i strategie treści", provider: "KFK", tag: "1 650 zł", tagClass: "tag-price", cat: "marketing" },
