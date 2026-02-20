@@ -393,6 +393,25 @@
             letter-spacing: 0.03em;
         }
 
+        .badge-nowe {
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+            background: linear-gradient(135deg, #f59e0b, #ef4444);
+            color: white;
+            padding: 0.2rem 0.6rem;
+            border-radius: 999px;
+            font-size: 0.7rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.03em;
+        }
+
+        .badge-free + .badge-nowe {
+            right: auto;
+            left: 1rem;
+        }
+
         /* CTA card */
         .cta-card {
             display: flex;
@@ -614,6 +633,7 @@
         { name: 'LLMday Warsaw', city: 'Warszawa', date: 'Kwartalnie', type: 'meetup', free: false, url: 'https://llmday.com/2026-warsaw-q1/', desc: 'Cały dzień sesji o LLM: fine-tuning, RAG, agenci AI, ewaluacja.' },
         { name: 'Build With AI (GDG Kraków)', city: 'Kraków', date: 'Cyklicznie', type: 'meetup', free: true, url: 'https://www.meetup.com/gdg-krakow/', desc: 'Seria spotkań GDG. Prototypowanie i budowanie aplikacji z Google AI.' },
         { name: 'Kraków AI Meetup', city: 'Kraków', date: 'Cyklicznie', type: 'meetup', free: true, url: 'https://www.meetup.com/krakow-technology-society-meetup-group/', desc: 'Generative AI i ML. Społeczność prowadzona przez uczestników.' },
+        { name: 'GenAI Cracow', city: 'Kraków', date: 'Cyklicznie', type: 'meetup', free: true, nowe: true, url: 'https://luma.com/genai-cracow', desc: 'Społeczność GenAI w Krakowie. RAG, LangGraph, agenci AI, fine-tuning, embeddingi. 27+ spotkań od 2024.' },
         { name: 'WAIT Wrocław AI Team', city: 'Wrocław', date: 'Cyklicznie', type: 'meetup', free: true, url: 'https://www.meetup.com/wroclaw-r-users-group/', desc: 'Edukacja, łączenie entuzjastów AI i Data Science. Meetupy + warsztaty.' },
         { name: 'Data Science & ML Wrocław', city: 'Wrocław', date: 'Cyklicznie', type: 'meetup', free: true, url: 'https://www.meetup.com/data-science-wroclaw/', desc: 'Data Science, ML, AI i Big Data.' },
         { name: 'Artificial Intelligence Poznań', city: 'Poznań', date: 'Cyklicznie', type: 'meetup', free: true, url: 'https://www.meetup.com/Artificial-Intelligence-Poznan/', desc: 'Wymiana informacji o AI i jej wpływie na życie.' },
@@ -708,6 +728,7 @@
 
         filteredEvents.forEach(function(ev) {
             var freeBadge = ev.free ? '<span class="badge-free">Darmowe</span>' : '';
+            var noweBadge = ev.nowe ? '<span class="badge-nowe">Nowe</span>' : '';
             var freeTag = ev.free ? '<span class="tag tag-free">Darmowe</span>' : '<span class="tag tag-paid">Płatne</span>';
             var patronatBadge = ev.patronat ? '<div class="badge-patronat">Patronat AI Przewodnik</div>' : '';
 
@@ -725,6 +746,7 @@
 
             card.innerHTML =
                 freeBadge +
+                noweBadge +
                 patronatBadge +
                 '<h3>' + ev.name + '</h3>' +
                 '<div class="card-city">' + ev.city + ' · ' + ev.date + '</div>' +
