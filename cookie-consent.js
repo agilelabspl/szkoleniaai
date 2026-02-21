@@ -205,9 +205,7 @@
         banner.innerHTML = '' +
         '<div id="cc-inner">' +
             '<div id="cc-text">' +
-                'Ta strona korzysta z plików cookies i podobnych technologii. ' +
-                'Niektóre są niezbędne do działania strony, inne pomagają nam analizować ruch i poprawiać jakość treści. ' +
-                'Możesz zaakceptować wszystkie, odrzucić opcjonalne lub dostosować ustawienia. ' +
+                'Używamy cookies. Niezbędne działają zawsze, pozostałe — tylko za Twoją zgodą. ' +
                 '<a href="https://agilelabs.pl/polityka_prywatnosci" target="_blank" rel="noopener noreferrer">Polityka prywatności</a>' +
             '</div>' +
             '<div id="cc-buttons">' +
