@@ -141,11 +141,11 @@
         'background:#fff;border-top:1px solid #e2e8f0;box-shadow:0 -4px 24px rgba(0,0,0,0.1);' +
         'transform:translateY(100%);transition:transform .4s cubic-bezier(.4,0,.2,1);padding:0}' +
     '#cc-banner.cc-visible{transform:translateY(0)}' +
-    '#cc-inner{max-width:960px;margin:0 auto;padding:1.5rem 1.25rem}' +
-    '#cc-text{font-size:0.9rem;line-height:1.55;color:#334155;margin-bottom:1.25rem}' +
+    '#cc-inner{max-width:960px;margin:0 auto;padding:0.9rem 1.1rem}' +
+    '#cc-text{font-size:0.82rem;line-height:1.45;color:#334155;margin-bottom:0.7rem}' +
     '#cc-text a{color:#5b5ee8;text-decoration:underline;text-underline-offset:2px}' +
-    '#cc-buttons{display:flex;gap:0.75rem;flex-wrap:wrap}' +
-    '#cc-buttons button{flex:1 1 0;min-width:180px;padding:0.75rem 1rem;border-radius:10px;font-size:0.95rem;font-weight:600;cursor:pointer;' +
+    '#cc-buttons{display:flex;gap:0.5rem;flex-wrap:wrap}' +
+    '#cc-buttons button{flex:1 1 0;min-width:140px;padding:0.5rem 0.75rem;border-radius:8px;font-size:0.85rem;font-weight:600;cursor:pointer;' +
         'font-family:inherit;border:none;transition:background .2s,transform .1s}' +
     '#cc-buttons button:active{transform:scale(0.97)}' +
     '#cc-accept{background:#5b5ee8;color:#fff}' +
@@ -155,14 +155,14 @@
     '#cc-settings-btn{background:#e2e8f0;color:#334155}' +
     '#cc-settings-btn:hover{background:#cbd5e1}' +
     /* Panel ustawień */
-    '#cc-settings{display:none;margin-top:1.25rem;border-top:1px solid #e2e8f0;padding-top:1.25rem}' +
+    '#cc-settings{display:none;margin-top:0.75rem;border-top:1px solid #e2e8f0;padding-top:0.75rem}' +
     '#cc-settings.cc-open{display:block}' +
-    '#cc-settings h3{font-size:1rem;font-weight:700;color:#1e293b;margin:0 0 1rem 0}' +
-    '.cc-category{display:flex;align-items:center;justify-content:space-between;padding:0.75rem 0;border-bottom:1px solid #f1f5f9}' +
+    '#cc-settings h3{font-size:0.9rem;font-weight:700;color:#1e293b;margin:0 0 0.6rem 0}' +
+    '.cc-category{display:flex;align-items:center;justify-content:space-between;padding:0.5rem 0;border-bottom:1px solid #f1f5f9}' +
     '.cc-category:last-child{border-bottom:none}' +
     '.cc-cat-info{flex:1}' +
-    '.cc-cat-name{font-weight:600;font-size:0.9rem;color:#1e293b}' +
-    '.cc-cat-desc{font-size:0.8rem;color:#64748b;margin-top:2px}' +
+    '.cc-cat-name{font-weight:600;font-size:0.82rem;color:#1e293b}' +
+    '.cc-cat-desc{font-size:0.75rem;color:#64748b;margin-top:1px}' +
     /* Toggle switch */
     '.cc-toggle{position:relative;width:44px;height:24px;flex-shrink:0;margin-left:1rem}' +
     '.cc-toggle input{opacity:0;width:0;height:0;position:absolute}' +
@@ -172,10 +172,10 @@
     '.cc-toggle input:checked+.cc-slider:before{transform:translateX(20px)}' +
     '.cc-toggle input:disabled+.cc-slider{background:#5b5ee8;opacity:0.6;cursor:not-allowed}' +
     '.cc-toggle input:disabled:checked+.cc-slider:before{transform:translateX(20px)}' +
-    '#cc-save{margin-top:1rem;padding:0.75rem 2rem;background:#5b5ee8;color:#fff;border:none;border-radius:10px;' +
-        'font-size:0.95rem;font-weight:600;cursor:pointer;font-family:inherit}' +
+    '#cc-save{margin-top:0.6rem;padding:0.5rem 1.5rem;background:#5b5ee8;color:#fff;border:none;border-radius:8px;' +
+        'font-size:0.85rem;font-weight:600;cursor:pointer;font-family:inherit}' +
     '#cc-save:hover{background:#4a4dd4}' +
-    '#cc-admin{font-size:0.78rem;color:#94a3b8;margin-top:1rem;line-height:1.4}' +
+    '#cc-admin{font-size:0.72rem;color:#94a3b8;margin-top:0.6rem;line-height:1.3}' +
     /* Placeholder formularz */
     '.cc-form-placeholder{background:#f8fafc;border:1px dashed #cbd5e1;border-radius:12px;padding:1.5rem;text-align:center;' +
         'font-family:Inter,system-ui,-apple-system,sans-serif;margin:1rem 0}' +
@@ -187,7 +187,7 @@
     '@media(max-width:640px){' +
         '#cc-buttons{flex-direction:column}' +
         '#cc-buttons button{min-width:0;width:100%}' +
-        '#cc-inner{padding:1.25rem 1rem}' +
+        '#cc-inner{padding:0.75rem 0.9rem}' +
     '}';
 
     /* ── 7. HTML banera ── */
