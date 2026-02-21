@@ -72,10 +72,38 @@
         );
     }
 
+    /* ── 4b. Placeholder dla formularzy gdy brak zgody ── */
+    function showFormPlaceholders() {
+        var forms = document.querySelectorAll('.ml-embedded');
+        for (var i = 0; i < forms.length; i++) {
+            var el = forms[i];
+            if (el.querySelector('.cc-form-placeholder')) continue;
+            var placeholder = document.createElement('div');
+            placeholder.className = 'cc-form-placeholder';
+            placeholder.innerHTML =
+                '<p>Aby zobaczyć formularz zapisu, zaakceptuj cookies funkcjonalne.</p>' +
+                '<button type="button">Zmień ustawienia cookies</button>';
+            placeholder.querySelector('button').addEventListener('click', function () {
+                showBanner(true);
+            });
+            el.appendChild(placeholder);
+        }
+    }
+
+    function hideFormPlaceholders() {
+        var placeholders = document.querySelectorAll('.cc-form-placeholder');
+        for (var i = 0; i < placeholders.length; i++) {
+            placeholders[i].remove();
+        }
+    }
+
     function applyConsent(prefs) {
         if (prefs.analytics) loadAnalytics();
         if (prefs.marketing) loadMarketing();
-        if (prefs.functional) loadFunctional();
+        if (prefs.functional) {
+            hideFormPlaceholders();
+            loadFunctional();
+        }
     }
 
     /* ── 5. Odczyt / zapis zgody ── */
@@ -148,6 +176,13 @@
         'font-size:0.95rem;font-weight:600;cursor:pointer;font-family:inherit}' +
     '#cc-save:hover{background:#4a4dd4}' +
     '#cc-admin{font-size:0.78rem;color:#94a3b8;margin-top:1rem;line-height:1.4}' +
+    /* Placeholder formularz */
+    '.cc-form-placeholder{background:#f8fafc;border:1px dashed #cbd5e1;border-radius:12px;padding:1.5rem;text-align:center;' +
+        'font-family:Inter,system-ui,-apple-system,sans-serif;margin:1rem 0}' +
+    '.cc-form-placeholder p{color:#64748b;font-size:0.9rem;margin:0 0 0.75rem 0;line-height:1.5}' +
+    '.cc-form-placeholder button{background:#5b5ee8;color:#fff;border:none;border-radius:8px;padding:0.5rem 1.25rem;' +
+        'font-size:0.85rem;font-weight:600;cursor:pointer;font-family:inherit;transition:background .2s}' +
+    '.cc-form-placeholder button:hover{background:#4a4dd4}' +
     /* Responsywność */
     '@media(max-width:640px){' +
         '#cc-buttons{flex-direction:column}' +
@@ -318,8 +353,10 @@
         var consent = getConsent();
         if (consent) {
             applyConsent(consent);
+            if (!consent.functional) showFormPlaceholders();
         } else {
             showBanner(false);
+            showFormPlaceholders();
         }
         injectFooterLink();
     }
