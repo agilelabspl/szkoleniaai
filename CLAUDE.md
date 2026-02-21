@@ -25,7 +25,7 @@ Repo: `agilelabspl/szkoleniaai` · Domena: `aiprzewodnik.pl`
 ## Struktura techniczna index.html
 - **Karty szkoleń** — klasa `.course-card` w sekcjach `.category-section`
 - **Schema.org JSON-LD** — blok `<script type="application/ld+json">` w `<head>`, pole `numberOfItems` + tablica `itemListElement`
-- **Licznik:** aktualnie **140 szkoleń** (numberOfItems w schema.org)
+- **Licznik:** aktualnie **143 szkolenia** (numberOfItems w schema.org)
 
 ## Sitemap — kiedy aktualizować
 - Nowa podstrona (np. nowe hasło słownika) → dodaj `<url>` do `sitemap.xml`
