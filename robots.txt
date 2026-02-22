@@ -1,4 +1,4 @@
-# robots.txt for AI Szkolenia Hub
+# robots.txt for AI Przewodnik
 # https://aiprzewodnik.pl/
 
 User-agent: *
@@ -6,6 +6,10 @@ Allow: /
 
 # Sitemap
 Sitemap: https://aiprzewodnik.pl/sitemap.xml
+
+# AI / LLM crawlers — structured site summary
+# https://llmstxt.org/
+LLMs-Txt: https://aiprzewodnik.pl/llms.txt
 
 # Crawl-delay (optional, be nice to small servers)
 Crawl-delay: 1
