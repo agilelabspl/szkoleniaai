@@ -135,8 +135,6 @@
 
     /* ── 6. CSS banera ── */
     var CSS = '' +
-    '#cc-overlay{position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.4);z-index:99998;opacity:0;transition:opacity .3s ease}' +
-    '#cc-overlay.cc-visible{opacity:1}' +
     '#cc-banner{position:fixed;bottom:0;left:0;right:0;z-index:99999;font-family:Inter,system-ui,-apple-system,sans-serif;' +
         'background:#fff;border-top:1px solid #e2e8f0;box-shadow:0 -4px 24px rgba(0,0,0,0.1);' +
         'transform:translateY(100%);transition:transform .4s cubic-bezier(.4,0,.2,1);padding:0}' +
@@ -192,10 +190,6 @@
 
     /* ── 7. HTML banera ── */
     function buildBanner() {
-        // Overlay
-        var overlay = document.createElement('div');
-        overlay.id = 'cc-overlay';
-
         // Banner
         var banner = document.createElement('div');
         banner.id = 'cc-banner';
@@ -240,7 +234,7 @@
             '</div>' +
         '</div>';
 
-        return { overlay: overlay, banner: banner };
+        return { banner: banner };
     }
 
     /* ── 8. Wstrzyknięcie linku "Ustawienia cookies" do footera ── */
@@ -263,7 +257,7 @@
     }
 
     /* ── 9. Pokaż / ukryj baner ── */
-    var bannerEl, overlayEl, settingsPanel;
+    var bannerEl, settingsPanel;
     var isBuilt = false;
 
     function ensureBannerBuilt() {
@@ -277,11 +271,9 @@
 
         // HTML
         var parts = buildBanner();
-        overlayEl = parts.overlay;
         bannerEl = parts.banner;
         settingsPanel = bannerEl.querySelector('#cc-settings');
 
-        document.body.appendChild(overlayEl);
         document.body.appendChild(bannerEl);
 
         // Event listeners
@@ -309,9 +301,6 @@
             hideBanner();
         });
 
-        overlayEl.addEventListener('click', function () {
-            hideBanner();
-        });
     }
 
     function showBanner(openSettings) {
@@ -335,7 +324,6 @@
 
         // Animacja
         requestAnimationFrame(function () {
-            overlayEl.classList.add('cc-visible');
             bannerEl.classList.add('cc-visible');
         });
     }
@@ -343,7 +331,6 @@
     function hideBanner() {
         if (!bannerEl) return;
         bannerEl.classList.remove('cc-visible');
-        overlayEl.classList.remove('cc-visible');
     }
 
     /* ── 10. Inicjalizacja ── */
