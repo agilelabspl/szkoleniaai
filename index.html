@@ -36,7 +36,7 @@
 
     <!-- Schema.org Structured Data -->
     <script type="application/ld+json">
-    {"@context": "https://schema.org", "@type": "ItemList", "name": "Szkolenia AI w Polsce 2026", "description": "Katalog szkoleń i kursów z zakresu sztucznej inteligencji w Polsce", "url": "https://aiprzewodnik.pl/", "numberOfItems": 143,"itemListElement":[
+    {"@context": "https://schema.org", "@type": "ItemList", "name": "Szkolenia AI w Polsce 2026", "description": "Katalog szkoleń i kursów z zakresu sztucznej inteligencji w Polsce", "url": "https://aiprzewodnik.pl/", "numberOfItems": 142,"itemListElement":[
     {"@type": "ListItem", "position": 1, "item": {"@type": "Course", "name": "AI od podstaw", "description": "Generatywne AI od podstaw: prompty, grafika, wideo, synteza audio, automatyzacja marketingu i sprzedaży.", "provider": {"@type": "Organization", "name": "PFR"}, "isAccessibleForFree": true, "url": "https://strefawiedzypfr.pl/kursy/ai-od-podstaw-zwieksz-efektywnosc-w-pracy", "hasCourseInstance": [{"@type": "CourseInstance", "courseMode": "Online"}]}},
     {"@type": "ListItem", "position": 2, "item": {"@type": "Course", "name": "Portal AI.GOV.PL", "description": "Strona zbiorcza z 10+ kursami AI: podstawy, uczenie maszynowe, sieci neuronowe, aspekty prawne.", "provider": {"@type": "Organization", "name": "Ministerstwo Cyfryzacji"}, "isAccessibleForFree": true, "url": "https://www.gov.pl/web/ai/szkoleniaai", "hasCourseInstance": [{"@type": "CourseInstance", "courseMode": "Online"}]}},
     {"@type": "ListItem", "position": 3, "item": {"@type": "Course", "name": "Lekcja:AI", "description": "Trzystopniowy program dla nauczycieli: podstawy AI, etyka, narzędzia bezkodowe.", "provider": {"@type": "Organization", "name": "Fundacja Orange"}, "isAccessibleForFree": true, "url": "https://lekcjaai.pl/", "hasCourseInstance": [{"@type": "CourseInstance", "courseMode": "Blended"}]}},
@@ -96,7 +96,6 @@
     {"@type": "ListItem", "position": 57, "item": {"@type": "Course", "name": "AI MASTER 3", "description": "Sora, Veo, Runway, awatary, VFX, voice cloning. 6 modułów.", "provider": {"@type": "Organization", "name": "Adrian Kilar"}, "offers": {"@type": "Offer", "price": "1227", "priceCurrency": "PLN"}, "url": "https://www.adriankilar.com/kurs-aimaster3/", "hasCourseInstance": [{"@type": "CourseInstance", "courseMode": "Online"}]}},
     {"@type": "ListItem", "position": 59, "item": {"@type": "Course", "name": "AI w video. Kurs video", "description": "Runway, PikaLabs, Kaiber, Luma, ComfyUI.", "provider": {"@type": "Organization", "name": "Videopoint/Helion"}, "offers": {"@type": "Offer", "price": "97", "priceCurrency": "PLN"}, "url": "https://videopoint.pl/view/25823w/vaiwpr.htm", "hasCourseInstance": [{"@type": "CourseInstance", "courseMode": "Online"}]}},
     {"@type": "ListItem", "position": 60, "item": {"@type": "Course", "name": "Kurs Video AI: Kino Jutra", "description": "Od pomysłu po montaż. Midjourney, Kling, ElevenLabs, CapCut.", "provider": {"@type": "Organization", "name": "EXAITY"}, "offers": {"@type": "Offer", "price": "49", "priceCurrency": "PLN"}, "url": "https://www.exaity.pl/kursy/kurs-video-ai-kino-jutra/", "hasCourseInstance": [{"@type": "CourseInstance", "courseMode": "Online"}]}},
-    {"@type": "ListItem", "position": 61, "item": {"@type": "Course", "name": "AI w social media - szybkie tworzenie wideo", "description": "Tworzenie wideo na social media z AI.", "provider": {"@type": "Organization", "name": "umio.to"}, "url": "https://umio.to/wydarzenia/2411?editionId=3552", "hasCourseInstance": [{"@type": "CourseInstance", "courseMode": "Online"}]}},
     {"@type": "ListItem", "position": 62, "item": {"@type": "Course", "name": "AI i ChatGPT w HR", "description": "Selekcja kandydatów z AI, etyka, ochrona danych, employer branding.", "provider": {"@type": "Organization", "name": "Human Skills"}, "url": "https://www.humanskills.pl/szkolenia_otwarte/ai-i-chat-gpt-w-hr-fundamenty-nowoczesnych-technologii/", "hasCourseInstance": [{"@type": "CourseInstance", "courseMode": "Blended"}]}},
     {"@type": "ListItem", "position": 63, "item": {"@type": "Course", "name": "AI w rekrutacji", "description": "Sourcing, analiza CV, chatboty rekrutacyjne, automatyzacja, onboarding, RODO.", "provider": {"@type": "Organization", "name": "JGT"}, "url": "https://www.jgt.pl/szkolenia,ai-w-hr-aik.html", "hasCourseInstance": [{"@type": "CourseInstance", "courseMode": "Blended"}]}},
     {"@type": "ListItem", "position": 64, "item": {"@type": "Course", "name": "Kurs AI w HR", "description": "Screening kandydatów, automatyzacja onboardingu, analizy predykcyjne rotacji.", "provider": {"@type": "Organization", "name": "Cognity"}, "url": "https://www.cognity.pl/kurs-ai-w-hr-automatyzacja-personalizacja-i-optymalizacja-procesow-kadrowych", "hasCourseInstance": [{"@type": "CourseInstance", "courseMode": "Blended"}]}},
@@ -609,6 +608,30 @@
                 height: 44px;
                 bottom: 15px;
                 right: 15px;
+            }
+
+            .card-meta .tag {
+                font-size: 0.8rem;
+            }
+
+            .card-author {
+                font-size: 0.85rem;
+            }
+
+            .course-card .card-footer {
+                font-size: 0.85rem;
+            }
+
+            .badge-free {
+                font-size: 0.8rem;
+            }
+
+            .course-card.featured::before {
+                font-size: 0.75rem;
+            }
+
+            .ai-tool-company {
+                font-size: 0.8rem;
             }
 
         }
@@ -2271,11 +2294,6 @@
                             <span class="tag tag-format">Nagranie</span>
                             <span class="tag tag-duration">1h 49min · 8 modułów</span>
                         </div>
-                        <div class="card-footer">Odwiedź <span>→</span></div>
-                    </a>
-                    <a href="https://umio.to/wydarzenia/2411?editionId=3552" class="course-card" target="_blank" rel="noopener noreferrer">
-                        <h3>AI w social media - szybkie tworzenie wideo</h3>
-                        <span class="card-author">umio.to</span>
                         <div class="card-footer">Odwiedź <span>→</span></div>
                     </a>
                 </div>
