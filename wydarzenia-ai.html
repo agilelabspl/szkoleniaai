@@ -507,6 +507,37 @@
             font-size: 0.75rem;
         }
 
+        .promo-link {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 0.4rem;
+            margin-top: 0.5rem;
+            padding: 0.55rem 1rem;
+            background: linear-gradient(135deg, #059669, #10b981);
+            color: #fff;
+            font-size: 0.8rem;
+            font-weight: 600;
+            border-radius: 8px;
+            text-decoration: none;
+            transition: all 0.2s ease;
+            text-align: center;
+        }
+
+        .promo-link:hover {
+            background: linear-gradient(135deg, #047857, #059669);
+            transform: translateY(-1px);
+            box-shadow: 0 4px 12px rgba(5, 150, 105, 0.3);
+        }
+
+        .promo-link span {
+            transition: transform 0.2s ease;
+        }
+
+        .promo-link:hover span {
+            transform: translateX(3px);
+        }
+
         /* Responsive */
         @media (max-width: 768px) {
             #map {
@@ -563,7 +594,7 @@
     // === DANE WYDARZEŃ ===
     const events = [
         // --- PATRONAT MEDIALNY AI PRZEWODNIK ---
-        { name: 'No-Code & AI Event #4', city: 'Gdańsk', date: '7–8 maja 2026', type: 'konferencja', free: false, url: 'https://www.nocodepoland.com/no-code-ai-event-4', desc: 'No-Code, Low-Code i AI. Prelekcje techniczne, case study, panele dyskusyjne, networking.', patronat: true },
+        { name: 'No-Code & AI Event #4', city: 'Gdańsk', date: '7–8 maja 2026', type: 'konferencja', free: false, url: 'https://www.nocodepoland.com/no-code-ai-event-4', desc: 'No-Code, Low-Code i AI. Prelekcje techniczne, case study, panele dyskusyjne, networking.', patronat: true, promoUrl: 'https://cart.easy.tools/checkout/51956904/no-code-ai-event4?promo=NCPAIP200' },
         { name: 'Lean TWI Summit 2026', city: 'Wrocław', date: '9–10 czerwca 2026', type: 'konferencja', free: false, url: 'https://leantrix.com/pl/konferencja-lean-twi/', desc: 'Lean Management, Leadership i AI. 9 case studies + 4 warsztaty.', patronat: true },
 
         // --- KONFERENCJE ---
@@ -718,7 +749,23 @@
                 '</div>' +
                 '<div class="card-footer">Sprawdź <span>&rarr;</span></div>';
 
-            grid.appendChild(card);
+            if (ev.promoUrl) {
+                var wrapper = document.createElement('div');
+                wrapper.appendChild(card);
+                var promo = document.createElement('a');
+                promo.href = ev.promoUrl;
+                promo.className = 'promo-link';
+                promo.target = '_blank';
+                promo.rel = 'noopener noreferrer';
+                promo.innerHTML = 'Bilet taniej z kodem AI Przewodnik <span>&rarr;</span>';
+                promo.onclick = function() {
+                    gtag('event', 'promo_click', { event_label: ev.name });
+                };
+                wrapper.appendChild(promo);
+                grid.appendChild(wrapper);
+            } else {
+                grid.appendChild(card);
+            }
         });
 
         // CTA card na pozycji 9
