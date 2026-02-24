@@ -281,14 +281,34 @@
             margin-top: 2rem;
         }
 
+        .category-nav.sticky {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 100;
+            margin-top: 0;
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(10px);
+            -webkit-backdrop-filter: blur(10px);
+            border-bottom: 1px solid var(--card-border);
+            padding: 6px 1rem;
+            box-shadow: 0 2px 12px rgba(0, 0, 0, 0.06);
+        }
+
         .category-nav ul {
             list-style: none;
             display: flex;
             flex-wrap: wrap;
             justify-content: center;
-            gap: 0.5rem;
-            max-width: 700px;
+            gap: 0.4rem;
+            max-width: 1100px;
             margin: 0 auto;
+        }
+
+        .category-nav.sticky ul {
+            flex-wrap: nowrap;
+            gap: 0.3rem;
         }
 
         .category-nav a {
@@ -302,13 +322,20 @@
             font-size: 0.875rem;
             font-weight: 500;
             transition: all 0.2s ease;
+            white-space: nowrap;
         }
 
-        .category-nav a:hover {
+        .category-nav.sticky a {
+            padding: 0.3rem 0.75rem;
+            font-size: 0.8rem;
+        }
+
+        .category-nav a:hover,
+        .category-nav a.active {
             background-color: var(--primary);
             border-color: var(--primary);
             color: #fff;
-            transform: translateY(-2px);
+            transform: translateY(-1px);
         }
 
         /* Sections */
@@ -642,11 +669,35 @@
                 font-size: 0.8rem;
             }
 
+            .category-nav ul {
+                flex-wrap: nowrap;
+                justify-content: flex-start;
+                overflow-x: auto;
+                -webkit-overflow-scrolling: touch;
+                scrollbar-width: none;
+                padding: 0 0.5rem;
+            }
+
+            .category-nav ul::-webkit-scrollbar {
+                display: none;
+            }
+
+            .category-nav.sticky {
+                padding: 5px 0;
+            }
+
             .category-nav a {
-                padding: 0.6rem 1.1rem;
-                min-height: 44px;
+                padding: 0.45rem 0.85rem;
+                min-height: 36px;
                 display: inline-flex;
                 align-items: center;
+                font-size: 0.8rem;
+            }
+
+            .category-nav.sticky a {
+                padding: 0.35rem 0.7rem;
+                font-size: 0.75rem;
+                min-height: 32px;
             }
 
         }
@@ -2481,17 +2532,61 @@
                 totalCoursesSpan.innerText = courses.length;
             }
 
-            // Back to Top Button
+            // Back to Top Button + Sticky Nav
             const backToTopButton = document.getElementById('back-to-top');
-            if (backToTopButton) {
-                window.addEventListener('scroll', () => {
-                    if (window.scrollY > 300) {
+            const catNav = document.querySelector('.category-nav');
+            const catNavOffset = catNav ? catNav.offsetTop : 0;
+            const catNavPlaceholder = document.createElement('div');
+            catNavPlaceholder.style.display = 'none';
+            if (catNav) catNav.parentNode.insertBefore(catNavPlaceholder, catNav);
+
+            // Section tracking for active state
+            const sections = document.querySelectorAll('.category-section');
+            const navLinks = document.querySelectorAll('.category-nav a');
+
+            window.addEventListener('scroll', () => {
+                const scrollY = window.scrollY;
+
+                // Back to top
+                if (backToTopButton) {
+                    if (scrollY > 300) {
                         backToTopButton.classList.add('visible');
                     } else {
                         backToTopButton.classList.remove('visible');
                     }
+                }
+
+                // Sticky nav
+                if (catNav) {
+                    if (scrollY > catNavOffset - 5) {
+                        if (!catNav.classList.contains('sticky')) {
+                            catNavPlaceholder.style.display = 'block';
+                            catNavPlaceholder.style.height = catNav.offsetHeight + 'px';
+                            catNav.classList.add('sticky');
+                        }
+                    } else {
+                        catNav.classList.remove('sticky');
+                        catNavPlaceholder.style.display = 'none';
+                    }
+                }
+
+                // Active category highlight
+                let currentSection = '';
+                sections.forEach(section => {
+                    const top = section.offsetTop - 60;
+                    if (scrollY >= top) currentSection = section.id;
                 });
-            }
+                navLinks.forEach(link => {
+                    link.classList.remove('active');
+                    if (link.getAttribute('href') === '#' + currentSection) {
+                        link.classList.add('active');
+                        // Auto-scroll nav to show active item on mobile
+                        if (catNav.classList.contains('sticky') && window.innerWidth < 768) {
+                            link.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
+                        }
+                    }
+                });
+            });
 
             // Track course clicks
             courses.forEach(card => {
