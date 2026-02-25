@@ -548,6 +548,37 @@
                 grid-template-columns: 1fr;
             }
         }
+
+        /* Newsletter Bar */
+        .newsletter-bar {
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+            background: linear-gradient(135deg, #eef2ff 0%, #e0e7ff 100%);
+            border: 1px solid #c7d2fe;
+            border-radius: 12px;
+            padding: 1rem 1.5rem;
+            margin: 2rem auto;
+            max-width: 960px;
+        }
+        .newsletter-bar-text { flex-shrink: 0; }
+        .newsletter-bar-text h3 { font-size: 1rem; font-weight: 600; color: var(--text-color); margin: 0 0 0.15rem 0; }
+        .newsletter-bar-text p { font-size: 0.85rem; color: var(--text-muted); margin: 0; }
+        .newsletter-bar .ml-embedded { flex: 1; min-width: 0; }
+        .newsletter-bar .ml-form-embedWrapper { max-width: 100% !important; background: transparent !important; border: none !important; box-shadow: none !important; padding: 0 !important; margin: 0 !important; }
+        .newsletter-bar .ml-form-embedBody { padding: 0 !important; background: transparent !important; }
+        .newsletter-bar .ml-form-embedContent { display: none !important; }
+        .newsletter-bar .ml-form-formContent { display: flex !important; gap: 0.5rem !important; align-items: flex-end !important; }
+        .newsletter-bar .ml-form-fieldRow { flex: 1 !important; margin-bottom: 0 !important; }
+        .newsletter-bar .ml-form-fieldRow input { padding: 0.5rem 0.75rem !important; font-size: 0.9rem !important; border-radius: 8px !important; border: 1px solid #c7d2fe !important; }
+        .newsletter-bar .ml-form-embedSubmit { margin-top: 0 !important; flex-shrink: 0 !important; }
+        .newsletter-bar .ml-form-embedSubmit button { background: var(--primary) !important; border-radius: 8px !important; padding: 0.5rem 1.25rem !important; font-size: 0.9rem !important; }
+        .newsletter-bar .ml-form-embedSubmit button:hover { background: var(--primary-dark) !important; }
+        .newsletter-bar .ml-form-checkboxRow, .newsletter-bar .ml-form-embedPermissions { display: none !important; }
+        @media (max-width: 768px) {
+            .newsletter-bar { flex-direction: column; text-align: center; gap: 0.75rem; padding: 1rem; }
+            .newsletter-bar .ml-form-formContent { flex-direction: column !important; }
+        }
     </style>
 </head>
 <body>
@@ -578,6 +609,15 @@
 
         <!-- Karty wydarzeń — krok 3 -->
         <div class="events-grid" id="events-grid"></div>
+    </div>
+
+    <!-- Newsletter Bar -->
+    <div class="newsletter-bar">
+        <div class="newsletter-bar-text">
+            <h3>AI w Polsce</h3>
+            <p>Wszystko co warto wiedzieć, prosto na skrzynkę</p>
+        </div>
+        <div class="ml-embedded" data-form="W9FwR1"></div>
     </div>
 
     <footer style="text-align: center; padding: 2rem 1rem; margin-top: 2rem; border-top: 1px solid #e2e8f0; color: #64748b;">
