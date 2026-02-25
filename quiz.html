@@ -434,6 +434,37 @@
                 gap: 0.5rem;
             }
         }
+
+        /* Newsletter Bar */
+        .newsletter-bar {
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+            background: linear-gradient(135deg, #eef2ff 0%, #e0e7ff 100%);
+            border: 1px solid #c7d2fe;
+            border-radius: 12px;
+            padding: 1rem 1.5rem;
+            max-width: 720px;
+            margin: 2rem auto;
+        }
+        .newsletter-bar-text { flex-shrink: 0; }
+        .newsletter-bar-text h3 { font-size: 1rem; font-weight: 600; color: var(--text-color); margin: 0 0 0.15rem 0; }
+        .newsletter-bar-text p { font-size: 0.85rem; color: var(--text-muted); margin: 0; }
+        .newsletter-bar .ml-embedded { flex: 1; min-width: 0; }
+        .newsletter-bar .ml-form-embedWrapper { max-width: 100% !important; background: transparent !important; border: none !important; box-shadow: none !important; padding: 0 !important; margin: 0 !important; }
+        .newsletter-bar .ml-form-embedBody { padding: 0 !important; background: transparent !important; }
+        .newsletter-bar .ml-form-embedContent { display: none !important; }
+        .newsletter-bar .ml-form-formContent { display: flex !important; gap: 0.5rem !important; align-items: flex-end !important; }
+        .newsletter-bar .ml-form-fieldRow { flex: 1 !important; margin-bottom: 0 !important; }
+        .newsletter-bar .ml-form-fieldRow input { padding: 0.5rem 0.75rem !important; font-size: 0.9rem !important; border-radius: 8px !important; border: 1px solid #c7d2fe !important; }
+        .newsletter-bar .ml-form-embedSubmit { margin-top: 0 !important; flex-shrink: 0 !important; }
+        .newsletter-bar .ml-form-embedSubmit button { background: var(--primary) !important; border-radius: 8px !important; padding: 0.5rem 1.25rem !important; font-size: 0.9rem !important; }
+        .newsletter-bar .ml-form-embedSubmit button:hover { background: #4f46e5 !important; }
+        .newsletter-bar .ml-form-checkboxRow, .newsletter-bar .ml-form-embedPermissions { display: none !important; }
+        @media (max-width: 768px) {
+            .newsletter-bar { flex-direction: column; text-align: center; gap: 0.75rem; padding: 1rem; }
+            .newsletter-bar .ml-form-formContent { flex-direction: column !important; }
+        }
     </style>
 </head>
 <body>
@@ -464,13 +495,13 @@
     <!-- RESULTS -->
     <div id="results" class="hidden results-section"></div>
 
-    <!-- PDF Lead Magnet CTA -->
-    <div id="pdf-cta" style="display: none; max-width: 720px; margin: 0 auto; padding: 0 1.5rem; margin-top: 3rem;">
-        <div style="padding: 2rem; background: linear-gradient(135deg, #f0f9ff 0%, #faf5ff 100%); border-radius: 16px; border: 1px solid var(--card-border); text-align: center; margin-bottom: 2rem;">
-            <img src="aiprzewodnik-pdf.png" alt="Przewodnik po AI - okładka" style="max-width: 240px; margin: 0 auto 1.5rem; display: block;">
-            <p style="font-size: 0.85rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.5px; color: var(--primary); margin-bottom: 0.5rem;">Darmowy PDF</p>
-            <p style="font-size: 1.35rem; font-weight: 700; margin-bottom: 0.5rem; color: var(--text-color);">Twój przewodnik po świecie AI. Prosto i praktycznie.</p>
-            <p style="color: var(--text-muted); margin-bottom: 1.5rem; max-width: 480px; margin-left: auto; margin-right: auto;">Zostaw email, wyślemy Ci go jako pierwszy/a, gdy będzie gotowy.</p>
+    <!-- Newsletter CTA (shown after quiz) -->
+    <div id="pdf-cta" style="display: none; padding: 0 1.5rem; margin-top: 2rem;">
+        <div class="newsletter-bar">
+            <div class="newsletter-bar-text">
+                <h3>AI w Polsce</h3>
+                <p>Wszystko co warto wiedzieć, prosto na skrzynkę</p>
+            </div>
             <div class="ml-embedded" data-form="W9FwR1"></div>
         </div>
     </div>
