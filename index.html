@@ -362,6 +362,62 @@
             line-height: 1.5;
         }
 
+        /* Newsletter Bar */
+        .newsletter-bar {
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+            background: linear-gradient(135deg, #eef2ff 0%, #e0e7ff 100%);
+            border: 1px solid #c7d2fe;
+            border-radius: 12px;
+            padding: 1rem 1.5rem;
+            margin-bottom: 3rem;
+        }
+
+        .newsletter-bar-text {
+            flex-shrink: 0;
+        }
+
+        .newsletter-bar-text h3 {
+            font-size: 1rem;
+            font-weight: 600;
+            color: var(--text-color);
+            margin: 0 0 0.15rem 0;
+        }
+
+        .newsletter-bar-text p {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            margin: 0;
+        }
+
+        .newsletter-bar .ml-embedded {
+            flex: 1;
+            min-width: 0;
+        }
+
+        .newsletter-bar .ml-form-embedWrapper {
+            max-width: 100% !important;
+        }
+
+        .newsletter-bar .ml-form-embedBody {
+            padding: 0 !important;
+        }
+
+        .newsletter-bar .ml-form-embedBody .ml-form-embedContent,
+        .newsletter-bar .ml-form-successBody .ml-form-successContent {
+            padding: 0 !important;
+        }
+
+        @media (max-width: 640px) {
+            .newsletter-bar {
+                flex-direction: column;
+                text-align: center;
+                gap: 0.75rem;
+                padding: 1rem;
+            }
+        }
+
         /* Course Grid */
         .courses-grid {
             display: grid;
@@ -1014,6 +1070,15 @@
                     </a>
                 </div>
             </section>
+
+            <!-- Newsletter Bar -->
+            <div class="newsletter-bar">
+                <div class="newsletter-bar-text">
+                    <h3>AI w Polsce</h3>
+                    <p>Wszystko co warto wiedzieć, prosto na skrzynkę</p>
+                </div>
+                <div class="ml-embedded" data-form="W9FwR1"></div>
+            </div>
 
             <!-- PRODUKTY -->
             <section id="produkty" class="category-section">
@@ -2615,12 +2680,6 @@
         });
     </script>
 
-    <!-- Newsletter Section -->
-    <section style="max-width: 600px; margin: 3rem auto; padding: 2rem; text-align: center;">
-        <h2 style="font-size: 1.5rem; margin-bottom: 0.5rem;">Bądź na bieżąco</h2>
-        <p style="color: #64748b; margin-bottom: 1.5rem;">Nowe szkolenia AI prosto na Twoją skrzynkę</p>
-        <div class="ml-embedded" data-form="W9FwR1"></div>
-    </section>
 
 
 
