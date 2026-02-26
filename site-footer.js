@@ -11,6 +11,8 @@
         secondLine = 'Znasz wydarzenie AI, kt\u00f3re warto tu doda\u0107? <a href="' + linkedIn + '" target="_blank" rel="noopener noreferrer">Napisz do mnie</a>';
     } else if (path.indexOf('zbudowane') !== -1) {
         secondLine = 'Znasz polski produkt AI, kt\u00f3ry warto tu doda\u0107? <a href="' + linkedIn + '" target="_blank" rel="noopener noreferrer">Napisz do mnie</a>';
+    } else if (path.indexOf('praca-ai') !== -1) {
+        secondLine = 'Szukasz szkolenia AI? <a href="index.html">Sprawd\u017a katalog kurs\u00f3w \u2192</a>';
     } else if (path.indexOf('quiz') !== -1) {
         secondLine = '<a href="index.html">Przegl\u0105daj pe\u0142ny katalog kurs\u00f3w AI \u2192</a>';
     } else if (path.indexOf('/slownik/') !== -1) {
