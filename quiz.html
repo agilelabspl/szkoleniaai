@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Quiz: Które szkolenie AI jest dla Ciebie? | AI Szkolenia Hub</title>
+    <title>Quiz: Które szkolenie AI jest dla Ciebie? | AI Przewodnik</title>
     <meta name="description" content="Odpowiedz na 5 pytań i znajdź szkolenie AI dopasowane do Twojego doświadczenia i roli. Spersonalizowane rekomendacje kursów.">
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="https://aiprzewodnik.pl/quiz.html">
@@ -15,7 +15,7 @@
     <meta property="og:description" content="5 pytań, 2 minuty. Znajdź szkolenie AI dopasowane do Ciebie.">
     <meta property="og:image" content="https://aiprzewodnik.pl/og-image.png">
     <meta property="og:locale" content="pl_PL">
-    <meta property="og:site_name" content="AI Szkolenia Hub">
+    <meta property="og:site_name" content="AI Przewodnik">
 
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:title" content="Quiz: Które szkolenie AI jest dla Ciebie?">
@@ -25,6 +25,9 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- Shared navigation -->
+    <link rel="stylesheet" href="site-nav.css">
 
     <style>
         :root {
@@ -56,7 +59,7 @@
         }
 
         .container {
-            max-width: 720px;
+            max-width: 1100px;
             margin: 0 auto;
             padding: 2rem 1.5rem;
         }
@@ -81,11 +84,11 @@
         /* Intro */
         .quiz-intro {
             text-align: center;
-            padding: 3rem 1rem;
+            padding: 1.5rem 1rem 3rem;
         }
 
         .quiz-intro h1 {
-            font-size: clamp(1.75rem, 4vw, 2.5rem);
+            font-size: clamp(2rem, 5vw, 3.5rem);
             font-weight: 700;
             margin-bottom: 1rem;
             letter-spacing: -0.02em;
@@ -100,8 +103,8 @@
 
         .quiz-intro p {
             color: var(--text-muted);
-            font-size: 1.1rem;
-            max-width: 500px;
+            font-size: clamp(1rem, 2vw, 1.25rem);
+            max-width: 650px;
             margin: 0 auto 2rem;
         }
 
@@ -468,14 +471,14 @@
     </style>
 </head>
 <body>
+    <script src="site-nav.js"></script>
 
 <div class="container">
-    <a href="index.html" class="back-link">&larr; Wróć do katalogu kursów</a>
 
     <!-- INTRO -->
     <div id="intro" class="quiz-intro">
         <h1>Które <span>szkolenie AI</span> jest dla Ciebie?</h1>
-        <p>Odpowiedz na 5 pytań o to, jak korzystasz ze sztucznej inteligencji w pracy. Na koniec dostaniesz rekomendacje kursów + darmowy Przewodnik po AI (PDF).</p>
+        <p>Odpowiedz na 5 pytań o to, jak korzystasz ze sztucznej inteligencji w pracy. Na koniec dostaniesz rekomendacje kursów.</p>
         <div class="quiz-meta">
             <span class="quiz-meta-item">5 pytań</span>
             <span class="quiz-meta-item">37 sekund</span>
@@ -500,17 +503,14 @@
         <div class="newsletter-bar">
             <div class="newsletter-bar-text">
                 <h3>AI w Polsce</h3>
-                <p>Wszystko co warto wiedzieć, prosto na skrzynkę</p>
+                <p>Wszystko co <strong>warto wiedzieć</strong>, prosto na skrzynkę</p>
             </div>
             <div class="ml-embedded" data-form="W9FwR1"></div>
         </div>
     </div>
 </div>
 
-<footer>
-    <p>Twoim przewodnikiem jest <a href="https://www.linkedin.com/in/pawellewinski/" target="_blank" rel="noopener noreferrer">Paweł Lewiński</a></p>
-    <p><a href="index.html">Przeglądaj pełny katalog kursów AI &rarr;</a></p>
-</footer>
+<script src="site-footer.js"></script>
 
 <script>
 const questions = [
@@ -577,8 +577,7 @@ const recommendations = {
             { name: "AI od podstaw", provider: "PFR + Coders Lab + Escola", tag: "DARMOWY", tagClass: "tag-free", cat: "ogolne" },
             { name: "Umiejętności Jutra: AI 2.0", provider: "Google Polska + SGH", tag: "DARMOWY", tagClass: "tag-free", cat: "ogolne" },
             { name: "AIDEAS", provider: "Generator Pomysłów", tag: "DARMOWY", tagClass: "tag-free", cat: "ogolne" },
-            { name: "Elements of AI", provider: "Uniwersytet w Helsinkach", tag: "DARMOWY", tagClass: "tag-free", cat: "ogolne" },
-            { name: "Kurs: AI w biznesie", provider: "Akademia PARP", tag: "DARMOWY", tagClass: "tag-free", cat: "biznes" }
+            { name: "Elements of AI", provider: "Uniwersytet w Helsinkach", tag: "DARMOWY", tagClass: "tag-free", cat: "ogolne" }
         ],
         roleSpecific: {
             biznes: [
@@ -717,12 +716,12 @@ function startQuiz() {
     selectedRole = "general";
     showQuestion();
 
-    gtag('event', 'quiz_start', { event_category: 'quiz' });
+    try { gtag('event', 'quiz_start', { event_category: 'quiz' }); } catch(e) {}
 }
 
 function showQuestion() {
     const q = questions[currentQuestion];
-    const progress = ((currentQuestion) / questions.length) * 100;
+    const progress = ((currentQuestion + 1) / questions.length) * 100;
     document.getElementById('progress').style.width = progress + '%';
 
     let html = '<div class="question-card">';
@@ -756,11 +755,11 @@ function selectAnswer(index) {
         totalScore += opt.score;
     }
 
-    gtag('event', 'quiz_answer', {
+    try { gtag('event', 'quiz_answer', {
         event_category: 'quiz',
         event_label: 'q' + (currentQuestion + 1) + '_' + opt.id,
         value: q.isRole ? 0 : opt.score
-    });
+    }); } catch(e) {}
 
     setTimeout(function() {
         currentQuestion++;
@@ -786,16 +785,16 @@ function showResults() {
     var level = getLevel();
     var data = recommendations[level];
 
-    gtag('event', 'quiz_complete', {
+    try { gtag('event', 'quiz_complete', {
         event_category: 'quiz',
         event_label: level,
         value: totalScore
-    });
+    }); } catch(e) {}
 
-    gtag('event', 'quiz_role', {
+    try { gtag('event', 'quiz_role', {
         event_category: 'quiz',
         event_label: selectedRole
-    });
+    }); } catch(e) {}
 
     // Build score dots
     var dotsHtml = '';
@@ -835,6 +834,7 @@ function showResults() {
 
     // Role-specific recommendations
     var roleLabels = {
+        biznes: 'Biznes / Sprzedaż',
         marketing: 'Marketing / Content / Grafika / Wideo',
         hr: 'HR / Rekrutacja',
         product: 'Zarządzanie / Product',
@@ -870,10 +870,10 @@ function showResults() {
 
     // Show PDF lead magnet CTA
     document.getElementById('pdf-cta').style.display = 'block';
-    gtag('event', 'leadmagnet_show', {
+    try { gtag('event', 'leadmagnet_show', {
         event_category: 'leadmagnet',
         event_label: level + '_' + selectedRole
-    });
+    }); } catch(e) {}
 
     window.scrollTo({ top: 0, behavior: 'smooth' });
 }
@@ -888,7 +888,7 @@ function shareQuiz() {
     }).catch(function() {
         prompt('Skopiuj link:', url);
     });
-    gtag('event', 'quiz_share', { event_category: 'quiz' });
+    try { gtag('event', 'quiz_share', { event_category: 'quiz' }); } catch(e) {}
 }
 
 function restartQuiz() {

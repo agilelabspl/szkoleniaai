@@ -34,12 +34,15 @@
     <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"></noscript>
 
+    <!-- Shared navigation -->
+    <link rel="stylesheet" href="site-nav.css">
+
     <!-- Leaflet CSS -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" integrity="sha256-p4NxAoJBhIIN+hmNHrzRCf9tD/miZyoHS5obTRR9BMY=" crossorigin="">
 
     <!-- Schema.org Structured Data -->
     <script type="application/ld+json">
-    {"@context":"https://schema.org","@type":"ItemList","name":"Wydarzenia AI w Polsce 2026","description":"Konferencje, meetupy i warsztaty związane ze sztuczną inteligencją w Polsce","url":"https://aiprzewodnik.pl/wydarzenia-ai.html","numberOfItems":19,"itemListElement":[
+    {"@context":"https://schema.org","@type":"ItemList","name":"Wydarzenia AI w Polsce 2026","description":"Konferencje, meetupy i warsztaty związane ze sztuczną inteligencją w Polsce","url":"https://aiprzewodnik.pl/wydarzenia-ai.html","numberOfItems":20,"itemListElement":[
     {"@type":"ListItem","position":1,"item":{"@type":"Event","name":"Warsaw AI Summit 2026","startDate":"2026-03-03","endDate":"2026-03-04","location":{"@type":"Place","name":"Hilton Warsaw City","address":{"@type":"PostalAddress","addressLocality":"Warszawa","addressCountry":"PL"}},"url":"https://warsawaisummit.com/","description":"2 dni, 60 prelegentów. Inżynieria AI, strategia enterprise, skalowalność, ROI.","image":"https://aiprzewodnik.pl/og-image.png","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OfflineEventAttendanceMode","organizer":{"@type":"Organization","name":"Warsaw AI Summit 2026"},"offers":{"@type":"Offer","url":"https://warsawaisummit.com/","availability":"https://schema.org/InStock"}}},
     {"@type":"ListItem","position":2,"item":{"@type":"Event","name":"AI Industry Expo 2026","startDate":"2026-03-04","endDate":"2026-03-05","location":{"@type":"Place","name":"Ptak Warsaw Expo","address":{"@type":"PostalAddress","addressLocality":"Nadarzyn","addressCountry":"PL"}},"url":"https://aiindustryexpo.com/en/","description":"Targi technologii AI i IoT dla przemysłu.","image":"https://aiprzewodnik.pl/og-image.png","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OfflineEventAttendanceMode","organizer":{"@type":"Organization","name":"AI Industry Expo 2026"},"offers":{"@type":"Offer","url":"https://aiindustryexpo.com/en/","availability":"https://schema.org/InStock"}}},
     {"@type":"ListItem","position":3,"item":{"@type":"Event","name":"Data & AI Warsaw Tech Summit","startDate":"2026-04-21","endDate":"2026-04-22","location":{"@type":"Place","name":"Centrum Konferencyjne Legii","address":{"@type":"PostalAddress","addressLocality":"Warszawa","addressCountry":"PL"}},"url":"https://dataiwarsaw.tech/","description":"Jedno z najważniejszych wydarzeń data/AI w Europie Środkowo-Wschodniej.","image":"https://aiprzewodnik.pl/og-image.png","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OfflineEventAttendanceMode","organizer":{"@type":"Organization","name":"Data & AI Warsaw Tech Summit"},"offers":{"@type":"Offer","url":"https://dataiwarsaw.tech/","availability":"https://schema.org/InStock"}}},
@@ -58,7 +61,8 @@
     {"@type":"ListItem","position":16,"item":{"@type":"Event","name":"DevAI by Data Science Summit","startDate":"2026-06-18","endDate":"2026-06-19","location":{"@type":"Place","name":"PKiN Kinoteka","address":{"@type":"PostalAddress","addressLocality":"Warszawa","addressCountry":"PL"}},"url":"https://devai.dssconf.pl/","description":"Konferencja dla developerów wdrażających AI.","image":"https://aiprzewodnik.pl/og-image.png","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OfflineEventAttendanceMode","organizer":{"@type":"Organization","name":"DevAI by Data Science Summit"},"offers":{"@type":"Offer","url":"https://devai.dssconf.pl/","availability":"https://schema.org/InStock"}}},
     {"@type":"ListItem","position":17,"item":{"@type":"Event","name":"AI Summit PJAIT 2026","startDate":"2026-09-16","location":{"@type":"Place","name":"PJATK","address":{"@type":"PostalAddress","addressLocality":"Warszawa","addressCountry":"PL"}},"url":"https://aisummit.pja.edu.pl/","description":"Przyszłość AI. Eksperci, naukowcy, praktycy.","image":"https://aiprzewodnik.pl/og-image.png","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OfflineEventAttendanceMode","organizer":{"@type":"Organization","name":"AI Summit PJAIT 2026"},"offers":{"@type":"Offer","url":"https://aisummit.pja.edu.pl/","availability":"https://schema.org/InStock"}}},
     {"@type":"ListItem","position":18,"item":{"@type":"Event","name":"AiBA Conference 2026","startDate":"2026-10-21","endDate":"2026-10-22","location":{"@type":"Place","name":"Muzeum Śląskie","address":{"@type":"PostalAddress","addressLocality":"Katowice","addressCountry":"PL"}},"url":"https://aibaconference.com/","description":"Most między innowatorami AI a liderami biznesu CEE.","image":"https://aiprzewodnik.pl/og-image.png","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OfflineEventAttendanceMode","organizer":{"@type":"Organization","name":"AiBA Conference 2026"},"offers":{"@type":"Offer","url":"https://aibaconference.com/","availability":"https://schema.org/InStock"}}},
-    {"@type":"ListItem","position":19,"item":{"@type":"Event","name":"VIBE CONF 2026","startDate":"2026-04-20","location":{"@type":"Place","name":"Centrum Nauki Experyment","address":{"@type":"PostalAddress","addressLocality":"Gdynia","addressCountry":"PL"}},"url":"https://www.vibeconf.pl/","description":"Vibe coding i wdrażanie produktów z AI. Action packi z promptami i agentami.","image":"https://aiprzewodnik.pl/og-image.png","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OfflineEventAttendanceMode","organizer":{"@type":"Organization","name":"VIBE CONF 2026"},"offers":{"@type":"Offer","url":"https://www.vibeconf.pl/","availability":"https://schema.org/InStock"}}}
+    {"@type":"ListItem","position":19,"item":{"@type":"Event","name":"VIBE CONF 2026","startDate":"2026-04-20","location":{"@type":"Place","name":"Centrum Nauki Experyment","address":{"@type":"PostalAddress","addressLocality":"Gdynia","addressCountry":"PL"}},"url":"https://www.vibeconf.pl/","description":"Vibe coding i wdrażanie produktów z AI. Action packi z promptami i agentami.","image":"https://aiprzewodnik.pl/og-image.png","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OfflineEventAttendanceMode","organizer":{"@type":"Organization","name":"VIBE CONF 2026"},"offers":{"@type":"Offer","url":"https://www.vibeconf.pl/","availability":"https://schema.org/InStock"}}},
+    {"@type":"ListItem","position":20,"item":{"@type":"Event","name":"Product Hive 2026","startDate":"2026-03-18","endDate":"2026-03-19","location":{"@type":"Place","name":"Browary Warszawskie","address":{"@type":"PostalAddress","addressLocality":"Warszawa","addressCountry":"PL"}},"url":"https://producthive.pl/","description":"150 osób, product management + AI. Warsztaty, barcamp, networking.","image":"https://aiprzewodnik.pl/og-image.png","eventStatus":"https://schema.org/EventScheduled","eventAttendanceMode":"https://schema.org/OfflineEventAttendanceMode","organizer":{"@type":"Organization","name":"Product Hive 2026"},"offers":{"@type":"Offer","url":"https://producthive.pl/","availability":"https://schema.org/InStock"}}}
     ]}
     </script>
 
@@ -121,7 +125,7 @@
         header {
             text-align: center;
             margin-bottom: 2rem;
-            padding-top: 2rem;
+            padding-top: 1.5rem;
         }
 
         .main-title {
@@ -582,23 +586,14 @@
     </style>
 </head>
 <body>
+    <script src="site-nav.js"></script>
 
     <div class="container">
-        <a href="index.html" class="back-nav" onclick="gtag('event','nav_click',{event_label:'back_to_katalog'})">← Katalog Szkoleń AI</a>
-
         <header>
             <h1 class="main-title">Wydarzenia <span>AI</span> w Polsce</h1>
-            <p class="subtitle">Konferencje, meetupy i warsztaty. Znajdź wydarzenie AI w swoim mieście</p>
+            <p class="subtitle">Konferencje, meetupy i warsztaty.<br>Znajdź wydarzenie AI w swoim mieście</p>
             <p class="update-date">Aktualizacja: Luty 2026</p>
             <p class="event-count"><span id="total-events">0</span> wydarzeń AI na mapie</p>
-
-            <nav class="category-nav" aria-label="Nawigacja strony">
-                <ul>
-                    <li><a href="index.html" onclick="gtag('event','nav_click',{event_label:'katalog'})">Katalog Szkoleń AI</a></li>
-                    <li><a href="quiz.html" onclick="gtag('event','nav_click',{event_label:'quiz'})">Quiz AI</a></li>
-                    <li><a href="zbudowane-z-ai.html" style="background: linear-gradient(135deg, var(--primary), var(--secondary)); color: #fff; border-color: transparent;" onclick="gtag('event','nav_click',{event_label:'zbudowane_z_ai'})">Zbudowane z AI 🇵🇱</a></li>
-                </ul>
-            </nav>
         </header>
 
         <!-- Mapa — krok 2 -->
@@ -615,15 +610,12 @@
     <div class="newsletter-bar">
         <div class="newsletter-bar-text">
             <h3>AI w Polsce</h3>
-            <p>Wszystko co warto wiedzieć, prosto na skrzynkę</p>
+            <p>Wszystko co <strong>warto wiedzieć</strong>, prosto na skrzynkę</p>
         </div>
         <div class="ml-embedded" data-form="W9FwR1"></div>
     </div>
 
-    <footer style="text-align: center; padding: 2rem 1rem; margin-top: 2rem; border-top: 1px solid #e2e8f0; color: #64748b;">
-        <p style="margin-bottom: 0.5rem;">Twoim przewodnikiem jest <a href="https://www.linkedin.com/in/pawellewinski/" target="_blank" rel="noopener noreferrer" style="color: #5b5ee8; text-decoration: underline; text-underline-offset: 2px; font-weight: 500;">Paweł Lewiński</a></p>
-        <p>Znasz wydarzenie AI, które warto tu dodać? <a href="https://www.linkedin.com/in/pawellewinski/" target="_blank" rel="noopener noreferrer" style="color: #5b5ee8; text-decoration: underline; text-underline-offset: 2px;">Napisz do mnie</a></p>
-    </footer>
+    <script src="site-footer.js"></script>
 
     <!-- Leaflet JS -->
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV1lvTlZBo=" crossorigin=""></script>
