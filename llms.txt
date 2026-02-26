@@ -29,6 +29,7 @@ Autor: Paweł Lewiński — trener, Agile Coach, twórca kursów (agilelabs.pl).
 - [Zbudowane z AI w Polsce](https://aiprzewodnik.pl/zbudowane-z-ai.html): Katalog polskich produktów i startupów zbudowanych z wykorzystaniem AI
 - [Wydarzenia AI w Polsce](https://aiprzewodnik.pl/wydarzenia-ai.html): Mapa konferencji, meetupów i wydarzeń o AI w polskich miastach
 - [Quiz — Jaki kurs AI jest dla Ciebie?](https://aiprzewodnik.pl/quiz.html): Interaktywny quiz dopasowujący szkolenie AI do roli i potrzeb użytkownika
+- [Praca w AI w Polsce 2026](https://aiprzewodnik.pl/praca-ai.html): Przegląd rynku pracy AI — stanowiska, widełki wynagrodzeń, trendy, linki do portali z ofertami
 - [Słownik AI](https://aiprzewodnik.pl/slownik.html): Przystępne wyjaśnienia kluczowych pojęć AI (LLM, prompt, RAG, token, embedding i inne)
 
 ## Jak cytować
