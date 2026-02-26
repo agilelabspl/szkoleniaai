@@ -1,0 +1,10 @@
+[
+{"name":"AI Engineer","desc":"Projektuje i wdraża systemy AI w produktach. Najszybciej rosnące stanowisko w Europie wg LinkedIn.","salary":"19 500 – 55 000 PLN B2B","aliases":"Senior AI Engineer, Gen AI Engineer"},
+{"name":"Data Scientist","desc":"Analizuje dane, buduje modele predykcyjne. Kategoria Data wyprzedziła JavaScript na JustJoinIT.","salary":"16 400 PLN UoP / 28 500 – 37 000 PLN B2B","aliases":"Senior Data Scientist, Lead Data Scientist"},
+{"name":"ML Engineer","desc":"Buduje pipeline'y ML i wdraża w produkcji. Łączy Data Science z inżynierią oprogramowania.","salary":"19 500 – 55 000 PLN B2B","aliases":"Machine Learning Engineer, MLOps Engineer"},
+{"name":"Head of AI","desc":"Zarządza strategią AI w organizacji. Jedna z najszybciej rosnących ról liderskich w Europie.","salary":"30 000 – 55 000+ PLN B2B","aliases":"AI Lead, Data & AI Strategy Manager"},
+{"name":"AI / ML Architect","desc":"Projektuje architekturę systemów AI na skalę organizacji.","salary":"28 500 – 55 000 PLN B2B","aliases":"AI Solutions Architect"},
+{"name":"AI Researcher","desc":"Bada nowe metody i algorytmy AI, tworzy prototypy. Często wymaga magistra lub doktora.","salary":"19 500 – 37 000 PLN B2B","aliases":"Applied AI Researcher"},
+{"name":"AI Consultant","desc":"Doradza firmom jak wykorzystać AI w biznesie. Firmy konsultingowe i centra usług wspólnych.","salary":"16 400 – 37 000 PLN","aliases":"AI Transformation Consultant"},
+{"name":"AI Agent Orchestrator","desc":"Orkiestruje zespoły ludzi i autonomicznych agentów AI. Oferty wzrosły o 986% w ciągu roku.","salary":"19 500 – 45 000 PLN B2B","aliases":"Agent Ops Specialist, AI Workforce Manager"}
+]

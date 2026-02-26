@@ -1,0 +1,18 @@
+[
+{"name":"autoMee","desc":"Platforma księgowa napędzana AI. Pełna księgowość, rozliczenia, dokumenty.","tag":"Finanse","url":"https://automee.pl/"},
+{"name":"Status KSeF","desc":"Sprawdź w czasie rzeczywistym, czy KSeF działa.","tag":"Finanse","url":"https://statusksef.pl/"},
+{"name":"Zanfia","desc":"Stwórz i sprzedaj kurs online lub płatny newsletter.","tag":"Edukacja","url":"https://zanfia.com/pl/"},
+{"name":"Wizualizator e-Faktur","desc":"Wizualizacja faktur KSeF, zamiana XML na czytelny dokument.","tag":"Finanse","url":"https://ai-gov.pl/ksef-pdf/"},
+{"name":"BetterFeedback","desc":"Zbieranie feedbacku przez AI — awatary i chat zamiast ankiet.","tag":"Produktywność","url":"https://betterfeedback.ai/"},
+{"name":"CoachLog","desc":"Aplikacja dla trenerów piłki nożnej. Mów do telefonu, AI zamienia na statystyki.","tag":"Sport","url":"https://coachlog.app/"},
+{"name":"Pytania Maturalne","desc":"Wyszukiwanie semantyczne pytań z arkuszy CKE. Matma, fizyka, biologia, chemia, geografia.","tag":"Edukacja","url":"https://pytania-maturalne.pl"},
+{"name":"Szumią Szyszki","desc":"Zestawy DIY z darów lasu. AI pomogło zbudować marketing i stronę.","tag":"E-commerce","url":"https://szumiaszyszki.pl/"},
+{"name":"Bajkopisanie","desc":"AI generuje spersonalizowaną bajkę z imieniem Twojego dziecka.","tag":"Dla dzieci","url":"https://bajkopisanie.pl/"},
+{"name":"OneLetter","desc":"Streszczenie nowych filmów z ulubionych kanałów YouTube mailem.","tag":"Produktywność","url":"https://oneletter.smartletter.pl/"},
+{"name":"BeHired","desc":"Wrzuć ofertę pracy i CV, dostaniesz dopasowane CV i pytania rekrutacyjne.","tag":"Kariera","url":"https://behired.net/"},
+{"name":"Outcome Skills","desc":"Zarządzanie i rozwój kompetencji zawodowych dla HR.","tag":"HR","url":"https://www.outcomeskills.com/"},
+{"name":"FinansAI","desc":"Integracja z KSeF, analizy finansowe, automatyczne PIT i VAT.","tag":"Finanse","url":"https://finansai.pl/"},
+{"name":"Zencal","desc":"Planowanie i sprzedawanie spotkań online. Dla freelancerów i konsultantów.","tag":"Produktywność","url":"https://zencal.io/pl/"},
+{"name":"Tequipy","desc":"Zarządzanie parkiem firmowych laptopów w 140+ krajach.","tag":"IT","url":"https://tequipy.com/"},
+{"name":"Oko z Orbity","desc":"Sprawdź które satelity przelatują nad Tobą. Mapa 30+ satelitów live.","tag":"Edukacja","url":"https://agilelabspl.github.io/okozorbity/"}
+]
