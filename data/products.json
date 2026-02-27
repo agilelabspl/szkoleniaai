@@ -14,5 +14,10 @@
 {"name":"FinansAI","desc":"Integracja z KSeF, analizy finansowe, automatyczne PIT i VAT.","tag":"Finanse","url":"https://finansai.pl/"},
 {"name":"Zencal","desc":"Planowanie i sprzedawanie spotkań online. Dla freelancerów i konsultantów.","tag":"Produktywność","url":"https://zencal.io/pl/"},
 {"name":"Tequipy","desc":"Zarządzanie parkiem firmowych laptopów w 140+ krajach.","tag":"IT","url":"https://tequipy.com/"},
-{"name":"Oko z Orbity","desc":"Sprawdź które satelity przelatują nad Tobą. Mapa 30+ satelitów live.","tag":"Edukacja","url":"https://agilelabspl.github.io/okozorbity/"}
+{"name":"Oko z Orbity","desc":"Sprawdź które satelity przelatują nad Tobą. Mapa 30+ satelitów live.","tag":"Edukacja","url":"https://agilelabspl.github.io/okozorbity/"},
+{"name":"Postify","desc":"Zarządzanie social mediami firmy z pomocą AI.","tag":"Marketing","url":"https://postfity.com/"},
+{"name":"Neptune","desc":"Zarządzanie procesem budowy i trenowania modeli AI. Przejęte przez OpenAI.","tag":"IT","url":"https://neptune.ai/"},
+{"name":"Surfer","desc":"SEO na sterydach w czasach AI. Optymalizacja treści pod wyszukiwarki.","tag":"Marketing","url":"https://surferseo.com/"},
+{"name":"Shadcn Design","desc":"Przyspieszenie pracy z komponentami shadcn/ui w Figma.","tag":"IT","url":"https://www.shadcndesign.com/"},
+{"name":"FarmsFlow","desc":"Papierologia gospodarstwa rolnego: dziennik zabiegów, harmonogram, rejestry, ewidencje.","tag":"Rolnictwo","url":"https://farmsflow.xyz/"}
 ]
