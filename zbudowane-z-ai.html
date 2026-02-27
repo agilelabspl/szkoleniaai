@@ -34,7 +34,7 @@
       "name": "Zbudowane z AI w Polsce",
       "description": "Polskie produkty i projekty zbudowane z pomocą sztucznej inteligencji",
       "url": "https://aiprzewodnik.pl/zbudowane-z-ai.html",
-      "numberOfItems": 16,
+      "numberOfItems": 21,
       "itemListElement": [
         { "@type": "ListItem", "position": 1, "item": { "@type": "CreativeWork", "name": "autoMee", "description": "Platforma księgowa napędzana AI. Ogarnie pełną księgowość, wszystko rozliczy i każdy dostanie dokument, który ma dostać.", "url": "https://automee.pl/", "author": { "@type": "Person", "name": "Dominik Laskowski" } } },
         { "@type": "ListItem", "position": 2, "item": { "@type": "CreativeWork", "name": "Status KSeF", "description": "Sprawdź w czasie rzeczywistym, czy system KSeF działa, działa trochę, czy kompletnie leży.", "url": "https://statusksef.pl/", "author": { "@type": "Person", "name": "Piotr Brzyski" } } },
@@ -51,7 +51,12 @@
         { "@type": "ListItem", "position": 13, "item": { "@type": "CreativeWork", "name": "FinansAI", "description": "Integracja z KSeF, analizy finansowe, automatyczne rozliczanie PIT i VAT.", "url": "https://finansai.pl/", "author": { "@type": "Person", "name": "Piotr Włodarczyk" } } },
         { "@type": "ListItem", "position": 14, "item": { "@type": "CreativeWork", "name": "Zencal", "description": "System do planowania i sprzedawania spotkań dla freelancerów i konsultantów.", "url": "https://zencal.io/pl/", "author": { "@type": "Person", "name": "Wojciech Dasiukiewicz, Grzegorz Róg" } } },
         { "@type": "ListItem", "position": 15, "item": { "@type": "CreativeWork", "name": "Tequipy", "description": "Zarządzanie parkiem firmowych laptopów w ponad 140 krajach.", "url": "https://tequipy.com/", "author": { "@type": "Person", "name": "Tomasz Stawarski" } } },
-        { "@type": "ListItem", "position": 16, "item": { "@type": "CreativeWork", "name": "Kto na Ciebie patrzy z kosmosu?", "description": "Sprawdź w czasie rzeczywistym, które satelity przelatują nad Twoją głową. Mapa 30+ satelitów i prognoza przelotów.", "url": "https://agilelabspl.github.io/okozorbity/", "author": { "@type": "Person", "name": "Paweł Lewiński" }, "isAccessibleForFree": true } }
+        { "@type": "ListItem", "position": 16, "item": { "@type": "CreativeWork", "name": "Kto na Ciebie patrzy z kosmosu?", "description": "Sprawdź w czasie rzeczywistym, które satelity przelatują nad Twoją głową. Mapa 30+ satelitów i prognoza przelotów.", "url": "https://agilelabspl.github.io/okozorbity/", "author": { "@type": "Person", "name": "Paweł Lewiński" }, "isAccessibleForFree": true } },
+        { "@type": "ListItem", "position": 17, "item": { "@type": "WebApplication", "name": "Postify", "description": "Zarządzanie social mediami firmy z pomocą AI.", "url": "https://postfity.com/", "author": { "@type": "Person", "name": "Jacek Dobrowolski" } } },
+        { "@type": "ListItem", "position": 18, "item": { "@type": "WebApplication", "name": "Neptune", "description": "Zarządzanie procesem budowy i trenowania modeli AI. Przejęte przez OpenAI.", "url": "https://neptune.ai/", "author": { "@type": "Person", "name": "Piotr Niedźwiedź" } } },
+        { "@type": "ListItem", "position": 19, "item": { "@type": "WebApplication", "name": "Surfer", "description": "SEO na sterydach w czasach AI. Optymalizacja treści pod wyszukiwarki.", "url": "https://surferseo.com/", "author": { "@type": "Person", "name": "Tomasz Niezgoda" } } },
+        { "@type": "ListItem", "position": 20, "item": { "@type": "WebApplication", "name": "Shadcn Design", "description": "Przyspieszenie pracy z komponentami shadcn/ui w Figma.", "url": "https://www.shadcndesign.com/", "author": { "@type": "Person", "name": "Matt Wierzbicki" } } },
+        { "@type": "ListItem", "position": 21, "item": { "@type": "WebApplication", "name": "FarmsFlow", "description": "Papierologia gospodarstwa rolnego: dziennik zabiegów, harmonogram, rejestry, ewidencje.", "url": "https://farmsflow.xyz/", "author": { "@type": "Person", "name": "Noemi Krysiak-Wolańska" } } }
       ]
     }
     </script>
@@ -311,6 +316,18 @@
             border: 1px solid #d6d3d1;
         }
 
+        .tag-marketing {
+            background: #fef9c3;
+            color: #854d0e;
+            border: 1px solid #fde047;
+        }
+
+        .tag-rolnictwo {
+            background: #d1fae5;
+            color: #065f46;
+            border: 1px solid #6ee7b7;
+        }
+
         /* ─── Badge NOWE ─── */
         .product-card {
             position: relative;
@@ -393,6 +410,11 @@
         .products-list > :nth-child(15) { animation-delay: 0.75s; }
         .products-list > :nth-child(16) { animation-delay: 0.80s; }
         .products-list > :nth-child(17) { animation-delay: 0.85s; }
+        .products-list > :nth-child(18) { animation-delay: 0.90s; }
+        .products-list > :nth-child(19) { animation-delay: 0.95s; }
+        .products-list > :nth-child(20) { animation-delay: 1.00s; }
+        .products-list > :nth-child(21) { animation-delay: 1.05s; }
+        .products-list > :nth-child(22) { animation-delay: 1.10s; }
 
         @keyframes fadeUp {
             to { opacity: 1; transform: translateY(0); }
@@ -444,7 +466,7 @@
         <header>
             <h1 class="main-title">Zbudowane z <span>AI</span> w Polsce 🇵🇱</h1>
             <p class="subtitle">Polskie produkty i projekty, które powstały z pomocą AI.<br>Nie teoria. Realne produkty, które działają.</p>
-            <p class="update-date"><span id="product-count">16</span> produktów · nowe co piątek</p>
+            <p class="update-date"><span id="product-count">21</span> produktów · nowe co piątek</p>
         </header>
     </div>
 
@@ -452,9 +474,58 @@
     <div class="container">
         <div class="products-list">
 
+            <!-- #17 Postify -->
+            <a href="https://postfity.com/" class="product-card" target="_blank" rel="noopener noreferrer" onclick="gtag('event','product_click',{event_label:'Postify'})">
+                <span class="badge-new">Nowe</span>
+                <h2>Postify</h2>
+                <div class="product-creator">Jacek Dobrowolski</div>
+                <p class="product-desc">Nie chcesz się pogubić w zarządzaniu social mediami swojej firmy? <strong>Ogarniesz to z pomocą AI</strong> i odzyskasz godziny tygodniowo.</p>
+                <span class="product-tag tag-marketing">Marketing</span>
+                <div class="card-footer">Sprawdź <span>&rarr;</span></div>
+            </a>
+
+            <!-- #18 Neptune -->
+            <a href="https://neptune.ai/" class="product-card" target="_blank" rel="noopener noreferrer" onclick="gtag('event','product_click',{event_label:'Neptune'})">
+                <span class="badge-new">Nowe</span>
+                <h2>Neptune</h2>
+                <div class="product-creator">Piotr Niedźwiedź</div>
+                <p class="product-desc">Zarządzanie procesem budowy i <strong>trenowania modeli AI</strong>. Przejęte przez OpenAI, bo to najlepsze narzędzie w swojej klasie.</p>
+                <span class="product-tag tag-it">IT</span>
+                <div class="card-footer">Sprawdź <span>&rarr;</span></div>
+            </a>
+
+            <!-- #19 Surfer -->
+            <a href="https://surferseo.com/" class="product-card" target="_blank" rel="noopener noreferrer" onclick="gtag('event','product_click',{event_label:'Surfer'})">
+                <span class="badge-new">Nowe</span>
+                <h2>Surfer</h2>
+                <div class="product-creator">Tomasz Niezgoda</div>
+                <p class="product-desc"><strong>SEO na sterydach</strong> w czasach AI. Nie pozwoli Ci zginąć w tłumie wyników wyszukiwania.</p>
+                <span class="product-tag tag-marketing">Marketing</span>
+                <div class="card-footer">Sprawdź <span>&rarr;</span></div>
+            </a>
+
+            <!-- #20 Shadcn Design -->
+            <a href="https://www.shadcndesign.com/" class="product-card" target="_blank" rel="noopener noreferrer" onclick="gtag('event','product_click',{event_label:'Shadcn Design'})">
+                <span class="badge-new">Nowe</span>
+                <h2>Shadcn Design</h2>
+                <div class="product-creator">Matt Wierzbicki</div>
+                <p class="product-desc">Projektujesz w Figma? Teraz możesz <strong>przyspieszyć pracę</strong> z komponentami shadcn/ui.</p>
+                <span class="product-tag tag-it">IT</span>
+                <div class="card-footer">Sprawdź <span>&rarr;</span></div>
+            </a>
+
+            <!-- #21 FarmsFlow -->
+            <a href="https://farmsflow.xyz/" class="product-card" target="_blank" rel="noopener noreferrer" onclick="gtag('event','product_click',{event_label:'FarmsFlow'})">
+                <span class="badge-new">Nowe</span>
+                <h2>FarmsFlow</h2>
+                <div class="product-creator">Noemi Krysiak-Wolańska</div>
+                <p class="product-desc">Dziennik zabiegów, harmonogram, rejestry, ewidencje. <strong>Cała papierologia gospodarstwa rolnego</strong> zgodnie z wymaganiami, bez bólu głowy.</p>
+                <span class="product-tag tag-rolnictwo">Rolnictwo</span>
+                <div class="card-footer">Sprawdź <span>&rarr;</span></div>
+            </a>
+
             <!-- #1 autoMee -->
             <a href="https://automee.pl/" class="product-card" target="_blank" rel="noopener noreferrer" onclick="gtag('event','product_click',{event_label:'autoMee'})">
-                <span class="badge-new">Nowe</span>
                 <h2>autoMee</h2>
                 <div class="product-creator">Dominik Laskowski</div>
                 <p class="product-desc">Platforma księgowa napędzana AI. <strong>Ogarnie pełną księgowość</strong>, wszystko rozliczy i każdy dostanie dokument, który ma dostać.</p>
@@ -464,7 +535,6 @@
 
             <!-- #2 Status KSeF -->
             <a href="https://statusksef.pl/" class="product-card" target="_blank" rel="noopener noreferrer" onclick="gtag('event','product_click',{event_label:'Status KSeF'})">
-                <span class="badge-new">Nowe</span>
                 <h2>Status KSeF</h2>
                 <div class="product-creator">Piotr Brzyski</div>
                 <p class="product-desc">KSeF znowu padł? Sprawdź w czasie rzeczywistym, <strong>czy system działa</strong>, działa trochę, czy kompletnie leży.</p>
@@ -474,7 +544,6 @@
 
             <!-- #3 Zanfia -->
             <a href="https://zanfia.com/pl/" class="product-card" target="_blank" rel="noopener noreferrer" onclick="gtag('event','product_click',{event_label:'Zanfia'})">
-                <span class="badge-new">Nowe</span>
                 <h2>Zanfia</h2>
                 <div class="product-creator">Bogusz Pękalski</div>
                 <p class="product-desc">Jesteś ekspertem i chcesz sprzedać swoją wiedzę? Zanfia pomoże Ci <strong>stworzyć i sprzedać kurs online</strong> lub płatny newsletter.</p>
@@ -484,7 +553,6 @@
 
             <!-- #4 Wizualizator e-Faktur -->
             <a href="https://ai-gov.pl/ksef-pdf/" class="product-card" target="_blank" rel="noopener noreferrer" onclick="gtag('event','product_click',{event_label:'Wizualizator e-Faktur'})">
-                <span class="badge-new">Nowe</span>
                 <h2>Wizualizator e-Faktur</h2>
                 <div class="product-creator">Jerzy Głowacki</div>
                 <p class="product-desc">Życie z KSeF może być łatwiejsze. <strong>Zobaczysz fakturę zamiast XML</strong> i sprawdzisz, czy QR kod na dokumencie jest prawdziwy.</p>
@@ -494,7 +562,6 @@
 
             <!-- #5 BetterFeedback -->
             <a href="https://betterfeedback.ai/" class="product-card" target="_blank" rel="noopener noreferrer" onclick="gtag('event','product_click',{event_label:'BetterFeedback'})">
-                <span class="badge-new">Nowe</span>
                 <h2>BetterFeedback</h2>
                 <div class="product-creator">Rafał Muszyński</div>
                 <p class="product-desc">Zbieranie feedbacku to nie nudne ankiety. <strong>AI prowadzi rozmowę</strong> przez awatary lub chat, żeby wyciągnąć prawdziwe opinie.</p>
