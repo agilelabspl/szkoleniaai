@@ -146,5 +146,9 @@
 {"name":"AI for Executives – UW","cat":"studia-podyplomowe","desc":"Program w j. angielskim dla liderów","format":"Niestacjonarne","url":"https://irk.uw.edu.pl/pl/offer/PODYPL2025/programme/SP-PRK-AI/"},
 {"name":"AI w praktyce i biznesie – SWPS","cat":"studia-podyplomowe","desc":"Fundamenty AI i wdrażanie w organizacjach","format":"Hybrydowe · weekendy","url":"https://swps.pl/298-studia/warszawa/studia-podyplomowe/35595-ai-sztuczna-inteligencja-w-praktyce-i-biznesie"},
 {"name":"Menedżer sztucznej inteligencji – SGGW","cat":"studia-podyplomowe","desc":"Wdrażanie i zarządzanie AI w biznesie","format":"Zdalnie","url":"https://spai.sggw.edu.pl/"},
-{"name":"AI: aspekty prawne i biznesowe – WSB-NLU","cat":"studia-podyplomowe","desc":"AI Act, Industry 4.0, generatywna AI","price":"595 zł/mies.","format":"Online","url":"https://www.wsb-nlu.edu.pl/pl/sztuczna-inteligencja-studia-podyplomowe"}
+{"name":"AI: aspekty prawne i biznesowe – WSB-NLU","cat":"studia-podyplomowe","desc":"AI Act, Industry 4.0, generatywna AI","price":"595 zł/mies.","format":"Online","url":"https://www.wsb-nlu.edu.pl/pl/sztuczna-inteligencja-studia-podyplomowe"},
+{"name":"AI Analityk: Reguły biznesowe","cat":"produkty","desc":"Najlepsze praktyki specyfikowania reguł biznesowych z AI","price":"od 202 zł netto","format":"Nagranie","url":"https://aianalityk.pl/"},
+{"name":"AI Analityk: Modelowanie procesów w BPMN","cat":"produkty","desc":"Modele procesów biznesowych w BPMN z wykorzystaniem AI","price":"od 202 zł netto","format":"Nagranie","url":"https://aianalityk.pl/"},
+{"name":"Ogarnij AI","cat":"ogolne","desc":"Praktyczny kurs AI dla ludzi, nie dla geeków","price":"bezpłatny","format":"Online","url":"https://ogarnij.praktyczne.ai/"},
+{"name":"SensAI Academy — Kursy AI od podstaw do eksperta","cat":"ogolne","desc":"AI Essentials i 6 ścieżek: automatyzacja, agenci AI, grafika, prompt engineering, SEO, marketing","price":"od 1 194 zł netto","format":"Online · nagrania","url":"https://sensai.io/pl/"}
 ]
