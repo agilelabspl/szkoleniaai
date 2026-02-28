@@ -904,7 +904,7 @@ function shareQuiz() {
 }
 
 function shareLinkedIn() {
-    var text = 'Zrobilem quiz "Jaki kurs AI jest dla Ciebie?" na aiprzewodnik.pl - 2 minuty i wiesz od czego zaczac. Polecam sprawdzic!\n\nhttps://aiprzewodnik.pl/quiz.html';
+    var text = 'Zrobilem quiz Jaki kurs AI jest dla Ciebie na aiprzewodnik.pl - 2 minuty i wiesz od czego zaczac. Polecam sprawdzic!\n\nhttps://aiprzewodnik.pl/quiz.html';
     var url = 'https://www.linkedin.com/feed/?shareActive=true&text=' + encodeURIComponent(text);
     window.open(url, '_blank');
     try { gtag('event', 'quiz_share_linkedin', { event_category: 'quiz' }); } catch(e) {}
