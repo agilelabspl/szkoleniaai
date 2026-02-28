@@ -832,6 +832,13 @@ function showResults() {
     html += '<p>' + data.description + '</p>';
     html += '</div>';
 
+    // Share — BEFORE recommendations (higher visibility)
+    html += '<div style="text-align: center; margin: 1.5rem 0; padding: 1.25rem; background: linear-gradient(135deg, rgba(99,102,241,0.08), rgba(168,85,247,0.08)); border-radius: 12px; border: 1px solid rgba(99,102,241,0.15);">';
+    html += '<p style="margin: 0 0 0.75rem; font-size: 1rem; color: var(--text-secondary);">Znasz kogoś, komu ten quiz się przyda?</p>';
+    html += '<button class="btn-start" onclick="shareQuiz()" id="share-btn" style="font-size: 0.95rem; padding: 0.7rem 1.5rem;">Poleć quiz znajomemu</button>';
+    html += '<p id="share-confirm" style="color: var(--free-badge); font-size: 0.875rem; font-weight: 500; margin-top: 0.75rem; display: none;">Link skopiowany!</p>';
+    html += '</div>';
+
     // Role-specific recommendations
     var roleLabels = {
         biznes: 'Biznes / Sprzedaż',
@@ -854,12 +861,6 @@ function showResults() {
     html += '<div class="reco-grid">' + buildCards(generalCourses) + '</div>';
     html += '</div>';
 
-    // Share
-    html += '<div style="text-align: center; margin-top: 1rem;">';
-    html += '<button class="btn-start" onclick="shareQuiz()" id="share-btn">Poleć quiz znajomemu</button>';
-    html += '<p id="share-confirm" style="color: var(--free-badge); font-size: 0.875rem; font-weight: 500; margin-top: 0.75rem; display: none;">Link skopiowany!</p>';
-    html += '</div>';
-
     // Restart
     html += '<div style="text-align: center; margin-top: 0.75rem; display: flex; justify-content: center; gap: 0.75rem; flex-wrap: wrap;">';
     html += '<button class="btn-restart" onclick="restartQuiz()">Zrób quiz ponownie</button>';
@@ -880,15 +881,23 @@ function showResults() {
 
 function shareQuiz() {
     var url = 'https://aiprzewodnik.pl/quiz.html';
-    navigator.clipboard.writeText(url).then(function() {
-        document.getElementById('share-confirm').style.display = 'block';
-        setTimeout(function() {
-            document.getElementById('share-confirm').style.display = 'none';
-        }, 3000);
-    }).catch(function() {
-        prompt('Skopiuj link:', url);
-    });
+    var shareData = {
+        title: 'Quiz: Jaki kurs AI jest dla Ciebie?',
+        text: 'Sprawdź jaki kurs AI pasuje do Ciebie — quiz zajmuje 2 minuty',
+        url: url
+    };
     try { gtag('event', 'quiz_share', { event_category: 'quiz' }); } catch(e) {}
+    if (navigator.share) {
+        navigator.share(shareData).catch(function() {});
+    } else {
+        navigator.clipboard.writeText(url).then(function() {
+            var confirm = document.getElementById('share-confirm');
+            confirm.style.display = 'block';
+            setTimeout(function() { confirm.style.display = 'none'; }, 3000);
+        }).catch(function() {
+            prompt('Skopiuj link:', url);
+        });
+    }
 }
 
 function restartQuiz() {
