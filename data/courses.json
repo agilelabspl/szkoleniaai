@@ -151,5 +151,6 @@
 {"name":"AI Analityk: Modelowanie procesów w BPMN","cat":"produkty","desc":"Modele procesów biznesowych w BPMN z wykorzystaniem AI","price":"od 202 zł netto","format":"Nagranie","url":"https://aianalityk.pl/"},
 {"name":"Ogarnij AI","cat":"ogolne","desc":"Praktyczny kurs AI dla ludzi, nie dla geeków","price":"bezpłatny","format":"Online","url":"https://ogarnij.praktyczne.ai/"},
 {"name":"SensAI Academy — Kursy AI od podstaw do eksperta","cat":"ogolne","desc":"AI Essentials i 6 ścieżek: automatyzacja, agenci AI, grafika, prompt engineering, SEO, marketing","price":"od 1 194 zł netto","format":"Online · nagrania","url":"https://sensai.io/pl/"},
-{"name":"AI Testers — Automatyzacja testów z AI","cat":"programisci","desc":"Automatyzacja testów z AI, Playwright i MCP. Budowa frameworka testowego, AI Agents w projektach testowych","price":"1 300 zł netto","format":"Online · kohorta","url":"https://aitesters.pl/"}
+{"name":"AI Testers — Automatyzacja testów z AI","cat":"programisci","desc":"Automatyzacja testów z AI, Playwright i MCP. Budowa frameworka testowego, AI Agents w projektach testowych","price":"1 300 zł netto","format":"Online · kohorta","url":"https://aitesters.pl/"},
+{"name":"AI Executive Masterclass","cat":"biznes","desc":"Program dla kadry zarządzającej: AI Act, LLM, agenci AI, strategia wdrożeń, governance danych. Case studies z Orange Polska, PepsiCo, Ringier Axel Springer","price":"15 000 zł netto","format":"Stacjonarnie · Warszawa","url":"https://www.cionet.com/pl/masterclass-ai-executive"}
 ]
