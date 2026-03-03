@@ -1,0 +1,691 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO Meta Tags -->
+    <title>Podcasty i Kanały YouTube o AI po polsku | AI Przewodnik</title>
+    <meta name="description" content="Polskie podcasty i kanały YouTube o AI. Najnowsze odcinki zawsze aktualne z RSS i Spotify.">
+    <meta name="author" content="AI Przewodnik">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://aiprzewodnik.pl/podcasty-ai.html">
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%23111827'/%3E%3Ctext x='50%25' y='54%25' dominant-baseline='middle' text-anchor='middle' font-size='38' font-family='system-ui'%3E🤖%3C/text%3E%3C/svg%3E">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://aiprzewodnik.pl/podcasty-ai.html">
+    <meta property="og:title" content="Podcasty i Kanały YouTube o AI po polsku">
+    <meta property="og:description" content="Polskie podcasty i kanały YouTube o AI. Najnowsze odcinki zawsze aktualne.">
+    <meta property="og:image" content="https://aiprzewodnik.pl/og-image.png">
+    <meta property="og:locale" content="pl_PL">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Podcasty i Kanały YouTube o AI po polsku">
+    <meta name="twitter:description" content="Polskie podcasty i kanały YouTube o AI. Najnowsze odcinki zawsze aktualne.">
+    <meta name="twitter:image" content="https://aiprzewodnik.pl/og-image.png">
+
+    <!-- Schema.org -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "CollectionPage",
+      "name": "Podcasty i Kanały YouTube o AI po polsku",
+      "description": "Polskie podcasty i kanały YouTube o AI z najnowszymi odcinkami.",
+      "url": "https://aiprzewodnik.pl/podcasty-ai.html",
+      "isPartOf": {
+        "@type": "WebSite",
+        "name": "AI Przewodnik",
+        "url": "https://aiprzewodnik.pl/"
+      }
+    }
+    </script>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"></noscript>
+
+    <!-- Shared navigation -->
+    <link rel="stylesheet" href="site-nav.css">
+
+    <style>
+        :root {
+            --bg-color: #ffffff;
+            --text-color: #1a1a2e;
+            --text-muted: #64748b;
+            --primary: #5b5ee8;
+            --secondary: #06b6d4;
+            --card-bg: #f8fafc;
+            --card-border: #e2e8f0;
+            --font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+        }
+
+        *, *::before, *::after {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: var(--font-family);
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.7;
+            overflow-x: hidden;
+        }
+
+        /* --- Hero --- */
+        header {
+            text-align: center;
+            padding: 3rem 1.5rem 2rem;
+        }
+
+        .main-title {
+            font-size: clamp(1.8rem, 4vw, 2.6rem);
+            font-weight: 800;
+            letter-spacing: -0.03em;
+            line-height: 1.2;
+            margin-bottom: 0.75rem;
+        }
+
+        .main-title span {
+            background: linear-gradient(135deg, #6366f1, #06b6d4);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .subtitle {
+            font-size: 1.1rem;
+            color: var(--text-muted);
+            max-width: 600px;
+            margin: 0 auto 0.75rem;
+        }
+
+        .update-date {
+            font-size: 0.9rem;
+            color: var(--text-muted);
+        }
+
+        .update-date strong {
+            color: var(--primary);
+            font-weight: 700;
+        }
+
+        /* --- Container --- */
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+            padding: 0 1.5rem;
+        }
+
+        /* --- Filters --- */
+        .filters {
+            display: flex;
+            justify-content: center;
+            gap: 0.5rem;
+            margin-bottom: 2rem;
+            flex-wrap: wrap;
+        }
+
+        .filter-btn {
+            padding: 0.5rem 1.25rem;
+            border: 1px solid var(--card-border);
+            border-radius: 999px;
+            background: var(--bg-color);
+            color: var(--text-color);
+            font-size: 0.9rem;
+            font-weight: 500;
+            cursor: pointer;
+            font-family: inherit;
+            transition: all 0.2s ease;
+        }
+
+        .filter-btn:hover {
+            border-color: var(--primary);
+            color: var(--primary);
+        }
+
+        .filter-btn.active {
+            background: var(--primary);
+            color: #fff;
+            border-color: var(--primary);
+        }
+
+        /* --- Media Grid --- */
+        .media-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 1.25rem;
+            margin-bottom: 2.5rem;
+        }
+
+        @media (max-width: 768px) {
+            .media-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        /* --- Media Card --- */
+        .media-card {
+            display: flex;
+            flex-direction: column;
+            background: var(--card-bg);
+            border: 1px solid var(--card-border);
+            border-radius: 16px;
+            padding: 1.5rem;
+            transition: all 0.25s ease;
+            text-decoration: none;
+            color: inherit;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .media-card:hover {
+            border-color: #c7d2fe;
+            box-shadow: 0 8px 24px rgba(99, 102, 241, 0.08);
+            transform: translateY(-2px);
+        }
+
+        .media-card-type {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.35rem;
+            font-size: 0.75rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-bottom: 0.75rem;
+            padding: 0.25rem 0.65rem;
+            border-radius: 6px;
+            width: fit-content;
+        }
+
+        .type-youtube {
+            background: #fee2e2;
+            color: #dc2626;
+        }
+
+        .type-podcast {
+            background: #dbeafe;
+            color: #2563eb;
+        }
+
+        .media-card h2 {
+            font-size: 1.25rem;
+            font-weight: 700;
+            margin-bottom: 0.25rem;
+            letter-spacing: -0.01em;
+        }
+
+        .media-card-author {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            margin-bottom: 0.65rem;
+        }
+
+        .media-card-desc {
+            font-size: 0.9rem;
+            color: #475569;
+            line-height: 1.6;
+            margin-bottom: 1rem;
+            flex-grow: 1;
+        }
+
+        /* --- Latest Episode (YouTube) --- */
+        .latest-episode {
+            background: #fff;
+            border: 1px solid var(--card-border);
+            border-radius: 10px;
+            overflow: hidden;
+            margin-bottom: 1rem;
+        }
+
+        .latest-episode-loading {
+            padding: 1.25rem;
+            text-align: center;
+            color: var(--text-muted);
+            font-size: 0.85rem;
+        }
+
+        .latest-episode-loading .spinner {
+            display: inline-block;
+            width: 16px;
+            height: 16px;
+            border: 2px solid var(--card-border);
+            border-top-color: var(--primary);
+            border-radius: 50%;
+            animation: spin 0.8s linear infinite;
+            margin-right: 0.5rem;
+            vertical-align: middle;
+        }
+
+        @keyframes spin {
+            to { transform: rotate(360deg); }
+        }
+
+        .latest-episode a {
+            display: flex;
+            gap: 0.75rem;
+            padding: 0.75rem;
+            text-decoration: none;
+            color: inherit;
+            transition: background 0.2s;
+        }
+
+        .latest-episode a:hover {
+            background: #f1f5f9;
+        }
+
+        .latest-thumb {
+            width: 120px;
+            height: 68px;
+            border-radius: 6px;
+            object-fit: cover;
+            flex-shrink: 0;
+            background: var(--card-border);
+        }
+
+        .latest-info {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            min-width: 0;
+        }
+
+        .latest-title {
+            font-size: 0.82rem;
+            font-weight: 600;
+            color: var(--text-color);
+            line-height: 1.35;
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+        }
+
+        .latest-date {
+            font-size: 0.75rem;
+            color: var(--text-muted);
+            margin-top: 0.25rem;
+        }
+
+        .latest-label {
+            font-size: 0.7rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.04em;
+            color: var(--text-muted);
+            padding: 0.5rem 0.75rem 0;
+        }
+
+        /* --- Spotify Embed --- */
+        .spotify-embed {
+            margin-bottom: 1rem;
+            border-radius: 12px;
+            overflow: hidden;
+        }
+
+        .spotify-embed iframe {
+            border: none;
+            width: 100%;
+            border-radius: 12px;
+        }
+
+        /* --- Card Footer --- */
+        .media-card-footer {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.3rem;
+            font-size: 0.85rem;
+            font-weight: 600;
+            color: var(--primary);
+            text-decoration: none;
+            transition: gap 0.2s;
+        }
+
+        .media-card:hover .media-card-footer {
+            gap: 0.6rem;
+        }
+
+        .media-card-footer span {
+            transition: transform 0.2s;
+        }
+
+        .media-card:hover .media-card-footer span {
+            transform: translateX(3px);
+        }
+
+        /* --- Error/Fallback state --- */
+        .latest-error {
+            padding: 0.75rem;
+            text-align: center;
+            font-size: 0.82rem;
+            color: var(--text-muted);
+        }
+
+        .latest-error a {
+            color: var(--primary);
+            text-decoration: underline;
+            text-underline-offset: 2px;
+        }
+
+        /* --- Newsletter Bar --- */
+        .newsletter-bar {
+            background: linear-gradient(135deg, #eef2ff 0%, #f0f9ff 100%);
+            border-top: 1px solid #e0e7ff;
+            border-bottom: 1px solid #e0e7ff;
+            padding: 2rem 1.5rem;
+            text-align: center;
+        }
+
+        .newsletter-bar-text {
+            max-width: 600px;
+            margin: 0 auto 1rem;
+        }
+
+        .newsletter-bar-text h3 {
+            font-size: 1.15rem;
+            font-weight: 700;
+            margin-bottom: 0.25rem;
+        }
+
+        .newsletter-bar-text p {
+            color: var(--text-muted);
+            font-size: 0.9rem;
+        }
+
+        /* --- Back Link --- */
+        .back-section {
+            text-align: center;
+            padding: 2rem 0;
+        }
+
+        .back-link {
+            color: var(--primary);
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 0.95rem;
+        }
+
+        .back-link:hover {
+            text-decoration: underline;
+            text-underline-offset: 3px;
+        }
+
+        /* --- Animations --- */
+        .media-card {
+            opacity: 0;
+            transform: translateY(20px);
+            animation: fadeUp 0.5s ease forwards;
+        }
+
+        @keyframes fadeUp {
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .media-grid > :nth-child(1) { animation-delay: 0.05s; }
+        .media-grid > :nth-child(2) { animation-delay: 0.10s; }
+        .media-grid > :nth-child(3) { animation-delay: 0.15s; }
+        .media-grid > :nth-child(4) { animation-delay: 0.20s; }
+        .media-grid > :nth-child(5) { animation-delay: 0.25s; }
+        .media-grid > :nth-child(6) { animation-delay: 0.30s; }
+        .media-grid > :nth-child(7) { animation-delay: 0.35s; }
+        .media-grid > :nth-child(8) { animation-delay: 0.40s; }
+        .media-grid > :nth-child(9) { animation-delay: 0.45s; }
+        .media-grid > :nth-child(10) { animation-delay: 0.50s; }
+        .media-grid > :nth-child(11) { animation-delay: 0.55s; }
+        .media-grid > :nth-child(12) { animation-delay: 0.60s; }
+    </style>
+</head>
+<body>
+    <script src="site-nav.js"></script>
+
+    <div class="container">
+        <header>
+            <h1 class="main-title">Oglądaj i Słuchaj o <span>AI</span></h1>
+            <p class="subtitle">Polskie podcasty i kanały YouTube o AI.<br>Najnowsze odcinki zawsze aktualne.</p>
+            <p class="update-date"><strong id="media-count">0</strong> źródeł · odcinki aktualizują się na bieżąco</p>
+        </header>
+
+        <!-- Filters -->
+        <div class="filters">
+            <button class="filter-btn active" data-filter="all" onclick="filterMedia('all', this)">Wszystko</button>
+            <button class="filter-btn" data-filter="youtube" onclick="filterMedia('youtube', this)">YouTube</button>
+            <button class="filter-btn" data-filter="podcast" onclick="filterMedia('podcast', this)">Podcasty</button>
+        </div>
+
+        <!-- Grid -->
+        <div class="media-grid" id="media-grid">
+        </div>
+
+        <!-- Back -->
+        <div class="back-section">
+            <a href="index.html" class="back-link">&larr; Wróć do katalogu szkoleń</a>
+        </div>
+    </div>
+
+    <!-- Newsletter Bar -->
+    <div class="newsletter-bar">
+        <div class="newsletter-bar-text">
+            <h3>AI w Polsce</h3>
+            <p>Wszystko co <strong>warto wiedzieć</strong>, prosto na skrzynkę</p>
+        </div>
+        <div class="ml-embedded" data-form="W9FwR1"></div>
+    </div>
+
+    <script>
+    /* ── Data ── */
+    var MEDIA = [
+        /* YouTube channels */
+        {
+            type: 'youtube',
+            name: 'Adrian Kilar',
+            author: '~147k subskrybentów',
+            desc: 'Najpopularniejszy polski YouTuber o AI. Seria "AI NOWOŚCI". Kursy AI wideo, filmmaking z AI.',
+            channelId: 'UC5aRHitAgGy39hu7MCqdHEA',
+            url: 'https://www.youtube.com/@mowikamera'
+        },
+        {
+            type: 'youtube',
+            name: 'Mateusz Chrobok',
+            author: '~160k subskrybentów',
+            desc: 'Cyberbezpieczeństwo + AI + startupy. Współtwórca kursu AI_devs. Platforma uczmnie.pl.',
+            channelId: 'UCTTZqMWBvLsUYqYwKTdjvkw',
+            url: 'https://www.youtube.com/@mateuszchrobok'
+        },
+        {
+            type: 'youtube',
+            name: 'ZroZoom AI',
+            author: 'Portal i kanał o AI po polsku',
+            desc: 'Tutoriale, raporty z konferencji, wywiady. Wszystko o AI po polsku.',
+            channelId: 'UCuA5kjTBFgDs_iES6yQbORQ',
+            url: 'https://www.youtube.com/@zrozoomai'
+        },
+
+        /* Podcasts (Spotify embeds) */
+        {
+            type: 'podcast',
+            name: '99 Twarzy AI',
+            author: 'Karol Stryja',
+            desc: 'Rozmowy z naukowcami, przedsiębiorcami i praktykami AI. Blog + podcast.',
+            spotifyId: '69sBB9KRJy2tnCmYByncCm',
+            url: 'https://open.spotify.com/show/69sBB9KRJy2tnCmYByncCm'
+        },
+        {
+            type: 'podcast',
+            name: 'Zrozumieć AI',
+            author: 'Paweł Pilarczyk · Business Insider',
+            desc: 'Podcast produkowany dla Business Insider Polska. Rozmowy z ekspertami AI.',
+            spotifyId: '7rw3y0Z9geU37YlSAor4Qv',
+            url: 'https://open.spotify.com/show/7rw3y0Z9geU37YlSAor4Qv'
+        },
+        {
+            type: 'podcast',
+            name: 'AI Codziennie',
+            author: 'Michał Dobrzański',
+            desc: 'Codzienne newsy ze świata AI. 25 lat doświadczenia w marketingu.',
+            spotifyId: '6fAXdtBvY3uB8BBsCNjM75',
+            url: 'https://open.spotify.com/show/6fAXdtBvY3uB8BBsCNjM75'
+        },
+        {
+            type: 'podcast',
+            name: 'Bliskie Spotkania z AI',
+            author: 'Krzysztof Tutak',
+            desc: 'Rozmowy z ekspertami, naukowcami i przedsiębiorcami o AI.',
+            spotifyId: '6DEl73Ybdv9gMxeqzK7Jn5',
+            url: 'https://open.spotify.com/show/6DEl73Ybdv9gMxeqzK7Jn5'
+        },
+        {
+            type: 'podcast',
+            name: 'Opanuj.AI Podcast',
+            author: 'Marcin Czarkowski, Przemek Smyrdek',
+            desc: 'Cykliczne podsumowania technicznych newsów AI. Newsletter 900+ czytelników.',
+            spotifyId: '3D6LmchBdoqL2sWkQjvWOy',
+            url: 'https://open.spotify.com/show/3D6LmchBdoqL2sWkQjvWOy'
+        },
+        {
+            type: 'podcast',
+            name: 'Mateusz Chrobok Podcast',
+            author: 'Mateusz Chrobok',
+            desc: 'Cyberbezpieczeństwo, startupy i AI w formacie audio.',
+            spotifyId: '6y6oWs20HwRejktOWHTteR',
+            url: 'https://open.spotify.com/show/6y6oWs20HwRejktOWHTteR'
+        }
+    ];
+
+    var RSS2JSON = 'https://api.rss2json.com/v1/api.json?rss_url=';
+    var YT_RSS = 'https://www.youtube.com/feeds/videos.xml?channel_id=';
+
+    /* ── Render cards ── */
+    function renderCards(filter) {
+        var grid = document.getElementById('media-grid');
+        grid.innerHTML = '';
+
+        var items = filter === 'all' ? MEDIA : MEDIA.filter(function(m) { return m.type === filter; });
+
+        items.forEach(function(m, i) {
+            var card = document.createElement('div');
+            card.className = 'media-card';
+            card.setAttribute('data-type', m.type);
+            card.style.animationDelay = (i * 0.05 + 0.05) + 's';
+
+            var typeClass = m.type === 'youtube' ? 'type-youtube' : 'type-podcast';
+            var typeIcon = m.type === 'youtube' ? '&#9654;' : '&#127908;';
+            var typeLabel = m.type === 'youtube' ? 'YouTube' : 'Podcast';
+            var footerText = m.type === 'youtube' ? 'Oglądaj na YouTube' : 'Słuchaj na Spotify';
+
+            var html = '';
+            html += '<div class="media-card-type ' + typeClass + '">' + typeIcon + ' ' + typeLabel + '</div>';
+            html += '<h2>' + m.name + '</h2>';
+            html += '<div class="media-card-author">' + m.author + '</div>';
+            html += '<p class="media-card-desc">' + m.desc + '</p>';
+
+            if (m.type === 'youtube') {
+                html += '<div class="latest-episode" id="yt-' + m.channelId + '">';
+                html += '<div class="latest-label">Najnowszy film</div>';
+                html += '<div class="latest-episode-loading"><span class="spinner"></span>Ładowanie...</div>';
+                html += '</div>';
+            } else if (m.type === 'podcast' && m.spotifyId) {
+                html += '<div class="spotify-embed">';
+                html += '<iframe src="https://open.spotify.com/embed/show/' + m.spotifyId + '?utm_source=generator&theme=0" ';
+                html += 'height="152" allowfullscreen allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>';
+                html += '</div>';
+            }
+
+            html += '<a href="' + m.url + '" class="media-card-footer" target="_blank" rel="noopener noreferrer" ';
+            html += 'onclick="gtag(\'event\',\'media_click\',{event_label:\'' + m.name.replace(/'/g, "\\'") + '\'})">';
+            html += footerText + ' <span>&rarr;</span></a>';
+
+            card.innerHTML = html;
+            grid.appendChild(card);
+        });
+
+        /* Update counter */
+        document.getElementById('media-count').textContent = MEDIA.length;
+
+        /* Fetch YouTube RSS for visible cards */
+        items.forEach(function(m) {
+            if (m.type === 'youtube') {
+                fetchLatestVideo(m.channelId, m.url);
+            }
+        });
+    }
+
+    /* ── Fetch latest YouTube video ── */
+    function fetchLatestVideo(channelId, fallbackUrl) {
+        var container = document.getElementById('yt-' + channelId);
+        if (!container) return;
+
+        var rssUrl = encodeURIComponent(YT_RSS + channelId);
+
+        fetch(RSS2JSON + rssUrl)
+            .then(function(r) { return r.json(); })
+            .then(function(data) {
+                if (data.status !== 'ok' || !data.items || data.items.length === 0) {
+                    showYTFallback(container, fallbackUrl);
+                    return;
+                }
+
+                var item = data.items[0];
+                var thumb = item.thumbnail || item.enclosure && item.enclosure.thumbnail || '';
+                if (!thumb && item.link) {
+                    /* Extract video ID from link and build thumbnail URL */
+                    var match = item.link.match(/v=([^&]+)/);
+                    if (match) {
+                        thumb = 'https://i.ytimg.com/vi/' + match[1] + '/mqdefault.jpg';
+                    }
+                }
+
+                var pubDate = '';
+                if (item.pubDate) {
+                    var d = new Date(item.pubDate);
+                    pubDate = d.toLocaleDateString('pl-PL', { day: 'numeric', month: 'short', year: 'numeric' });
+                }
+
+                var html = '<div class="latest-label">Najnowszy film</div>';
+                html += '<a href="' + item.link + '" target="_blank" rel="noopener noreferrer">';
+                if (thumb) {
+                    html += '<img class="latest-thumb" src="' + thumb + '" alt="' + item.title.replace(/"/g, '&quot;') + '" loading="lazy">';
+                }
+                html += '<div class="latest-info">';
+                html += '<div class="latest-title">' + item.title + '</div>';
+                if (pubDate) {
+                    html += '<div class="latest-date">' + pubDate + '</div>';
+                }
+                html += '</div></a>';
+
+                container.innerHTML = html;
+            })
+            .catch(function() {
+                showYTFallback(container, fallbackUrl);
+            });
+    }
+
+    function showYTFallback(container, url) {
+        container.innerHTML = '<div class="latest-error">Sprawdź najnowsze filmy <a href="' + url + '" target="_blank" rel="noopener noreferrer">na kanale &rarr;</a></div>';
+    }
+
+    /* ── Filter ── */
+    function filterMedia(type, btn) {
+        document.querySelectorAll('.filter-btn').forEach(function(b) {
+            b.classList.remove('active');
+        });
+        btn.classList.add('active');
+        renderCards(type);
+    }
+
+    /* ── Init ── */
+    renderCards('all');
+    </script>
+
+    <script src="site-footer.js"></script>
+    <script src="/cookie-consent.js"></script>
+</body>
+</html>
