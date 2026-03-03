@@ -3276,6 +3276,17 @@
                 resultsEl.classList.add('hidden');
                 resultsEl.innerHTML = '';
             });
+
+            resultsEl.querySelectorAll('.chatbot-card[href]').forEach(function(card) {
+                card.addEventListener('click', function() {
+                    if (typeof gtag === 'function') {
+                        var name = card.querySelector('.chatbot-card-name');
+                        gtag('event', 'chatbot_result_click', {
+                            event_label: name ? name.textContent : ''
+                        });
+                    }
+                });
+            });
         }
 
         function escapeHtml(str) {
@@ -3336,6 +3347,14 @@
         });
 
         btn.addEventListener('click', submitQuery);
+
+        var focusTracked = false;
+        input.addEventListener('focus', function() {
+            if (!focusTracked && typeof gtag === 'function') {
+                gtag('event', 'chatbot_focus');
+                focusTracked = true;
+            }
+        });
     })();
     </script>
 
