@@ -1,6 +1,6 @@
 /* ─── RATE BANNER — baner "Oceń szkolenie" w każdej sekcji kategorii ─── */
 (function() {
-    var ENABLED = false; // Feature flag — zmień na true żeby włączyć banery
+    var ENABLED = true; // Feature flag — włączone
     if (!ENABLED) return;
 
     var FORM_URL = 'https://docs.google.com/forms/d/e/1FAIpQLSecBGV2HlikJFBD5YhrzapFPqocY_CyQ2GZ93R0z3d6Agm3qQ/viewform';
@@ -79,8 +79,8 @@
         banner.innerHTML = ''
             + '<span class="rate-banner-stars">★★★★★</span>'
             + '<span class="rate-banner-text">'
-            + '  <span class="rate-banner-title">Byłeś na szkoleniu z tej kategorii? Oceń je!</span>'
-            + '  <span class="rate-banner-desc">Twoja opinia pomoże innym wybrać najlepszy kurs</span>'
+            + '  <span class="rate-banner-title">Byłeś na takim szkoleniu? Oceń jak było</span>'
+            + '  <span class="rate-banner-desc">Pomożesz 2000+ osobom, które szukają tutaj kursu AI dla siebie</span>'
             + '</span>'
             + '<span class="rate-banner-arrow">→</span>';
 
