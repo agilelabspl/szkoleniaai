@@ -44,5 +44,5 @@
 {"name":"Śniadanie AI Śląsk","city":"Katowice","date":"Co kilka tygodni","type":"sniadanie","free":true,"url":"https://lu.ma/bji62l1l"},
 {"name":"Śniadania z PLLuM (NASK)","city":"Warszawa","date":"Cyklicznie","type":"sniadanie","free":true,"url":"https://www.nask.pl/aktualnosci/ruszaja-sniadania-z-pllum-poznaj-polskie-ai"},
 {"name":"Software Mansion x Gemini Hackathon","city":"Kraków","date":"28 marca 2026","type":"konferencja","free":true,"url":"https://hackathon.swmansion.com/"},
-{"name":"Wait AI Meetup #18: AI & Law","city":"Wrocław","date":"Q1 2026 (data TBD)","type":"meetup","free":true,"url":"https://crossweb.pl/en/events/wait-ai-meetup-18-ai-law/"}
+{"name":"Wait AI Meetup: AI & Law","city":"Wrocław","date":"Q1 2026 (data TBD)","type":"meetup","free":true,"url":"https://www.meetup.com/wait-wroclaw-ai-team"}
 ]
