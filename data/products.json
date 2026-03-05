@@ -19,5 +19,10 @@
 {"name":"Neptune","desc":"Zarządzanie procesem budowy i trenowania modeli AI. Przejęte przez OpenAI.","tag":"IT","url":"https://neptune.ai/"},
 {"name":"Surfer","desc":"SEO na sterydach w czasach AI. Optymalizacja treści pod wyszukiwarki.","tag":"Marketing","url":"https://surferseo.com/"},
 {"name":"Shadcn Design","desc":"Przyspieszenie pracy z komponentami shadcn/ui w Figma.","tag":"IT","url":"https://www.shadcndesign.com/"},
-{"name":"FarmsFlow","desc":"Papierologia gospodarstwa rolnego: dziennik zabiegów, harmonogram, rejestry, ewidencje.","tag":"Rolnictwo","url":"https://farmsflow.xyz/"}
+{"name":"FarmsFlow","desc":"Papierologia gospodarstwa rolnego: dziennik zabiegów, harmonogram, rejestry, ewidencje.","tag":"Rolnictwo","url":"https://farmsflow.xyz/"},
+{"name":"Storylandia","desc":"Spersonalizowane bajki dla dzieci. Dziecko jest bohaterem, AI generuje ilustracje i audio.","tag":"Dla dzieci","url":"https://storylandia.pl"},
+{"name":"JobTrack","desc":"CV dopasowane do pracodawcy. AI analizuje ofertę pracy i dostosowuje Twoje CV.","tag":"Kariera","url":"https://jobtrack.pl/"},
+{"name":"Arena Decyzji","desc":"Walka na argumenty za i przeciw. AI pomaga podjąć trudną decyzję.","tag":"Produktywność","url":"https://arenadecyzji.pl/"},
+{"name":"Frinter","desc":"Poprawa skupienia podczas pracy z pomocą AI.","tag":"Produktywność","url":"https://frinter.app/"},
+{"name":"Contentyze","desc":"Craftowe AI do tworzenia treści marketingowych i postów.","tag":"Marketing","url":"https://contentyze.com/"}
 ]

@@ -34,7 +34,7 @@
       "name": "Zbudowane z AI w Polsce",
       "description": "Polskie produkty i projekty zbudowane z pomocą sztucznej inteligencji",
       "url": "https://aiprzewodnik.pl/zbudowane-z-ai.html",
-      "numberOfItems": 21,
+      "numberOfItems": 26,
       "itemListElement": [
         { "@type": "ListItem", "position": 1, "item": { "@type": "CreativeWork", "name": "autoMee", "description": "Platforma księgowa napędzana AI. Ogarnie pełną księgowość, wszystko rozliczy i każdy dostanie dokument, który ma dostać.", "url": "https://automee.pl/", "author": { "@type": "Person", "name": "Dominik Laskowski" } } },
         { "@type": "ListItem", "position": 2, "item": { "@type": "CreativeWork", "name": "Status KSeF", "description": "Sprawdź w czasie rzeczywistym, czy system KSeF działa, działa trochę, czy kompletnie leży.", "url": "https://statusksef.pl/", "author": { "@type": "Person", "name": "Piotr Brzyski" } } },
@@ -56,7 +56,12 @@
         { "@type": "ListItem", "position": 18, "item": { "@type": "WebApplication", "name": "Neptune", "description": "Zarządzanie procesem budowy i trenowania modeli AI. Przejęte przez OpenAI.", "url": "https://neptune.ai/", "author": { "@type": "Person", "name": "Piotr Niedźwiedź" } } },
         { "@type": "ListItem", "position": 19, "item": { "@type": "WebApplication", "name": "Surfer", "description": "SEO na sterydach w czasach AI. Optymalizacja treści pod wyszukiwarki.", "url": "https://surferseo.com/", "author": { "@type": "Person", "name": "Tomasz Niezgoda" } } },
         { "@type": "ListItem", "position": 20, "item": { "@type": "WebApplication", "name": "Shadcn Design", "description": "Przyspieszenie pracy z komponentami shadcn/ui w Figma.", "url": "https://www.shadcndesign.com/", "author": { "@type": "Person", "name": "Matt Wierzbicki" } } },
-        { "@type": "ListItem", "position": 21, "item": { "@type": "WebApplication", "name": "FarmsFlow", "description": "Papierologia gospodarstwa rolnego: dziennik zabiegów, harmonogram, rejestry, ewidencje.", "url": "https://farmsflow.xyz/", "author": { "@type": "Person", "name": "Noemi Krysiak-Wolańska" } } }
+        { "@type": "ListItem", "position": 21, "item": { "@type": "WebApplication", "name": "FarmsFlow", "description": "Papierologia gospodarstwa rolnego: dziennik zabiegów, harmonogram, rejestry, ewidencje.", "url": "https://farmsflow.xyz/", "author": { "@type": "Person", "name": "Noemi Krysiak-Wolańska" } } },
+        { "@type": "ListItem", "position": 22, "item": { "@type": "WebApplication", "name": "Storylandia", "description": "Spersonalizowane bajki dla dzieci tworzone z AI. Dziecko jest bohaterem, AI generuje ilustracje i audio.", "url": "https://storylandia.pl", "author": { "@type": "Person", "name": "Tomek Sabiniewicz" } } },
+        { "@type": "ListItem", "position": 23, "item": { "@type": "WebApplication", "name": "JobTrack", "description": "CV dopasowane do pracodawcy. AI analizuje ofertę pracy i dostosowuje Twoje CV.", "url": "https://jobtrack.pl/", "author": { "@type": "Person", "name": "Mariusz Ratajczak" } } },
+        { "@type": "ListItem", "position": 24, "item": { "@type": "WebApplication", "name": "Arena Decyzji", "description": "Walka na argumenty za i przeciw. AI pomaga podjąć trudną decyzję.", "url": "https://arenadecyzji.pl/", "author": { "@type": "Person", "name": "Damian Pajor" } } },
+        { "@type": "ListItem", "position": 25, "item": { "@type": "WebApplication", "name": "Frinter", "description": "Poprawa skupienia podczas pracy z pomocą AI.", "url": "https://frinter.app/", "author": { "@type": "Person", "name": "Przemysław Filipiak" } } },
+        { "@type": "ListItem", "position": 26, "item": { "@type": "WebApplication", "name": "Contentyze", "description": "Craftowe AI do tworzenia treści marketingowych i postów.", "url": "https://contentyze.com/", "author": { "@type": "Person", "name": "Przemek Chojecki" } } }
       ]
     }
     </script>
@@ -415,6 +420,11 @@
         .products-list > :nth-child(20) { animation-delay: 1.00s; }
         .products-list > :nth-child(21) { animation-delay: 1.05s; }
         .products-list > :nth-child(22) { animation-delay: 1.10s; }
+        .products-list > :nth-child(23) { animation-delay: 1.15s; }
+        .products-list > :nth-child(24) { animation-delay: 1.20s; }
+        .products-list > :nth-child(25) { animation-delay: 1.25s; }
+        .products-list > :nth-child(26) { animation-delay: 1.30s; }
+        .products-list > :nth-child(27) { animation-delay: 1.35s; }
 
         @keyframes fadeUp {
             to { opacity: 1; transform: translateY(0); }
@@ -474,9 +484,58 @@
     <div class="container">
         <div class="products-list">
 
+            <!-- #22 Storylandia -->
+            <a href="https://storylandia.pl" class="product-card" target="_blank" rel="noopener noreferrer" onclick="gtag('event','product_click',{event_label:'Storylandia'})">
+                <span class="badge-new">Nowe</span>
+                <h2>Storylandia</h2>
+                <div class="product-creator">Tomek Sabiniewicz</div>
+                <p class="product-desc">Razem z dzieckiem stworzycie własną, <strong>spersonalizowaną bajkę</strong>. Dziecko jest bohaterem, a AI generuje ilustracje i audio.</p>
+                <span class="product-tag tag-dzieci">Dla dzieci</span>
+                <div class="card-footer">Sprawdź <span>&rarr;</span></div>
+            </a>
+
+            <!-- #23 JobTrack -->
+            <a href="https://jobtrack.pl/" class="product-card" target="_blank" rel="noopener noreferrer" onclick="gtag('event','product_click',{event_label:'JobTrack'})">
+                <span class="badge-new">Nowe</span>
+                <h2>JobTrack</h2>
+                <div class="product-creator">Mariusz Ratajczak</div>
+                <p class="product-desc">Szukasz pracy? Wrzuć ofertę, a AI <strong>dopasuje Twoje CV do pracodawcy</strong>. Koniec z wysyłaniem tego samego CV wszędzie.</p>
+                <span class="product-tag tag-kariera">Kariera</span>
+                <div class="card-footer">Sprawdź <span>&rarr;</span></div>
+            </a>
+
+            <!-- #24 Arena Decyzji -->
+            <a href="https://arenadecyzji.pl/" class="product-card" target="_blank" rel="noopener noreferrer" onclick="gtag('event','product_click',{event_label:'Arena Decyzji'})">
+                <span class="badge-new">Nowe</span>
+                <h2>Arena Decyzji</h2>
+                <div class="product-creator">Damian Pajor</div>
+                <p class="product-desc">Nie wiesz jaką podjąć decyzję? Niech rozpocznie się <strong>walka na argumenty</strong>. AI przedstawia za i przeciw, Ty wybierasz.</p>
+                <span class="product-tag tag-produktywnosc">Produktywność</span>
+                <div class="card-footer">Sprawdź <span>&rarr;</span></div>
+            </a>
+
+            <!-- #25 Frinter -->
+            <a href="https://frinter.app/" class="product-card" target="_blank" rel="noopener noreferrer" onclick="gtag('event','product_click',{event_label:'Frinter'})">
+                <span class="badge-new">Nowe</span>
+                <h2>Frinter</h2>
+                <div class="product-creator">Przemysław Filipiak</div>
+                <p class="product-desc">Popraw swoje <strong>skupienie podczas pracy</strong>, żeby mieć lepsze efekty. AI pomaga Ci zostać w strefie flow.</p>
+                <span class="product-tag tag-produktywnosc">Produktywność</span>
+                <div class="card-footer">Sprawdź <span>&rarr;</span></div>
+            </a>
+
+            <!-- #26 Contentyze -->
+            <a href="https://contentyze.com/" class="product-card" target="_blank" rel="noopener noreferrer" onclick="gtag('event','product_click',{event_label:'Contentyze'})">
+                <span class="badge-new">Nowe</span>
+                <h2>Contentyze</h2>
+                <div class="product-creator">Przemek Chojecki</div>
+                <p class="product-desc">Chcesz mieć najlepiej napisane posty? Wyspecjalizowane, <strong>craftowe AI do tworzenia treści</strong> marketingowych.</p>
+                <span class="product-tag tag-marketing">Marketing</span>
+                <div class="card-footer">Sprawdź <span>&rarr;</span></div>
+            </a>
+
             <!-- #17 Postify -->
             <a href="https://postfity.com/" class="product-card" target="_blank" rel="noopener noreferrer" onclick="gtag('event','product_click',{event_label:'Postify'})">
-                <span class="badge-new">Nowe</span>
                 <h2>Postify</h2>
                 <div class="product-creator">Jacek Dobrowolski</div>
                 <p class="product-desc">Nie chcesz się pogubić w zarządzaniu social mediami swojej firmy? <strong>Ogarniesz to z pomocą AI</strong> i odzyskasz godziny tygodniowo.</p>
@@ -486,7 +545,6 @@
 
             <!-- #18 Neptune -->
             <a href="https://neptune.ai/" class="product-card" target="_blank" rel="noopener noreferrer" onclick="gtag('event','product_click',{event_label:'Neptune'})">
-                <span class="badge-new">Nowe</span>
                 <h2>Neptune</h2>
                 <div class="product-creator">Piotr Niedźwiedź</div>
                 <p class="product-desc">Zarządzanie procesem budowy i <strong>trenowania modeli AI</strong>. Przejęte przez OpenAI, bo to najlepsze narzędzie w swojej klasie.</p>
@@ -496,7 +554,6 @@
 
             <!-- #19 Surfer -->
             <a href="https://surferseo.com/" class="product-card" target="_blank" rel="noopener noreferrer" onclick="gtag('event','product_click',{event_label:'Surfer'})">
-                <span class="badge-new">Nowe</span>
                 <h2>Surfer</h2>
                 <div class="product-creator">Tomasz Niezgoda</div>
                 <p class="product-desc"><strong>SEO na sterydach</strong> w czasach AI. Nie pozwoli Ci zginąć w tłumie wyników wyszukiwania.</p>
@@ -506,7 +563,6 @@
 
             <!-- #20 Shadcn Design -->
             <a href="https://www.shadcndesign.com/" class="product-card" target="_blank" rel="noopener noreferrer" onclick="gtag('event','product_click',{event_label:'Shadcn Design'})">
-                <span class="badge-new">Nowe</span>
                 <h2>Shadcn Design</h2>
                 <div class="product-creator">Matt Wierzbicki</div>
                 <p class="product-desc">Projektujesz w Figma? Teraz możesz <strong>przyspieszyć pracę</strong> z komponentami shadcn/ui.</p>
@@ -516,7 +572,6 @@
 
             <!-- #21 FarmsFlow -->
             <a href="https://farmsflow.xyz/" class="product-card" target="_blank" rel="noopener noreferrer" onclick="gtag('event','product_click',{event_label:'FarmsFlow'})">
-                <span class="badge-new">Nowe</span>
                 <h2>FarmsFlow</h2>
                 <div class="product-creator">Noemi Krysiak-Wolańska</div>
                 <p class="product-desc">Dziennik zabiegów, harmonogram, rejestry, ewidencje. <strong>Cała papierologia gospodarstwa rolnego</strong> zgodnie z wymaganiami, bez bólu głowy.</p>
