@@ -631,6 +631,7 @@
     const events = [
         // --- PATRONAT MEDIALNY AI PRZEWODNIK ---
         { name: 'No-Code & AI Event #4', city: 'Gdańsk', date: '7–8 maja 2026', type: 'konferencja', free: false, url: 'https://www.nocodepoland.com/no-code-ai-event-4', desc: 'No-Code, Low-Code i AI. Prelekcje techniczne, case study, panele dyskusyjne, networking.', patronat: true, promoUrl: 'https://cart.easy.tools/checkout/51956904/no-code-ai-event4?promo=NCPAIP200' },
+        { name: 'Product Pro Summit 2026', city: 'Sopot', date: '21–22 maja 2026', type: 'konferencja', free: false, url: 'https://productprosummit.pl/', desc: 'Konferencja dla Product Managerów i liderów produktu. Dwa dni prelekcji, warsztatów i networkingu w Sopocie.', patronat: true, promoUrl: 'https://form.typeform.com/to/HO1qKxqN', promoText: 'Zarezerwuj bilet z kodem PLSUMMIT' },
         { name: 'Lean TWI Summit 2026', city: 'Wrocław', date: '9–10 czerwca 2026', type: 'konferencja', free: false, url: 'https://leantrix.com/pl/konferencja-lean-twi/', desc: 'Lean Management, Leadership i AI. 9 case studies + 4 warsztaty.', patronat: true },
 
         // --- KONFERENCJE ---
@@ -800,7 +801,7 @@
                 promo.className = 'promo-link';
                 promo.target = '_blank';
                 promo.rel = 'noopener noreferrer';
-                promo.innerHTML = 'Bilet taniej z kodem AI Przewodnik <span>&rarr;</span>';
+                promo.innerHTML = (ev.promoText || 'Bilet taniej z kodem AI Przewodnik') + ' <span>&rarr;</span>';
                 promo.onclick = function() {
                     gtag('event', 'promo_click', { event_label: ev.name });
                 };
