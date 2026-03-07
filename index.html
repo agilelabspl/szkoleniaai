@@ -551,6 +551,26 @@
             transform: translateX(4px);
         }
 
+        /* Rating */
+        .card-rating {
+            display: flex;
+            align-items: center;
+            gap: 0.35rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .card-rating .stars {
+            color: #f59e0b;
+            font-size: 0.85rem;
+            letter-spacing: 0.5px;
+        }
+
+        .card-rating .rating-count {
+            font-size: 0.75rem;
+            color: var(--text-muted);
+            font-weight: 400;
+        }
+
         /* Free Badge */
         .badge-free {
             position: absolute;
@@ -1232,6 +1252,10 @@
                     <a href="https://aibizneslab.pl/" class="course-card featured" target="_blank" rel="noopener noreferrer">
                         <h3>AI Biznes Lab – Master Program</h3>
                         <span class="card-author">Mirek Burnejko · AI Biznes Lab</span>
+                        <div class="card-rating">
+                            <span class="stars">★★★★★</span>
+                            <span class="rating-count">(2 opinie)</span>
+                        </div>
                         <p>Kompleksowa transformacja biznesu z AI — strategia, wdrażanie, automatyzacja procesów, biblioteka promptów, warsztaty live.</p>
                         <div class="card-meta">
                             <span class="tag tag-format">Online · live + nagrania</span>
