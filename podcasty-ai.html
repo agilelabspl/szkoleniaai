@@ -445,7 +445,7 @@
     </style>
 </head>
 <body>
-    <script src="site-nav.js"></script>
+    <script src="site-nav.js" defer></script>
 
     <div class="container">
         <header>
@@ -571,6 +571,15 @@
     var RSS2JSON = 'https://api.rss2json.com/v1/api.json?rss_url=';
     var YT_RSS = 'https://www.youtube.com/feeds/videos.xml?channel_id=';
 
+    function escapeHtml(str) {
+        var d = document.createElement('div');
+        d.textContent = str;
+        return d.innerHTML;
+    }
+    function escapeAttr(str) {
+        return String(str).replace(/&/g,'&amp;').replace(/"/g,'&quot;').replace(/</g,'&lt;').replace(/>/g,'&gt;');
+    }
+
     /* ── Render cards ── */
     function renderCards(filter) {
         var grid = document.getElementById('media-grid');
@@ -658,12 +667,12 @@
                 }
 
                 var html = '<div class="latest-label">Najnowszy film</div>';
-                html += '<a href="' + item.link + '" target="_blank" rel="noopener noreferrer">';
+                html += '<a href="' + escapeAttr(item.link) + '" target="_blank" rel="noopener noreferrer">';
                 if (thumb) {
-                    html += '<img class="latest-thumb" src="' + thumb + '" alt="' + item.title.replace(/"/g, '&quot;') + '" loading="lazy">';
+                    html += '<img class="latest-thumb" src="' + escapeAttr(thumb) + '" alt="' + escapeAttr(item.title) + '" loading="lazy">';
                 }
                 html += '<div class="latest-info">';
-                html += '<div class="latest-title">' + item.title + '</div>';
+                html += '<div class="latest-title">' + escapeHtml(item.title) + '</div>';
                 if (pubDate) {
                     html += '<div class="latest-date">' + pubDate + '</div>';
                 }
@@ -693,7 +702,7 @@
     renderCards('all');
     </script>
 
-    <script src="site-footer.js"></script>
-    <script src="/cookie-consent.js"></script>
+    <script src="site-footer.js" defer></script>
+    <script src="/cookie-consent.js" defer></script>
 </body>
 </html>
