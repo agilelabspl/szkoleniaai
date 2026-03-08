@@ -66,7 +66,8 @@
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"></noscript>
 
     <!-- Shared navigation -->
     <link rel="stylesheet" href="../site-nav.css">
@@ -260,6 +261,7 @@
 <body>
     <script src="../site-nav.js" defer></script>
 
+<main id="main-content">
 <div class="container">
 
     <nav class="breadcrumb">
@@ -325,6 +327,7 @@
         <p>Chcesz nauczyć się używać AI w praktyce?</p>
         <a href="../index.html">Zobacz szkolenia AI w Polsce →</a>
     </div>
+</main>
 
     <script src="../site-footer.js" defer></script>
 

@@ -27,6 +27,9 @@
 
     var html = '';
 
+    // Skip to content link (a11y)
+    html += '<a href="#main-content" class="skip-link">Przejdź do treści</a>';
+
     // Announcement bar
     if (announcementText) {
         html += '<div class="site-announcement" id="site-announcement">'

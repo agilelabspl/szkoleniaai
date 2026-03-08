@@ -51,7 +51,8 @@
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"></noscript>
 
     <!-- Shared navigation -->
     <link rel="stylesheet" href="site-nav.css">
@@ -300,7 +301,7 @@
             </ul>
         </nav>
 
-        <main>
+        <main id="main-content">
             <article class="term" id="sztuczna-inteligencja">
                 <div class="term-header">
                     <h2 class="term-name">Sztuczna inteligencja</h2>
