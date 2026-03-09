@@ -1221,5 +1221,41 @@
     "url": "https://www.wsb-nlu.edu.pl/pl/sztuczna-inteligencja-studia-podyplomowe",
     "price": "595 zł/mies.",
     "format": "Online (RealTime)"
+  },
+  {
+    "name": "AI dla menedżerów",
+    "cat": "biznes",
+    "desc": "Szkolenie stacjonarne dla liderów: strategiczne zastosowania AI w zarządzaniu, podejmowanie decyzji, wdrażanie AI w zespole.",
+    "url": "https://www.academyofbusiness.pl/techskills/ai-dla-menedzerow/",
+    "format": "Stacjonarnie · Warszawa"
+  },
+  {
+    "name": "Sztuczna inteligencja (AI) w marketingu",
+    "cat": "marketing",
+    "desc": "Narzędzia AI oparte na danych i machine learningu dla marketerów. Unikatowy program w Polsce łączący analitykę, automatyzację i strategię marketingową.",
+    "url": "https://www.kozminski.edu.pl/pl/oferta-edukacyjna/kursy-i-szkolenia/sztuczna-inteligencja-w-marketingu",
+    "format": "Online"
+  },
+  {
+    "name": "Warsztat Playwright + AI (Copilot)",
+    "cat": "programisci",
+    "desc": "Testy E2E z Playwright i GitHub Copilot w praktyce. Warsztat online (Zoom), 14 marca 2026, 09:00–15:00.",
+    "url": "https://warsztat.rwasik.pl/",
+    "format": "Online · live (Zoom)"
+  },
+  {
+    "name": "Kurs AI: Sztuczna inteligencja w praktyce",
+    "cat": "ogolne",
+    "desc": "Praktyczny kurs AI — narzędzia, zastosowania i wdrożenie sztucznej inteligencji w codziennej pracy.",
+    "url": "https://expose.pl/szkolenia/kurs-sztuczna-inteligencja-ai-w-praktyce/",
+    "format": "Szkolenie"
+  },
+  {
+    "name": "AKADEMIA PRAWNA 2026: AI w przedsiębiorstwie",
+    "cat": "prawo",
+    "desc": "Aspekty prawne wykorzystywania AI w przedsiębiorstwie. Webinar 14 maja 2026, 10:00–11:30 (MS Teams).",
+    "url": "https://polmed.org.pl/akademia-prawna-2026-wykorzystywanie-ai-w-przedsiebiorstwie/",
+    "price": "bezpłatny",
+    "format": "Online · webinar (MS Teams)"
   }
 ]
