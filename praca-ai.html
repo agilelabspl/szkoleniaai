@@ -35,7 +35,7 @@
       "description": "Przegląd rynku pracy AI w Polsce. Typy stanowisk, widełki wynagrodzeń, najszybciej rosnące role.",
       "url": "https://aiprzewodnik.pl/praca-ai.html",
       "datePublished": "2026-02-25",
-      "dateModified": "2026-02-28",
+      "dateModified": "2026-03-09",
       "author": { "@type": "Person", "name": "Paweł Lewiński" },
       "publisher": { "@type": "Organization", "name": "AI Przewodnik", "url": "https://aiprzewodnik.pl" },
       "mainEntityOfPage": "https://aiprzewodnik.pl/praca-ai.html"
@@ -572,9 +572,252 @@
             transform: translateY(3px);
         }
 
+        /* ─── ITRadar Skills Section ─── */
+        .skills-radar-section {
+            padding: 2rem 0;
+        }
+
+        .skills-radar-section .section-subtitle a {
+            color: var(--primary);
+            text-decoration: underline;
+            text-underline-offset: 2px;
+        }
+
+        .radar-subsection {
+            margin-bottom: 2rem;
+        }
+
+        .radar-subsection-title {
+            font-size: 1rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            letter-spacing: -0.01em;
+        }
+
+        /* Popularity chart */
+        .radar-chart {
+            display: flex;
+            flex-direction: column;
+            gap: 0.5rem;
+        }
+
+        .radar-row {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+        }
+
+        .radar-label {
+            flex-shrink: 0;
+            width: 120px;
+            font-size: 0.82rem;
+            font-weight: 600;
+            text-align: right;
+            color: var(--text-color);
+        }
+
+        .radar-bar-wrap {
+            flex: 1;
+            background: #f1f5f9;
+            border-radius: 8px;
+            height: 30px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .radar-bar {
+            height: 100%;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            padding-right: 0.6rem;
+            font-weight: 700;
+            font-size: 0.78rem;
+            color: #fff;
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            transition: width 0.8s cubic-bezier(0.22,1,0.36,1);
+        }
+
+        .radar-bar--alt {
+            background: linear-gradient(135deg, #8b5cf6, #6366f1);
+        }
+
+        .radar-bar--dim {
+            background: linear-gradient(135deg, #94a3b8, #64748b);
+        }
+
+        .radar-value {
+            flex-shrink: 0;
+            width: 55px;
+            font-size: 0.78rem;
+            font-weight: 600;
+            color: var(--text-muted);
+            font-variant-numeric: tabular-nums;
+        }
+
+        /* Salary range chart */
+        .salary-range-chart {
+            display: flex;
+            flex-direction: column;
+            gap: 0.6rem;
+        }
+
+        .salary-range-row {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+        }
+
+        .salary-range-label {
+            flex-shrink: 0;
+            width: 120px;
+            font-size: 0.82rem;
+            font-weight: 600;
+            text-align: right;
+            color: var(--text-color);
+        }
+
+        .salary-range-bar-wrap {
+            flex: 1;
+            position: relative;
+            height: 30px;
+            background: #f1f5f9;
+            border-radius: 8px;
+        }
+
+        .salary-range-bar {
+            position: absolute;
+            height: 100%;
+            border-radius: 8px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: 700;
+            font-size: 0.72rem;
+            color: #fff;
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            white-space: nowrap;
+            min-width: 80px;
+        }
+
+        .salary-range-bar--top {
+            background: linear-gradient(135deg, #059669, #06b6d4);
+        }
+
+        .salary-range-axis {
+            display: flex;
+            justify-content: space-between;
+            padding-left: calc(120px + 0.75rem);
+            margin-top: 0.25rem;
+        }
+
+        .salary-range-axis span {
+            font-size: 0.68rem;
+            color: var(--text-faint);
+            font-variant-numeric: tabular-nums;
+        }
+
+        /* Related skills list */
+        .related-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.15rem 0;
+            justify-content: center;
+            line-height: 1.8;
+        }
+
+        .related-item {
+            font-size: 0.88rem;
+            color: var(--text-color);
+            white-space: nowrap;
+        }
+
+        .related-item .related-name {
+            font-weight: 600;
+        }
+
+        .related-item .related-count {
+            font-size: 0.78rem;
+            font-weight: 500;
+            color: var(--text-faint);
+        }
+
+        .related-sep {
+            color: var(--card-border);
+            margin: 0 0.5rem;
+            font-weight: 300;
+        }
+
+        .related-item--top .related-name {
+            font-size: 1rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .radar-note {
+            font-size: 0.72rem;
+            color: var(--text-faint);
+            margin-top: 0.75rem;
+            text-align: center;
+            font-style: italic;
+        }
+
+        @media (max-width: 768px) {
+            .radar-label,
+            .salary-range-label {
+                width: 80px;
+                font-size: 0.75rem;
+            }
+            .radar-value {
+                width: 45px;
+                font-size: 0.72rem;
+            }
+            .salary-range-axis {
+                padding-left: calc(80px + 0.75rem);
+            }
+        }
+
+        @media (max-width: 480px) {
+            .radar-label,
+            .salary-range-label {
+                width: 65px;
+                font-size: 0.7rem;
+            }
+            .salary-range-bar {
+                font-size: 0.65rem;
+                min-width: 60px;
+            }
+        }
+
         /* ─── Portals (styl jak category-nav a na index.html) ─── */
         .portals-section {
-            padding: 2rem 0;
+            padding: 2rem 1.5rem;
+            background: linear-gradient(135deg, #0f172a 0%, #1e1b4b 100%);
+            border-radius: 14px;
+            margin: 1rem 0 2rem;
+        }
+
+        .portals-section .section-title {
+            color: #fff;
+        }
+
+        .portals-section .section-subtitle {
+            color: rgba(255,255,255,0.55);
+        }
+
+        .portals-section .portal-chip {
+            background: rgba(255,255,255,0.08);
+            border-color: rgba(255,255,255,0.15);
+            color: #fff;
+        }
+
+        .portals-section .portal-chip:hover {
+            background-color: var(--primary);
+            border-color: var(--primary);
         }
 
         .portals-bar {
@@ -811,7 +1054,7 @@
         <header>
             <h1 class="main-title">Praca w <span>AI</span> w Polsce 2026</h1>
             <p class="subtitle">Ile jest ofert? Jakie stanowiska? Ile płacą?<br>Przegląd rynku pracy z AI w nazwie stanowiska.</p>
-            <p class="update-date">Ostatnia aktualizacja: 4 marca 2026</p>
+            <p class="update-date">Ostatnia aktualizacja: 9 marca 2026</p>
         </header>
 
         <!-- Stats -->
@@ -902,66 +1145,202 @@
             </div>
         </section>
 
-        <!-- Salary Table -->
-        <section class="salary-section">
-            <h2 class="section-title">Widełki wynagrodzeń</h2>
-            <p class="section-subtitle">Na podstawie ofert i raportów płacowych, luty 2026. Kwoty miesięczne.</p>
+        <!-- ITRadar Skills Radar -->
+        <section class="skills-radar-section">
+            <h2 class="section-title">Kompetencje AI poszukiwane na rynku pracy w Polsce</h2>
+            <p class="section-subtitle">Dane z aktywnych ofert pracy w Polsce. Źródło: <a href="https://itradar.io" target="_blank" rel="noopener noreferrer">ITRadar.io</a>, marzec 2026.</p>
 
-            <div class="salary-table-wrap">
-                <table class="salary-table">
-                    <thead>
-                        <tr>
-                            <th>Stanowisko / poziom</th>
-                            <th>Kwota</th>
-                            <th>Typ umowy</th>
-                            <th>Źródło</th>
-                        </tr>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td class="role-col">Junior AI/ML</td>
-                            <td class="amount-col">5 500 · 9 000 PLN</td>
-                            <td class="type-col">UoP brutto</td>
-                            <td class="source-col">NoFluffJobs</td>
-                        </tr>
-                        <tr>
-                            <td class="role-col">Średnia AI/ML</td>
-                            <td class="amount-col">16 400 PLN</td>
-                            <td class="type-col">UoP brutto</td>
-                            <td class="source-col">JustJoinIT Raport 2026</td>
-                        </tr>
-                        <tr>
-                            <td class="role-col">Średnia AI/ML</td>
-                            <td class="amount-col">19 500 PLN</td>
-                            <td class="type-col">B2B netto</td>
-                            <td class="source-col">JustJoinIT Raport 2026</td>
-                        </tr>
-                        <tr>
-                            <td class="role-col">Python Engineer (AI/ML)</td>
-                            <td class="amount-col">~23 944 PLN</td>
-                            <td class="type-col">B2B netto</td>
-                            <td class="source-col">ITMAGINATION Raport 2025</td>
-                        </tr>
-                        <tr>
-                            <td class="role-col">Senior Data Scientist</td>
-                            <td class="amount-col">28 500 · 37 000 PLN</td>
-                            <td class="type-col">B2B netto</td>
-                            <td class="source-col">NoFluffJobs</td>
-                        </tr>
-                        <tr>
-                            <td class="role-col">Senior Deep Learning Engineer</td>
-                            <td class="amount-col">45 000 · 55 000 PLN</td>
-                            <td class="type-col">B2B netto</td>
-                            <td class="source-col">NoFluffJobs</td>
-                        </tr>
-                        <tr>
-                            <td class="role-col">Rekord w kategorii AI/ML</td>
-                            <td class="amount-col salary-highlight">99 490 PLN</td>
-                            <td class="type-col">B2B netto</td>
-                            <td class="source-col">JustJoinIT Raport 2026</td>
-                        </tr>
-                    </tbody>
-                </table>
+            <!-- 1. Popularity chart -->
+            <div class="radar-subsection">
+                <div class="radar-subsection-title">Liczba ofert pracy wg kompetencji AI</div>
+                <div class="radar-chart">
+                    <div class="radar-row">
+                        <div class="radar-label">AI (ogólnie)</div>
+                        <div class="radar-bar-wrap"><div class="radar-bar" style="width:100%"><span>1 113</span></div></div>
+                        <div class="radar-value">1 113</div>
+                    </div>
+                    <div class="radar-row">
+                        <div class="radar-label">Machine Learning</div>
+                        <div class="radar-bar-wrap"><div class="radar-bar" style="width:66.7%"><span>742</span></div></div>
+                        <div class="radar-value">742</div>
+                    </div>
+                    <div class="radar-row">
+                        <div class="radar-label">LLM</div>
+                        <div class="radar-bar-wrap"><div class="radar-bar radar-bar--alt" style="width:62.4%"><span>694</span></div></div>
+                        <div class="radar-value">694</div>
+                    </div>
+                    <div class="radar-row">
+                        <div class="radar-label">GenAI</div>
+                        <div class="radar-bar-wrap"><div class="radar-bar radar-bar--alt" style="width:56.4%"><span>628</span></div></div>
+                        <div class="radar-value">628</div>
+                    </div>
+                    <div class="radar-row">
+                        <div class="radar-label">Databricks</div>
+                        <div class="radar-bar-wrap"><div class="radar-bar" style="width:49.8%"><span>554</span></div></div>
+                        <div class="radar-value">554</div>
+                    </div>
+                    <div class="radar-row">
+                        <div class="radar-label">Data Science</div>
+                        <div class="radar-bar-wrap"><div class="radar-bar" style="width:35.4%"><span>394</span></div></div>
+                        <div class="radar-value">394</div>
+                    </div>
+                    <div class="radar-row">
+                        <div class="radar-label">AI/ML</div>
+                        <div class="radar-bar-wrap"><div class="radar-bar" style="width:27.4%"><span>305</span></div></div>
+                        <div class="radar-value">305</div>
+                    </div>
+                    <div class="radar-row">
+                        <div class="radar-label">RAG</div>
+                        <div class="radar-bar-wrap"><div class="radar-bar radar-bar--alt" style="width:26.4%"><span>294</span></div></div>
+                        <div class="radar-value">294</div>
+                    </div>
+                    <div class="radar-row">
+                        <div class="radar-label">MLOps</div>
+                        <div class="radar-bar-wrap"><div class="radar-bar" style="width:20.7%"><span>230</span></div></div>
+                        <div class="radar-value">230</div>
+                    </div>
+                    <div class="radar-row">
+                        <div class="radar-label">PyTorch</div>
+                        <div class="radar-bar-wrap"><div class="radar-bar radar-bar--dim" style="width:20%"><span>223</span></div></div>
+                        <div class="radar-value">223</div>
+                    </div>
+                    <div class="radar-row">
+                        <div class="radar-label">TensorFlow</div>
+                        <div class="radar-bar-wrap"><div class="radar-bar radar-bar--dim" style="width:17.7%"><span>197</span></div></div>
+                        <div class="radar-value">197</div>
+                    </div>
+                    <div class="radar-row">
+                        <div class="radar-label">NLP</div>
+                        <div class="radar-bar-wrap"><div class="radar-bar radar-bar--dim" style="width:17.2%"><span>191</span></div></div>
+                        <div class="radar-value">191</div>
+                    </div>
+                    <div class="radar-row">
+                        <div class="radar-label">LangChain</div>
+                        <div class="radar-bar-wrap"><div class="radar-bar radar-bar--alt" style="width:14.7%"><span>164</span></div></div>
+                        <div class="radar-value">164</div>
+                    </div>
+                    <div class="radar-row">
+                        <div class="radar-label">OpenAI</div>
+                        <div class="radar-bar-wrap"><div class="radar-bar radar-bar--alt" style="width:11.5%"><span>128</span></div></div>
+                        <div class="radar-value">128</div>
+                    </div>
+                    <div class="radar-row">
+                        <div class="radar-label">Deep Learning</div>
+                        <div class="radar-bar-wrap"><div class="radar-bar radar-bar--dim" style="width:6.7%"><span>75</span></div></div>
+                        <div class="radar-value">75</div>
+                    </div>
+                    <div class="radar-row">
+                        <div class="radar-label">ChatGPT</div>
+                        <div class="radar-bar-wrap"><div class="radar-bar radar-bar--dim" style="width:5.4%"><span>60</span></div></div>
+                        <div class="radar-value">60</div>
+                    </div>
+                </div>
+                <div class="radar-note">Python (4 521 ofert) celowo pominięty — to język ogólny, nie stricte AI. Ale jest najczęściej wymaganym skillem w ofertach AI.</div>
+            </div>
+
+            <!-- 2. Salary range chart -->
+            <div class="radar-subsection">
+                <div class="radar-subsection-title">Widełki płacowe wg kompetencji AI (B2B, PLN/mies.)</div>
+                <p class="section-subtitle">Dane z aktywnych ofert pracy w Polsce. Źródło: <a href="https://itradar.io" target="_blank" rel="noopener noreferrer">ITRadar.io</a>, marzec 2026.</p>
+                <div class="salary-range-chart">
+                    <div class="salary-range-row">
+                        <div class="salary-range-label">RAG</div>
+                        <div class="salary-range-bar-wrap">
+                            <div class="salary-range-bar salary-range-bar--top" style="left:55.2%;width:43.6%">23 284 · 29 826</div>
+                        </div>
+                    </div>
+                    <div class="salary-range-row">
+                        <div class="salary-range-label">LLM</div>
+                        <div class="salary-range-bar-wrap">
+                            <div class="salary-range-bar salary-range-bar--top" style="left:47.4%;width:44.8%">22 109 · 28 836</div>
+                        </div>
+                    </div>
+                    <div class="salary-range-row">
+                        <div class="salary-range-label">Deep Learning</div>
+                        <div class="salary-range-bar-wrap">
+                            <div class="salary-range-bar" style="left:48.2%;width:40.3%">22 233 · 28 273</div>
+                        </div>
+                    </div>
+                    <div class="salary-range-row">
+                        <div class="salary-range-label">AI/ML</div>
+                        <div class="salary-range-bar-wrap">
+                            <div class="salary-range-bar" style="left:47%;width:40.7%">22 057 · 28 163</div>
+                        </div>
+                    </div>
+                    <div class="salary-range-row">
+                        <div class="salary-range-label">GenAI</div>
+                        <div class="salary-range-bar-wrap">
+                            <div class="salary-range-bar" style="left:43.6%;width:43.6%">21 539 · 28 079</div>
+                        </div>
+                    </div>
+                    <div class="salary-range-row">
+                        <div class="salary-range-label">LangChain</div>
+                        <div class="salary-range-bar-wrap">
+                            <div class="salary-range-bar" style="left:46.1%;width:40.6%">21 921 · 28 007</div>
+                        </div>
+                    </div>
+                    <div class="salary-range-row">
+                        <div class="salary-range-label">MLOps</div>
+                        <div class="salary-range-bar-wrap">
+                            <div class="salary-range-bar" style="left:46.9%;width:38.9%">22 029 · 27 858</div>
+                        </div>
+                    </div>
+                    <div class="salary-range-row">
+                        <div class="salary-range-label">PyTorch</div>
+                        <div class="salary-range-bar-wrap">
+                            <div class="salary-range-bar" style="left:40.7%;width:43.6%">21 106 · 27 651</div>
+                        </div>
+                    </div>
+                    <div class="salary-range-row">
+                        <div class="salary-range-label">AI (ogólnie)</div>
+                        <div class="salary-range-bar-wrap">
+                            <div class="salary-range-bar" style="left:41.3%;width:42.6%">21 196 · 27 588</div>
+                        </div>
+                    </div>
+                    <div class="salary-range-row">
+                        <div class="salary-range-label">Machine Learning</div>
+                        <div class="salary-range-bar-wrap">
+                            <div class="salary-range-bar" style="left:36%;width:46.4%">20 394 · 27 350</div>
+                        </div>
+                    </div>
+                    <div class="salary-range-row">
+                        <div class="salary-range-label">ChatGPT</div>
+                        <div class="salary-range-bar-wrap">
+                            <div class="salary-range-bar" style="left:24.4%;width:39.5%">18 656 · 24 574</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="salary-range-axis">
+                    <span>15 000</span>
+                    <span>20 000</span>
+                    <span>25 000</span>
+                    <span>30 000</span>
+                </div>
+                <div class="radar-note">Średnie widełki z aktywnych ofert. Wyższe stawki = bardziej niszowa, głębsza specjalizacja. RAG i LLM na&nbsp;szczycie.</div>
+            </div>
+
+            <!-- 3. Related skills cloud -->
+            <div class="radar-subsection">
+                <div class="radar-subsection-title">Jakie kompetencje wymieniane są razem z AI?</div>
+                <p class="section-subtitle">Dane z aktywnych ofert pracy w Polsce. Źródło: <a href="https://itradar.io" target="_blank" rel="noopener noreferrer">ITRadar.io</a>, marzec 2026.</p>
+                <div class="related-list">
+                    <span class="related-item"><span class="related-name">Python</span> <span class="related-count">(531)</span></span><span class="related-sep">·</span>
+                    <span class="related-item"><span class="related-name">Azure</span> <span class="related-count">(313)</span></span><span class="related-sep">·</span>
+                    <span class="related-item"><span class="related-name">LLM</span> <span class="related-count">(261)</span></span><span class="related-sep">·</span>
+                    <span class="related-item"><span class="related-name">Machine Learning</span> <span class="related-count">(261)</span></span><span class="related-sep">·</span>
+                    <span class="related-item"><span class="related-name">AWS</span> <span class="related-count">(232)</span></span><span class="related-sep">·</span>
+                    <span class="related-item"><span class="related-name">CI/CD</span> <span class="related-count">(221)</span></span><span class="related-sep">·</span>
+                    <span class="related-item"><span class="related-name">GCP</span> <span class="related-count">(207)</span></span><span class="related-sep">·</span>
+                    <span class="related-item"><span class="related-name">SQL</span> <span class="related-count">(203)</span></span><span class="related-sep">·</span>
+                    <span class="related-item"><span class="related-name">GenAI</span> <span class="related-count">(183)</span></span><span class="related-sep">·</span>
+                    <span class="related-item"><span class="related-name">Cybersecurity</span> <span class="related-count">(181)</span></span><span class="related-sep">·</span>
+                    <span class="related-item"><span class="related-name">DevOps</span> <span class="related-count">(176)</span></span><span class="related-sep">·</span>
+                    <span class="related-item"><span class="related-name">Cloud</span> <span class="related-count">(174)</span></span><span class="related-sep">·</span>
+                    <span class="related-item"><span class="related-name">Docker</span> <span class="related-count">(159)</span></span><span class="related-sep">·</span>
+                    <span class="related-item"><span class="related-name">Kubernetes</span> <span class="related-count">(154)</span></span><span class="related-sep">·</span>
+                    <span class="related-item"><span class="related-name">Java</span> <span class="related-count">(152)</span></span>
+                </div>
+                <div class="radar-note">Liczba = ile razy dany skill pojawia się razem z „AI" w tych samych ofertach pracy. Python dominuje — pojawia się w niemal połowie ofert AI.</div>
             </div>
         </section>
 
@@ -1210,6 +1589,7 @@
             <li><a href="https://www.comptia.org/content/research/state-of-the-tech-workforce" target="_blank" rel="noopener noreferrer">CompTIA State of the Tech Workforce, 2025</a></li>
             <li><a href="https://www.pluralsight.com/resources/blog/ai/ai-skills-report-2025" target="_blank" rel="noopener noreferrer">Pluralsight / Wakefield Research: AI Skills Report 2025 (US + UK)</a></li>
             <li><a href="https://pfr.pl/ekspertyzy-publikacje.html" target="_blank" rel="noopener noreferrer">PFR / Google Cloud: „Mapa kompetencji AI w Polsce", 2024</a></li>
+            <li><a href="https://itradar.io" target="_blank" rel="noopener noreferrer">ITRadar.io: kompetencje AI — popularność, widełki płacowe, powiązania (marzec 2026)</a></li>
         </ol>
         <div class="sources-note">Dane zebrane 25.02.2026. Liczby ofert zmieniają się dynamicznie. Widełki wynagrodzeń pochodzą z konkretnych ofert i raportów, nie są uśredniane ani szacowane.</div>
     </div>
