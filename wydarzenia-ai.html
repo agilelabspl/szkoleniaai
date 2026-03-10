@@ -531,6 +531,26 @@
             }
         }
 
+        /* CTA zgłoś wydarzenie */
+        .submit-event-cta {
+            display: inline-block;
+            margin-top: 1rem;
+            padding: 0.65rem 1.5rem;
+            background: linear-gradient(135deg, var(--primary), #7c3aed);
+            color: #fff;
+            border-radius: 999px;
+            font-weight: 600;
+            font-size: 0.95rem;
+            text-decoration: none;
+            transition: transform 0.2s, box-shadow 0.2s;
+            box-shadow: 0 2px 8px rgba(91,94,232,0.3);
+        }
+        .submit-event-cta:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 16px rgba(91,94,232,0.4);
+            color: #fff;
+        }
+
         /* Newsletter Bar */
         .newsletter-bar {
             display: flex;
@@ -574,6 +594,9 @@
             <p class="update-date">Ostatnia aktualizacja: 10 marca 2026</p>
             <p class="event-count"><span id="total-events">0</span> wydarzeń AI na mapie</p>
         </header>
+        <div style="text-align:center; margin-bottom:1.5rem;">
+            <a href="https://forms.gle/3LLFTqy9Mg2d7BuY6" class="submit-event-cta" target="_blank" rel="noopener noreferrer" onclick="typeof gtag==='function'&&gtag('event','cta_click',{event_label:'zglos_wydarzenie'})">Organizujesz wydarzenie AI? Zg&#322;o&#347; je tutaj &rarr;</a>
+        </div>
 
         <!-- Mapa — krok 2 -->
         <div id="map"></div>
