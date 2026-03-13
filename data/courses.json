@@ -1257,5 +1257,35 @@
     "url": "https://polmed.org.pl/akademia-prawna-2026-wykorzystywanie-ai-w-przedsiebiorstwie/",
     "price": "bezpłatny",
     "format": "Online · webinar (MS Teams)"
+  },
+  {
+    "name": "Ekspert AI w Biznesie — pakiet warsztatów",
+    "cat": "biznes",
+    "desc": "7 dni intensywnych warsztatów online (Zoom), 2 szkolenia w pakiecie. AI od podstaw do wdrożenia, no-code automatyzacja z n8n, LLM w praktyce.",
+    "url": "https://jsystems.pl/bootcamp-AI",
+    "price": "4 350 zł netto",
+    "format": "Online · live"
+  },
+  {
+    "name": "Praktyczne szkolenie z AI i automatyzacji",
+    "cat": "marketing",
+    "desc": "Kurs modułowy online: ChatGPT, Gemini, prompty, automatyzacja procesów e-commerce i marketingowych. Konsultacja discovery call po zakupie.",
+    "url": "https://szkolenieai.harbingers.io",
+    "format": "Online · nagranie"
+  },
+  {
+    "name": "Specjalista AI / Trener AI (Future Skills Factory™)",
+    "cat": "biznes",
+    "desc": "Wielotygodniowe programy certyfikowane (sesje live, online). Dwie ścieżki: dla praktyków biznesowych i dla osób chcących szkolić innych z AI.",
+    "url": "https://mtc.pl/szkolenia-otwarte",
+    "price": "od 4 990 zł netto",
+    "format": "Online · live"
+  },
+  {
+    "name": "Comarch Bootcamp AI",
+    "cat": "biznes",
+    "desc": "8-dniowy intensywny program (Kraków, Warszawa, Wrocław, Katowice). Prompt engineering, GPT, AI w grafice i audio, automatyzacja procesów. Możliwe dofinansowanie BUR/PARP.",
+    "url": "https://www.comarch.pl/szkolenia/ai/",
+    "format": "Stacjonarnie"
   }
 ]
