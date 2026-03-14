@@ -221,3 +221,14 @@
     text-underline-offset: 2px;
     font-weight: 500;
 }
+
+/* ─── FOCUS STYLES (a11y) ─── */
+a:focus-visible, button:focus-visible {
+    outline: 2px solid #5b5ee8;
+    outline-offset: 2px;
+}
+
+.site-nav-links a:focus-visible {
+    background: #eef2ff;
+    border-color: #e0e7ff;
+}

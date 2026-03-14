@@ -360,6 +360,12 @@
             box-shadow: 0 12px 24px rgba(99, 102, 241, 0.1);
         }
 
+        .course-card:focus-visible {
+            border-color: var(--card-hover-border);
+            box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.3);
+            outline: none;
+        }
+
         .course-card h3 {
             font-size: 1.05rem;
             font-weight: 600;
@@ -771,8 +777,11 @@
             .category-nav.sticky a {
                 padding: 0.35rem 0.7rem;
                 font-size: 0.75rem;
-                min-height: 32px;
+                min-height: 44px;
             }
+
+            .main-title { word-wrap: break-word; overflow-wrap: break-word; }
+            .subtitle, .course-count, .update-date { padding: 0 0.5rem; }
 
         }
 
@@ -1129,7 +1138,7 @@
 
             <div class="chatbot-search">
                 <div class="chatbot-input-wrap">
-                    <input type="text" id="chatbot-input" placeholder="Czego szukasz? Zapytaj swoimi słowami, a AI Ci odpowie" maxlength="500" autocomplete="off">
+                    <input type="text" id="chatbot-input" placeholder="Zapytaj AI — np. szkolenie z promptów" maxlength="500" autocomplete="off">
                     <button id="chatbot-submit" aria-label="Szukaj">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="2.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M21 21l-5.197-5.197m0 0A7.5 7.5 0 105.196 5.196a7.5 7.5 0 0010.607 10.607z"/></svg>
                     </button>

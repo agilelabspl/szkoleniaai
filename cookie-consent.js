@@ -184,8 +184,9 @@
     /* Responsywność */
     '@media(max-width:640px){' +
         '#cc-buttons{flex-direction:column}' +
-        '#cc-buttons button{min-width:0;width:100%}' +
-        '#cc-inner{padding:0.75rem 0.9rem}' +
+        '#cc-buttons button{min-width:0;width:100%;padding:0.4rem 0.5rem;font-size:0.8rem}' +
+        '#cc-inner{padding:0.5rem 0.75rem}' +
+        '#cc-text{font-size:0.75rem;margin-bottom:0.4rem}' +
     '}';
 
     /* ── 7. HTML banera ── */
