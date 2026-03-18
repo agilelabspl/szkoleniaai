@@ -462,5 +462,21 @@
 "type": "konferencja",
 "free": false,
 "url": "https://crossweb.pl"
+},
+{
+"name": "AIMed 2026 — AI in Medicine",
+"city": "Kraków",
+"date": "7–9 maja 2026",
+"type": "konferencja",
+"free": false,
+"url": "https://neuroscience.cam.ac.uk/event-posts/artificial-intelligence-in-medicine-aimed-conference-in-krakow-poland-on-7-9-may-2026-call-for-abstracts-open-till-1st-march/"
+},
+{
+"name": "Sztuczna Inteligencja Łódź",
+"city": "Łódź",
+"date": "Cyklicznie",
+"type": "meetup",
+"free": true,
+"url": "https://www.meetup.com/sztuczna-inteligencja-lodz/"
 }
 ]
