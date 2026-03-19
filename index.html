@@ -452,90 +452,6 @@
             letter-spacing: 0.5px;
         }
 
-        /* Own Card (author's course) */
-        .course-card.own {
-            grid-column: 1 / -1;
-            border: 2px solid #d97706;
-            background: linear-gradient(135deg, #fffbeb 0%, #fef3c7 50%, #fff7ed 100%);
-            flex-direction: row;
-            align-items: center;
-            gap: 2rem;
-            padding: 2rem;
-            min-height: 160px;
-        }
-
-        .course-card.own::before {
-            content: "SZKOLENIE AUTORA KATALOGU";
-            position: absolute;
-            top: -10px;
-            left: 1rem;
-            background: linear-gradient(135deg, #d97706, #b45309);
-            color: #fff;
-            font-size: 0.65rem;
-            font-weight: 700;
-            padding: 0.2rem 0.6rem;
-            border-radius: 4px;
-            letter-spacing: 0.5px;
-        }
-
-        .course-card.own:hover {
-            border-color: #b45309;
-            box-shadow: 0 12px 24px rgba(217, 119, 6, 0.15);
-        }
-
-        .course-card.own .own-left {
-            flex: 1;
-            min-width: 0;
-        }
-
-        .course-card.own .own-right {
-            flex-shrink: 0;
-            text-align: right;
-            display: flex;
-            flex-direction: column;
-            align-items: flex-end;
-            gap: 0.5rem;
-        }
-
-        .course-card.own h3 {
-            font-size: 1.2rem;
-            padding-right: 0;
-            color: #92400e;
-        }
-
-        .course-card.own .own-tagline {
-            font-size: 0.95rem;
-            color: #78350f;
-            font-weight: 500;
-            margin-bottom: 0.4rem;
-        }
-
-        .course-card.own p {
-            color: #78350f;
-        }
-
-        .course-card.own .card-footer {
-            color: #d97706;
-            font-size: 0.9rem;
-        }
-
-        @media (max-width: 768px) {
-            .course-card.own {
-                flex-direction: column;
-                gap: 1rem;
-                padding: 1.5rem;
-            }
-
-            .course-card.own .own-right {
-                align-items: flex-start;
-                text-align: left;
-            }
-
-            .course-card.own::before {
-                font-size: 0.6rem;
-            }
-        }
-
         /* Back to Top */
         #back-to-top {
             position: fixed;
@@ -1170,22 +1086,6 @@
                 <h2 class="category-title">AI w Biznesie</h2>
                 <p class="category-desc">Wdrożenie AI w firmie, od zarządzania projektami po transformację cyfrową. Kursy dla liderów, managerów i właścicieli firm szukających praktycznych rozwiązań.</p>
                 <div class="courses-grid">
-                    <a href="https://kursmetryk.pl/" class="course-card own" target="_blank" rel="noopener noreferrer">
-                        <div class="own-left">
-                            <h3>SPA: System Przewidywalności Agile z AI</h3>
-                            <span class="card-author">Paweł Lewiński · AgileLabs</span>
-                            <p class="own-tagline">Biznes pyta „na kiedy?" — Twój zespół zna odpowiedź.</p>
-                            <p>Budujesz system metrykowy z asystentem AI w 4 tygodnie. Kurs Metryk (120+ lekcji) + dashboardy + integracja Jira + sesje live co tydzień. Zamiast zgadywać, pokazujesz dane, ryzyka i realny termin.</p>
-                        </div>
-                        <div class="own-right">
-                            <div class="card-meta">
-                                <span class="tag tag-price">1 999 zł netto</span>
-                                <span class="tag tag-format">Online · live + nagrania</span>
-                                <span class="tag tag-duration">4 tygodnie</span>
-                            </div>
-                            <div class="card-footer">Sprawdź <span>→</span></div>
-                        </div>
-                    </a>
                     <a href="https://akademia.parp.gov.pl/course/view.php?id=303" class="course-card" target="_blank" rel="noopener noreferrer">
                         <span class="badge-free">Darmowe</span>
                         <h3>Kurs: AI w biznesie</h3>
