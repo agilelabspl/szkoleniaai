@@ -1288,5 +1288,13 @@
     "desc": "8-dniowy intensywny program (Kraków, Warszawa, Wrocław, Katowice). Prompt engineering, GPT, AI w grafice i audio, automatyzacja procesów. Możliwe dofinansowanie BUR/PARP.",
     "url": "https://www.comarch.pl/szkolenia/ai/",
     "format": "Stacjonarnie"
+  },
+  {
+    "name": "AI Dream Team - Kurs AI dla Firm",
+    "cat": "biznes",
+    "desc": "Praktyczny kurs budowania systemu asystentów AI dla właścicieli firm. 31 gotowych promptów, 6 asystentów AI i cotygodniowe webinary Q&A.",
+    "url": "https://aidreamteam.pl",
+    "price": "od 1249 PLN",
+    "format": "Online"
   }
 ]
