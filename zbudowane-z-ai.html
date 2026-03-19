@@ -202,6 +202,32 @@
             transition: transform 0.2s ease;
         }
 
+        .product-card-wrap {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .product-card-wrap .product-card {
+            flex: 1;
+        }
+
+        .btn-interview {
+            display: block;
+            background: #dc2626;
+            color: #fff;
+            font-size: 0.85rem;
+            font-weight: 600;
+            padding: 0.6rem 1rem;
+            border-radius: 0 0 12px 12px;
+            text-decoration: none;
+            text-align: center;
+            transition: background 0.2s ease;
+        }
+
+        .btn-interview:hover {
+            background: #b91c1c;
+        }
+
         .product-card:hover .card-footer span {
             transform: translateX(4px);
         }
@@ -490,6 +516,28 @@
     <div class="container">
         <div class="products-list">
 
+            <!-- CoachLog — wywiad z twórcą -->
+            <div class="product-card-wrap">
+                <a href="https://coachlog.app/" class="product-card" target="_blank" rel="noopener noreferrer" onclick="gtag('event','product_click',{event_label:'CoachLog'})">
+                    <h2>CoachLog</h2>
+                    <div class="product-creator">Jarosław Macioszek</div>
+                    <p class="product-desc">Mów do telefonu co się dzieje na boisku — AI zamieni to w <strong>statystyki dla trenera</strong>.</p>
+                    <span class="product-tag tag-sport">Sport</span>
+                    <div class="card-footer">Sprawdź <span>&rarr;</span></div>
+                </a>
+                <a href="https://youtu.be/79DeAl_MF0E" class="btn-interview" target="_blank" rel="noopener noreferrer" onclick="gtag('event','interview_click',{event_label:'CoachLog'})">Obejrzyj wywiad z twórcą</a>
+            </div>
+
+            <!-- Oko z Orbity -->
+            <a href="https://agilelabspl.github.io/okozorbity/" class="product-card" target="_blank" rel="noopener noreferrer" onclick="gtag('event','product_click',{event_label:'Oko z Orbity'})">
+                <h2>Kto na Ciebie patrzy z kosmosu?</h2>
+                <div class="product-creator">Paweł Lewiński</div>
+                <p class="product-desc">Sprawdź w czasie rzeczywistym, które <strong>satelity przelatują nad Twoją głową</strong> i właśnie Cię obserwują. Mapa 30+ satelitów live i mapa przelotów. Zobacz też, gdzie jest UFO.</p>
+                <span class="product-tag tag-edukacja">Edukacja</span>
+                <span class="product-tag tag-free">Darmowe</span>
+                <div class="card-footer">Sprawdź <span>&rarr;</span></div>
+            </a>
+
             <!-- #22 Storylandia -->
             <a href="https://storylandia.pl" class="product-card" target="_blank" rel="noopener noreferrer" onclick="gtag('event','product_click',{event_label:'Storylandia'})">
                 <span class="badge-new">Nowe</span>
@@ -630,14 +678,6 @@
                 <div class="card-footer">Sprawdź <span>&rarr;</span></div>
             </a>
 
-            <!-- #6 CoachLog -->
-            <a href="https://coachlog.app/" class="product-card" target="_blank" rel="noopener noreferrer" onclick="gtag('event','product_click',{event_label:'CoachLog'})">
-                <h2>CoachLog</h2>
-                <div class="product-creator">Jarosław Macioszek</div>
-                <p class="product-desc">Aplikacja dla trenerów piłki nożnej. Trener mówi do telefonu co się dzieje na boisku, a AI zamienia to w <strong>statystyki przydatne do treningu</strong> i rozwoju drużyny.</p>
-                <span class="product-tag tag-sport">Sport</span>
-                <div class="card-footer">Sprawdź <span>&rarr;</span></div>
-            </a>
 
             <!-- #7 Pytania Maturalne -->
             <a href="https://pytania-maturalne.pl" class="product-card" target="_blank" rel="noopener noreferrer" onclick="gtag('event','product_click',{event_label:'Pytania Maturalne'})">
@@ -728,15 +768,6 @@
                 <div class="card-footer">Sprawdź <span>&rarr;</span></div>
             </a>
 
-            <!-- #16 Oko z Orbity -->
-            <a href="https://agilelabspl.github.io/okozorbity/" class="product-card" target="_blank" rel="noopener noreferrer" onclick="gtag('event','product_click',{event_label:'Oko z Orbity'})">
-                <h2>Kto na Ciebie patrzy z kosmosu?</h2>
-                <div class="product-creator">Paweł Lewiński</div>
-                <p class="product-desc">Sprawdź w czasie rzeczywistym, które <strong>satelity przelatują nad Twoją głową</strong> i właśnie Cię obserwują. Mapa 30+ satelitów live i mapa przelotów. Zobacz też, gdzie jest UFO.</p>
-                <span class="product-tag tag-edukacja">Edukacja</span>
-                <span class="product-tag tag-free">Darmowe</span>
-                <div class="card-footer">Sprawdź <span>&rarr;</span></div>
-            </a>
 
         </div>
 

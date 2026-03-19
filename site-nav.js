@@ -50,7 +50,7 @@
         + '<li><a href="' + prefix + 'wydarzenia-ai.html"' + (active === 'wydarzenia' ? ' class="active"' : '') + '>Wydarzenia AI</a></li>'
         + '<li><a href="' + prefix + 'zbudowane-z-ai.html"' + (active === 'zbudowane' ? ' class="active"' : '') + '>Zbudowane z AI <span class="nav-flag">\uD83C\uDDF5\uD83C\uDDF1</span></a></li>'
         + '<li><a href="' + prefix + 'praca-ai.html"' + (active === 'praca' ? ' class="active"' : '') + '>Praca w AI</a></li>'
-        + '<li><a href="' + prefix + 'quiz.html" class="nav-cta' + (active === 'quiz' ? ' active' : '') + '">Quiz</a></li>'
+        + '<li><a href="' + prefix + 'quiz.html" class="nav-cta' + (active === 'quiz' ? ' active' : '') + '">Quiz AI</a></li>'
         + '</ul>'
         + '</div>'
         + '</nav>';
