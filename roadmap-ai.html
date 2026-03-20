@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Roadmap rozwoju AI — 5 poziomów</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap');
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    background: #0a0e27;
+    font-family: 'Inter', -apple-system, sans-serif;
+    color: #e2e8f0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100vh;
+    padding: 0;
+  }
+
+  .roadmap {
+    width: 1080px;
+    min-height: 1920px;
+    background: linear-gradient(170deg, #0a0e27 0%, #0f1538 30%, #0a0e27 60%, #111640 100%);
+    position: relative;
+    overflow: hidden;
+    padding: 60px 50px 80px;
+  }
+
+  /* Background decorations */
+  .roadmap::before {
+    content: '';
+    position: absolute;
+    top: -200px;
+    right: -200px;
+    width: 600px;
+    height: 600px;
+    background: radial-gradient(circle, rgba(99,102,241,0.08) 0%, transparent 70%);
+    pointer-events: none;
+  }
+  .roadmap::after {
+    content: '';
+    position: absolute;
+    bottom: -100px;
+    left: -100px;
+    width: 400px;
+    height: 400px;
+    background: radial-gradient(circle, rgba(16,185,129,0.06) 0%, transparent 70%);
+    pointer-events: none;
+  }
+
+  /* Floating dots decoration */
+  .dots {
+    position: absolute;
+    top: 0; left: 0; right: 0; bottom: 0;
+    pointer-events: none;
+    overflow: hidden;
+  }
+  .dots::before {
+    content: '';
+    position: absolute;
+    top: 180px; right: 60px;
+    width: 6px; height: 6px;
+    background: rgba(99,102,241,0.3);
+    border-radius: 50%;
+    box-shadow:
+      -40px 30px 0 rgba(251,191,36,0.2),
+      -90px -20px 0 rgba(16,185,129,0.2),
+      200px 100px 0 rgba(244,63,94,0.15),
+      -200px 200px 0 rgba(99,102,241,0.15),
+      100px 400px 0 rgba(16,185,129,0.2),
+      -150px 600px 0 rgba(251,191,36,0.15),
+      50px 800px 0 rgba(168,85,247,0.2),
+      -100px 1000px 0 rgba(244,63,94,0.15),
+      180px 1200px 0 rgba(99,102,241,0.2),
+      -60px 1400px 0 rgba(16,185,129,0.15);
+  }
+
+  /* Header */
+  .header {
+    text-align: center;
+    margin-bottom: 50px;
+    position: relative;
+    z-index: 2;
+  }
+  .header-badge {
+    display: inline-block;
+    background: linear-gradient(135deg, rgba(99,102,241,0.2), rgba(168,85,247,0.2));
+    border: 1px solid rgba(99,102,241,0.3);
+    border-radius: 30px;
+    padding: 8px 24px;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #a5b4fc;
+    margin-bottom: 24px;
+  }
+  .header h1 {
+    font-size: 52px;
+    font-weight: 900;
+    line-height: 1.1;
+    margin-bottom: 10px;
+    background: linear-gradient(135deg, #fff 0%, #c7d2fe 50%, #a5b4fc 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  .header h1 span {
+    background: linear-gradient(135deg, #818cf8, #c084fc);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+  }
+  .header .subtitle {
+    font-size: 18px;
+    color: #94a3b8;
+    font-weight: 400;
+    margin-top: 8px;
+  }
+
+  /* Level row */
+  .level {
+    display: grid;
+    grid-template-columns: 80px 1fr;
+    gap: 24px;
+    margin-bottom: 28px;
+    position: relative;
+    z-index: 2;
+  }
+
+  /* Number circle */
+  .level-number {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+  }
+  .number-circle {
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 28px;
+    font-weight: 800;
+    color: #fff;
+    position: relative;
+    flex-shrink: 0;
+  }
+  .number-circle::after {
+    content: '';
+    position: absolute;
+    inset: -3px;
+    border-radius: 50%;
+    border: 2px solid rgba(255,255,255,0.1);
+  }
+
+  /* Connecting line */
+  .connector {
+    width: 3px;
+    flex-grow: 1;
+    margin-top: 8px;
+    border-radius: 2px;
+    min-height: 20px;
+  }
+
+  /* Level card */
+  .level-card {
+    border-radius: 20px;
+    padding: 28px 32px;
+    position: relative;
+    overflow: hidden;
+    border: 1px solid rgba(255,255,255,0.06);
+  }
+  .level-card::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 3px;
+  }
+  .level-card h2 {
+    font-size: 22px;
+    font-weight: 800;
+    margin-bottom: 4px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+  .level-card h2 .icon {
+    font-size: 26px;
+    flex-shrink: 0;
+  }
+  .level-label {
+    font-size: 12px;
+    font-weight: 600;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    margin-bottom: 16px;
+    opacity: 0.7;
+  }
+  .level-desc {
+    font-size: 14.5px;
+    color: #cbd5e1;
+    line-height: 1.5;
+    margin-bottom: 20px;
+  }
+
+  /* Skills grid */
+  .skills {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 8px 20px;
+    margin-bottom: 20px;
+  }
+  .skill {
+    font-size: 14px;
+    color: #e2e8f0;
+    padding: 5px 0;
+    display: flex;
+    align-items: flex-start;
+    gap: 8px;
+    line-height: 1.4;
+  }
+  .skill::before {
+    content: '▸';
+    flex-shrink: 0;
+    font-size: 12px;
+    margin-top: 2px;
+  }
+
+  /* Tools row */
+  .tools {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 4px;
+  }
+  .tool {
+    font-size: 12px;
+    font-weight: 600;
+    padding: 5px 14px;
+    border-radius: 20px;
+    background: rgba(255,255,255,0.06);
+    border: 1px solid rgba(255,255,255,0.08);
+    color: #94a3b8;
+    white-space: nowrap;
+  }
+
+  /* Color themes */
+
+  /* Level 1 — Blue */
+  .level-1 .number-circle { background: linear-gradient(135deg, #3b82f6, #2563eb); box-shadow: 0 4px 20px rgba(59,130,246,0.4); }
+  .level-1 .connector { background: linear-gradient(to bottom, rgba(59,130,246,0.4), rgba(16,185,129,0.4)); }
+  .level-1 .level-card { background: linear-gradient(135deg, rgba(59,130,246,0.08), rgba(37,99,235,0.04)); }
+  .level-1 .level-card::before { background: linear-gradient(90deg, #3b82f6, #60a5fa); }
+  .level-1 .level-card h2 { color: #93c5fd; }
+  .level-1 .level-label { color: #60a5fa; }
+  .level-1 .skill::before { color: #3b82f6; }
+  .level-1 .tool { border-color: rgba(59,130,246,0.2); color: #93c5fd; }
+
+  /* Level 2 — Green */
+  .level-2 .number-circle { background: linear-gradient(135deg, #10b981, #059669); box-shadow: 0 4px 20px rgba(16,185,129,0.4); }
+  .level-2 .connector { background: linear-gradient(to bottom, rgba(16,185,129,0.4), rgba(251,191,36,0.4)); }
+  .level-2 .level-card { background: linear-gradient(135deg, rgba(16,185,129,0.08), rgba(5,150,105,0.04)); }
+  .level-2 .level-card::before { background: linear-gradient(90deg, #10b981, #34d399); }
+  .level-2 .level-card h2 { color: #6ee7b7; }
+  .level-2 .level-label { color: #34d399; }
+  .level-2 .skill::before { color: #10b981; }
+  .level-2 .tool { border-color: rgba(16,185,129,0.2); color: #6ee7b7; }
+
+  /* Level 3 — Yellow/Amber */
+  .level-3 .number-circle { background: linear-gradient(135deg, #f59e0b, #d97706); box-shadow: 0 4px 20px rgba(245,158,11,0.4); }
+  .level-3 .connector { background: linear-gradient(to bottom, rgba(245,158,11,0.4), rgba(244,63,94,0.4)); }
+  .level-3 .level-card { background: linear-gradient(135deg, rgba(245,158,11,0.08), rgba(217,119,6,0.04)); }
+  .level-3 .level-card::before { background: linear-gradient(90deg, #f59e0b, #fbbf24); }
+  .level-3 .level-card h2 { color: #fcd34d; }
+  .level-3 .level-label { color: #fbbf24; }
+  .level-3 .skill::before { color: #f59e0b; }
+  .level-3 .tool { border-color: rgba(245,158,11,0.2); color: #fcd34d; }
+
+  /* Level 4 — Rose/Pink */
+  .level-4 .number-circle { background: linear-gradient(135deg, #f43f5e, #e11d48); box-shadow: 0 4px 20px rgba(244,63,94,0.4); }
+  .level-4 .connector { background: linear-gradient(to bottom, rgba(244,63,94,0.4), rgba(168,85,247,0.4)); }
+  .level-4 .level-card { background: linear-gradient(135deg, rgba(244,63,94,0.08), rgba(225,29,72,0.04)); }
+  .level-4 .level-card::before { background: linear-gradient(90deg, #f43f5e, #fb7185); }
+  .level-4 .level-card h2 { color: #fda4af; }
+  .level-4 .level-label { color: #fb7185; }
+  .level-4 .skill::before { color: #f43f5e; }
+  .level-4 .tool { border-color: rgba(244,63,94,0.2); color: #fda4af; }
+
+  /* Level 5 — Purple */
+  .level-5 .number-circle { background: linear-gradient(135deg, #a855f7, #7c3aed); box-shadow: 0 4px 20px rgba(168,85,247,0.4); }
+  .level-5 .level-card { background: linear-gradient(135deg, rgba(168,85,247,0.08), rgba(124,58,237,0.04)); }
+  .level-5 .level-card::before { background: linear-gradient(90deg, #a855f7, #c084fc); }
+  .level-5 .level-card h2 { color: #d8b4fe; }
+  .level-5 .level-label { color: #c084fc; }
+  .level-5 .skill::before { color: #a855f7; }
+  .level-5 .tool { border-color: rgba(168,85,247,0.2); color: #d8b4fe; }
+
+  /* Footer */
+  .footer {
+    text-align: center;
+    margin-top: 44px;
+    position: relative;
+    z-index: 2;
+  }
+  .footer-cta {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    background: linear-gradient(135deg, #5b5ee8, #8b5cf6);
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 16px 40px;
+    border-radius: 50px;
+    text-decoration: none;
+    box-shadow: 0 4px 24px rgba(99,102,241,0.4);
+    margin-bottom: 20px;
+  }
+  .footer-site {
+    font-size: 15px;
+    color: #64748b;
+    font-weight: 500;
+  }
+  .footer-site strong {
+    color: #94a3b8;
+    font-weight: 700;
+  }
+
+  /* Arrow between numbers */
+  .arrow-down {
+    font-size: 14px;
+    color: rgba(255,255,255,0.15);
+    margin: 4px 0;
+  }
+</style>
+</head>
+<body>
+
+<div class="roadmap">
+  <div class="dots"></div>
+
+  <!-- Header -->
+  <div class="header">
+    <div class="header-badge">Roadmap 2026</div>
+    <h1>Roadmap Rozwoju <span>AI</span></h1>
+    <p class="subtitle">5 poziomów — od zera do budowania własnych rozwiązań</p>
+  </div>
+
+  <!-- Level 1 -->
+  <div class="level level-1">
+    <div class="level-number">
+      <div class="number-circle">1</div>
+      <div class="connector"></div>
+    </div>
+    <div class="level-card">
+      <div class="level-label">Poziom 1</div>
+      <h2><span class="icon">🧠</span> Zrozumienie AI</h2>
+      <p class="level-desc">Rozumiesz czym jest AI, jak działa i gdzie ma zastosowanie. Bez tego fundamentu reszta nie zadziała.</p>
+      <div class="skills">
+        <div class="skill">Co to jest LLM i GenAI</div>
+        <div class="skill">Jak modele „myślą"</div>
+        <div class="skill">Tokeny, kontekst, halucynacje</div>
+        <div class="skill">Kiedy AI pomaga, a kiedy nie</div>
+        <div class="skill">Ograniczenia i ryzyka AI</div>
+        <div class="skill">AI Act — podstawy regulacji</div>
+      </div>
+      <div class="tools">
+        <span class="tool">Elements of AI</span>
+        <span class="tool">AI od podstaw — PFR</span>
+        <span class="tool">Google AI Essentials</span>
+        <span class="tool">AI.GOV.PL</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Level 2 -->
+  <div class="level level-2">
+    <div class="level-number">
+      <div class="number-circle">2</div>
+      <div class="connector"></div>
+    </div>
+    <div class="level-card">
+      <div class="level-label">Poziom 2</div>
+      <h2><span class="icon">⚡</span> Codzienna praca z AI</h2>
+      <p class="level-desc">Używasz AI jako asystenta na co dzień. Pisanie, research, analiza, grafika — oszczędzasz godziny tygodniowo.</p>
+      <div class="skills">
+        <div class="skill">Pisanie maili, raportów, notatek</div>
+        <div class="skill">Research i analiza informacji</div>
+        <div class="skill">AI w dokumentach i arkuszach</div>
+        <div class="skill">Generowanie grafik i prezentacji</div>
+        <div class="skill">Tłumaczenia i streszczenia</div>
+        <div class="skill">AI jako sparring partner</div>
+      </div>
+      <div class="tools">
+        <span class="tool">ChatGPT</span>
+        <span class="tool">Claude</span>
+        <span class="tool">Gemini</span>
+        <span class="tool">Copilot</span>
+        <span class="tool">Perplexity</span>
+        <span class="tool">Canva AI</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Level 3 -->
+  <div class="level level-3">
+    <div class="level-number">
+      <div class="number-circle">3</div>
+      <div class="connector"></div>
+    </div>
+    <div class="level-card">
+      <div class="level-label">Poziom 3</div>
+      <h2><span class="icon">🎯</span> Prompt Engineering</h2>
+      <p class="level-desc">Wyciągasz z AI maksimum. Wiesz jak formułować instrukcje, budować kontekst i kontrolować jakość wyników.</p>
+      <div class="skills">
+        <div class="skill">Chain-of-thought i few-shot</div>
+        <div class="skill">System prompts i role</div>
+        <div class="skill">Praca z dokumentami i danymi</div>
+        <div class="skill">Ewaluacja jakości odpowiedzi</div>
+        <div class="skill">Spersonalizowane asystenty</div>
+        <div class="skill">Projekty i bazy wiedzy</div>
+      </div>
+      <div class="tools">
+        <span class="tool">Custom GPTs</span>
+        <span class="tool">Claude Projects</span>
+        <span class="tool">NotebookLM</span>
+        <span class="tool">System Prompts</span>
+        <span class="tool">Gems</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Level 4 -->
+  <div class="level level-4">
+    <div class="level-number">
+      <div class="number-circle">4</div>
+      <div class="connector"></div>
+    </div>
+    <div class="level-card">
+      <div class="level-label">Poziom 4</div>
+      <h2><span class="icon">🔄</span> Automatyzacja z AI</h2>
+      <p class="level-desc">Łączysz AI z innymi narzędziami. Budujesz workflow, które pracują za Ciebie — bez pisania kodu.</p>
+      <div class="skills">
+        <div class="skill">Workflow no-code z AI</div>
+        <div class="skill">Triggery, warunki, sekwencje</div>
+        <div class="skill">Automatyczne przetwarzanie danych</div>
+        <div class="skill">Integracja AI z CRM, mailem, docs</div>
+        <div class="skill">Automatyczne raporty i alerty</div>
+        <div class="skill">Chatboty i formularze AI</div>
+      </div>
+      <div class="tools">
+        <span class="tool">n8n</span>
+        <span class="tool">Make</span>
+        <span class="tool">Zapier</span>
+        <span class="tool">Power Automate</span>
+        <span class="tool">Voiceflow</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Level 5 -->
+  <div class="level level-5">
+    <div class="level-number">
+      <div class="number-circle">5</div>
+    </div>
+    <div class="level-card">
+      <div class="level-label">Poziom 5</div>
+      <h2><span class="icon">🚀</span> Agenci AI i budowanie</h2>
+      <p class="level-desc">Budujesz własne rozwiązania AI. Łączysz modele z danymi, tworzysz agentów i projektujesz systemy.</p>
+      <div class="skills">
+        <div class="skill">API modeli (OpenAI, Anthropic)</div>
+        <div class="skill">RAG — AI + Twoje dane</div>
+        <div class="skill">Agenci AI — autonomiczne zadania</div>
+        <div class="skill">Function calling i MCP</div>
+        <div class="skill">Kodowanie z AI (Copilot, Cursor)</div>
+        <div class="skill">Architektura systemów AI</div>
+      </div>
+      <div class="tools">
+        <span class="tool">Claude Code</span>
+        <span class="tool">Cursor</span>
+        <span class="tool">LangChain</span>
+        <span class="tool">CrewAI</span>
+        <span class="tool">OpenAI API</span>
+        <span class="tool">Anthropic API</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- Footer -->
+  <div class="footer">
+    <div class="footer-cta">🎯 Nie wiesz, na którym jesteś poziomie? Zrób quiz!</div>
+    <p class="footer-site"><strong>aiprzewodnik.pl</strong> — największy katalog szkoleń AI w Polsce</p>
+  </div>
+
+</div>
+
+</body>
+</html>

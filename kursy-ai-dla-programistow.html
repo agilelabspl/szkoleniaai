@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Kursy AI dla programistów w Polsce (2026) | AI Przewodnik</title>
+    <meta name="description" content="10 kursów AI dla programistów w Polsce. Od darmowych po zaawansowane bootcampy. Python, agenci AI, Machine Learning, kodowanie z AI. Porównanie cen, formatów i zakresów.">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://aiprzewodnik.pl/kursy-ai-dla-programistow.html">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://aiprzewodnik.pl/kursy-ai-dla-programistow.html">
+    <meta property="og:title" content="Kursy AI dla programistów w Polsce (2026)">
+    <meta property="og:description" content="10 kursów AI dla programistów. Od darmowych po bootcampy. Python, agenci AI, ML, kodowanie z AI. Porównanie cen i formatów.">
+    <meta property="og:image" content="https://aiprzewodnik.pl/og-image.png">
+    <meta property="og:locale" content="pl_PL">
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Kursy AI dla programistów w Polsce (2026)">
+    <meta name="twitter:description" content="10 kursów AI dla programistów. Python, agenci AI, ML, kodowanie z AI. Porównanie cen i formatów.">
+
+    <!-- Schema.org Article -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Article",
+      "headline": "Kursy AI dla programistów w Polsce (2026)",
+      "description": "Przegląd 10 kursów AI dla programistów dostępnych w Polsce. Od darmowych po zaawansowane bootcampy.",
+      "author": { "@type": "Person", "name": "Paweł Lewiński" },
+      "publisher": { "@type": "Organization", "name": "AI Przewodnik", "url": "https://aiprzewodnik.pl" },
+      "datePublished": "2026-03-13",
+      "dateModified": "2026-03-13",
+      "mainEntityOfPage": "https://aiprzewodnik.pl/kursy-ai-dla-programistow.html"
+    }
+    </script>
+
+    <!-- Schema.org BreadcrumbList -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "AI Przewodnik", "item": "https://aiprzewodnik.pl/" },
+        { "@type": "ListItem", "position": 2, "name": "Szkolenia AI", "item": "https://aiprzewodnik.pl/index.html" },
+        { "@type": "ListItem", "position": 3, "name": "Kursy AI dla programistów" }
+      ]
+    }
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"></noscript>
+
+    <!-- Shared navigation -->
+    <link rel="stylesheet" href="site-nav.css">
+
+    <style>
+        :root {
+            --bg-color: #ffffff;
+            --text-color: #1a1a2e;
+            --text-muted: #64748b;
+            --primary: #5b5ee8;
+            --primary-dark: #4f46e5;
+            --secondary: #06b6d4;
+            --card-bg: #f8fafc;
+            --card-border: #e2e8f0;
+            --font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+        }
+
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        html { scroll-behavior: smooth; }
+
+        body {
+            font-family: var(--font-family);
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.7;
+        }
+
+        .container { max-width: 800px; margin: 0 auto; padding: 2rem 1.5rem; }
+
+        /* Breadcrumb */
+        .breadcrumb {
+            display: flex;
+            gap: 0.5rem;
+            font-size: 0.875rem;
+            color: var(--text-muted);
+            margin-bottom: 2rem;
+            flex-wrap: wrap;
+        }
+        .breadcrumb a { color: var(--primary); text-decoration: none; }
+        .breadcrumb a:hover { text-decoration: underline; }
+        .breadcrumb .separator { color: var(--card-border); }
+
+        /* Article */
+        h1 {
+            font-size: clamp(1.75rem, 4vw, 2.25rem);
+            font-weight: 700;
+            line-height: 1.3;
+            margin-bottom: 1.25rem;
+        }
+
+        .lead {
+            font-size: 1.125rem;
+            font-weight: 500;
+            color: var(--text-color);
+            margin-bottom: 2rem;
+            line-height: 1.6;
+        }
+
+        .update-info {
+            font-size: 0.85rem;
+            color: var(--text-muted);
+            margin-bottom: 2rem;
+        }
+
+        h2 {
+            font-size: 1.35rem;
+            font-weight: 700;
+            margin-top: 2.5rem;
+            margin-bottom: 1rem;
+            color: var(--text-color);
+        }
+
+        p { margin-bottom: 1rem; }
+        ul { margin: 0.75rem 0 1rem 1.5rem; }
+        li { margin-bottom: 0.5rem; }
+
+        /* Course cards */
+        .course-list {
+            display: flex;
+            flex-direction: column;
+            gap: 1.25rem;
+            margin: 1.5rem 0;
+        }
+
+        .course-item {
+            display: block;
+            text-decoration: none;
+            color: inherit;
+            background: var(--card-bg);
+            border: 1px solid var(--card-border);
+            border-radius: 12px;
+            padding: 1.5rem;
+            transition: all 0.2s ease;
+        }
+
+        .course-item:hover {
+            border-color: var(--primary);
+            box-shadow: 0 4px 16px rgba(99, 102, 241, 0.1);
+            transform: translateY(-1px);
+        }
+
+        .course-item-number {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 28px;
+            height: 28px;
+            background: var(--primary);
+            color: white;
+            border-radius: 50%;
+            font-size: 0.8rem;
+            font-weight: 700;
+            margin-bottom: 0.75rem;
+        }
+
+        .course-item h3 {
+            font-size: 1.15rem;
+            font-weight: 700;
+            margin-bottom: 0.35rem;
+            color: var(--text-color);
+        }
+
+        .course-item-author {
+            font-size: 0.875rem;
+            color: var(--text-muted);
+            margin-bottom: 0.75rem;
+        }
+
+        .course-item-desc {
+            font-size: 0.95rem;
+            line-height: 1.6;
+            margin-bottom: 1rem;
+            color: #374151;
+        }
+
+        .course-item-tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 0.5rem;
+        }
+
+        .tag {
+            display: inline-block;
+            padding: 0.3rem 0.7rem;
+            border-radius: 6px;
+            font-size: 0.8rem;
+            font-weight: 500;
+        }
+
+        .tag-price { background: #dcfce7; color: #166534; }
+        .tag-free { background: #dbeafe; color: #1e40af; font-weight: 600; }
+        .tag-format { background: #f3e8ff; color: #6b21a8; }
+        .tag-duration { background: #fef3c7; color: #92400e; }
+        .tag-cert { background: #e0f2fe; color: #075985; }
+
+        .course-item-footer {
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            margin-top: 0.75rem;
+            font-size: 0.875rem;
+            font-weight: 600;
+            color: var(--primary);
+        }
+
+        .course-item-footer span { margin-left: 0.3rem; transition: margin-left 0.2s; }
+        .course-item:hover .course-item-footer span { margin-left: 0.5rem; }
+
+        /* Summary table */
+        .summary-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 1.5rem 0;
+            font-size: 0.875rem;
+        }
+
+        .summary-table th {
+            background: var(--card-bg);
+            text-align: left;
+            padding: 0.75rem;
+            font-weight: 600;
+            border-bottom: 2px solid var(--card-border);
+        }
+
+        .summary-table td {
+            padding: 0.75rem;
+            border-bottom: 1px solid var(--card-border);
+            vertical-align: top;
+        }
+
+        .summary-table tr:hover { background: #fafbff; }
+
+        .highlight-box {
+            background: linear-gradient(135deg, #f0f9ff 0%, #faf5ff 100%);
+            border-left: 4px solid var(--primary);
+            padding: 1.25rem 1.5rem;
+            border-radius: 0 10px 10px 0;
+            margin: 1.5rem 0;
+        }
+
+        .highlight-box p { margin-bottom: 0.5rem; }
+        .highlight-box p:last-child { margin-bottom: 0; }
+
+        /* CTA */
+        .cta {
+            margin-top: 2.5rem;
+            text-align: center;
+            padding: 2rem;
+            background: linear-gradient(135deg, #eef2ff 0%, #e0f2fe 100%);
+            border-radius: 12px;
+        }
+
+        .cta p { font-size: 1.05rem; margin-bottom: 1rem; font-weight: 500; }
+
+        .cta a {
+            display: inline-block;
+            padding: 0.75rem 1.75rem;
+            background: var(--primary);
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 600;
+            font-size: 0.95rem;
+            transition: background 0.2s ease;
+        }
+
+        .cta a:hover { background: var(--primary-dark); }
+
+        /* Responsive table */
+        @media (max-width: 768px) {
+            .container { padding: 1.5rem 1rem; }
+
+            .summary-table { font-size: 0.8rem; }
+            .summary-table th, .summary-table td { padding: 0.5rem; }
+
+            .course-item { padding: 1.25rem; }
+        }
+    </style>
+</head>
+<body>
+    <script src="site-nav.js"></script>
+
+<main id="main-content">
+<div class="container">
+
+    <nav class="breadcrumb">
+        <a href="index.html">Szkolenia AI</a>
+        <span class="separator">/</span>
+        <span>Kursy AI dla programistów</span>
+    </nav>
+
+    <article>
+        <h1>Kursy AI dla programistów w Polsce (2026)</h1>
+
+        <p class="lead">Przegląd 10 kursów, które uczą programistów pracy z AI. Od darmowych wprowadzeń po zaawansowane bootcampy z Machine Learningiem. Wszystkie dostępne w Polsce, po polsku lub z polskim wsparciem.</p>
+
+        <p class="update-info">Ostatnia aktualizacja: 13 marca 2026 · Źródło: katalog <a href="index.html">aiprzewodnik.pl</a> (160+ szkoleń AI)</p>
+
+        <h2>Na co zwrócić uwagę przy wyborze</h2>
+
+        <p>Kursy AI dla programistów można podzielić na trzy główne nurty:</p>
+
+        <ul>
+            <li><strong>Kodowanie z AI</strong> — nauka korzystania z narzędzi takich jak GitHub Copilot, Cursor, Claude Code w codziennej pracy developera. Cel: pisać kod szybciej i lepiej.</li>
+            <li><strong>Budowanie z AI</strong> — tworzenie aplikacji wykorzystujących modele AI: API OpenAI, agenci, RAG, LangChain. Cel: integrować AI w swoich projektach.</li>
+            <li><strong>Machine Learning i Data Science</strong> — nauka od podstaw: Python, PyTorch, TensorFlow, sieci neuronowe, NLP, computer vision. Cel: rozumieć i tworzyć modele AI.</li>
+        </ul>
+
+        <p>Poniżej 10 kursów z każdego z tych nurtów. Przy każdym podajemy fakty: cenę, format, czas trwania, zakres i prowadzącego.</p>
+
+        <h2>Porównanie w skrócie</h2>
+
+        <div style="overflow-x: auto;">
+        <table class="summary-table">
+            <thead>
+                <tr>
+                    <th>Kurs</th>
+                    <th>Cena</th>
+                    <th>Format</th>
+                    <th>Czas</th>
+                    <th>Nurt</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><strong>AI_devs 4</strong></td>
+                    <td>do ustalenia</td>
+                    <td>Kohorta + live</td>
+                    <td>5 tyg.</td>
+                    <td>Budowanie z AI</td>
+                </tr>
+                <tr>
+                    <td><strong>Ewolucja Developera</strong></td>
+                    <td>do ustalenia</td>
+                    <td>Online live</td>
+                    <td>do ustalenia</td>
+                    <td>Kodowanie z AI</td>
+                </tr>
+                <tr>
+                    <td><strong>10xDevs 3.0</strong></td>
+                    <td>od 1 743 zł</td>
+                    <td>Kohorta + live</td>
+                    <td>5 tyg. (~40h)</td>
+                    <td>Kodowanie z AI</td>
+                </tr>
+                <tr>
+                    <td><strong>AI & ML Engineering</strong></td>
+                    <td>9 900 zł</td>
+                    <td>Online weekendowo</td>
+                    <td>224h + 84h</td>
+                    <td>Machine Learning</td>
+                </tr>
+                <tr>
+                    <td><strong>Integracja z AI w Pythonie</strong></td>
+                    <td>2 090 zł</td>
+                    <td>Stacjonarnie / online</td>
+                    <td>2 dni</td>
+                    <td>Budowanie z AI</td>
+                </tr>
+                <tr>
+                    <td><strong>Algorytmy AI w Python</strong></td>
+                    <td>do ustalenia</td>
+                    <td>Stacjonarnie / zdalnie</td>
+                    <td>4 dni (32h)</td>
+                    <td>Machine Learning</td>
+                </tr>
+                <tr>
+                    <td><strong>AI Testers</strong></td>
+                    <td>1 300 zł</td>
+                    <td>Online kohorta</td>
+                    <td>5 tyg. (30–60h)</td>
+                    <td>Kodowanie z AI</td>
+                </tr>
+                <tr>
+                    <td><strong>Bootcamp Data Science + AI</strong></td>
+                    <td>5 280 zł</td>
+                    <td>Online live</td>
+                    <td>2 miesiące</td>
+                    <td>Machine Learning</td>
+                </tr>
+                <tr>
+                    <td><strong>Microsoft AI dla Programistów</strong></td>
+                    <td>Za darmo</td>
+                    <td>VOD</td>
+                    <td>13h</td>
+                    <td>Kodowanie z AI</td>
+                </tr>
+                <tr>
+                    <td><strong>Kodowanie z AI (Kodozercy)</strong></td>
+                    <td>Za darmo</td>
+                    <td>Online live</td>
+                    <td>do ustalenia</td>
+                    <td>Kodowanie z AI</td>
+                </tr>
+            </tbody>
+        </table>
+        </div>
+
+        <h2>10 kursów AI dla programistów</h2>
+
+        <div class="course-list">
+
+            <!-- 1 -->
+            <a href="https://www.aidevs.pl/" class="course-item" target="_blank" rel="noopener noreferrer" onclick="gtag('event','article_course_click',{event_label:'AI_devs 4'})">
+                <span class="course-item-number">1</span>
+                <h3>AI_devs 4</h3>
+                <p class="course-item-author">Adam Gospodarczyk, Jakub Mrugalski, Mateusz Chrobok</p>
+                <p class="course-item-desc">Najpopularniejszy kurs budowania z AI w Polsce z ponad 10 000 absolwentów. Uczy produkcyjnego wykorzystania dużych modeli językowych: Function Calling, MCP, multimodal, RAG, agenci AI, prompt engineering. Format kohortowy z cotygodniowymi sesjami Q&A na żywo.</p>
+                <div class="course-item-tags">
+                    <span class="tag tag-format">Online · kohorta + live Q&A</span>
+                    <span class="tag tag-duration">5 tygodni · ~10h/tydz.</span>
+                    <span class="tag tag-cert">Certyfikat</span>
+                </div>
+                <div class="course-item-footer">Sprawdź kurs <span>→</span></div>
+            </a>
+
+            <!-- 2 -->
+            <a href="https://ewolucjadevelopera.pl/" class="course-item" target="_blank" rel="noopener noreferrer" onclick="gtag('event','article_course_click',{event_label:'Ewolucja Developera'})">
+                <span class="course-item-number">2</span>
+                <h3>Ewolucja Developera</h3>
+                <p class="course-item-author">Damian Naprawa · Software & Cloud Architect, Docker Captain</p>
+                <p class="course-item-desc">Kurs skupiony na AI-Assisted Engineering, czyli produkcyjnym wdrażaniu AI w codzienne kodowanie. Narzędzia: Claude Code, Cursor, GitHub Copilot. Ponad 4 000 absolwentów, ocena 4.8/5. Prowadzony przez praktyka z tytułem Docker Captain.</p>
+                <div class="course-item-tags">
+                    <span class="tag tag-format">Online · live</span>
+                </div>
+                <div class="course-item-footer">Sprawdź kurs <span>→</span></div>
+            </a>
+
+            <!-- 3 -->
+            <a href="https://www.10xdevs.pl/" class="course-item" target="_blank" rel="noopener noreferrer" onclick="gtag('event','article_course_click',{event_label:'10xDevs 3.0'})">
+                <span class="course-item-number">3</span>
+                <h3>10xDevs 3.0</h3>
+                <p class="course-item-author">Przemek Smyrdek, Marcin Czarkowski · Przeprogramowani</p>
+                <p class="course-item-desc">Kurs od twórców podcastu Przeprogramowani. Uczy workflow 10x: Research → Plan → Implement. Budowa MVP z AI w tydzień, Test-Driven Generation, praca z legacy kodem, CI/CD. Narzędzia: Cursor Pro, GitHub Copilot, Claude, Gemini, MCP.</p>
+                <div class="course-item-tags">
+                    <span class="tag tag-price">od 1 743 zł netto</span>
+                    <span class="tag tag-format">Online · kohorta + live</span>
+                    <span class="tag tag-duration">5 tygodni · ~40h</span>
+                    <span class="tag tag-cert">Certyfikat PL/EN</span>
+                </div>
+                <div class="course-item-footer">Sprawdź kurs <span>→</span></div>
+            </a>
+
+            <!-- 4 -->
+            <a href="https://www.kodolamacz.pl/kurs/ai-machine-learning-engineering" class="course-item" target="_blank" rel="noopener noreferrer" onclick="gtag('event','article_course_click',{event_label:'AI ML Engineering Kodołamacz'})">
+                <span class="course-item-number">4</span>
+                <h3>AI & Machine Learning Engineering</h3>
+                <p class="course-item-author">Kodołamacz</p>
+                <p class="course-item-desc">Najbardziej rozbudowany kurs ML na liście: 14 modułów, 224 godziny zajęć live plus 84 godziny pracy samodzielnej. Zakres: Python, klasyczny ML, deep learning (PyTorch), NLP, computer vision, RAG, agenci AI, FastAPI, Docker, Kubernetes, CI/CD. Zajęcia weekendowe co dwa tygodnie.</p>
+                <div class="course-item-tags">
+                    <span class="tag tag-price">9 900 zł</span>
+                    <span class="tag tag-format">Online · weekendowo co 2 tyg.</span>
+                    <span class="tag tag-duration">28 dni · 224h + 84h</span>
+                    <span class="tag tag-cert">Certyfikat + mikropoświadczenia IBE</span>
+                </div>
+                <div class="course-item-footer">Sprawdź kurs <span>→</span></div>
+            </a>
+
+            <!-- 5 -->
+            <a href="https://www.alx.pl/szkolenia/wykorzystanie-ai-python/" class="course-item" target="_blank" rel="noopener noreferrer" onclick="gtag('event','article_course_click',{event_label:'Integracja z AI w Pythonie ALX'})">
+                <span class="course-item-number">5</span>
+                <h3>Integracja z AI w Pythonie</h3>
+                <p class="course-item-author">ALX Academy</p>
+                <p class="course-item-desc">Dwudniowe szkolenie skupione na praktycznej integracji AI z Pythonem. Zakres: architektura LLM/GPT, API OpenAI, prompt engineering (Zero-Shot, Few-Shot, Chain of Thought), chatboty, RAG, bazy wektorowe (ChromaDB), Streamlit, FastAPI. Dostępne stacjonarnie w Warszawie lub online.</p>
+                <div class="course-item-tags">
+                    <span class="tag tag-price">2 090 zł netto</span>
+                    <span class="tag tag-format">Stacjonarnie · Warszawa / online</span>
+                    <span class="tag tag-duration">2 dni</span>
+                    <span class="tag tag-cert">Certyfikat</span>
+                </div>
+                <div class="course-item-footer">Sprawdź kurs <span>→</span></div>
+            </a>
+
+            <!-- 6 -->
+            <a href="https://www.comarch.pl/szkolenia/programowanie/python/algorytmy-sztucznej-inteligencji-ai-implementacja-w-jezyku-python/" class="course-item" target="_blank" rel="noopener noreferrer" onclick="gtag('event','article_course_click',{event_label:'Algorytmy AI Python Comarch'})">
+                <span class="course-item-number">6</span>
+                <h3>Algorytmy AI: implementacja w Python</h3>
+                <p class="course-item-author">Comarch Centrum Szkoleniowe</p>
+                <p class="course-item-desc">Kurs dla programistów, którzy chcą zrozumieć AI od strony algorytmicznej. Zakres: algorytmy genetyczne (DEAP), sieci neuronowe (scikit-learn, TensorFlow, Keras), Q-learning, algorytmy mrówkowe, ReBeL, AWAC. 4 dni intensywnej pracy z kodem.</p>
+                <div class="course-item-tags">
+                    <span class="tag tag-format">Stacjonarnie / zdalnie</span>
+                    <span class="tag tag-duration">4 dni · 32h</span>
+                    <span class="tag tag-cert">Certyfikat</span>
+                </div>
+                <div class="course-item-footer">Sprawdź kurs <span>→</span></div>
+            </a>
+
+            <!-- 7 -->
+            <a href="https://aitesters.pl/" class="course-item" target="_blank" rel="noopener noreferrer" onclick="gtag('event','article_course_click',{event_label:'AI Testers'})">
+                <span class="course-item-number">7</span>
+                <h3>AI Testers: automatyzacja testów z AI</h3>
+                <p class="course-item-author">Krzysiek Kijas, Przemek Barański · jaktestowac.pl</p>
+                <p class="course-item-desc">Kurs dla QA i testerów automatyzujących. Uczy budowy frameworka testowego z wykorzystaniem AI, Playwright i MCP. Agenci AI w projektach testowych. Format kohortowy z materiałami wideo, zadaniami praktycznymi, webinarami live i społecznością na Discordzie.</p>
+                <div class="course-item-tags">
+                    <span class="tag tag-price">1 300 zł netto</span>
+                    <span class="tag tag-format">Online · kohorta</span>
+                    <span class="tag tag-duration">5 tygodni · 30–60h</span>
+                    <span class="tag tag-cert">Certyfikat</span>
+                </div>
+                <div class="course-item-footer">Sprawdź kurs <span>→</span></div>
+            </a>
+
+            <!-- 8 -->
+            <a href="https://codebrainers.pl/kurs/bootcamp-data-science-ai" class="course-item" target="_blank" rel="noopener noreferrer" onclick="gtag('event','article_course_click',{event_label:'Bootcamp Data Science AI Codebrainers'})">
+                <span class="course-item-number">8</span>
+                <h3>Bootcamp Data Science + AI</h3>
+                <p class="course-item-author">Codebrainers</p>
+                <p class="course-item-desc">Dwumiesięczny intensywny bootcamp online prowadzony na żywo. Kierowany do osób, które chcą wejść w Data Science i AI. Możliwość dofinansowania do 95% kosztów przez BUR/PARP, co znacząco obniża cenę dla uczestnika.</p>
+                <div class="course-item-tags">
+                    <span class="tag tag-price">5 280 zł (dofinansowanie do 95%)</span>
+                    <span class="tag tag-format">Online · live</span>
+                    <span class="tag tag-duration">2 miesiące</span>
+                    <span class="tag tag-cert">Certyfikat</span>
+                </div>
+                <div class="course-item-footer">Sprawdź kurs <span>→</span></div>
+            </a>
+
+            <!-- 9 -->
+            <a href="https://coderslab.pl/pl/darmowy-kurs-microsoft-ai-dla-programistow" class="course-item" target="_blank" rel="noopener noreferrer" onclick="gtag('event','article_course_click',{event_label:'Microsoft AI Coders Lab'})">
+                <span class="course-item-number">9</span>
+                <h3>Microsoft AI dla Programistów</h3>
+                <p class="course-item-author">Jakub Król, Jacek Tchorzewski · Coders Lab</p>
+                <p class="course-item-desc">Darmowy kurs wideo od Coders Lab we współpracy z Microsoft. 13 godzin materiału o praktycznych zastosowaniach AI w programowaniu: prompt engineering, integracja AI z językami programowania, kwestie etyczne. Narzędzia: Microsoft Copilot, GitHub Copilot, VS Code.</p>
+                <div class="course-item-tags">
+                    <span class="tag tag-free">Za darmo</span>
+                    <span class="tag tag-format">Online · VOD</span>
+                    <span class="tag tag-duration">13h</span>
+                </div>
+                <div class="course-item-footer">Sprawdź kurs <span>→</span></div>
+            </a>
+
+            <!-- 10 -->
+            <a href="https://kodozercy.pl/ai-landing" class="course-item" target="_blank" rel="noopener noreferrer" onclick="gtag('event','article_course_click',{event_label:'Kodozercy'})">
+                <span class="course-item-number">10</span>
+                <h3>Kodowanie z AI (Kodozercy)</h3>
+                <p class="course-item-author">Kodozercy</p>
+                <p class="course-item-desc">Darmowa platforma z gamifikacją, która uczy kodowania od HTML po AI. Praktyczne ćwiczenia, ranking uczestników i aktywna społeczność. Dobry punkt startowy dla osób, które chcą najpierw sprawdzić, czy programowanie z AI jest dla nich, zanim zainwestują w płatny kurs.</p>
+                <div class="course-item-tags">
+                    <span class="tag tag-free">Za darmo</span>
+                    <span class="tag tag-format">Online · live</span>
+                </div>
+                <div class="course-item-footer">Sprawdź kurs <span>→</span></div>
+            </a>
+
+        </div>
+
+        <h2>Jak wybrać kurs dla siebie?</h2>
+
+        <div class="highlight-box">
+            <p><strong>Chcesz kodować szybciej z AI?</strong> Sprawdź kursy z nurtu „Kodowanie z AI": Ewolucja Developera, 10xDevs, Microsoft AI (darmowy). Nauczysz się Copilota, Cursora i Claude Code.</p>
+            <p><strong>Chcesz budować aplikacje z AI?</strong> AI_devs 4 to najpopularniejszy wybór w Polsce (10 000+ absolwentów). Na mniejszą skalę: Integracja z AI w Pythonie od ALX.</p>
+            <p><strong>Chcesz zrozumieć ML od podstaw?</strong> AI & ML Engineering (Kodołamacz) to 224h zajęć live. Intensywniejsza opcja: Bootcamp Data Science + AI z dofinansowaniem do 95%.</p>
+            <p><strong>Nie wiesz od czego zacząć?</strong> Zacznij od darmowych: Microsoft AI (13h VOD) lub Kodozercy (platforma z gamifikacją).</p>
+        </div>
+
+        <h2>Pełny katalog</h2>
+
+        <p>Te 10 kursów to wybór z katalogu <a href="index.html#programisci">aiprzewodnik.pl</a>, w którym znajdziesz ponad 160 szkoleń AI w Polsce. Kategoria „AI dla programistów" zawiera łącznie 20 kursów. Poza tym w katalogu znajdziesz szkolenia AI z marketingu, biznesu, grafiki, HR, finansów i automatyzacji.</p>
+
+    </article>
+
+    <div class="cta">
+        <p>Nie wiesz, który kurs wybrać?</p>
+        <a href="quiz.html">Zrób quiz i znajdź kurs dla siebie →</a>
+    </div>
+
+</main>
+
+    <script src="site-footer.js" defer></script>
+
+</div>
+
+<script src="cookie-consent.js" defer></script>
+
+</body>
+</html>
