@@ -34,7 +34,7 @@
       "name": "Zbudowane z AI w Polsce",
       "description": "Polskie produkty i projekty zbudowane z pomocą sztucznej inteligencji",
       "url": "https://aiprzewodnik.pl/zbudowane-z-ai.html",
-      "numberOfItems": 26,
+      "numberOfItems": 31,
       "itemListElement": [
         { "@type": "ListItem", "position": 1, "item": { "@type": "CreativeWork", "name": "autoMee", "description": "Platforma księgowa napędzana AI. Ogarnie pełną księgowość, wszystko rozliczy i każdy dostanie dokument, który ma dostać.", "url": "https://automee.pl/", "author": { "@type": "Person", "name": "Dominik Laskowski" } } },
         { "@type": "ListItem", "position": 2, "item": { "@type": "CreativeWork", "name": "Status KSeF", "description": "Sprawdź w czasie rzeczywistym, czy system KSeF działa, działa trochę, czy kompletnie leży.", "url": "https://statusksef.pl/", "author": { "@type": "Person", "name": "Piotr Brzyski" } } },
@@ -61,7 +61,12 @@
         { "@type": "ListItem", "position": 23, "item": { "@type": "WebApplication", "name": "JobTrack", "description": "CV dopasowane do pracodawcy. AI analizuje ofertę pracy i dostosowuje Twoje CV.", "url": "https://jobtrack.pl/", "author": { "@type": "Person", "name": "Mariusz Ratajczak" } } },
         { "@type": "ListItem", "position": 24, "item": { "@type": "WebApplication", "name": "Arena Decyzji", "description": "Walka na argumenty za i przeciw. AI pomaga podjąć trudną decyzję.", "url": "https://arenadecyzji.pl/", "author": { "@type": "Person", "name": "Damian Pajor" } } },
         { "@type": "ListItem", "position": 25, "item": { "@type": "WebApplication", "name": "Frinter", "description": "Poprawa skupienia podczas pracy z pomocą AI.", "url": "https://frinter.app/", "author": { "@type": "Person", "name": "Przemysław Filipiak" } } },
-        { "@type": "ListItem", "position": 26, "item": { "@type": "WebApplication", "name": "Contentyze", "description": "Craftowe AI do tworzenia treści marketingowych i postów.", "url": "https://contentyze.com/", "author": { "@type": "Person", "name": "Przemek Chojecki" } } }
+        { "@type": "ListItem", "position": 26, "item": { "@type": "WebApplication", "name": "Contentyze", "description": "Craftowe AI do tworzenia treści marketingowych i postów.", "url": "https://contentyze.com/", "author": { "@type": "Person", "name": "Przemek Chojecki" } } },
+        { "@type": "ListItem", "position": 27, "item": { "@type": "WebApplication", "name": "ToolkitAI", "description": "Portfolio umiejętności AI w jednym miejscu. Pokaż światu co potrafisz.", "url": "https://toolkitai.pl/", "author": { "@type": "Person", "name": "Grzegorz Wenc" } } },
+        { "@type": "ListItem", "position": 28, "item": { "@type": "WebApplication", "name": "Silene", "description": "Pomoc dla lekarzy przy rzadkich chorobach. Pełne informacje i opisy przypadków.", "url": "https://silene.systems/", "author": { "@type": "Person", "name": "Adrian Michalski" } } },
+        { "@type": "ListItem", "position": 29, "item": { "@type": "WebApplication", "name": "System 10h", "description": "System AI asystentów do sprzedaży. Zaoszczędź ponad 10 godzin.", "url": "https://system10h.com/", "author": { "@type": "Person", "name": "Mateusz Sokólski" } } },
+        { "@type": "ListItem", "position": 30, "item": { "@type": "WebApplication", "name": "Upieczone", "description": "Zarządzanie zamówieniami w cukierni. Żaden tort się nie zgubi.", "url": "https://www.upieczone.com/", "author": { "@type": "Person", "name": "Marcin Łącki" } } },
+        { "@type": "ListItem", "position": 31, "item": { "@type": "WebApplication", "name": "SkanujMnie", "description": "Szybki i darmowy generator kodów QR.", "url": "https://skanujmnie.pl/", "author": { "@type": "Person", "name": "Chris Rapacz" }, "isAccessibleForFree": true } }
       ]
     }
     </script>
@@ -359,6 +364,12 @@
             border: 1px solid #6ee7b7;
         }
 
+        .tag-zdrowie {
+            background: #fef2f2;
+            color: #991b1b;
+            border: 1px solid #fecaca;
+        }
+
         /* ─── Badge NOWE ─── */
         .product-card {
             position: relative;
@@ -451,6 +462,11 @@
         .products-list > :nth-child(25) { animation-delay: 1.25s; }
         .products-list > :nth-child(26) { animation-delay: 1.30s; }
         .products-list > :nth-child(27) { animation-delay: 1.35s; }
+        .products-list > :nth-child(28) { animation-delay: 1.40s; }
+        .products-list > :nth-child(29) { animation-delay: 1.45s; }
+        .products-list > :nth-child(30) { animation-delay: 1.50s; }
+        .products-list > :nth-child(31) { animation-delay: 1.55s; }
+        .products-list > :nth-child(32) { animation-delay: 1.60s; }
 
         @keyframes fadeUp {
             to { opacity: 1; transform: translateY(0); }
@@ -540,7 +556,6 @@
 
             <!-- #22 Storylandia -->
             <a href="https://storylandia.pl" class="product-card" target="_blank" rel="noopener noreferrer" onclick="gtag('event','product_click',{event_label:'Storylandia'})">
-                <span class="badge-new">Nowe</span>
                 <h2>Storylandia</h2>
                 <div class="product-creator">Tomek Sabiniewicz</div>
                 <p class="product-desc">Razem z dzieckiem stworzycie własną, <strong>spersonalizowaną bajkę</strong>. Dziecko jest bohaterem, a AI generuje ilustracje i audio.</p>
@@ -550,7 +565,6 @@
 
             <!-- #23 JobTrack -->
             <a href="https://jobtrack.pl/" class="product-card" target="_blank" rel="noopener noreferrer" onclick="gtag('event','product_click',{event_label:'JobTrack'})">
-                <span class="badge-new">Nowe</span>
                 <h2>JobTrack</h2>
                 <div class="product-creator">Mariusz Ratajczak</div>
                 <p class="product-desc">Szukasz pracy? Wrzuć ofertę, a AI <strong>dopasuje Twoje CV do pracodawcy</strong>. Koniec z wysyłaniem tego samego CV wszędzie.</p>
@@ -560,7 +574,6 @@
 
             <!-- #24 Arena Decyzji -->
             <a href="https://arenadecyzji.pl/" class="product-card" target="_blank" rel="noopener noreferrer" onclick="gtag('event','product_click',{event_label:'Arena Decyzji'})">
-                <span class="badge-new">Nowe</span>
                 <h2>Arena Decyzji</h2>
                 <div class="product-creator">Damian Pajor</div>
                 <p class="product-desc">Nie wiesz jaką podjąć decyzję? Niech rozpocznie się <strong>walka na argumenty</strong>. AI przedstawia za i przeciw, Ty wybierasz.</p>
@@ -570,7 +583,6 @@
 
             <!-- #25 Frinter -->
             <a href="https://frinter.app/" class="product-card" target="_blank" rel="noopener noreferrer" onclick="gtag('event','product_click',{event_label:'Frinter'})">
-                <span class="badge-new">Nowe</span>
                 <h2>Frinter</h2>
                 <div class="product-creator">Przemysław Filipiak</div>
                 <p class="product-desc">Popraw swoje <strong>skupienie podczas pracy</strong>, żeby mieć lepsze efekty. AI pomaga Ci zostać w strefie flow.</p>
@@ -580,7 +592,6 @@
 
             <!-- #26 Contentyze -->
             <a href="https://contentyze.com/" class="product-card" target="_blank" rel="noopener noreferrer" onclick="gtag('event','product_click',{event_label:'Contentyze'})">
-                <span class="badge-new">Nowe</span>
                 <h2>Contentyze</h2>
                 <div class="product-creator">Przemek Chojecki</div>
                 <p class="product-desc">Chcesz mieć najlepiej napisane posty? Wyspecjalizowane, <strong>craftowe AI do tworzenia treści</strong> marketingowych.</p>
@@ -685,6 +696,57 @@
                 <div class="product-creator">Artur Witek</div>
                 <p class="product-desc"><strong>Baza arkuszy maturalnych</strong> z wyszukiwaniem semantycznym. Wpisujesz temat zamiast numeru zadania, a AI znajduje pasujące pytania z oficjalnych arkuszy CKE. Matma, fizyka, biologia, chemia, geografia.</p>
                 <span class="product-tag tag-edukacja">Edukacja</span>
+                <span class="product-tag tag-free">Darmowe</span>
+                <div class="card-footer">Sprawdź <span>&rarr;</span></div>
+            </a>
+
+            <!-- #27 ToolkitAI -->
+            <a href="https://toolkitai.pl/" class="product-card" target="_blank" rel="noopener noreferrer" onclick="gtag('event','product_click',{event_label:'ToolkitAI'})">
+                <span class="badge-new">Nowe</span>
+                <h2>ToolkitAI</h2>
+                <div class="product-creator">Grzegorz Wenc</div>
+                <p class="product-desc">Zrób <strong>portfolio swoich umiejętności AI</strong> i pokaż światu co potrafisz. Wszystko wygodnie, w jednym miejscu.</p>
+                <span class="product-tag tag-kariera">Kariera</span>
+                <div class="card-footer">Sprawdź <span>&rarr;</span></div>
+            </a>
+
+            <!-- #28 Silene -->
+            <a href="https://silene.systems/" class="product-card" target="_blank" rel="noopener noreferrer" onclick="gtag('event','product_click',{event_label:'Silene'})">
+                <span class="badge-new">Nowe</span>
+                <h2>Silene</h2>
+                <div class="product-creator">Adrian Michalski</div>
+                <p class="product-desc">Pomoc dla lekarzy, którzy spotykają się z <strong>rzadkimi chorobami</strong>. Pełne informacje i opisy przypadków, których brakuje w podręcznikach.</p>
+                <span class="product-tag tag-zdrowie">Zdrowie</span>
+                <div class="card-footer">Sprawdź <span>&rarr;</span></div>
+            </a>
+
+            <!-- #29 System 10h -->
+            <a href="https://system10h.com/" class="product-card" target="_blank" rel="noopener noreferrer" onclick="gtag('event','product_click',{event_label:'System 10h'})">
+                <span class="badge-new">Nowe</span>
+                <h2>System 10h</h2>
+                <div class="product-creator">Mateusz Sokólski</div>
+                <p class="product-desc"><strong>Zaoszczędzisz ponad 10h</strong> dzięki systemowi AI asystentów, którzy pomagają w sprzedaży.</p>
+                <span class="product-tag tag-produktywnosc">Produktywność</span>
+                <div class="card-footer">Sprawdź <span>&rarr;</span></div>
+            </a>
+
+            <!-- #30 Upieczone -->
+            <a href="https://www.upieczone.com/" class="product-card" target="_blank" rel="noopener noreferrer" onclick="gtag('event','product_click',{event_label:'Upieczone'})">
+                <span class="badge-new">Nowe</span>
+                <h2>Upieczone</h2>
+                <div class="product-creator">Marcin Łącki</div>
+                <p class="product-desc">Prowadzisz cukiernię? <strong>Łatwo opanujesz wszystkie zamówienia</strong> od klientów. Żaden tort się nie zgubi.</p>
+                <span class="product-tag tag-ecommerce">E-commerce</span>
+                <div class="card-footer">Sprawdź <span>&rarr;</span></div>
+            </a>
+
+            <!-- #31 SkanujMnie -->
+            <a href="https://skanujmnie.pl/" class="product-card" target="_blank" rel="noopener noreferrer" onclick="gtag('event','product_click',{event_label:'SkanujMnie'})">
+                <span class="badge-new">Nowe</span>
+                <h2>SkanujMnie</h2>
+                <div class="product-creator">Chris Rapacz</div>
+                <p class="product-desc"><strong>Szybko, łatwo i za darmo</strong> wygenerujesz sobie dowolny kod QR.</p>
+                <span class="product-tag tag-it">IT</span>
                 <span class="product-tag tag-free">Darmowe</span>
                 <div class="card-footer">Sprawdź <span>&rarr;</span></div>
             </a>

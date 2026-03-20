@@ -24,5 +24,10 @@
 {"name":"JobTrack","desc":"CV dopasowane do pracodawcy. AI analizuje ofertę pracy i dostosowuje Twoje CV.","tag":"Kariera","url":"https://jobtrack.pl/"},
 {"name":"Arena Decyzji","desc":"Walka na argumenty za i przeciw. AI pomaga podjąć trudną decyzję.","tag":"Produktywność","url":"https://arenadecyzji.pl/"},
 {"name":"Frinter","desc":"Poprawa skupienia podczas pracy z pomocą AI.","tag":"Produktywność","url":"https://frinter.app/"},
-{"name":"Contentyze","desc":"Craftowe AI do tworzenia treści marketingowych i postów.","tag":"Marketing","url":"https://contentyze.com/"}
+{"name":"Contentyze","desc":"Craftowe AI do tworzenia treści marketingowych i postów.","tag":"Marketing","url":"https://contentyze.com/"},
+{"name":"ToolkitAI","desc":"Portfolio umiejętności AI w jednym miejscu. Pokaż światu co potrafisz.","tag":"Kariera","url":"https://toolkitai.pl/"},
+{"name":"Silene","desc":"Pomoc dla lekarzy przy rzadkich chorobach. Pełne informacje i opisy przypadków.","tag":"Zdrowie","url":"https://silene.systems/"},
+{"name":"System 10h","desc":"System AI asystentów do sprzedaży. Zaoszczędź ponad 10 godzin.","tag":"Produktywność","url":"https://system10h.com/"},
+{"name":"Upieczone","desc":"Zarządzanie zamówieniami w cukierni. Żaden tort się nie zgubi.","tag":"E-commerce","url":"https://www.upieczone.com/"},
+{"name":"SkanujMnie","desc":"Szybki i darmowy generator kodów QR.","tag":"IT","url":"https://skanujmnie.pl/"}
 ]
