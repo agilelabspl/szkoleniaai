@@ -9,7 +9,7 @@
     style.textContent = ''
         + '.rate-banner {'
         + '  display: flex; align-items: center; gap: 1rem;'
-        + '  background: linear-gradient(135deg, #6366f1, #06b6d4);'
+        + '  background: linear-gradient(135deg, #5b5ee8, #06b6d4);'
         + '  border-radius: 12px;'
         + '  padding: 1rem 1.5rem;'
         + '  margin-bottom: 1.5rem;'

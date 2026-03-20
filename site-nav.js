@@ -17,13 +17,17 @@
         active = 'zbudowane';
     } else if (path.indexOf('praca-ai') !== -1) {
         active = 'praca';
+    } else if (path.indexOf('podcasty') !== -1) {
+        active = 'podcasty';
     } else if (path.indexOf('quiz') !== -1) {
         active = 'quiz';
+    } else if (path.indexOf('szkolenia-ai-') !== -1) {
+        active = 'szkolenia';
     }
 
     // Announcement bar — edit text here, one place for all pages
     // Set to empty string '' to hide the bar
-    var announcementText = 'Nowość: <a href="' + prefix + 'quiz.html" style="color:inherit;text-decoration:underline;text-underline-offset:2px;">Znajdź szkolenie dla siebie (quiz)</a>';
+    var announcementText = 'Zbudowałem to z AI. Też chcesz coś zbudować? <a href="https://www.linkedin.com/in/pawellewinski/" target="_blank" rel="noopener noreferrer" style="color:inherit;text-decoration:underline;text-underline-offset:2px;">Napisz do mnie</a>';
 
     var html = '';
 

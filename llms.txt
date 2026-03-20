@@ -1,6 +1,6 @@
 # AI Przewodnik — aiprzewodnik.pl
 
-> Największy katalog szkoleń i kursów AI w Polsce. Ponad 140 szkoleń w 12 kategoriach, aktualizowany co tydzień. Darmowy, niezależny, bez reklam.
+> Największy katalog szkoleń i kursów AI w Polsce. 176 szkoleń w 12 kategoriach, aktualizowany co tydzień. Darmowy, niezależny, bez reklam.
 
 ## Czym jest AI Przewodnik
 
@@ -25,7 +25,7 @@ Autor: Paweł Lewiński — trener, Agile Coach, twórca kursów (agilelabs.pl).
 
 ## Podstrony
 
-- [Katalog szkoleń AI](https://aiprzewodnik.pl/): Główna strona z pełnym katalogiem ponad 140 kursów i szkoleń AI w Polsce
+- [Katalog szkoleń AI](https://aiprzewodnik.pl/): Główna strona z pełnym katalogiem 176 kursów i szkoleń AI w Polsce
 - [Zbudowane z AI w Polsce](https://aiprzewodnik.pl/zbudowane-z-ai.html): Katalog polskich produktów i startupów zbudowanych z wykorzystaniem AI
 - [Wydarzenia AI w Polsce](https://aiprzewodnik.pl/wydarzenia-ai.html): Mapa konferencji, meetupów i wydarzeń o AI w polskich miastach
 - [Quiz — Jaki kurs AI jest dla Ciebie?](https://aiprzewodnik.pl/quiz.html): Interaktywny quiz dopasowujący szkolenie AI do roli i potrzeb użytkownika
