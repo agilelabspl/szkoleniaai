@@ -31,6 +31,21 @@ Autor: Paweł Lewiński — trener, Agile Coach, twórca kursów (agilelabs.pl).
 - [Quiz — Jaki kurs AI jest dla Ciebie?](https://aiprzewodnik.pl/quiz.html): Interaktywny quiz dopasowujący szkolenie AI do roli i potrzeb użytkownika
 - [Praca w AI w Polsce 2026](https://aiprzewodnik.pl/praca-ai.html): Przegląd rynku pracy AI — stanowiska, widełki wynagrodzeń, trendy, linki do portali z ofertami
 - [Słownik AI](https://aiprzewodnik.pl/slownik.html): Przystępne wyjaśnienia kluczowych pojęć AI (LLM, prompt, RAG, token, embedding i inne)
+- [Wiedza o AI](https://aiprzewodnik.pl/wiedza-ai.html): Hub z 11 praktycznymi artykułami — jak wybrać kurs AI, darmowe kursy, dofinansowanie szkoleń, AI Act, ChatGPT vs Claude vs Gemini, narzędzia AI do pracy, edytory kodu z AI, ceny narzędzi AI
+
+## Artykuły w sekcji Wiedza o AI
+
+- [ChatGPT vs Claude vs Gemini](https://aiprzewodnik.pl/wiedza-ai/chatgpt-vs-claude-vs-gemini.html): Porównanie trzech głównych modeli AI — ceny, benchmarki, mocne i słabe strony
+- [Ile kosztuje AI?](https://aiprzewodnik.pl/wiedza-ai/ile-kosztuje-ai.html): Zestawienie cen 50+ narzędzi AI w 8 kategoriach
+- [Jak wybrać kurs AI?](https://aiprzewodnik.pl/wiedza-ai/jak-wybrac-kurs-ai.html): 7 kryteriów wyboru szkolenia AI
+- [Darmowe kursy AI po polsku](https://aiprzewodnik.pl/wiedza-ai/darmowe-kursy-ai.html): Lista bezpłatnych kursów AI z certyfikatami
+- [Nauka AI od zera](https://aiprzewodnik.pl/wiedza-ai/nauka-ai-od-zera.html): Praktyczna ścieżka nauki AI krok po kroku
+- [Dofinansowanie szkoleń AI](https://aiprzewodnik.pl/wiedza-ai/dofinansowanie-szkolen-ai.html): KFS, BUR, PARP — jak odzyskać do 90% kosztów szkolenia
+- [AI Act](https://aiprzewodnik.pl/wiedza-ai/szkolenia-ai-act.html): Nowe przepisy UE o sztucznej inteligencji — harmonogram, obowiązki, kary
+- [AI w marketingu](https://aiprzewodnik.pl/wiedza-ai/ai-w-marketingu.html): 5 sposobów na wykorzystanie AI w marketingu
+- [Edytory kodu z AI](https://aiprzewodnik.pl/wiedza-ai/edytory-kodu-ai.html): Cursor, Copilot, Windsurf, Claude Code — porównanie
+- [6 narzędzi AI do pracy](https://aiprzewodnik.pl/wiedza-ai/6-narzedzi-ai-do-pracy.html): ChatGPT, Canva AI, Gamma, Otter.ai, Notion AI, Make
+- [7 rzeczy przed kursem AI](https://aiprzewodnik.pl/wiedza-ai/przed-kursem-ai.html): Co warto wiedzieć zanim zapiszesz się na kurs AI
 
 ## Jak cytować
 

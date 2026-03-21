@@ -1,0 +1,462 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- SEO Meta Tags -->
+    <title>Wiedza o AI: Praktyczne Przewodniki i Artykuły | AI Przewodnik</title>
+    <meta name="description" content="Praktyczna wiedza o sztucznej inteligencji. Jak wybrać kurs AI, darmowe szkolenia, dofinansowanie, ścieżka kariery. Przewodniki bez żargonu.">
+    <meta name="keywords" content="wiedza o AI, jak wybrać kurs AI, darmowe kursy AI, szkolenia AI, sztuczna inteligencja przewodnik">
+    <meta name="author" content="AI Przewodnik">
+    <meta name="robots" content="index, follow">
+    <link rel="canonical" href="https://aiprzewodnik.pl/wiedza-ai.html">
+
+    <!-- Open Graph -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://aiprzewodnik.pl/wiedza-ai.html">
+    <meta property="og:title" content="Wiedza o AI: Praktyczne Przewodniki">
+    <meta property="og:description" content="Praktyczna wiedza o sztucznej inteligencji. Przewodniki, porady, odpowiedzi na pytania.">
+    <meta property="og:image" content="https://aiprzewodnik.pl/og-image.png">
+    <meta property="og:locale" content="pl_PL">
+
+    <!-- Schema.org ItemList -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "ItemList",
+      "name": "Wiedza o AI",
+      "description": "Praktyczne przewodniki i artykuły o sztucznej inteligencji",
+      "numberOfItems": 11,
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Jak wybrać kurs AI? Na co zwrócić uwagę", "url": "https://aiprzewodnik.pl/wiedza-ai/jak-wybrac-kurs-ai.html" },
+        { "@type": "ListItem", "position": 2, "name": "Darmowe kursy AI po polsku", "url": "https://aiprzewodnik.pl/wiedza-ai/darmowe-kursy-ai.html" },
+        { "@type": "ListItem", "position": 3, "name": "Jak zacząć naukę AI od zera", "url": "https://aiprzewodnik.pl/wiedza-ai/nauka-ai-od-zera.html" },
+        { "@type": "ListItem", "position": 4, "name": "Dofinansowanie szkoleń AI: KFS, BUR, PARP", "url": "https://aiprzewodnik.pl/wiedza-ai/dofinansowanie-szkolen-ai.html" },
+        { "@type": "ListItem", "position": 5, "name": "AI Act: co musisz wiedzieć o nowych przepisach", "url": "https://aiprzewodnik.pl/wiedza-ai/szkolenia-ai-act.html" },
+        { "@type": "ListItem", "position": 6, "name": "5 sposobów na wykorzystanie AI w marketingu", "url": "https://aiprzewodnik.pl/wiedza-ai/ai-w-marketingu.html" },
+        { "@type": "ListItem", "position": 7, "name": "7 rzeczy, które warto wiedzieć zanim zapiszesz się na kurs AI", "url": "https://aiprzewodnik.pl/wiedza-ai/przed-kursem-ai.html" },
+        { "@type": "ListItem", "position": 8, "name": "6 narzędzi AI, które przyspieszają pracę", "url": "https://aiprzewodnik.pl/wiedza-ai/6-narzedzi-ai-do-pracy.html" },
+        { "@type": "ListItem", "position": 9, "name": "ChatGPT vs Claude vs Gemini: który model AI wybrać?", "url": "https://aiprzewodnik.pl/wiedza-ai/chatgpt-vs-claude-vs-gemini.html" },
+        { "@type": "ListItem", "position": 10, "name": "Cursor, Copilot, Windsurf, Claude Code: edytory kodu z AI", "url": "https://aiprzewodnik.pl/wiedza-ai/edytory-kodu-ai.html" },
+        { "@type": "ListItem", "position": 11, "name": "Ile kosztuje AI? Ceny 50+ narzędzi i modeli", "url": "https://aiprzewodnik.pl/wiedza-ai/ile-kosztuje-ai.html" }
+      ]
+    }
+    </script>
+
+    <!-- Schema.org BreadcrumbList -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "BreadcrumbList",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "AI Przewodnik", "item": "https://aiprzewodnik.pl/" },
+        { "@type": "ListItem", "position": 2, "name": "Wiedza o AI", "item": "https://aiprzewodnik.pl/wiedza-ai.html" }
+      ]
+    }
+    </script>
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
+    <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap"></noscript>
+
+    <!-- Shared navigation -->
+    <link rel="stylesheet" href="site-nav.css">
+
+    <style>
+        :root {
+            --bg-color: #ffffff;
+            --text-color: #1a1a2e;
+            --text-muted: #64748b;
+            --primary: #5b5ee8;
+            --primary-dark: #4f46e5;
+            --secondary: #06b6d4;
+            --card-bg: #f8fafc;
+            --card-border: #e2e8f0;
+            --font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+        }
+
+        *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+        html { scroll-behavior: smooth; }
+
+        body {
+            font-family: var(--font-family);
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.7;
+        }
+
+        .container {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem 1.5rem;
+        }
+
+        /* Header */
+        header {
+            text-align: center;
+            margin-bottom: 3rem;
+            padding-top: 1.5rem;
+        }
+
+        .main-title {
+            font-size: clamp(2rem, 5vw, 3.5rem);
+            font-weight: 700;
+            color: var(--text-color);
+            margin-bottom: 0.75rem;
+        }
+
+        .main-title span {
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .subtitle {
+            font-size: clamp(1rem, 2vw, 1.25rem);
+            color: var(--text-muted);
+            max-width: 650px;
+            margin: 0 auto 1rem;
+        }
+
+        /* Article Cards */
+        .articles-grid {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 1.25rem;
+        }
+
+        .article-card {
+            display: block;
+            padding: 1.5rem 1.75rem;
+            background: var(--card-bg);
+            border: 1px solid var(--card-border);
+            border-radius: 12px;
+            text-decoration: none;
+            color: var(--text-color);
+            transition: all 0.2s ease;
+        }
+
+        .article-card:hover {
+            border-color: var(--primary);
+            box-shadow: 0 4px 16px rgba(91, 94, 232, 0.1);
+            transform: translateY(-2px);
+        }
+
+        .article-tag {
+            display: inline-block;
+            padding: 0.2rem 0.6rem;
+            font-size: 0.75rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            border-radius: 4px;
+            margin-bottom: 0.75rem;
+        }
+
+        .tag-poradnik {
+            background: #eef2ff;
+            color: var(--primary);
+        }
+
+        .tag-lista {
+            background: #ecfdf5;
+            color: #059669;
+        }
+
+        .tag-kariera {
+            background: #fef3c7;
+            color: #d97706;
+        }
+
+        .tag-finanse {
+            background: #fce7f3;
+            color: #db2777;
+        }
+
+        .tag-prawo {
+            background: #f0f9ff;
+            color: #0284c7;
+        }
+
+        .article-card h2 {
+            font-size: 1.25rem;
+            font-weight: 700;
+            margin-bottom: 0.5rem;
+            line-height: 1.3;
+        }
+
+        .article-card p {
+            font-size: 0.95rem;
+            color: var(--text-muted);
+            line-height: 1.5;
+            margin-bottom: 0.75rem;
+        }
+
+        .article-meta {
+            font-size: 0.8rem;
+            color: var(--text-muted);
+        }
+
+        .read-arrow {
+            display: inline-block;
+            color: var(--primary);
+            font-weight: 600;
+            font-size: 0.9rem;
+        }
+
+        /* CTA */
+        .cta-section {
+            margin-top: 3rem;
+            text-align: center;
+            padding: 2rem;
+            background: linear-gradient(135deg, #eef2ff 0%, #e0f2fe 100%);
+            border-radius: 12px;
+        }
+
+        .cta-section p {
+            font-size: 1.05rem;
+            margin-bottom: 1rem;
+            font-weight: 500;
+        }
+
+        .cta-section a {
+            display: inline-block;
+            padding: 0.75rem 1.75rem;
+            background: var(--primary);
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 600;
+            font-size: 0.95rem;
+            transition: background 0.2s ease;
+        }
+
+        .cta-section a:hover { background: var(--primary-dark); }
+
+        /* Also section */
+        .also-section {
+            margin-top: 2.5rem;
+            padding: 1.5rem;
+            background: var(--card-bg);
+            border-radius: 12px;
+            border: 1px solid var(--card-border);
+        }
+
+        .also-title {
+            font-size: 0.8rem;
+            font-weight: 600;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 0.75rem;
+        }
+
+        .also-section a {
+            display: inline-block;
+            padding: 0.4rem 0.85rem;
+            margin: 0.25rem 0.25rem 0.25rem 0;
+            text-decoration: none;
+            color: var(--text-color);
+            background: white;
+            border: 1px solid var(--card-border);
+            border-radius: 6px;
+            font-size: 0.875rem;
+            transition: all 0.2s ease;
+        }
+
+        .also-section a:hover {
+            border-color: var(--primary);
+            color: var(--primary);
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            padding: 2rem 1rem;
+            margin-top: 2rem;
+            border-top: 1px solid var(--card-border);
+            color: var(--text-muted);
+            font-size: 0.875rem;
+        }
+
+        footer a { color: var(--primary); text-decoration: none; }
+        footer a:hover { text-decoration: underline; }
+
+        .ai-tools-section { margin: 3rem 0; text-align: center; }
+        .ai-tools-section h2 { font-size: 1.5rem; margin-bottom: 0.5rem; color: var(--text-color); }
+        .ai-tools-subtitle { color: var(--text-muted); margin-bottom: 1.5rem; }
+        .ai-tools-grid { display: flex; flex-wrap: wrap; justify-content: center; gap: 1rem; }
+        .ai-tool { display: flex; flex-direction: column; align-items: center; padding: 1rem 1.5rem; background: var(--card-bg); border: 1px solid var(--card-border); border-radius: 12px; text-decoration: none; transition: all 0.2s ease; min-width: 120px; }
+        .ai-tool:hover { border-color: var(--primary); transform: translateY(-2px); box-shadow: 0 4px 12px rgba(99, 102, 241, 0.1); }
+        .ai-tool-name { font-weight: 600; color: var(--text-color); font-size: 0.95rem; }
+        .ai-tool-company { font-size: 0.75rem; color: var(--text-muted); margin-top: 0.25rem; }
+
+        @media (max-width: 768px) {
+            .container { padding: 1.5rem 1rem; }
+        }
+    </style>
+</head>
+<body>
+    <script src="site-nav.js"></script>
+
+    <main id="main-content">
+    <div class="container">
+        <header>
+            <h1 class="main-title">Wiedza o <span>AI</span></h1>
+            <p class="subtitle">Praktyczne przewodniki o sztucznej inteligencji. Bez &#380;argonu, z konkretnymi poradami.</p>
+        </header>
+        <div class="articles-grid">
+
+            <a href="wiedza-ai/chatgpt-vs-claude-vs-gemini.html" class="article-card">
+                <span class="article-tag tag-poradnik">Poradnik</span>
+                <h2>ChatGPT vs Claude vs Gemini: kt&#243;ry model AI wybra&#263;?</h2>
+                <p>Trzy modele AI dominuj&#261; rynek. Ceny, benchmarki, mocne i s&#322;abe strony. Tabele por&#243;wnawcze i konkretne rekomendacje wed&#322;ug zada&#324;.</p>
+                <span class="read-arrow">Czytaj &rarr;</span>
+            </a>
+
+            <a href="wiedza-ai/ile-kosztuje-ai.html" class="article-card">
+                <span class="article-tag tag-finanse">Ceny</span>
+                <h2>Ile kosztuje AI? Ceny 50+ narz&#281;dzi i modeli</h2>
+                <p>Kompletne zestawienie cen w 8 kategoriach: chatboty, API, grafika, wideo, kodowanie, automatyzacja, audio, prezentacje. Od 0 z&#322; do 800 z&#322;/mies.</p>
+                <span class="read-arrow">Czytaj &rarr;</span>
+            </a>
+
+            <a href="wiedza-ai/nauka-ai-od-zera.html" class="article-card">
+                <span class="article-tag tag-poradnik">Poradnik</span>
+                <h2>Jak zacz&#261;&#263; nauk&#281; AI od zera</h2>
+                <p>Nie umiesz programowa&#263;? Nie szkodzi. Konkretna &#347;cie&#380;ka krok po kroku dla os&#243;b, kt&#243;re chc&#261; zacz&#261;&#263; u&#380;ywa&#263; AI w pracy, ale nie wiedz&#261; od czego.</p>
+                <span class="read-arrow">Czytaj &rarr;</span>
+            </a>
+
+            <a href="wiedza-ai/darmowe-kursy-ai.html" class="article-card">
+                <span class="article-tag tag-lista">Lista</span>
+                <h2>Darmowe kursy AI po polsku</h2>
+                <p>Nie musisz p&#322;aci&#263;, &#380;eby zacz&#261;&#263;. Google, Microsoft, PARP, polskie uczelnie. Lista bezp&#322;atnych kurs&#243;w, kt&#243;re daj&#261; solidne podstawy.</p>
+                <span class="read-arrow">Czytaj &rarr;</span>
+            </a>
+
+            <a href="wiedza-ai/6-narzedzi-ai-do-pracy.html" class="article-card">
+                <span class="article-tag tag-lista">Lista</span>
+                <h2>6 narz&#281;dzi AI, kt&#243;re przyspieszaj&#261; prac&#281;</h2>
+                <p>ChatGPT, Canva AI, Gamma, Otter.ai, Notion AI, Make. Ka&#380;de rozwi&#261;zuje inny problem. Zalety, wady, ceny, dla kogo.</p>
+                <span class="read-arrow">Czytaj &rarr;</span>
+            </a>
+
+            <a href="wiedza-ai/jak-wybrac-kurs-ai.html" class="article-card">
+                <span class="article-tag tag-poradnik">Poradnik</span>
+                <h2>Jak wybra&#263; kurs AI? Na co zwr&#243;ci&#263; uwag&#281;</h2>
+                <p>7 pyta&#324;, kt&#243;re warto sobie zada&#263; przed wyborem szkolenia. 160+ kurs&#243;w na rynku, ceny od 0 do 15 000 z&#322;. Jak nie przepali&#263; bud&#380;etu i nie trafi&#263; na kurs, kt&#243;ry uczy GPT-3 w 2026?</p>
+                <span class="read-arrow">Czytaj &rarr;</span>
+            </a>
+
+            <a href="wiedza-ai/ai-w-marketingu.html" class="article-card">
+                <span class="article-tag tag-poradnik">Poradnik</span>
+                <h2>5 sposob&#243;w na wykorzystanie AI w marketingu</h2>
+                <p>Generowanie tre&#347;ci, personalizacja, analiza danych, grafika, automatyzacja kampanii. Konkretne przyk&#322;ady i narz&#281;dzia dla marketer&#243;w.</p>
+                <span class="read-arrow">Czytaj &rarr;</span>
+            </a>
+
+            <a href="wiedza-ai/dofinansowanie-szkolen-ai.html" class="article-card">
+                <span class="article-tag tag-finanse">Finanse</span>
+                <h2>Dofinansowanie szkole&#324; AI: KFS, BUR, PARP</h2>
+                <p>Szkolenie AI za 5000 z&#322; mo&#380;e kosztowa&#263; Ci&#281; 1000 z&#322;. KFS zwraca do 80% koszt&#243;w. Jak z&#322;o&#380;y&#263; wniosek, jakie s&#261; warunki, gdzie szuka&#263;.</p>
+                <span class="read-arrow">Czytaj &rarr;</span>
+            </a>
+
+            <a href="wiedza-ai/edytory-kodu-ai.html" class="article-card">
+                <span class="article-tag tag-lista">Lista</span>
+                <h2>Cursor, Copilot, Windsurf, Claude Code: edytory kodu z AI</h2>
+                <p>73% zespo&#322;&#243;w programistycznych u&#380;ywa AI codziennie. Kt&#243;re narz&#281;dzie wybra&#263;? Ceny od $0 do $200/mies., por&#243;wnanie funkcji.</p>
+                <span class="read-arrow">Czytaj &rarr;</span>
+            </a>
+
+            <a href="wiedza-ai/przed-kursem-ai.html" class="article-card">
+                <span class="article-tag tag-poradnik">Poradnik</span>
+                <h2>7 rzeczy, kt&#243;re warto wiedzie&#263; zanim zapiszesz si&#281; na kurs AI</h2>
+                <p>Zanim wydasz pieni&#261;dze i czas na szkolenie AI, przeczytaj to. 7 porad, kt&#243;re oszcz&#281;dz&#261; Ci frustracji i pomog&#261; wybra&#263; m&#261;drze.</p>
+                <span class="read-arrow">Czytaj &rarr;</span>
+            </a>
+
+            <a href="wiedza-ai/szkolenia-ai-act.html" class="article-card">
+                <span class="article-tag tag-prawo">Prawo</span>
+                <h2>AI Act: co musisz wiedzie&#263; o nowych przepisach</h2>
+                <p>Od sierpnia 2026 firmy w UE musz&#261; spe&#322;nia&#263; wymagania AI Act. Kogo dotyczy, jakie s&#261; kary, sk&#261;d wzi&#261;&#263; wiedz&#281; i jak przygotowa&#263; zesp&#243;&#322;.</p>
+                <span class="read-arrow">Czytaj &rarr;</span>
+            </a>
+
+        </div>
+
+        <div class="ai-tools-section">
+            <h2>Poznaj i zacznij u&#380;ywa&#263; AI</h2>
+            <p class="ai-tools-subtitle">Popularne narz&#281;dzia sztucznej inteligencji</p>
+            <div class="ai-tools-grid">
+                <a href="https://bielik.ai/" class="ai-tool" target="_blank" rel="noopener noreferrer">
+                    <span class="ai-tool-name">Bielik <span style="font-size: 1.5rem">&#127477;&#127473;</span></span>
+                    <span class="ai-tool-company">Polski model AI</span>
+                </a>
+                <a href="https://chat.openai.com" class="ai-tool" target="_blank" rel="noopener noreferrer">
+                    <span class="ai-tool-name">ChatGPT</span>
+                    <span class="ai-tool-company">OpenAI</span>
+                </a>
+                <a href="https://claude.ai" class="ai-tool" target="_blank" rel="noopener noreferrer">
+                    <span class="ai-tool-name">Claude</span>
+                    <span class="ai-tool-company">Anthropic</span>
+                </a>
+                <a href="https://gemini.google.com" class="ai-tool" target="_blank" rel="noopener noreferrer">
+                    <span class="ai-tool-name">Gemini</span>
+                    <span class="ai-tool-company">Google</span>
+                </a>
+                <a href="https://copilot.microsoft.com" class="ai-tool" target="_blank" rel="noopener noreferrer">
+                    <span class="ai-tool-name">Copilot</span>
+                    <span class="ai-tool-company">Microsoft</span>
+                </a>
+                <a href="https://perplexity.ai" class="ai-tool" target="_blank" rel="noopener noreferrer">
+                    <span class="ai-tool-name">Perplexity</span>
+                    <span class="ai-tool-company">Wyszukiwarka AI</span>
+                </a>
+                <a href="https://www.midjourney.com" class="ai-tool" target="_blank" rel="noopener noreferrer">
+                    <span class="ai-tool-name">Midjourney</span>
+                    <span class="ai-tool-company">Grafika AI</span>
+                </a>
+                <a href="https://grok.x.ai" class="ai-tool" target="_blank" rel="noopener noreferrer">
+                    <span class="ai-tool-name">Grok</span>
+                    <span class="ai-tool-company">xAI</span>
+                </a>
+            </div>
+        </div>
+
+        <div class="also-section">
+            <p class="also-title">Zobacz te&#380;</p>
+            <a href="slownik.html">S&#322;ownik AI</a>
+            <a href="quiz.html">Quiz: Jaki kurs AI jest dla Ciebie?</a>
+            <a href="praca-ai.html">Praca w AI w Polsce 2026</a>
+        </div>
+
+        <div class="cta-section">
+            <p>Szukasz konkretnego szkolenia?</p>
+            <a href="index.html">Przejd&#378; do katalogu 160+ kurs&#243;w AI &rarr;</a>
+        </div>
+    </div>
+    </main>
+
+    <script src="site-footer.js" defer></script>
+    <script src="/cookie-consent.js" defer></script>
+    <script>
+    document.querySelectorAll('.article-card').forEach(function(card) {
+        card.addEventListener('click', function() {
+            var title = card.querySelector('h2');
+            if (typeof gtag === 'function' && title) {
+                gtag('event', 'article_click', {
+                    event_label: title.textContent.trim()
+                });
+            }
+        });
+    });
+    </script>
+</body>
+</html>
