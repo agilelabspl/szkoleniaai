@@ -6,7 +6,7 @@
 
     <!-- SEO Meta Tags -->
     <title>Podcasty i Kanały YouTube o AI po polsku | AI Przewodnik</title>
-    <meta name="description" content="Polskie podcasty i kanały YouTube o AI. Najnowsze odcinki zawsze aktualne z RSS i Spotify.">
+    <meta name="description" content="18 polskich podcast&#243;w i kana&#322;&#243;w YouTube o sztucznej inteligencji. Adrian Kilar, Mateusz Chrobok, AI Codziennie, 99 Twarzy AI i wi&#281;cej. Najnowsze odcinki zawsze aktualne.">
     <meta name="author" content="AI Przewodnik">
     <meta name="robots" content="index, follow">
     <link rel="canonical" href="https://aiprzewodnik.pl/podcasty-ai.html">
@@ -38,6 +38,20 @@
         "@type": "WebSite",
         "name": "AI Przewodnik",
         "url": "https://aiprzewodnik.pl/"
+      },
+      "numberOfItems": 18,
+      "mainEntity": {
+        "@type": "ItemList",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Biznes z AI", "url": "https://www.youtube.com/@agilelabs_scrum_kanban_agile" },
+          { "@type": "ListItem", "position": 2, "name": "Adrian Kilar", "url": "https://www.youtube.com/@mowikamera" },
+          { "@type": "ListItem", "position": 3, "name": "Mateusz Chrobok", "url": "https://www.youtube.com/@mateuszchrobok" },
+          { "@type": "ListItem", "position": 4, "name": "AI Codziennie", "url": "https://www.youtube.com/channel/UCvNy2f3gbaZXn3fm8V_8lAg" },
+          { "@type": "ListItem", "position": 5, "name": "99 Twarzy AI", "url": "https://open.spotify.com/show/69sBB9KRJy2tnCmYByncCm" },
+          { "@type": "ListItem", "position": 6, "name": "NetGonet", "url": "https://www.youtube.com/c/NetGonet" },
+          { "@type": "ListItem", "position": 7, "name": "Opanuj.AI Podcast", "url": "https://open.spotify.com/show/3D6LmchBdoqL2sWkQjvWOy" },
+          { "@type": "ListItem", "position": 8, "name": "Technofobia", "url": "https://open.spotify.com/show/3O6KNYX5sdSxMsKVsYxJXe" }
+        ]
       }
     }
     </script>
@@ -80,29 +94,30 @@
         /* --- Hero --- */
         header {
             text-align: center;
-            padding: 3rem 1.5rem 2rem;
+            margin-bottom: 2rem;
+            padding-top: 1.5rem;
         }
 
         .main-title {
-            font-size: clamp(1.8rem, 4vw, 2.6rem);
-            font-weight: 800;
-            letter-spacing: -0.03em;
-            line-height: 1.2;
+            font-size: clamp(2rem, 5vw, 3.5rem);
+            font-weight: 700;
+            color: var(--text-color);
             margin-bottom: 0.75rem;
+            letter-spacing: -0.02em;
         }
 
         .main-title span {
-            background: linear-gradient(135deg, #5b5ee8, #06b6d4);
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
             -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
             background-clip: text;
         }
 
         .subtitle {
-            font-size: 1.1rem;
+            font-size: clamp(1rem, 2vw, 1.25rem);
             color: var(--text-muted);
-            max-width: 600px;
-            margin: 0 auto 0.75rem;
+            max-width: 650px;
+            margin: 0 auto 1rem;
         }
 
         .update-date {
@@ -119,7 +134,7 @@
         .container {
             max-width: 1100px;
             margin: 0 auto;
-            padding: 0 1.5rem;
+            padding: 2rem 1.5rem;
         }
 
         /* --- Filters --- */
@@ -450,7 +465,7 @@
     <main id="main-content">
     <div class="container">
         <header>
-            <h1 class="main-title">Oglądaj i Słuchaj o <span>AI</span></h1>
+            <h1 class="main-title">Ogl&#261;daj i s&#322;uchaj o <span>AI</span></h1>
             <p class="subtitle">Polskie podcasty i kanały YouTube o AI.<br>Najnowsze odcinki zawsze aktualne.</p>
             <p class="update-date"><strong id="media-count">0</strong> źródeł · odcinki aktualizują się na bieżąco</p>
         </header>
@@ -486,95 +501,97 @@
     var MEDIA = [
         /* YouTube channels */
         {
-            type: 'youtube',
-            name: 'Adrian Kilar',
-            author: '~147k subskrybentów',
-            desc: 'Najpopularniejszy polski YouTuber o AI. Seria "AI NOWOŚCI". Kursy AI wideo, filmmaking z AI.',
-            channelId: 'UC5aRHitAgGy39hu7MCqdHEA',
-            url: 'https://www.youtube.com/@mowikamera'
+            type: 'youtube', name: 'Biznes z AI', author: 'Pawe\u0142 Lewi\u0144ski',
+            desc: 'AI w praktyce, asystenci AI, budowa produkt\u00F3w z AI. Tw\u00F3rca aiprzewodnik.pl. Filmy o narz\u0119dziach, automatyzacji i wdra\u017Caniu AI w biznesie.',
+            channelId: 'UCqBc5Revd1UAzYlZLRvQ3wA', url: 'https://www.youtube.com/@agilelabs_scrum_kanban_agile'
         },
         {
-            type: 'youtube',
-            name: 'Mateusz Chrobok',
-            author: '~160k subskrybentów',
-            desc: 'Cyberbezpieczeństwo + AI + startupy. Współtwórca kursu AI_devs. Platforma uczmnie.pl.',
-            channelId: 'UCTTZqMWBvLsUYqYwKTdjvkw',
-            url: 'https://www.youtube.com/@mateuszchrobok'
+            type: 'youtube', name: 'Adrian Kilar', author: '~147k subskrybent\u00F3w',
+            desc: 'Najpopularniejszy polski YouTuber o AI. Seria "AI NOWO\u015ACI" co tydzie\u0144 z przegl\u0105dem najwa\u017Cniejszych zmian. Pokazuje te\u017C jak u\u017Cywa\u0107 AI do tworzenia film\u00F3w i grafik.',
+            channelId: 'UC5aRHitAgGy39hu7MCqdHEA', url: 'https://www.youtube.com/@mowikamera'
         },
         {
-            type: 'youtube',
-            name: 'ZroZoom AI',
-            author: 'Portal i kanał o AI po polsku',
-            desc: 'Tutoriale, raporty z konferencji, wywiady. Wszystko o AI po polsku.',
-            channelId: 'UCuA5kjTBFgDs_iES6yQbORQ',
-            url: 'https://www.youtube.com/@zrozoomai'
+            type: 'youtube', name: 'Mateusz Chrobok', author: '~160k subskrybent\u00F3w',
+            desc: 'Cyberbezpiecze\u0144stwo, AI i startupy. Wsp\u00F3\u0142tw\u00F3rca kursu AI_devs i platformy uczmnie.pl. D\u0142ugie, merytoryczne filmy z g\u0142\u0119bok\u0105 analiz\u0105 temat\u00F3w.',
+            channelId: 'UCTTZqMWBvLsUYqYwKTdjvkw', url: 'https://www.youtube.com/@mateuszchrobok'
         },
         {
-            type: 'youtube',
-            name: 'Marcin Krupiński',
-            author: '~8,8k subskrybentów',
-            desc: 'Shortsy o AI: rozwiązania i narzędzia AI do każdego rodzaju zadań.',
-            channelId: 'UCv1T0iUDD5uTwppyYheFI-Q',
-            url: 'https://www.youtube.com/@marcinkrupinski/shorts'
+            type: 'youtube', name: 'ZroZoom AI', author: 'Portal i kana\u0142 o AI',
+            desc: 'Tutoriale, raporty z konferencji i wywiady z ekspertami. Portal i kana\u0142 w ca\u0142o\u015Bci po\u015Bwi\u0119cony AI. Dobry punkt startowy dla os\u00F3b, kt\u00F3re chc\u0105 zrozumie\u0107 AI od podstaw.',
+            channelId: 'UCuA5kjTBFgDs_iES6yQbORQ', url: 'https://www.youtube.com/@zrozoomai'
+        },
+        {
+            type: 'youtube', name: 'Marcin Krupi\u0144ski', author: '~8,8k subskrybent\u00F3w',
+            desc: 'Kr\u00F3tkie filmy (Shorts) o narz\u0119dziach i rozwi\u0105zaniach AI. Szybkie tipy, kt\u00F3re mo\u017Cna ogl\u0105da\u0107 w przerwie na kaw\u0119. Publikuje codziennie.',
+            channelId: 'UCv1T0iUDD5uTwppyYheFI-Q', url: 'https://www.youtube.com/@marcinkrupinski/shorts'
+        },
+        {
+            type: 'youtube', name: 'AI Codziennie', author: 'Micha\u0142 Dobrza\u0144ski',
+            desc: 'Codzienne newsy ze \u015Bwiata AI w formacie wideo. Ponad 500 odcink\u00F3w. Zwi\u0119z\u0142e podsumowania tego, co wa\u017Cnego wydarzy\u0142o si\u0119 w AI ka\u017Cdego dnia.',
+            channelId: 'UCvNy2f3gbaZXn3fm8V_8lAg', url: 'https://www.youtube.com/channel/UCvNy2f3gbaZXn3fm8V_8lAg'
+        },
+        {
+            type: 'youtube', name: 'NetGonet', author: 'Krzysztof Gonet \u00B7 37k+',
+            desc: 'Praktyczne poradniki o ChatGPT, MidJourney, Canva AI. Uczy przedsi\u0119biorc\u00F3w jak u\u017Cywa\u0107 narz\u0119dzi AI do budowania biznesu online. Webinary i tutoriale krok po kroku.',
+            channelId: 'UCdQWgFsJaVSreMxJIS-9oBg', url: 'https://www.youtube.com/c/NetGonet'
+        },
+        {
+            type: 'youtube', name: 'Odkrywcy AI', author: 'Franek i Mati',
+            desc: 'Tutoriale o wykorzystaniu AI do rozwoju osobistego i zawodowego. Od klonowania g\u0142osu po nauk\u0119 j\u0119zyk\u00F3w z AI. Dobry dla pocz\u0105tkuj\u0105cych, kt\u00F3rzy chc\u0105 zobaczy\u0107 AI w akcji.',
+            channelId: 'UCucyn_JSyridYnA5nrk_v4w', url: 'https://www.youtube.com/@odkrywcyai'
+        },
+        {
+            type: 'youtube', name: 'Polski Skynet', author: 'AI + cyberbezpiecze\u0144stwo',
+            desc: 'AI i cyberbezpiecze\u0144stwo po polsku. Jak wyci\u015Bn\u0105\u0107 maksimum z ChatGPT, Auto-GPT jako osobisty asystent. Merytoryczne filmy \u0142\u0105cz\u0105ce bezpiecze\u0144stwo z praktycznym u\u017Cyciem AI.',
+            channelId: 'UCwylAt0VrqZPPNCjQV2t8Qg', url: 'https://www.youtube.com/@polskiskynet'
+        },
+        {
+            type: 'youtube', name: 'Technofobia', author: 'Artur Kurasi\u0144ski',
+            desc: 'Technologia, AI i biznes. Artur Kurasi\u0144ski od 20+ lat obserwuje wp\u0142yw technologii na spo\u0142ecze\u0144stwo. Podcast, YouTube i newsletter (6500+ subskrybent\u00F3w). Szerokie spojrzenie na AI w kontek\u015Bcie biznesowym.',
+            channelId: 'UCMfQrKhX9cJFUEKrwuQN3lQ', url: 'https://www.youtube.com/@TechnofobiaYT'
+        },
+        {
+            type: 'youtube', name: 'Bartek Dziedzic TV', author: 'Bartek Dziedzic',
+            desc: 'Tutoriale o narz\u0119dziach AI krok po kroku. ChatGPT, Midjourney, automatyzacja. Praktyczne filmy dla os\u00F3b, kt\u00F3re chc\u0105 zacz\u0105\u0107 u\u017Cywa\u0107 AI w pracy.',
+            channelId: 'UCTAcrEW_e3Q7P9nbYHH33sw', url: 'https://www.youtube.com/BartekDziedzicTV'
         },
 
         /* Podcasts (Spotify embeds) */
         {
-            type: 'podcast',
-            name: 'DIGITALKS',
-            author: 'Jowita Michalska · Digital University',
-            desc: 'Co środę Jowita Michalska zabiera słuchaczy w podróż do świata jutra. Technologie, AI, kompetencje przyszłości.',
-            spotifyId: '1sWD7z5hgO0vTFQLhthQsA',
-            url: 'https://open.spotify.com/show/1sWD7z5hgO0vTFQLhthQsA'
+            type: 'podcast', name: '99 Twarzy AI', author: 'Karol Stryja',
+            desc: 'Rozmowy z naukowcami, przedsi\u0119biorcami i praktykami AI. G\u0142\u0119bokie wywiady o tym, jak AI zmienia r\u00F3\u017Cne bran\u017Ce. Blog + podcast.',
+            spotifyId: '69sBB9KRJy2tnCmYByncCm', url: 'https://open.spotify.com/show/69sBB9KRJy2tnCmYByncCm'
         },
         {
-            type: 'podcast',
-            name: '99 Twarzy AI',
-            author: 'Karol Stryja',
-            desc: 'Rozmowy z naukowcami, przedsiębiorcami i praktykami AI. Blog + podcast.',
-            spotifyId: '69sBB9KRJy2tnCmYByncCm',
-            url: 'https://open.spotify.com/show/69sBB9KRJy2tnCmYByncCm'
+            type: 'podcast', name: 'AI Codziennie', author: 'Micha\u0142 Dobrza\u0144ski',
+            desc: 'Codzienne newsy ze \u015Bwiata AI w formacie audio. Micha\u0142 Dobrza\u0144ski (25 lat w marketingu) komentuje najwa\u017Cniejsze wydarzenia ze \u015Bwiata sztucznej inteligencji.',
+            spotifyId: '6fAXdtBvY3uB8BBsCNjM75', url: 'https://open.spotify.com/show/6fAXdtBvY3uB8BBsCNjM75'
         },
         {
-            type: 'podcast',
-            name: 'Zrozumieć AI',
-            author: 'Paweł Pilarczyk · Business Insider',
-            desc: 'Podcast produkowany dla Business Insider Polska. Rozmowy z ekspertami AI.',
-            spotifyId: '7rw3y0Z9geU37YlSAor4Qv',
-            url: 'https://open.spotify.com/show/7rw3y0Z9geU37YlSAor4Qv'
+            type: 'podcast', name: 'Bliskie Spotkania z AI', author: 'Krzysztof Tutak',
+            desc: 'Rozmowy z ekspertami, naukowcami i przedsi\u0119biorcami o sztucznej inteligencji. Organizator meetupu AI Miners. 46 odcink\u00F3w, publikuje co miesi\u0105c.',
+            spotifyId: '6DEl73Ybdv9gMxeqzK7Jn5', url: 'https://open.spotify.com/show/6DEl73Ybdv9gMxeqzK7Jn5'
         },
         {
-            type: 'podcast',
-            name: 'AI Codziennie',
-            author: 'Michał Dobrzański',
-            desc: 'Codzienne newsy ze świata AI. 25 lat doświadczenia w marketingu.',
-            spotifyId: '6fAXdtBvY3uB8BBsCNjM75',
-            url: 'https://open.spotify.com/show/6fAXdtBvY3uB8BBsCNjM75'
+            type: 'podcast', name: 'Opanuj.AI Podcast', author: 'Marcin Czarkowski, Przemek Smyrdek',
+            desc: 'Comieseczne podsumowania technicznych news\u00F3w AI z perspektywy programist\u00F3w. G\u0142\u0119bsza analiza 2-3 najwa\u017Cniejszych temat\u00F3w. Newsletter 900+ czytelnik\u00F3w.',
+            spotifyId: '3D6LmchBdoqL2sWkQjvWOy', url: 'https://open.spotify.com/show/3D6LmchBdoqL2sWkQjvWOy'
         },
         {
-            type: 'podcast',
-            name: 'Bliskie Spotkania z AI',
-            author: 'Krzysztof Tutak',
-            desc: 'Rozmowy z ekspertami, naukowcami i przedsiębiorcami o AI.',
-            spotifyId: '6DEl73Ybdv9gMxeqzK7Jn5',
-            url: 'https://open.spotify.com/show/6DEl73Ybdv9gMxeqzK7Jn5'
+            type: 'podcast', name: 'Mateusz Chrobok Podcast', author: 'Mateusz Chrobok',
+            desc: 'Wersja audio kana\u0142u Mateusza Chroboka. Cyberbezpiecze\u0144stwo, startupy i AI. D\u0142ugie, merytoryczne odcinki co tydzie\u0144.',
+            spotifyId: '6y6oWs20HwRejktOWHTteR', url: 'https://open.spotify.com/show/6y6oWs20HwRejktOWHTteR'
         },
         {
-            type: 'podcast',
-            name: 'Opanuj.AI Podcast',
-            author: 'Marcin Czarkowski, Przemek Smyrdek',
-            desc: 'Cykliczne podsumowania technicznych newsów AI. Newsletter 900+ czytelników.',
-            spotifyId: '3D6LmchBdoqL2sWkQjvWOy',
-            url: 'https://open.spotify.com/show/3D6LmchBdoqL2sWkQjvWOy'
+            type: 'podcast', name: 'EjAj', author: 'Zesp\u00F3\u0142 ArfX',
+            desc: 'Realistyczne wdra\u017Canie AI w polskich firmach. Case studies bez hype\'u i buzzword\u00F3w. Oparte na do\u015Bwiadczeniach z projektowania i implementacji narz\u0119dzi AI w r\u00F3\u017Cnych bran\u017Cach.',
+            spotifyId: '3WsdsH5MhBl0iO0A1cJdMP', url: 'https://open.spotify.com/show/3WsdsH5MhBl0iO0A1cJdMP'
         },
         {
-            type: 'podcast',
-            name: 'Mateusz Chrobok Podcast',
-            author: 'Mateusz Chrobok',
-            desc: 'Cyberbezpieczeństwo, startupy i AI w formacie audio.',
-            spotifyId: '6y6oWs20HwRejktOWHTteR',
-            url: 'https://open.spotify.com/show/6y6oWs20HwRejktOWHTteR'
-        }
+            type: 'podcast', name: 'Technofobia', author: 'Artur Kurasi\u0144ski',
+            desc: 'Wersja audio Technofobii Artura Kurasi\u0144skiego. Technologia, AI i biznes. G\u0142\u0119bokie rozmowy o wp\u0142ywie technologii na spo\u0142ecze\u0144stwo i gospodark\u0119.',
+            spotifyId: '3O6KNYX5sdSxMsKVsYxJXe', url: 'https://open.spotify.com/show/3O6KNYX5sdSxMsKVsYxJXe'
+        },
     ];
 
     var RSS2JSON = 'https://api.rss2json.com/v1/api.json?rss_url=';
