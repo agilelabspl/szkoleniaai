@@ -59,8 +59,8 @@
 
     var sections = document.querySelectorAll('.category-section');
     sections.forEach(function(section) {
-        var desc = section.querySelector('.category-desc');
-        if (!desc) return;
+        var grid = section.querySelector('.courses-grid');
+        if (!grid) return;
 
         var banner = document.createElement('a');
         banner.href = FORM_URL;
@@ -84,6 +84,6 @@
             + '</span>'
             + '<span class="rate-banner-arrow">→</span>';
 
-        desc.insertAdjacentElement('afterend', banner);
+        grid.insertAdjacentElement('beforebegin', banner);
     });
 })();
