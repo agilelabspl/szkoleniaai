@@ -594,8 +594,7 @@
         },
     ];
 
-    var RSS2JSON = 'https://api.rss2json.com/v1/api.json?rss_url=';
-    var YT_RSS = 'https://www.youtube.com/feeds/videos.xml?channel_id=';
+    var YT_API_KEY = 'AIzaSyB9FBvtCVse8h-qElYdH0ve5ZTus2GeD8M';
 
     function escapeHtml(str) {
         var d = document.createElement('div');
@@ -661,44 +660,40 @@
         });
     }
 
-    /* ── Fetch latest YouTube video ── */
+    /* ── Fetch latest YouTube video via YouTube Data API v3 ── */
     function fetchLatestVideo(channelId, fallbackUrl) {
         var container = document.getElementById('yt-' + channelId);
         if (!container) return;
 
-        var rssUrl = encodeURIComponent(YT_RSS + channelId);
+        var apiUrl = 'https://www.googleapis.com/youtube/v3/search?part=snippet&channelId=' + channelId + '&order=date&maxResults=1&type=video&key=' + YT_API_KEY;
 
-        fetch(RSS2JSON + rssUrl)
+        fetch(apiUrl)
             .then(function(r) { return r.json(); })
             .then(function(data) {
-                if (data.status !== 'ok' || !data.items || data.items.length === 0) {
+                if (!data.items || data.items.length === 0) {
                     showYTFallback(container, fallbackUrl);
                     return;
                 }
 
                 var item = data.items[0];
-                var thumb = item.thumbnail || item.enclosure && item.enclosure.thumbnail || '';
-                if (!thumb && item.link) {
-                    /* Extract video ID from link and build thumbnail URL */
-                    var match = item.link.match(/v=([^&]+)/);
-                    if (match) {
-                        thumb = 'https://i.ytimg.com/vi/' + match[1] + '/mqdefault.jpg';
-                    }
-                }
+                var videoId = item.id.videoId;
+                var snippet = item.snippet;
+                var thumb = snippet.thumbnails && snippet.thumbnails.medium ? snippet.thumbnails.medium.url : '';
+                var link = 'https://www.youtube.com/watch?v=' + videoId;
 
                 var pubDate = '';
-                if (item.pubDate) {
-                    var d = new Date(item.pubDate);
+                if (snippet.publishedAt) {
+                    var d = new Date(snippet.publishedAt);
                     pubDate = d.toLocaleDateString('pl-PL', { day: 'numeric', month: 'short', year: 'numeric' });
                 }
 
                 var html = '<div class="latest-label">Najnowszy film</div>';
-                html += '<a href="' + escapeAttr(item.link) + '" target="_blank" rel="noopener noreferrer">';
+                html += '<a href="' + escapeAttr(link) + '" target="_blank" rel="noopener noreferrer">';
                 if (thumb) {
-                    html += '<img class="latest-thumb" src="' + escapeAttr(thumb) + '" alt="' + escapeAttr(item.title) + '" loading="lazy">';
+                    html += '<img class="latest-thumb" src="' + escapeAttr(thumb) + '" alt="' + escapeAttr(snippet.title) + '" loading="lazy">';
                 }
                 html += '<div class="latest-info">';
-                html += '<div class="latest-title">' + escapeHtml(item.title) + '</div>';
+                html += '<div class="latest-title">' + escapeHtml(snippet.title) + '</div>';
                 if (pubDate) {
                     html += '<div class="latest-date">' + pubDate + '</div>';
                 }
