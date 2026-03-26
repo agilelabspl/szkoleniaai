@@ -1338,10 +1338,16 @@
             line-height: 1.6;
         }
 
+        .przewodnik-popup .ml-form-embedContainer {
+            width: 100% !important;
+        }
+
         .przewodnik-popup .ml-form-embedWrapper {
             background: transparent !important;
             border: none !important;
             padding: 0 !important;
+            width: 100% !important;
+            max-width: 100% !important;
         }
 
         .przewodnik-popup .ml-form-embedBody {
@@ -1352,27 +1358,63 @@
             display: none !important;
         }
 
+        .przewodnik-popup .ml-form-formContent {
+            margin: 0 !important;
+        }
+
+        .przewodnik-popup .ml-form-fieldRow {
+            margin-bottom: 0.75rem !important;
+        }
+
         .przewodnik-popup .ml-form-fieldRow input {
+            width: 100% !important;
+            max-width: 100% !important;
             border-radius: 10px !important;
-            padding: 0.75rem 1rem !important;
-            border-color: var(--card-border) !important;
+            padding: 0.85rem 1rem !important;
+            border: 1px solid var(--card-border) !important;
+            font-family: var(--font-family) !important;
+            font-size: 1rem !important;
+            color: var(--text-color) !important;
+            background: #fff !important;
+            transition: border-color 0.2s, box-shadow 0.2s !important;
+        }
+
+        .przewodnik-popup .ml-form-fieldRow input::placeholder {
+            color: #94a3b8 !important;
         }
 
         .przewodnik-popup .ml-form-fieldRow input:focus {
             border-color: var(--primary) !important;
             box-shadow: 0 0 0 3px rgba(91,94,232,0.1) !important;
+            outline: none !important;
+        }
+
+        .przewodnik-popup .ml-form-embedSubmit {
+            margin-top: 0.5rem !important;
         }
 
         .przewodnik-popup .ml-form-embedSubmit button {
+            width: 100% !important;
             background: linear-gradient(135deg, var(--primary), var(--primary-dark)) !important;
+            border: none !important;
             border-radius: 10px !important;
-            padding: 0.8rem !important;
+            padding: 0.9rem 1rem !important;
+            font-family: var(--font-family) !important;
+            font-size: 1.05rem !important;
             font-weight: 700 !important;
+            color: #fff !important;
+            cursor: pointer !important;
+            transition: all 0.25s !important;
         }
 
         .przewodnik-popup .ml-form-embedSubmit button:hover {
-            opacity: 0.9 !important;
-            background: linear-gradient(135deg, var(--primary), var(--primary-dark)) !important;
+            transform: translateY(-1px) !important;
+            box-shadow: 0 4px 16px rgba(91,94,232,0.3) !important;
+        }
+
+        .przewodnik-popup .ml-form-successContent {
+            text-align: center !important;
+            padding: 1.5rem 0 !important;
         }
 
         .przewodnik-popup-note {
