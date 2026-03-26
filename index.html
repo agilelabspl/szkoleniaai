@@ -1478,10 +1478,6 @@
             100% { transform: rotate(360deg); }
         }
 
-        /* Hide section if already subscribed */
-        .przewodnik-section.subscribed .przewodnik-card {
-            display: none;
-        }
     </style>
 </head>
 <body>
@@ -1924,10 +1920,6 @@
     document.addEventListener('keydown', function(e) {
         if (e.key === 'Escape') closePrzewodnikPopup();
     });
-    // Hide section if already subscribed
-    if (localStorage.getItem('aiprzewodnik_subscribed') === 'true') {
-        document.getElementById('przewodnik-section').classList.add('subscribed');
-    }
     </script>
 
     <script src="site-footer.js" defer></script>
