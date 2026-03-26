@@ -1068,6 +1068,368 @@
         }
 
         .sr-only { position: absolute; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); border: 0; }
+
+        /* ─── Przewodnik Section ─── */
+        .przewodnik-section {
+            max-width: 760px;
+            margin: 0 auto 3rem;
+        }
+
+        .przewodnik-card {
+            position: relative;
+            background: var(--bg-color);
+            border: 1px solid var(--card-border);
+            border-radius: 20px;
+            padding: 2.5rem 2.5rem 2rem;
+            text-align: center;
+            overflow: hidden;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.04), 0 8px 32px rgba(91,94,232,0.06);
+        }
+
+        .przewodnik-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 60%;
+            height: 3px;
+            background: linear-gradient(90deg, transparent, var(--primary), var(--secondary), transparent);
+            border-radius: 0 0 4px 4px;
+        }
+
+        .przewodnik-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.4rem;
+            padding: 0.35rem 1rem;
+            background: #eef2ff;
+            border: 1px solid #e0e7ff;
+            border-radius: 999px;
+            font-size: 0.75rem;
+            font-weight: 700;
+            color: var(--primary);
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+            margin-bottom: 1.25rem;
+            animation: przFadeDown 0.6s ease both;
+        }
+
+        .przewodnik-title {
+            font-size: clamp(1.5rem, 4vw, 2rem);
+            font-weight: 800;
+            letter-spacing: -0.03em;
+            line-height: 1.2;
+            margin-bottom: 0.5rem;
+            animation: przFadeDown 0.6s ease 0.1s both;
+        }
+
+        .przewodnik-title .ai-gradient {
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+        }
+
+        .przewodnik-subtitle {
+            color: var(--text-muted);
+            font-size: 1rem;
+            margin-bottom: 1.75rem;
+            max-width: 480px;
+            margin-left: auto;
+            margin-right: auto;
+            line-height: 1.6;
+            animation: przFadeDown 0.6s ease 0.2s both;
+        }
+
+        .przewodnik-features {
+            display: flex;
+            flex-direction: column;
+            gap: 0.6rem;
+            margin-bottom: 2rem;
+            text-align: left;
+            max-width: 520px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .przewodnik-feature {
+            display: flex;
+            align-items: center;
+            gap: 0.75rem;
+            font-size: 0.95rem;
+            font-weight: 500;
+            white-space: nowrap;
+            color: var(--text-color);
+            opacity: 0;
+            animation: przFeatureReveal 0.5s ease forwards;
+        }
+
+        .przewodnik-feature:nth-child(1) { animation-delay: 0.4s; }
+        .przewodnik-feature:nth-child(2) { animation-delay: 0.55s; }
+        .przewodnik-feature:nth-child(3) { animation-delay: 0.7s; }
+
+        .przewodnik-feature .check-icon {
+            flex-shrink: 0;
+            width: 22px;
+            height: 22px;
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .przewodnik-feature .check-icon svg {
+            width: 12px;
+            height: 12px;
+            stroke: #fff;
+            stroke-width: 3;
+            fill: none;
+        }
+
+        .przewodnik-cta {
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+            padding: 0.9rem 2rem;
+            background: linear-gradient(135deg, var(--primary), var(--primary-dark));
+            color: #fff;
+            font-family: var(--font-family);
+            font-size: 1rem;
+            font-weight: 700;
+            border: none;
+            border-radius: 12px;
+            cursor: pointer;
+            transition: all 0.25s ease;
+            animation: przFadeUp 0.6s ease 0.9s both;
+            position: relative;
+        }
+
+        .przewodnik-cta:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 8px 24px rgba(91,94,232,0.35);
+        }
+
+        .przewodnik-cta::after {
+            content: '';
+            position: absolute;
+            inset: 0;
+            border-radius: 12px;
+            box-shadow: 0 0 0 0 rgba(91,94,232,0.4);
+            animation: przCtaPulse 2.5s ease-in-out infinite 2s;
+        }
+
+        .przewodnik-cta svg {
+            width: 18px;
+            height: 18px;
+            transition: transform 0.2s;
+        }
+
+        .przewodnik-cta:hover svg {
+            transform: translateX(3px);
+        }
+
+        .przewodnik-note {
+            font-size: 0.8rem;
+            color: var(--text-muted);
+            margin-top: 0.75rem;
+            animation: przFadeUp 0.6s ease 1s both;
+        }
+
+        /* Numbers row */
+        .przewodnik-numbers {
+            display: flex;
+            justify-content: center;
+            gap: 2.5rem;
+            margin-bottom: 2rem;
+            animation: przFadeUp 0.6s ease 0.8s both;
+        }
+
+        .przewodnik-number {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 0.2rem;
+        }
+
+        .number-value {
+            font-size: 2rem;
+            font-weight: 800;
+            background: linear-gradient(135deg, var(--primary), var(--secondary));
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            line-height: 1.1;
+        }
+
+        .number-label {
+            font-size: 0.8rem;
+            font-weight: 600;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.04em;
+        }
+
+        /* Popup */
+        .przewodnik-overlay {
+            display: none;
+            position: fixed;
+            inset: 0;
+            background: rgba(0,0,0,0.5);
+            backdrop-filter: blur(4px);
+            -webkit-backdrop-filter: blur(4px);
+            z-index: 9999;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .przewodnik-overlay.active {
+            display: flex;
+            animation: przOverlayIn 0.3s ease;
+        }
+
+        .przewodnik-popup {
+            background: #fff;
+            border-radius: 20px;
+            padding: 3rem;
+            max-width: 540px;
+            width: 92%;
+            position: relative;
+            animation: przPopupIn 0.4s ease;
+            box-shadow: 0 24px 64px rgba(0,0,0,0.15);
+        }
+
+        .przewodnik-popup-close {
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+            background: none;
+            border: none;
+            font-size: 1.5rem;
+            color: var(--text-muted);
+            cursor: pointer;
+            width: 32px;
+            height: 32px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            transition: all 0.2s;
+        }
+
+        .przewodnik-popup-close:hover {
+            background: var(--card-bg);
+            color: var(--text-color);
+        }
+
+        .przewodnik-popup h3 {
+            font-size: 1.75rem;
+            font-weight: 800;
+            margin-bottom: 0.6rem;
+            letter-spacing: -0.02em;
+            line-height: 1.2;
+        }
+
+        .przewodnik-popup p {
+            color: var(--text-muted);
+            font-size: 0.95rem;
+            margin-bottom: 1.75rem;
+            line-height: 1.6;
+        }
+
+        .przewodnik-popup .ml-form-embedWrapper {
+            background: transparent !important;
+            border: none !important;
+            padding: 0 !important;
+        }
+
+        .przewodnik-popup .ml-form-embedBody {
+            padding: 0 !important;
+        }
+
+        .przewodnik-popup .ml-form-embedContent {
+            display: none !important;
+        }
+
+        .przewodnik-popup .ml-form-fieldRow input {
+            border-radius: 10px !important;
+            padding: 0.75rem 1rem !important;
+            border-color: var(--card-border) !important;
+        }
+
+        .przewodnik-popup .ml-form-fieldRow input:focus {
+            border-color: var(--primary) !important;
+            box-shadow: 0 0 0 3px rgba(91,94,232,0.1) !important;
+        }
+
+        .przewodnik-popup .ml-form-embedSubmit button {
+            background: linear-gradient(135deg, var(--primary), var(--primary-dark)) !important;
+            border-radius: 10px !important;
+            padding: 0.8rem !important;
+            font-weight: 700 !important;
+        }
+
+        .przewodnik-popup .ml-form-embedSubmit button:hover {
+            opacity: 0.9 !important;
+            background: linear-gradient(135deg, var(--primary), var(--primary-dark)) !important;
+        }
+
+        .przewodnik-popup-note {
+            text-align: center;
+            font-size: 0.75rem;
+            color: var(--text-muted);
+            margin-top: 0.75rem;
+        }
+
+        /* Animacje przewodnik */
+        @keyframes przFadeDown {
+            from { opacity: 0; transform: translateY(-12px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @keyframes przFadeUp {
+            from { opacity: 0; transform: translateY(12px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        @keyframes przFeatureReveal {
+            from { opacity: 0; transform: translateX(-16px); }
+            to { opacity: 1; transform: translateX(0); }
+        }
+
+        @keyframes przCtaPulse {
+            0%, 100% { box-shadow: 0 0 0 0 rgba(91,94,232,0.4); }
+            50% { box-shadow: 0 0 0 8px rgba(91,94,232,0); }
+        }
+
+        @keyframes przOverlayIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        @keyframes przPopupIn {
+            from { opacity: 0; transform: translateY(24px) scale(0.96); }
+            to { opacity: 1; transform: translateY(0) scale(1); }
+        }
+
+        @media (max-width: 640px) {
+            .przewodnik-card {
+                padding: 2rem 1.5rem 1.5rem;
+                border-radius: 16px;
+            }
+            .przewodnik-features {
+                max-width: 100%;
+            }
+            .przewodnik-popup {
+                padding: 2rem 1.5rem;
+            }
+        }
+
+        /* Hide section if already subscribed */
+        .przewodnik-section.subscribed .przewodnik-card {
+            display: none;
+        }
     </style>
 </head>
 <body>
@@ -1077,7 +1439,7 @@
         <header>
             <h1 class="main-title">Szkolenia <span>AI</span> w Polsce</h1>
             <p class="subtitle">Twój przewodnik po świecie AI</p>
-            <p class="update-date">Ostatnia aktualizacja: 20 marca 2026</p>
+            <p class="update-date">Ostatnia aktualizacja: 26 marca 2026</p>
             <p class="course-count"><span id="total-courses">176</span> szkoleń AI w jednym miejscu</p>
 
             <div class="chatbot-search">
@@ -1108,6 +1470,72 @@
                 </ul>
             </nav>
         </header>
+
+        <!-- Sekcja Przewodnik AI -->
+        <section class="przewodnik-section" id="przewodnik-section">
+            <div class="przewodnik-card">
+                <div class="przewodnik-badge">
+                    Za darmo to dobra cena
+                </div>
+
+                <h2 class="przewodnik-title">
+                    Twój Osobisty Przewodnik po <span class="ai-gradient">AI</span>
+                </h2>
+
+                <p class="przewodnik-subtitle">
+                    Nie potrzebujesz biblioteki 100 promptów.<br>Potrzebujesz 3 dobrych.
+                </p>
+
+                <div class="przewodnik-features">
+                    <div class="przewodnik-feature">
+                        <div class="check-icon">
+                            <svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>
+                        </div>
+                        3 prompty. Skopiuj, wklej, zacznij dobrze pracować z AI
+                    </div>
+                    <div class="przewodnik-feature">
+                        <div class="check-icon">
+                            <svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>
+                        </div>
+                        4 checklisty. Krok po kroku, bez zgadywania
+                    </div>
+                    <div class="przewodnik-feature">
+                        <div class="check-icon">
+                            <svg viewBox="0 0 24 24"><polyline points="20 6 9 17 4 12"/></svg>
+                        </div>
+                        Rozwijaj swoje umiejętności pracy z AI we własnym tempie
+                    </div>
+                </div>
+
+                <button class="przewodnik-cta" onclick="openPrzewodnikPopup()">
+                    Pobieram Przewodnik
+                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14"/><path d="M12 5l7 7-7 7"/></svg>
+                </button>
+
+                <p class="przewodnik-note">Darmowy dostęp · Notion · Zero spamu</p>
+            </div>
+        </section>
+
+        <!-- Popup Przewodnik -->
+        <div class="przewodnik-overlay" id="przewodnik-overlay">
+            <div class="przewodnik-popup">
+                <button class="przewodnik-popup-close" onclick="closePrzewodnikPopup()" aria-label="Zamknij">&times;</button>
+
+                <h3>Twój Osobisty Przewodnik po AI</h3>
+                <p>Pobierz sprawdzone prompty i checklisty.<br>Gotowe do użycia.<br>Zacznij efektywnie pracować z AI od dziś.</p>
+
+                <!-- MailerLite embed placeholder — do podmiany na prawdziwy formularz -->
+                <div id="przewodnik-ml-form">
+                    <form onsubmit="event.preventDefault(); localStorage.setItem('aiprzewodnik_subscribed','true'); this.innerHTML='<p style=\'text-align:center;padding:1rem;color:#047857;font-weight:600;\'>Sprawdź swoją skrzynkę email!</p>'; closePrzewodnikPopup(); document.getElementById('przewodnik-section').classList.add('subscribed');">
+                        <input type="text" placeholder="Twoje imię" required style="width:100%;padding:0.75rem 1rem;border:1px solid #e2e8f0;border-radius:10px;font-family:inherit;font-size:0.95rem;margin-bottom:0.6rem;outline:none;">
+                        <input type="email" placeholder="Twój email" required style="width:100%;padding:0.75rem 1rem;border:1px solid #e2e8f0;border-radius:10px;font-family:inherit;font-size:0.95rem;margin-bottom:0.6rem;outline:none;">
+                        <button type="submit" style="width:100%;padding:0.8rem;background:linear-gradient(135deg,#5b5ee8,#4f46e5);color:#fff;font-family:inherit;font-size:1rem;font-weight:700;border:none;border-radius:10px;cursor:pointer;margin-top:0.4rem;">Pobieram Przewodnik</button>
+                    </form>
+                </div>
+
+                <p class="przewodnik-popup-note">Zero spamu. Możesz się wypisać w każdej chwili.</p>
+            </div>
+        </div>
 
         <main id="main-content">
         </main>
@@ -1385,6 +1813,28 @@
     </script>
 
     <script src="rate-banner.js" defer></script>
+    <!-- Przewodnik popup + localStorage -->
+    <script>
+    function openPrzewodnikPopup() {
+        document.getElementById('przewodnik-overlay').classList.add('active');
+        document.body.style.overflow = 'hidden';
+    }
+    function closePrzewodnikPopup() {
+        document.getElementById('przewodnik-overlay').classList.remove('active');
+        document.body.style.overflow = '';
+    }
+    document.getElementById('przewodnik-overlay').addEventListener('click', function(e) {
+        if (e.target === this) closePrzewodnikPopup();
+    });
+    document.addEventListener('keydown', function(e) {
+        if (e.key === 'Escape') closePrzewodnikPopup();
+    });
+    // Hide section if already subscribed
+    if (localStorage.getItem('aiprzewodnik_subscribed') === 'true') {
+        document.getElementById('przewodnik-section').classList.add('subscribed');
+    }
+    </script>
+
     <script src="site-footer.js" defer></script>
     <script src="category-counts.js" defer></script>
 
