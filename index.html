@@ -1426,6 +1426,28 @@
             }
         }
 
+        /* MailerLite loader */
+        .ml-form-embedSubmitLoad {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+        }
+        .ml-form-embedSubmitLoad:after {
+            content: " ";
+            display: block;
+            width: 11px;
+            height: 11px;
+            margin: 1px;
+            border-radius: 50%;
+            border: 4px solid #fff;
+            border-color: #ffffff #ffffff #ffffff transparent;
+            animation: mlLoad 1.2s linear infinite;
+        }
+        @keyframes mlLoad {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
         /* Hide section if already subscribed */
         .przewodnik-section.subscribed .przewodnik-card {
             display: none;
@@ -1524,13 +1546,44 @@
                 <h3>Twój Osobisty Przewodnik po AI</h3>
                 <p>Pobierz sprawdzone prompty i checklisty.<br>Gotowe do użycia.<br>Zacznij efektywnie pracować z AI od dziś.</p>
 
-                <!-- MailerLite embed placeholder — do podmiany na prawdziwy formularz -->
                 <div id="przewodnik-ml-form">
-                    <form onsubmit="event.preventDefault(); localStorage.setItem('aiprzewodnik_subscribed','true'); this.innerHTML='<p style=\'text-align:center;padding:1rem;color:#047857;font-weight:600;\'>Sprawdź swoją skrzynkę email!</p>'; closePrzewodnikPopup(); document.getElementById('przewodnik-section').classList.add('subscribed');">
-                        <input type="text" placeholder="Twoje imię" required style="width:100%;padding:0.75rem 1rem;border:1px solid #e2e8f0;border-radius:10px;font-family:inherit;font-size:0.95rem;margin-bottom:0.6rem;outline:none;">
-                        <input type="email" placeholder="Twój email" required style="width:100%;padding:0.75rem 1rem;border:1px solid #e2e8f0;border-radius:10px;font-family:inherit;font-size:0.95rem;margin-bottom:0.6rem;outline:none;">
-                        <button type="submit" style="width:100%;padding:0.8rem;background:linear-gradient(135deg,#5b5ee8,#4f46e5);color:#fff;font-family:inherit;font-size:1rem;font-weight:700;border:none;border-radius:10px;cursor:pointer;margin-top:0.4rem;">Pobieram Przewodnik</button>
-                    </form>
+                    <div id="mlb2-39007398" class="ml-form-embedContainer ml-subscribe-form ml-subscribe-form-39007398">
+                      <div class="ml-form-align-center">
+                        <div class="ml-form-embedWrapper embedForm">
+                          <div class="ml-form-embedBody ml-form-embedBodyDefault row-form">
+                            <form class="ml-block-form" action="https://assets.mailerlite.com/jsonp/575409/forms/182980875163534979/subscribe" data-code="" method="post" target="_blank">
+                              <div class="ml-form-formContent">
+                                <div class="ml-form-fieldRow">
+                                  <div class="ml-field-group ml-field-name">
+                                    <input aria-label="name" type="text" class="form-control" data-inputmask="" name="fields[name]" placeholder="Imię" autocomplete="given-name">
+                                  </div>
+                                </div>
+                                <div class="ml-form-fieldRow ml-last-item">
+                                  <div class="ml-field-group ml-field-email ml-validate-email ml-validate-required">
+                                    <input aria-label="email" aria-required="true" type="email" class="form-control" data-inputmask="" name="fields[email]" placeholder="Email" autocomplete="email">
+                                  </div>
+                                </div>
+                              </div>
+                              <input type="hidden" name="ml-submit" value="1">
+                              <div class="ml-form-embedSubmit">
+                                <button type="submit" class="primary">Pobieram Przewodnik</button>
+                                <button disabled="disabled" style="display:none;" type="button" class="loading">
+                                  <div class="ml-form-embedSubmitLoad"></div>
+                                  <span class="sr-only">Loading...</span>
+                                </button>
+                              </div>
+                              <input type="hidden" name="anticsrf" value="true">
+                            </form>
+                          </div>
+                          <div class="ml-form-successBody row-success" style="display:none">
+                            <div class="ml-form-successContent">
+                              <h4 style="font-size:1.1rem;font-weight:700;margin-bottom:0.5rem;">Jeszcze tylko jeden krok!</h4>
+                              <p style="color:var(--text-muted);font-size:0.9rem;">Sprawdź swoją skrzynkę email i potwierdź zapis.</p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
                 </div>
 
                 <p class="przewodnik-popup-note">Zero spamu. Możesz się wypisać w każdej chwili.</p>
@@ -1813,6 +1866,18 @@
     </script>
 
     <script src="rate-banner.js" defer></script>
+    <!-- MailerLite -->
+    <script>
+    function ml_webform_success_39007398() {
+      var $ = ml_jQuery || jQuery;
+      $('.ml-subscribe-form-39007398 .row-success').show();
+      $('.ml-subscribe-form-39007398 .row-form').hide();
+      localStorage.setItem('aiprzewodnik_subscribed', 'true');
+    }
+    </script>
+    <script src="https://groot.mailerlite.com/js/w/webforms.min.js?v95037e5bac78f29ed026832ca21a7c7b" type="text/javascript"></script>
+    <script>fetch("https://assets.mailerlite.com/jsonp/575409/forms/182980875163534979/takel")</script>
+
     <!-- Przewodnik popup + localStorage -->
     <script>
     function openPrzewodnikPopup() {
