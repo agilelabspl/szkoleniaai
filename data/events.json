@@ -518,5 +518,13 @@
 "type": "meetup",
 "free": true,
 "url": "https://www.meetup.com/pl-pl/future-meetup/"
+},
+{
+"name": "AI Industry Expo 2026",
+"city": "Polska",
+"date": "n/d",
+"type": "konferencja",
+"free": false,
+"url": "https://aiindustryexpo.com/en/"
 }
 ]
