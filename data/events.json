@@ -478,5 +478,45 @@
 "type": "meetup",
 "free": true,
 "url": "https://www.meetup.com/sztuczna-inteligencja-lodz/"
+},
+{
+"name": "Legal Hackathon 2026",
+"city": "Warszawa",
+"date": "n/d",
+"type": "konferencja",
+"free": false,
+"url": "https://www.wolterskluwer.com/pl-pl/solutions/legal-hackathon"
+},
+{
+"name": "Warsaw.AI Hackathon",
+"city": "Warszawa",
+"date": "n/d",
+"type": "konferencja",
+"free": false,
+"url": "https://hackathon.warsaw.ai/"
+},
+{
+"name": "AI Future Forum 2026",
+"city": "Online",
+"date": "n/d",
+"type": "konferencja",
+"free": false,
+"url": "https://aifuturepoland.com/forum-2026/"
+},
+{
+"name": "PyData Warsaw",
+"city": "Warszawa",
+"date": "Cyklicznie",
+"type": "meetup",
+"free": true,
+"url": "https://www.meetup.com/pl-pl/pydata-warsaw/"
+},
+{
+"name": "Future Meetup Kraków",
+"city": "Kraków",
+"date": "Cyklicznie",
+"type": "meetup",
+"free": true,
+"url": "https://www.meetup.com/pl-pl/future-meetup/"
 }
 ]

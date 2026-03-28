@@ -1296,5 +1296,76 @@
     "url": "https://aidreamteam.pl",
     "price": "od 1249 PLN",
     "format": "Online"
+  },
+  {
+    "name": "Business Programme AI 2026",
+    "cat": "biznes",
+    "desc": "Program AI dla biznesu. Strategie wdrażania sztucznej inteligencji w organizacji i zarządzanie zmianą.",
+    "url": "https://businessprogramme.ai/"
+  },
+  {
+    "name": "AI Workshops for your Business",
+    "cat": "biznes",
+    "desc": "Warsztaty AI dla firm w języku polskim, niemieckim i angielskim. Praktyczne wdrożenia AI dostosowane do potrzeb organizacji.",
+    "url": "https://theblue.ai/ai-workshops-en/",
+    "format": "Online"
+  },
+  {
+    "name": "Kurs AI: ChatGPT i GPT w praktyce, Prompt Engineering",
+    "cat": "ogolne",
+    "desc": "Praktyczny kurs sztucznej inteligencji: ChatGPT, GPT i prompt engineering w codziennej pracy.",
+    "url": "https://www.cognity.pl/kurs-ai-sztuczna-inteligencja-i-gpt-w-praktyce-prompt-engineering"
+  },
+  {
+    "name": "Jak efektywnie rozmawiać z Chat GPT?",
+    "cat": "ogolne",
+    "desc": "Warsztat online o efektywnej komunikacji z ChatGPT. Prompty, strategie i praktyczne ćwiczenia.",
+    "url": "https://digitalmasters.pl/warsztat-ai/"
+  },
+  {
+    "name": "Pierwsze kroki ze sztuczną inteligencją",
+    "cat": "ogolne",
+    "desc": "Warsztat z ChatGPT dla osób zaczynających przygodę z AI. Stacjonarnie i online live.",
+    "url": "https://www.academyofbusiness.pl/trainings/pierwsze-kroki-ze-sztuczna-inteligencja-warsztat-z-wykorzystaniem-chat-gpt/",
+    "format": "Online / Stacjonarnie"
+  },
+  {
+    "name": "Warsztaty AI w praktyce",
+    "cat": "ogolne",
+    "desc": "Dofinansowane warsztaty z generatywnej AI. Praktyczne narzędzia GenAI w codziennej pracy zawodowej.",
+    "url": "https://pfr.pl/produkt/warsztaty-ai-w-praktyce-poznaj-wybrane-narzedzia-genai",
+    "price": "Bezpłatne"
+  },
+  {
+    "name": "Pracownia AI",
+    "cat": "ogolne",
+    "desc": "Warsztaty i kursy AI dla praktyków. Praktyczne zastosowania sztucznej inteligencji w pracy i biznesie.",
+    "url": "https://warsztat.ai/"
+  },
+  {
+    "name": "Sztuczna inteligencja w praktyce (ChatGPT / Prompt Engineering)",
+    "cat": "ogolne",
+    "desc": "Kurs AI z ChatGPT i prompt engineeringiem. Praktyczne zastosowania AI w pracy zawodowej.",
+    "url": "https://coderslab.pl/pl/sztuczna-inteligencja-w-praktyce"
+  },
+  {
+    "name": "E-learning Bootcamp 2026",
+    "cat": "programisci",
+    "desc": "Dwie ścieżki: projektowanie kursów e-learningowych z AI lub implementacja rozwiązań AI w e-learningu.",
+    "url": "https://bootcamp.e-learning.pl/"
+  },
+  {
+    "name": "Data Science & AI Bootcamp",
+    "cat": "programisci",
+    "desc": "12-tygodniowy full-time lub 24-tygodniowy part-time. Machine learning, deep learning, analiza danych i AI.",
+    "url": "https://codelabsacademy.com/en-US/courses/data-science-and-ai/poland",
+    "format": "Online"
+  },
+  {
+    "name": "Warsztat AI AIDEAS",
+    "cat": "automatyzacja",
+    "desc": "2,5-godzinny warsztat online. Metodologia AIDEAS do wdrażania AI w procesach biznesowych krok po kroku.",
+    "url": "https://leantrix.com/pl/warsztat-ai-aideas/",
+    "format": "Online"
   }
 ]
