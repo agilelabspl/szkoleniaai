@@ -192,14 +192,6 @@
 "url": "https://aihrforum.pl/"
 },
 {
-"name": "Google DeepMind x AI Tinkerers Hackathon",
-"city": "Warszawa",
-"date": "28 marca 2026",
-"type": "konferencja",
-"free": true,
-"url": "https://poland.aitinkerers.org/p/google-deepmind-x-ai-tinkerers-hackathon-warsaw"
-},
-{
 "name": "4Developers 2026",
 "city": "Warszawa",
 "date": "22 kwietnia 2026",
@@ -366,14 +358,6 @@
 "type": "sniadanie",
 "free": true,
 "url": "https://www.nask.pl/aktualnosci/ruszaja-sniadania-z-pllum-poznaj-polskie-ai"
-},
-{
-"name": "Software Mansion x Gemini Hackathon",
-"city": "Kraków",
-"date": "28 marca 2026",
-"type": "konferencja",
-"free": true,
-"url": "https://hackathon.swmansion.com/"
 },
 {
 "name": "AI Café – cykl otwartych spotkań poświęconych AI",

@@ -1367,5 +1367,12 @@
     "desc": "2,5-godzinny warsztat online. Metodologia AIDEAS do wdrażania AI w procesach biznesowych krok po kroku.",
     "url": "https://leantrix.com/pl/warsztat-ai-aideas/",
     "format": "Online"
+  },
+  {
+    "name": "Wprowadzenie do AI w biznesie",
+    "cat": "biznes",
+    "desc": "Szkolenie dla firm. Budowanie świadomości AI i praktycznych zastosowań w organizacji.",
+    "url": "https://progressproject.pl/szkolenia/wprowadzenie_do_ai_w_biznesie",
+    "price": "1990"
   }
 ]
