@@ -518,5 +518,13 @@
 "type": "konferencja",
 "free": false,
 "url": "https://copernicusfestival.com/edycje/2026/"
+},
+{
+"name": "Devoxx Poland 2026",
+"city": "Kraków",
+"date": "17–19 czerwca 2026",
+"type": "konferencja",
+"free": false,
+"url": "https://devoxx.pl/"
 }
 ]

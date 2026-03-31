@@ -1374,5 +1374,37 @@
     "desc": "Szkolenie dla firm. Budowanie świadomości AI i praktycznych zastosowań w organizacji.",
     "url": "https://progressproject.pl/szkolenia/wprowadzenie_do_ai_w_biznesie",
     "price": "1990"
+  },
+  {
+    "name": "Agenci AI dla Biura Zarządu i Rady Nadzorczej",
+    "cat": "biznes",
+    "desc": "Praktyczne wdrożenie agentów AI w pracy zarządów i rad nadzorczych. Szkolenie online, 16–17 kwietnia 2026.",
+    "url": "https://eventis.pl/szkolenia-kursy/ai-sztuczna-inteligencja",
+    "price": "od 3201",
+    "format": "Online · live"
+  },
+  {
+    "name": "Agenci AI dla działu Zakupów",
+    "cat": "biznes",
+    "desc": "Automatyzacja procesów zakupowych z użyciem agentów AI. Szkolenie online, 27–28 kwietnia 2026.",
+    "url": "https://eventis.pl/szkolenia-kursy/ai-sztuczna-inteligencja",
+    "price": "od 3771",
+    "format": "Online · live"
+  },
+  {
+    "name": "Sztuczna inteligencja (AI) w codziennej pracy działów biurowych, handlowych i administracyjnych",
+    "cat": "ogolne",
+    "desc": "Praktyczne zastosowania AI w pracy administracyjnej i handlowej. Szkolenie online, 21 kwietnia 2026.",
+    "url": "https://eventis.pl/szkolenia-kursy/ai-sztuczna-inteligencja",
+    "price": "od 560",
+    "format": "Online · live"
+  },
+  {
+    "name": "AI w pracy biurowej — Microsoft Copilot, Google Gemini, ChatGPT",
+    "cat": "ogolne",
+    "desc": "Praktyczne zastosowania Microsoft Copilot, Google Gemini i ChatGPT w pracy biurowej. Warszawa, 17 kwietnia 2026.",
+    "url": "https://eventis.pl/szkolenia-kursy/ai-sztuczna-inteligencja",
+    "price": "od 1159",
+    "format": "Stacjonarnie"
   }
 ]
