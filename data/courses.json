@@ -1406,5 +1406,28 @@
     "url": "https://eventis.pl/szkolenia-kursy/ai-sztuczna-inteligencja",
     "price": "od 1159",
     "format": "Stacjonarnie"
+  },
+  {
+    "name": "AI Kickstart",
+    "cat": "biznes",
+    "desc": "Poznanie AI od podstaw i budowanie asystentów. 80% praktyki, szablony dopasowane do branży. Warsztat grupowy dla zespołów (8–15 osób).",
+    "url": "https://k-team.pl/warsztaty-kickstart.html",
+    "price": "9900 / grupa",
+    "format": "Stacjonarnie · warsztat"
+  },
+  {
+    "name": "AI Sprint",
+    "cat": "biznes",
+    "desc": "Budowanie personalnego systemu asystentów AI do swojej roli. Plan 30-dniowego wdrożenia + 2 konsultacje. Warsztat grupowy (8–15 osób).",
+    "url": "https://k-team.pl/warsztaty-sprint.html",
+    "price": "16900 / grupa",
+    "format": "Stacjonarnie · warsztat"
+  },
+  {
+    "name": "AI Transformacja",
+    "cat": "biznes",
+    "desc": "Indywidualny program mentoringowy dla liderów AI. Zaawansowane systemy dopasowane do procesów organizacji.",
+    "url": "https://k-team.pl/warsztaty-transformacja.html",
+    "format": "Hybrydowo · mentoring"
   }
 ]
