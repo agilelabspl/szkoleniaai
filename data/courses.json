@@ -1429,5 +1429,34 @@
     "desc": "Indywidualny program mentoringowy dla liderów AI. Zaawansowane systemy dopasowane do procesów organizacji.",
     "url": "https://k-team.pl/warsztaty-transformacja.html",
     "format": "Hybrydowo · mentoring"
+  },
+  {
+    "name": "Kurs AI w Marketingu 2026",
+    "cat": "marketing",
+    "desc": "16-godzinny intensywny bootcamp (2 dni live). Prompt Engineering (CARE/CRISPE), Google Veo 3, Zapier, CrewAI, Pecan AI. Certyfikat Specjalisty AI w Marketingu.",
+    "url": "https://westom.pl/kurs-ai-w-marketingu/",
+    "price": "od 2 390 zł brutto",
+    "format": "Online · live"
+  },
+  {
+    "name": "AI Programming Bootcamp",
+    "cat": "programisci",
+    "desc": "Nauka pracy z Cursor, Copilot, Replit, Aider, LLM i agentami kodowania. Budowanie portfolio projektowego.",
+    "url": "https://www.kodolamacz.pl/kurs/ai-programming",
+    "format": "Online · live"
+  },
+  {
+    "name": "AI & Data Science Bootcamp",
+    "cat": "programisci",
+    "desc": "Kompleksowe umiejętności data science i AI. Format praktycznych projektów z microcredentials na zakończenie.",
+    "url": "https://www.kodolamacz.pl/kurs/ai-data-science",
+    "format": "Online · live"
+  },
+  {
+    "name": "Sztuczna inteligencja dla administracji — warsztat praktyczny",
+    "cat": "ogolne",
+    "desc": "Warsztat praktyczny AI dla sektora publicznego. Praktyczne narzędzia i scenariusze użycia AI w pracy urzędniczej.",
+    "url": "https://www.apexnet.com.pl/zamawiampdf/8530/starterai-sztuczna-inteligencja-dla-administracji-warsztat-praktyczny/",
+    "format": "Stacjonarnie"
   }
 ]
