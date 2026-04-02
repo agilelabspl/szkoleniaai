@@ -1458,5 +1458,44 @@
     "desc": "Warsztat praktyczny AI dla sektora publicznego. Praktyczne narzędzia i scenariusze użycia AI w pracy urzędniczej.",
     "url": "https://www.apexnet.com.pl/zamawiampdf/8530/starterai-sztuczna-inteligencja-dla-administracji-warsztat-praktyczny/",
     "format": "Stacjonarnie"
+  },
+  {
+    "name": "AI w zamówieniach publicznych",
+    "cat": "prawo",
+    "desc": "Praktyczne zastosowanie AI w pracy zamawiającego. Analiza dokumentacji, opisy przedmiotu zamówienia.",
+    "url": "https://noweprzetargi.pl/ai-w-zamowieniach-publicznych-szkolenie-2026/",
+    "format": "Online · webinar"
+  },
+  {
+    "name": "AI w postępowaniach na podstawie PZP",
+    "cat": "prawo",
+    "desc": "Optymalizacja dokumentacji przetargowej, ocena ofert i monitoring umów z AI. Warsztaty praktyczne.",
+    "url": "https://szkolenia.przetargipubliczne.pl/szkolenia/wykorzystanie-sztucznej-inteligencji-ai-w-postepowaniach-prowadzonych-na-podstawie-prawa-zamowien-publicznych-warsztaty-praktyczne/",
+    "price": "690",
+    "format": "Online · webinar"
+  },
+  {
+    "name": "AI w finansach — zastosowania GenAI w analityce i raportowaniu",
+    "cat": "finanse",
+    "desc": "Prompt engineering, integracja Excel z GPT, automatyzacja raportów finansowych. Skrócenie czasu raportowania o 30–70%.",
+    "url": "https://www.adnakademia.pl/szkolenia/sztuczna-inteligencja-ai-w-finansach-zastosowania-genai-w-analityce-i-raportowaniu/",
+    "price": "1990 netto",
+    "format": "Stacjonarnie"
+  },
+  {
+    "name": "Agenci AI w finansach i controllingu",
+    "cat": "finanse",
+    "desc": "Budowanie agentów AI do analiz finansowych. Dla controllerów, FP&A, CFO. Wymaga ChatGPT Plus.",
+    "url": "https://www.akademiacontrollingu.pl/szkolenie/prompt-engineering-chatgpt/",
+    "price": "1790 netto",
+    "format": "Online · live"
+  },
+  {
+    "name": "AI w praktyce. Poznaj wybrane narzędzia GenAI",
+    "cat": "ogolne",
+    "desc": "5 sesji po 3 godziny. Narzędzia GenAI: analiza danych, marketing, automatyzacja sprzedaży, asystenci AI.",
+    "url": "https://strefawiedzypfr.pl/warsztaty/ai-w-praktyce-poznaj-wybrane-narzedzia-genai",
+    "price": "1290 netto",
+    "format": "Online · live"
   }
 ]

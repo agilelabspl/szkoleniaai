@@ -518,5 +518,45 @@
 "type": "konferencja",
 "free": false,
 "url": "https://devoxx.pl/"
+},
+{
+"name": "ExFest Experience Festival 2026",
+"city": "Warszawa",
+"date": "16–17 kwietnia 2026",
+"type": "konferencja",
+"free": false,
+"url": "https://exfest.pl/"
+},
+{
+"name": "Vibe Coding (Porozmawiajmy o AI)",
+"city": "Poznań",
+"date": "23 kwietnia 2026",
+"type": "meetup",
+"free": true,
+"url": "https://www.meetup.com/porozmawiajmy-o-ai/events/313745224/"
+},
+{
+"name": "Mindstone Warsaw May AI Meetup",
+"city": "Warszawa",
+"date": "6 maja 2026",
+"type": "meetup",
+"free": true,
+"url": "https://www.meetup.com/mindstone-warsaw-ai-community/events/313831621/"
+},
+{
+"name": "AI-Powered Payments (GDG Cloud Bydgoszcz)",
+"city": "Bydgoszcz",
+"date": "20 maja 2026",
+"type": "meetup",
+"free": true,
+"url": "https://www.meetup.com/gdg-bydgoscz/events/313830962/"
+},
+{
+"name": "Data on Campus #4",
+"city": "Poznań",
+"date": "23 maja 2026",
+"type": "konferencja",
+"free": true,
+"url": "https://www.meetup.com/poznanski-horyzont-danych/events/312536394/"
 }
 ]
