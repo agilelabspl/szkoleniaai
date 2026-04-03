@@ -29,5 +29,10 @@
 {"name":"Silene","desc":"Pomoc dla lekarzy przy rzadkich chorobach. Pełne informacje i opisy przypadków.","tag":"Zdrowie","url":"https://silene.systems/"},
 {"name":"System 10h","desc":"System AI asystentów do sprzedaży. Zaoszczędź ponad 10 godzin.","tag":"Produktywność","url":"https://system10h.com/"},
 {"name":"Upieczone","desc":"Zarządzanie zamówieniami w cukierni. Żaden tort się nie zgubi.","tag":"E-commerce","url":"https://www.upieczone.com/"},
-{"name":"SkanujMnie","desc":"Szybki i darmowy generator kodów QR.","tag":"IT","url":"https://skanujmnie.pl/"}
+{"name":"SkanujMnie","desc":"Szybki i darmowy generator kodów QR.","tag":"IT","url":"https://skanujmnie.pl/"},
+{"name":"Klub Książki","desc":"Zamień książki biznesowe w konkretny plan działania. AI przekuje wiedzę z lektury w praktyczne kroki.","tag":"Produktywność","url":"https://klubksiazki.com"},
+{"name":"Y Evidence","desc":"AI audytuje dowody z rynku i pomaga podjąć decyzję: GO, PIVOT lub KILL.","tag":"Biznes","url":"https://yevidence.com/"},
+{"name":"Szkoła Przyszłości z AI","desc":"Platforma edukacyjna łącząca nauczanie z AI. Nowoczesna edukacja dla szkół i nauczycieli.","tag":"Edukacja","url":"https://szkolaprzyszlosciai.pl/pl"},
+{"name":"Parceel","desc":"Analizuj działki z AI. Sztuczna inteligencja sprawdzi potencjał nieruchomości gruntowej.","tag":"Biznes","url":"https://parceel.pl/"},
+{"name":"Dr Strona","desc":"Automatyczna diagnoza zdrowia strony: SEO, szybkość, AI Ready, indeksowanie, struktura, RODO.","tag":"IT","url":"https://drstrona.pl"}
 ]
