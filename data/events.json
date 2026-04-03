@@ -558,5 +558,13 @@
 "type": "konferencja",
 "free": true,
 "url": "https://www.meetup.com/poznanski-horyzont-danych/events/312536394/"
+},
+{
+"name": "IN.SE.CON 2026",
+"city": "Poznań",
+"date": "15–16 kwietnia 2026",
+"type": "konferencja",
+"free": false,
+"url": "https://inseccon.pl/"
 }
 ]
