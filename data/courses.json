@@ -1497,5 +1497,13 @@
     "url": "https://strefawiedzypfr.pl/warsztaty/ai-w-praktyce-poznaj-wybrane-narzedzia-genai",
     "price": "1290 netto",
     "format": "Online · live"
+  },
+  {
+    "name": "AI Adoption Expert",
+    "cat": "ogolne",
+    "desc": "Szkolenie dające komplet umiejętności używania AI w różnych kontekstach i celach, od strategii przez narzędzia po zarządzanie zmianą.",
+    "url": "https://ai-specjalista.pl/",
+    "price": "od 599 netto",
+    "format": "Online"
   }
 ]
