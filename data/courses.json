@@ -1505,5 +1505,29 @@
     "url": "https://ai-specjalista.pl/",
     "price": "od 599 netto",
     "format": "Online"
+  },
+  {
+    "name": "Kurs Gemini 3.0 Masterclass",
+    "cat": "automatyzacja",
+    "desc": "Gemini 3.0 w praktyce: automatyzacja procesów, analiza danych i praca z dokumentami w NotebookLM.",
+    "url": "https://www.cognity.pl/kurs-gemini-30-masterclass-analiza-automatyzacja-i-dokumenty-w-notebook-lm",
+    "price": "",
+    "format": ""
+  },
+  {
+    "name": "Kurs Tworzenia Agentów AI",
+    "cat": "automatyzacja",
+    "desc": "Budowanie i wdrażanie agentów AI do automatyzacji procesów biznesowych. Dla AI Agent Developerów.",
+    "url": "https://www.cognity.pl/kurs-tworzenie-agentow-ai-automatyzacja-procesow-biznesowych-dla-ai-agent-developer",
+    "price": "",
+    "format": ""
+  },
+  {
+    "name": "Kurs ChatGPT & AI Agent Builder",
+    "cat": "automatyzacja",
+    "desc": "Projektowanie i wdrażanie agentów AI bez kodowania. Tworzenie własnych agentów i automatyzacji procesów.",
+    "url": "https://www.cognity.pl/kurs-chatgpt-ai-agent-builder-projektowanie-i-wdrazanie-agentow-ai-bez-kodowania",
+    "price": "",
+    "format": ""
   }
 ]
