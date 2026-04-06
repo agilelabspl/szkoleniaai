@@ -566,5 +566,16 @@
 "type": "konferencja",
 "free": false,
 "url": "https://inseccon.pl/"
-}
+},
+{"name":"Śniadania AI Warszawa nr 45","city":"Warszawa","date":"7 kwietnia 2026","type":"sniadanie","free":false,"url":"https://crossweb.pl/en/"},
+{"name":"Beyond Tech Meetup: Agenci AI","city":"Warszawa","date":"9 kwietnia 2026","type":"meetup","free":true,"url":"https://crossweb.pl/en/events/aiml/"},
+{"name":"Eliminating AI Blind Spots & Enterprise LLM Ops","city":"Online","date":"9 kwietnia 2026","type":"meetup","free":true,"url":"https://crossweb.pl/en/events/aiml/"},
+{"name":"Build with AI nr 3: Multi-Agent Systems","city":"Online","date":"10 kwietnia 2026","type":"meetup","free":true,"url":"https://crossweb.pl/en/events/aiml/"},
+{"name":"AWS Summit Warsaw 2026","city":"Online","date":"6 maja 2026","type":"konferencja","free":true,"url":"https://crossweb.pl/en/events/aiml/"},
+{"name":"Puzzle Kompetencji 2026: AI Flow","city":"Online","date":"6 maja 2026","type":"meetup","free":true,"url":"https://crossweb.pl/en/events/aiml/"},
+{"name":"Azure Congress 2026","city":"Warszawa","date":"13 maja 2026","type":"konferencja","free":true,"url":"https://crossweb.pl/en/events/aiml/"},
+{"name":"Puzzle Kompetencji 2026: AI Agent","city":"Online","date":"3 czerwca 2026","type":"meetup","free":true,"url":"https://crossweb.pl/en/events/aiml/"},
+{"name":"AI & MEDTECH CEE 2026","city":"Warszawa","date":"9 czerwca 2026","type":"konferencja","free":true,"url":"https://www.prawo.pl/zdrowie/konferencja-ai-medtech-cee-2026,1541799.html"},
+{"name":"MS Tech Summit 2026","city":"Warszawa","date":"15–16 czerwca 2026","type":"konferencja","free":false,"url":"https://crossweb.pl/en/events/aiml/"},
+{"name":"Health AI & CyberSec Summit 2026","city":"Warszawa","date":"16 czerwca 2026","type":"konferencja","free":false,"url":"https://crossweb.pl/en/events/aiml/"}
 ]

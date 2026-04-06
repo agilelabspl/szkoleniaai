@@ -1529,5 +1529,7 @@
     "url": "https://www.cognity.pl/kurs-chatgpt-ai-agent-builder-projektowanie-i-wdrazanie-agentow-ai-bez-kodowania",
     "price": "",
     "format": ""
-  }
+  },
+  {"name":"Kodilla Bootcamp ML & AI","cat":"programisci","desc":"Weekendowy bootcamp online z machine learning i AI. Absolwenci mogą uzyskać 4 mikro-poświadczenia kompetencji.","url":"https://kodilla.com/pl/bootcamp/machine-learning","price":"","format":"Online · live"},
+  {"name":"LEANSPIN AI Bootcamp","cat":"ogolne","desc":"3-dniowy intensywny cykl warsztatów stacjonarnych. Stack Google: Gemini, agenci AI.","url":"https://leanspin.pl/ai-bootcamp/","price":"","format":"Stacjonarnie"}
 ]
