@@ -1531,5 +1531,6 @@
     "format": ""
   },
   {"name":"Kodilla Bootcamp ML & AI","cat":"programisci","desc":"Weekendowy bootcamp online z machine learning i AI. Absolwenci mogą uzyskać 4 mikro-poświadczenia kompetencji.","url":"https://kodilla.com/pl/bootcamp/machine-learning","price":"","format":"Online · live"},
-  {"name":"LEANSPIN AI Bootcamp","cat":"ogolne","desc":"3-dniowy intensywny cykl warsztatów stacjonarnych. Stack Google: Gemini, agenci AI.","url":"https://leanspin.pl/ai-bootcamp/","price":"","format":"Stacjonarnie"}
+  {"name":"LEANSPIN AI Bootcamp","cat":"ogolne","desc":"3-dniowy intensywny cykl warsztatów stacjonarnych. Stack Google: Gemini, agenci AI.","url":"https://leanspin.pl/ai-bootcamp/","price":"","format":"Stacjonarnie"},
+  {"name":"AI w codziennej pracy z asystentem AI","cat":"biznes","desc":"2-dniowe szkolenie online z ChatGPT, prompt engineering, analiza tekstu, generowanie grafik i automatyzacja procesów. Dla grup 30–50 osób.","url":"https://www.comarch.pl/szkolenia/ai/ai-w-codziennej-pracy/ai-w-codziennej-pracy-z-asystentem-ai/","price":"","format":"Online · live"}
 ]
