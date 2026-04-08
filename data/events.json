@@ -567,7 +567,6 @@
 "free": false,
 "url": "https://inseccon.pl/"
 },
-{"name":"Śniadania AI Warszawa nr 45","city":"Warszawa","date":"7 kwietnia 2026","type":"sniadanie","free":false,"url":"https://crossweb.pl/en/"},
 {"name":"Beyond Tech Meetup: Agenci AI","city":"Warszawa","date":"9 kwietnia 2026","type":"meetup","free":true,"url":"https://crossweb.pl/en/events/aiml/"},
 {"name":"Eliminating AI Blind Spots & Enterprise LLM Ops","city":"Online","date":"9 kwietnia 2026","type":"meetup","free":true,"url":"https://crossweb.pl/en/events/aiml/"},
 {"name":"Build with AI nr 3: Multi-Agent Systems","city":"Online","date":"10 kwietnia 2026","type":"meetup","free":true,"url":"https://crossweb.pl/en/events/aiml/"},
