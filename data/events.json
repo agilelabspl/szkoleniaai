@@ -581,5 +581,13 @@
 {"name":"AI Jam Łódź #25","city":"Łódź","date":"16 kwietnia 2026","type":"meetup","free":true,"url":"https://crossweb.pl/en/events/ai-jam-lodz-25/"},
 {"name":"Śniadania AI Warszawa #46","city":"Warszawa","date":"28 kwietnia 2026","type":"sniadanie","free":false,"url":"https://crossweb.pl/en/events/sniadania-ai-warszawa-46/"},
 {"name":"Pytech Summit 2026 Spring Edition","city":"Online","date":"21 maja 2026","type":"konferencja","free":true,"url":"https://crossweb.pl/en/events/pytech-summit-2026-online-spring-edition/"},
-{"name":"AI Unlimited. Anti-Gödelian arguments","city":"Kraków","date":"28 maja 2026","type":"meetup","free":true,"url":"https://crossweb.pl/en/events/ai-unlimited-anti-g-delian-arguments-maj-2026/"}
+{"name":"AI Unlimited. Anti-Gödelian arguments","city":"Kraków","date":"28 maja 2026","type":"meetup","free":true,"url":"https://crossweb.pl/en/events/ai-unlimited-anti-g-delian-arguments-maj-2026/"},
+{"name":"AI Anonymous","city":"Warszawa","date":"9 kwietnia 2026","type":"meetup","free":true,"url":"https://crossweb.pl/en/events/ai-anonymous-kwiecien-2026/"},
+{"name":"WygrAI ten sprint (Brave AI Community Gdańsk #4)","city":"Gdańsk","date":"14 kwietnia 2026","type":"meetup","free":true,"url":"https://crossweb.pl/en/events/wygrai-ten-sprint-brave-ai-community-gdansk-4/"},
+{"name":"Pie & AI Kraków: MLOps","city":"Kraków","date":"16 kwietnia 2026","type":"meetup","free":true,"url":"https://crossweb.pl/en/events/pie-ai-krakow-mlops-kwiecien-2026/"},
+{"name":"Roo Code Poland #2","city":"Kraków","date":"20 kwietnia 2026","type":"meetup","free":true,"url":"https://crossweb.pl/en/events/roo-code-poland-2/"},
+{"name":"EDU: AI & Machine Learning in IT Audit","city":"Online","date":"21 kwietnia 2026","type":"meetup","free":true,"url":"https://crossweb.pl/en/events/edu-1-ai-machine-learning-in-it-audit-2-synchronizacja-czasu-niedoceniany-wektor-ataku/"},
+{"name":"Vibe-modeling: Power BI z agentem AI","city":"Online","date":"23 kwietnia 2026","type":"meetup","free":false,"url":"https://crossweb.pl/en/events/vibe-modeling-model-danych-power-bi-z-uzyciem-agenta-ai-kwiecien-2026/"},
+{"name":"Puzzle Kompetencji 2026: AI Expert","city":"Online","date":"29 kwietnia 2026","type":"meetup","free":true,"url":"https://crossweb.pl/en/events/puzzle-kompetencji-2026-ai-expert/"},
+{"name":"SQL Server z agentem AI","city":"Online","date":"19 maja 2026","type":"meetup","free":false,"url":"https://crossweb.pl/en/events/sql-server-z-agentem-ai-maj-2026/"}
 ]
