@@ -569,7 +569,6 @@
 },
 {"name":"Beyond Tech Meetup: Agenci AI","city":"Warszawa","date":"9 kwietnia 2026","type":"meetup","free":true,"url":"https://crossweb.pl/en/events/aiml/"},
 {"name":"Eliminating AI Blind Spots & Enterprise LLM Ops","city":"Online","date":"9 kwietnia 2026","type":"meetup","free":true,"url":"https://crossweb.pl/en/events/aiml/"},
-{"name":"Build with AI nr 3: Multi-Agent Systems","city":"Online","date":"10 kwietnia 2026","type":"meetup","free":true,"url":"https://crossweb.pl/en/events/aiml/"},
 {"name":"AWS Summit Warsaw 2026","city":"Online","date":"6 maja 2026","type":"konferencja","free":true,"url":"https://crossweb.pl/en/events/aiml/"},
 {"name":"Puzzle Kompetencji 2026: AI Flow","city":"Online","date":"6 maja 2026","type":"meetup","free":true,"url":"https://crossweb.pl/en/events/aiml/"},
 {"name":"Azure Congress 2026","city":"Warszawa","date":"13 maja 2026","type":"konferencja","free":true,"url":"https://crossweb.pl/en/events/aiml/"},
@@ -577,7 +576,6 @@
 {"name":"AI & MEDTECH CEE 2026","city":"Warszawa","date":"9 czerwca 2026","type":"konferencja","free":true,"url":"https://www.prawo.pl/zdrowie/konferencja-ai-medtech-cee-2026,1541799.html"},
 {"name":"MS Tech Summit 2026","city":"Warszawa","date":"15–16 czerwca 2026","type":"konferencja","free":false,"url":"https://crossweb.pl/en/events/aiml/"},
 {"name":"Health AI & CyberSec Summit 2026","city":"Warszawa","date":"16 czerwca 2026","type":"konferencja","free":false,"url":"https://crossweb.pl/en/events/aiml/"},
-{"name":"AI w codziennej pracy z asystentem AI (Comarch)","city":"Online","date":"9–10 kwietnia 2026","type":"konferencja","free":false,"url":"https://crossweb.pl/en/events/ai-w-codziennej-pracy-kwiecien-2026/"},
 {"name":"AI Jam Łódź #25","city":"Łódź","date":"16 kwietnia 2026","type":"meetup","free":true,"url":"https://crossweb.pl/en/events/ai-jam-lodz-25/"},
 {"name":"Śniadania AI Warszawa #46","city":"Warszawa","date":"28 kwietnia 2026","type":"sniadanie","free":false,"url":"https://crossweb.pl/en/events/sniadania-ai-warszawa-46/"},
 {"name":"Pytech Summit 2026 Spring Edition","city":"Online","date":"21 maja 2026","type":"konferencja","free":true,"url":"https://crossweb.pl/en/events/pytech-summit-2026-online-spring-edition/"},
@@ -589,5 +587,7 @@
 {"name":"Vibe-modeling: Power BI z agentem AI","city":"Online","date":"23 kwietnia 2026","type":"meetup","free":false,"url":"https://crossweb.pl/en/events/vibe-modeling-model-danych-power-bi-z-uzyciem-agenta-ai-kwiecien-2026/"},
 {"name":"Puzzle Kompetencji 2026: AI Expert","city":"Online","date":"29 kwietnia 2026","type":"meetup","free":true,"url":"https://crossweb.pl/en/events/puzzle-kompetencji-2026-ai-expert/"},
 {"name":"SQL Server z agentem AI","city":"Online","date":"19 maja 2026","type":"meetup","free":false,"url":"https://crossweb.pl/en/events/sql-server-z-agentem-ai-maj-2026/"},
-{"name":"Europejski Kongres Gospodarczy 2026","city":"Katowice","date":"22 kwietnia 2026","type":"konferencja","free":false,"url":"https://www.eecpoland.eu/2026/en/"}
+{"name":"Europejski Kongres Gospodarczy 2026","city":"Katowice","date":"22 kwietnia 2026","type":"konferencja","free":false,"url":"https://www.eecpoland.eu/2026/en/"},
+{"name":"Konferencja Biznes oparty o dane","city":"Warszawa","date":"15 kwietnia 2026","type":"konferencja","free":true,"url":"https://crossweb.pl/en/events/konferencja-biznes-oparty-o-dane-warszawa-kwiecien-2025/"},
+{"name":"Microsoft Azure User Group Poland #82","city":"Warszawa","date":"15 kwietnia 2026","type":"meetup","free":true,"url":"https://www.meetup.com/pl-pl/microsoft-azure-users-group-poland/events/314085286/"}
 ]
