@@ -1530,13 +1530,92 @@
     "price": "",
     "format": ""
   },
-  {"name":"Kodilla Bootcamp ML & AI","cat":"programisci","desc":"Weekendowy bootcamp online z machine learning i AI. Absolwenci mogą uzyskać 4 mikro-poświadczenia kompetencji.","url":"https://kodilla.com/pl/bootcamp/machine-learning","price":"","format":"Online · live"},
-  {"name":"LEANSPIN AI Bootcamp","cat":"ogolne","desc":"3-dniowy intensywny cykl warsztatów stacjonarnych. Stack Google: Gemini, agenci AI.","url":"https://leanspin.pl/ai-bootcamp/","price":"","format":"Stacjonarnie"},
-  {"name":"AI w codziennej pracy z asystentem AI","cat":"biznes","desc":"2-dniowe szkolenie online z ChatGPT, prompt engineering, analiza tekstu, generowanie grafik i automatyzacja procesów. Dla grup 30–50 osób.","url":"https://www.comarch.pl/szkolenia/ai/ai-w-codziennej-pracy/ai-w-codziennej-pracy-z-asystentem-ai/","price":"","format":"Online · live"},
-  {"name":"Szkoła AI Copilot dla menedżerów","cat":"biznes","desc":"6-dniowy program online z Microsoft Copilot i narzędzi AI dla kadry zarządzającej.","url":"https://eventis.pl/szkolenia-kursy/ai-sztuczna-inteligencja","price":"5671","format":"Online · live"},
-  {"name":"Transformacja AI w zarządzaniu projektami","cat":"biznes","desc":"2-dniowe szkolenie online z zastosowania AI w metodykach zarządzania projektami.","url":"https://eventis.pl/szkolenia-kursy/ai-sztuczna-inteligencja","price":"1300","format":"Online · live"},
-  {"name":"Transformacja AI działu HR","cat":"hr","desc":"2-dniowe szkolenie online z wdrożenia AI w procesach HR: rekrutacja, onboarding, zarządzanie talentami, analityka HR.","url":"https://eventis.pl/szkolenia-kursy/ai-sztuczna-inteligencja","price":"1300","format":"Online · live"},
-  {"name":"AI w edukacji i kulturze","cat":"ogolne","desc":"Kurs online dla szkół, bibliotek, domów kultury i muzeów. Praktyczne zastosowania AI w sektorze edukacji i kultury.","url":"https://eventis.pl/szkolenia-kursy/ai-sztuczna-inteligencja","price":"648","format":"Online"},
-  {"name":"VibeCoding dla każdego","cat":"automatyzacja","desc":"6-tygodniowy kurs kohortowy. Nauka budowania automatyzacji, raportów i mini-aplikacji poprzez rozmowę z AI. Bez programowania.","url":"https://lp.campusai.pl/vibecoding-dla-kazdego/","price":"","format":"Online · live"},
-  {"name":"Azure AI Engineer Bootcamp","cat":"programisci","desc":"Autoryzowane szkolenie Microsoft (AI-102). Budowanie aplikacji AI na Azure: Computer Vision, NLP, boty, OpenAI Service. Dostępne stacjonarnie lub zdalnie.","url":"https://www.compendium.pl/szkolenie/6546/szkolenie-autoryzowane-microsoft-azure-ai-engineer-bootcamp","price":"","format":"Online i stacjonarnie"}
+  {
+    "name": "Kodilla Bootcamp ML & AI",
+    "cat": "programisci",
+    "desc": "Weekendowy bootcamp online z machine learning i AI. Absolwenci mogą uzyskać 4 mikro-poświadczenia kompetencji.",
+    "url": "https://kodilla.com/pl/bootcamp/machine-learning",
+    "price": "",
+    "format": "Online · live"
+  },
+  {
+    "name": "LEANSPIN AI Bootcamp",
+    "cat": "ogolne",
+    "desc": "3-dniowy intensywny cykl warsztatów stacjonarnych. Stack Google: Gemini, agenci AI.",
+    "url": "https://leanspin.pl/ai-bootcamp/",
+    "price": "",
+    "format": "Stacjonarnie"
+  },
+  {
+    "name": "AI w codziennej pracy z asystentem AI",
+    "cat": "biznes",
+    "desc": "2-dniowe szkolenie online z ChatGPT, prompt engineering, analiza tekstu, generowanie grafik i automatyzacja procesów. Dla grup 30–50 osób.",
+    "url": "https://www.comarch.pl/szkolenia/ai/ai-w-codziennej-pracy/ai-w-codziennej-pracy-z-asystentem-ai/",
+    "price": "",
+    "format": "Online · live"
+  },
+  {
+    "name": "Szkoła AI Copilot dla menedżerów",
+    "cat": "biznes",
+    "desc": "6-dniowy program online z Microsoft Copilot i narzędzi AI dla kadry zarządzającej.",
+    "url": "https://eventis.pl/szkolenia-kursy/ai-sztuczna-inteligencja",
+    "price": "5671",
+    "format": "Online · live"
+  },
+  {
+    "name": "Transformacja AI w zarządzaniu projektami",
+    "cat": "biznes",
+    "desc": "2-dniowe szkolenie online z zastosowania AI w metodykach zarządzania projektami.",
+    "url": "https://eventis.pl/szkolenia-kursy/ai-sztuczna-inteligencja",
+    "price": "1300",
+    "format": "Online · live"
+  },
+  {
+    "name": "Transformacja AI działu HR",
+    "cat": "hr",
+    "desc": "2-dniowe szkolenie online z wdrożenia AI w procesach HR: rekrutacja, onboarding, zarządzanie talentami, analityka HR.",
+    "url": "https://eventis.pl/szkolenia-kursy/ai-sztuczna-inteligencja",
+    "price": "1300",
+    "format": "Online · live"
+  },
+  {
+    "name": "AI w edukacji i kulturze",
+    "cat": "ogolne",
+    "desc": "Kurs online dla szkół, bibliotek, domów kultury i muzeów. Praktyczne zastosowania AI w sektorze edukacji i kultury.",
+    "url": "https://eventis.pl/szkolenia-kursy/ai-sztuczna-inteligencja",
+    "price": "648",
+    "format": "Online"
+  },
+  {
+    "name": "VibeCoding dla każdego",
+    "cat": "automatyzacja",
+    "desc": "6-tygodniowy kurs kohortowy. Nauka budowania automatyzacji, raportów i mini-aplikacji poprzez rozmowę z AI. Bez programowania.",
+    "url": "https://lp.campusai.pl/vibecoding-dla-kazdego/",
+    "price": "",
+    "format": "Online · live"
+  },
+  {
+    "name": "Azure AI Engineer Bootcamp",
+    "cat": "programisci",
+    "desc": "Autoryzowane szkolenie Microsoft (AI-102). Budowanie aplikacji AI na Azure: Computer Vision, NLP, boty, OpenAI Service. Dostępne stacjonarnie lub zdalnie.",
+    "url": "https://www.compendium.pl/szkolenie/6546/szkolenie-autoryzowane-microsoft-azure-ai-engineer-bootcamp",
+    "price": "",
+    "format": "Online i stacjonarnie"
+  },
+  {
+    "name": "Praktyczne zastosowanie AI w finansach i controllingu",
+    "cat": "finanse",
+    "desc": "Kurs pokazujący praktyczne zastosowanie AI w finansach i controllingu. Automatyzacja procesów z ChatGPT, Gemini i Make.com. 32 godziny, 90% praktyki.",
+    "url": "https://www.frr.pl/szkolenie/1883/ai-w-finansach-i-controllingu",
+    "price": "3200 zł",
+    "format": "Online · live"
+  },
+  {
+    "name": "Praktyczne zastosowanie AI w księgowości",
+    "cat": "finanse",
+    "desc": "Intensywne szkolenie z wykorzystania AI w codziennej pracy księgowej. ChatGPT, Gemini, Copilot i Make.com. 90% czasu to praca na rzeczywistych przykładach.",
+    "url": "https://www.frr.pl/szkolenie/1944/ai-w-ksiegowosci",
+    "price": "3300 zł",
+    "format": "Online · live"
+  }
 ]
