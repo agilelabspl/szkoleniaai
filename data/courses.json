@@ -1617,5 +1617,13 @@
     "url": "https://www.frr.pl/szkolenie/1944/ai-w-ksiegowosci",
     "price": "3300 zł",
     "format": "Online · live"
+  },
+  {
+    "name": "Szkolenia AI — 150 gwarantowanych terminów",
+    "cat": "ogolne",
+    "desc": "Ponad 150 gwarantowanych terminów szkoleń AI w 2026. Szeroki wybór tematów, możliwość dofinansowania do 100% z BUR i KFS.",
+    "url": "https://jsystems.pl/szkolenia-ai.pokaz",
+    "price": "na stronie",
+    "format": "Online · Stacjonarnie"
   }
 ]
