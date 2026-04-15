@@ -1625,5 +1625,13 @@
     "url": "https://jsystems.pl/szkolenia-ai.pokaz",
     "price": "na stronie",
     "format": "Online · Stacjonarnie"
+  },
+  {
+    "name": "Budowanie Agentów AI — warsztat",
+    "cat": "programisci",
+    "desc": "Architektura agentów AI, CrewAI, bazy wektorowe, RAG, Ollama, systemy wieloagentowe. 24h stacjonarnie lub online. Wymaga znajomości Pythona.",
+    "url": "https://academy.asseco.pl/szkolenie/budowanie-agentow-ai-warsztat/",
+    "price": "od 2 900 zł netto",
+    "format": "Online i stacjonarnie"
   }
 ]
