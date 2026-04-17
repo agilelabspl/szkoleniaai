@@ -1633,5 +1633,13 @@
     "url": "https://academy.asseco.pl/szkolenie/budowanie-agentow-ai-warsztat/",
     "price": "od 2 900 zł netto",
     "format": "Online i stacjonarnie"
+  },
+  {
+    "name": "Szkoła AI Copilot dla menedżerów (Langas Group)",
+    "cat": "biznes",
+    "desc": "6-dniowy intensywny program online z Microsoft Copilot i agentów AI dla kadry zarządzającej. Integracje z systemami zewnętrznymi i automatyzacja procesów.",
+    "url": "https://langas.pl/szkolenie/szkola-ai-copilot-dla-menedzerow/",
+    "price": "od 4 970 zł + VAT",
+    "format": "Online · live"
   }
 ]
