@@ -1649,5 +1649,13 @@
     "url": "https://www.kozminski.edu.pl/pl/kalendarz-kursow-i-szkolen",
     "price": "na stronie",
     "format": "Online · live"
+  },
+  {
+    "name": "AI w strategii marki i komunikacji",
+    "cat": "marketing",
+    "desc": "Szkolenie z planowania pracy z narzędziami AI w kreowaniu strategii marki. Prezentacje, warsztaty i case studies.",
+    "url": "https://szkolenia.sar.org.pl/course/ai-w-strategii-marki-i-komunikacji",
+    "price": "na stronie",
+    "format": ""
   }
 ]
