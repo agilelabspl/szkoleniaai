@@ -1657,5 +1657,29 @@
     "url": "https://szkolenia.sar.org.pl/course/ai-w-strategii-marki-i-komunikacji",
     "price": "na stronie",
     "format": ""
+  },
+  {
+    "name": "Narzędziownik AI EXTRA — bezpieczeństwo AI w pigułce",
+    "cat": "ogolne",
+    "desc": "Deepfake'i, phishing AI, ataki na modele AI. Jak chronić siebie i organizację przed zagrożeniami opartymi na sztucznej inteligencji.",
+    "url": "https://sklep.securitum.pl/nai-bezpieczenstwo-ai-w-pigulce",
+    "price": "",
+    "format": "Online"
+  },
+  {
+    "name": "AI od podstaw (6. edycja)",
+    "cat": "ogolne",
+    "desc": "Warsztaty AI od podstaw. Praktyczne narzędzia i zastosowania generatywnej AI w codziennej pracy.",
+    "url": "https://www.trade.gov.pl/kalendarz/6-edycja-warsztatow-ai-od-podstaw/",
+    "price": "bezpłatny",
+    "format": ""
+  },
+  {
+    "name": "Zbuduj własną bazę wiedzy z AI — Obsidian + Claude Code",
+    "cat": "automatyzacja",
+    "desc": "Darmowy warsztat live: budowanie osobistej bazy wiedzy z użyciem Obsidian i Claude Code. Automatyzacja notatek i przepływów pracy z AI.",
+    "url": "https://aininjas.pl/warsztat/",
+    "price": "bezpłatny",
+    "format": "Online"
   }
 ]

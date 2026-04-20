@@ -1,572 +1,746 @@
 [
-{
-"name": "No-Code & AI Event #4",
-"city": "Gdańsk",
-"date": "7–8 maja 2026",
-"type": "konferencja",
-"free": false,
-"url": "https://www.nocodepoland.com/no-code-ai-event-4"
-},
-{
-"name": "Product Pro Summit 2026",
-"city": "Sopot",
-"date": "21–22 maja 2026",
-"type": "konferencja",
-"free": false,
-"url": "https://productprosummit.pl/"
-},
-{
-"name": "Lean TWI Summit 2026",
-"city": "Wrocław",
-"date": "9–10 czerwca 2026",
-"type": "konferencja",
-"free": false,
-"url": "https://leantrix.com/pl/konferencja-lean-twi/"
-},
-{
-"name": "Product Hive 2026",
-"city": "Warszawa",
-"date": "18–19 marca 2026",
-"type": "konferencja",
-"free": false,
-"url": "https://producthive.pl/"
-},
-{
-"name": "Warsaw AI Summit 2026",
-"city": "Warszawa",
-"date": "3–4 marca 2026",
-"type": "konferencja",
-"free": false,
-"url": "https://warsawaisummit.com/"
-},
-{
-"name": "AI Industry Expo 2026",
-"city": "Nadarzyn",
-"date": "4–5 marca 2026",
-"type": "konferencja",
-"free": false,
-"url": "https://aiindustryexpo.com/en/"
-},
-{
-"name": "Data & AI Warsaw Tech Summit",
-"city": "Warszawa",
-"date": "21–22 kwietnia 2026",
-"type": "konferencja",
-"free": false,
-"url": "https://dataiwarsaw.tech/"
-},
-{
-"name": "PP-RAI 2026",
-"city": "Kraków",
-"date": "20–22 kwietnia 2026",
-"type": "konferencja",
-"free": false,
-"url": "https://pp-rai.pl/"
-},
-{
-"name": "VIBE CONF 2026",
-"city": "Gdynia",
-"date": "20 kwietnia 2026",
-"type": "konferencja",
-"free": false,
-"url": "https://www.vibeconf.pl/"
-},
-{
-"name": "Impact CEE 2026",
-"city": "Poznań",
-"date": "13–14 maja 2026",
-"type": "konferencja",
-"free": false,
-"url": "https://impactcee.com/impact/2026/"
-},
-{
-"name": "Infoshare 2026",
-"city": "Gdańsk",
-"date": "20–21 maja 2026",
-"type": "konferencja",
-"free": false,
-"url": "https://infoshare.pl/"
-},
-{
-"name": "AI Creative Fest 2026",
-"city": "Warszawa",
-"date": "11 czerwca 2026",
-"type": "konferencja",
-"free": false,
-"url": "https://aiwizards.pl/ai-creative-fest"
-},
-{
-"name": "ICAISC 2026",
-"city": "Zakopane",
-"date": "14–18 czerwca 2026",
-"type": "konferencja",
-"free": false,
-"url": "https://icaisc.eu/"
-},
-{
-"name": "Data Science Summit 2026",
-"city": "Warszawa",
-"date": "18–19 czerwca 2026",
-"type": "konferencja",
-"free": false,
-"url": "https://ml.dssconf.pl/"
-},
-{
-"name": "AI Summit Poland 2026",
-"city": "Warszawa",
-"date": "8–9 października 2026",
-"type": "konferencja",
-"free": false,
-"url": "https://aisummitpoland.pl/"
-},
-{
-"name": "AI Biznes Forum 2026",
-"city": "Warszawa",
-"date": "23–24 listopada 2026",
-"type": "konferencja",
-"free": false,
-"url": "https://aibiznesforum.pl/"
-},
-{
-"name": "AI Sales Forum 2026",
-"city": "Warszawa",
-"date": "9–10 czerwca 2026",
-"type": "konferencja",
-"free": false,
-"url": "https://aisalesforum.pl/"
-},
-{
-"name": "CyberWave 2026",
-"city": "Kraków",
-"date": "10–11 marca 2026",
-"type": "konferencja",
-"free": true,
-"url": "https://cyberwave.agh.edu.pl/"
-},
-{
-"name": "DevAI by Data Science Summit",
-"city": "Warszawa",
-"date": "18–19 czerwca 2026",
-"type": "konferencja",
-"free": false,
-"url": "https://devai.dssconf.pl/"
-},
-{
-"name": "AI Summit PJAIT 2026",
-"city": "Warszawa",
-"date": "16 września 2026",
-"type": "konferencja",
-"free": false,
-"url": "https://aisummit.pja.edu.pl/"
-},
-{
-"name": "AI-CONNECT",
-"city": "Szczecin",
-"date": "październik 2026",
-"type": "konferencja",
-"free": false,
-"url": "https://ai-connect.pl/"
-},
-{
-"name": "AiBA Conference 2026",
-"city": "Katowice",
-"date": "21–22 października 2026",
-"type": "konferencja",
-"free": false,
-"url": "https://aibaconference.com/"
-},
-{
-"name": "AI HR Forum 2026",
-"city": "Warszawa",
-"date": "24–25 marca 2026",
-"type": "konferencja",
-"free": false,
-"url": "https://aihrforum.pl/"
-},
-{
-"name": "4Developers 2026",
-"city": "Warszawa",
-"date": "22 kwietnia 2026",
-"type": "konferencja",
-"free": false,
-"url": "https://4developers.org.pl/4developers-2026-warszawa/"
-},
-{
-"name": "AI Tinkerers Poland",
-"city": "Warszawa",
-"date": "Cyklicznie",
-"type": "meetup",
-"free": true,
-"url": "https://poland.aitinkerers.org/"
-},
-{
-"name": "Warsaw.AI",
-"city": "Warszawa",
-"date": "Co kilka tygodni",
-"type": "meetup",
-"free": true,
-"url": "https://warsaw.ai/"
-},
-{
-"name": "Mindstone Warsaw AI Community",
-"city": "Warszawa",
-"date": "Raz w miesiącu",
-"type": "meetup",
-"free": true,
-"url": "https://www.meetup.com/mindstone-warsaw-ai-community/"
-},
-{
-"name": "Machine Learning Warsaw",
-"city": "Warszawa",
-"date": "Cyklicznie",
-"type": "meetup",
-"free": true,
-"url": "https://www.meetup.com/Machine-Learning-Warsaw/"
-},
-{
-"name": "LLMday Warsaw",
-"city": "Warszawa",
-"date": "Kwartalnie",
-"type": "meetup",
-"free": false,
-"url": "https://llmday.com/2026-warsaw-q1/"
-},
-{
-"name": "Build With AI (GDG Kraków)",
-"city": "Kraków",
-"date": "Cyklicznie",
-"type": "meetup",
-"free": true,
-"url": "https://www.meetup.com/gdg-krakow/"
-},
-{
-"name": "Kraków AI Meetup",
-"city": "Kraków",
-"date": "Cyklicznie",
-"type": "meetup",
-"free": true,
-"url": "https://www.meetup.com/krakow-technology-society-meetup-group/"
-},
-{
-"name": "GenAI Cracow",
-"city": "Kraków",
-"date": "Cyklicznie",
-"type": "meetup",
-"free": true,
-"url": "https://luma.com/genai-cracow"
-},
-{
-"name": "WAIT Wrocław AI Team",
-"city": "Wrocław",
-"date": "Cyklicznie",
-"type": "meetup",
-"free": true,
-"url": "https://www.meetup.com/wroclaw-r-users-group/"
-},
-{
-"name": "Data Science & ML Wrocław",
-"city": "Wrocław",
-"date": "Cyklicznie",
-"type": "meetup",
-"free": true,
-"url": "https://www.meetup.com/data-science-wroclaw/"
-},
-{
-"name": "Artificial Intelligence Poznań",
-"city": "Poznań",
-"date": "Cyklicznie",
-"type": "meetup",
-"free": true,
-"url": "https://www.meetup.com/Artificial-Intelligence-Poznan/"
-},
-{
-"name": "Porozmawiajmy o AI",
-"city": "Poznań",
-"date": "Cyklicznie",
-"type": "meetup",
-"free": true,
-"url": "https://www.meetup.com/porozmawiajmy-o-ai/"
-},
-{
-"name": "Infoshare AI Poznań",
-"city": "Poznań",
-"date": "Cyklicznie",
-"type": "meetup",
-"free": true,
-"url": "https://infoshare.pl/ai/poznan/"
-},
-{
-"name": "Data Community Trójmiasto",
-"city": "Gdańsk",
-"date": "Cyklicznie",
-"type": "meetup",
-"free": true,
-"url": "https://www.meetup.com/data-community-trojmiasto/"
-},
-{
-"name": "AI Jam Łódź",
-"city": "Łódź",
-"date": "Cyklicznie",
-"type": "meetup",
-"free": true,
-"url": "https://aijam.pl"
-},
-{
-"name": "#AIUPMEETING",
-"city": "Toruń",
-"date": "Co kilka tygodni",
-"type": "meetup",
-"free": true,
-"url": "https://www.linkedin.com/in/szymonjankowskicom"
-},
-{
-"name": "Śniadania z AI (Sektor 3.0)",
-"city": "Warszawa",
-"date": "Co miesiąc",
-"type": "sniadanie",
-"free": true,
-"url": "https://sektor3-0.pl/aktualnosci/sniadania-z-ai-nowy-cykl-spotkan-startuje-3-grudnia/"
-},
-{
-"name": "Łódzkie Śniadania AI",
-"city": "Łódź",
-"date": "Co 3 tygodnie",
-"type": "sniadanie",
-"free": false,
-"url": "https://crossweb.pl/wydarzenia/lodzkie-sniadania-ai-6/"
-},
-{
-"name": "Śniadanie AI Śląsk",
-"city": "Katowice",
-"date": "Co kilka tygodni",
-"type": "sniadanie",
-"free": true,
-"url": "https://lu.ma/bji62l1l"
-},
-{
-"name": "Śniadania z PLLuM (NASK)",
-"city": "Warszawa",
-"date": "Cyklicznie",
-"type": "sniadanie",
-"free": true,
-"url": "https://www.nask.pl/aktualnosci/ruszaja-sniadania-z-pllum-poznaj-polskie-ai"
-},
-{
-"name": "Wait AI Meetup: AI & Law",
-"city": "Wrocław",
-"date": "Q1 2026 (data TBD)",
-"type": "meetup",
-"free": true,
-"url": "https://www.meetup.com/wait-wroclaw-ai-team"
-},
-{
-"name": "MIT Universal AI Summit 2026",
-"city": "Warszawa",
-"date": "23–24 marca 2026",
-"type": "konferencja",
-"free": false,
-"url": "https://uaisummit.mit.edu/"
-},
-{
-"name": "Masters & Robots 2026",
-"city": "Warszawa",
-"date": "n/d",
-"type": "konferencja",
-"free": false,
-"url": "https://mastersandrobots.tech/"
-},
-{
-"name": "HackYeah 2026",
-"city": "Kraków",
-"date": "3–4 października 2026",
-"type": "konferencja",
-"free": false,
-"url": "https://hackyeah.pl/"
-},
-{
-"name": "AI Legal Change Summit 2026",
-"city": "Warszawa",
-"date": "n/d",
-"type": "konferencja",
-"free": false,
-"url": "https://www.wolterskluwer.com/pl-pl/solutions/lex/expert-ai/konferencja-ai-legal-change-summit"
-},
-{
-"name": "Agent Pageant: Agentic Automation Hackathon",
-"city": "Warszawa",
-"date": "19 marca 2026",
-"type": "konferencja",
-"free": true,
-"url": "https://crossweb.pl"
-},
-{
-"name": "Webinar KIG: AI w pracy MŚP — od podstaw do zastosowań",
-"city": "Online",
-"date": "23 marca 2026",
-"type": "konferencja",
-"free": true,
-"url": "https://kig.pl"
-},
-{
-"name": "Brainhack Warsaw 2026",
-"city": "Warszawa",
-"date": "17–19 kwietnia 2026",
-"type": "konferencja",
-"free": true,
-"url": "https://brainhackwarsaw.fuw.edu.pl"
-},
-{
-"name": "I Love Marketing & Technology 2026 (XXI edycja)",
-"city": "Warszawa",
-"date": "21–23 kwietnia 2026",
-"type": "konferencja",
-"free": false,
-"url": "https://sprawnymarketing.pl/konferencja/warszawa/?utm_source=aiprzewodnik&utm_medium=post&utm_campaign=ilovemkt-04-26"
-},
-{
-"name": "Automation Week 2026",
-"city": "Online",
-"date": "2026 (data TBC)",
-"type": "konferencja",
-"free": false,
-"url": "https://crossweb.pl"
-},
-{
-"name": "AIMed 2026 — AI in Medicine",
-"city": "Kraków",
-"date": "7–9 maja 2026",
-"type": "konferencja",
-"free": false,
-"url": "https://neuroscience.cam.ac.uk/event-posts/artificial-intelligence-in-medicine-aimed-conference-in-krakow-poland-on-7-9-may-2026-call-for-abstracts-open-till-1st-march/"
-},
-{
-"name": "Sztuczna Inteligencja Łódź",
-"city": "Łódź",
-"date": "Cyklicznie",
-"type": "meetup",
-"free": true,
-"url": "https://www.meetup.com/sztuczna-inteligencja-lodz/"
-},
-{
-"name": "Legal Hackathon 2026",
-"city": "Warszawa",
-"date": "n/d",
-"type": "konferencja",
-"free": false,
-"url": "https://www.wolterskluwer.com/pl-pl/solutions/legal-hackathon"
-},
-{
-"name": "Warsaw.AI Hackathon",
-"city": "Warszawa",
-"date": "n/d",
-"type": "konferencja",
-"free": false,
-"url": "https://hackathon.warsaw.ai/"
-},
-{
-"name": "AI Future Forum 2026",
-"city": "Online",
-"date": "n/d",
-"type": "konferencja",
-"free": false,
-"url": "https://aifuturepoland.com/forum-2026/"
-},
-{
-"name": "PyData Warsaw",
-"city": "Warszawa",
-"date": "Cyklicznie",
-"type": "meetup",
-"free": true,
-"url": "https://www.meetup.com/pl-pl/pydata-warsaw/"
-},
-{
-"name": "Future Meetup Kraków",
-"city": "Kraków",
-"date": "Cyklicznie",
-"type": "meetup",
-"free": true,
-"url": "https://www.meetup.com/pl-pl/future-meetup/"
-},
-{
-"name": "AI Industry Expo 2026",
-"city": "Polska",
-"date": "n/d",
-"type": "konferencja",
-"free": false,
-"url": "https://aiindustryexpo.com/en/"
-},
-{
-"name": "Copernicus Festival 2026",
-"city": "Kraków",
-"date": "19–24 maja 2026",
-"type": "konferencja",
-"free": false,
-"url": "https://copernicusfestival.com/edycje/2026/"
-},
-{
-"name": "Devoxx Poland 2026",
-"city": "Kraków",
-"date": "17–19 czerwca 2026",
-"type": "konferencja",
-"free": false,
-"url": "https://devoxx.pl/"
-},
-{
-"name": "Vibe Coding (Porozmawiajmy o AI)",
-"city": "Poznań",
-"date": "23 kwietnia 2026",
-"type": "meetup",
-"free": true,
-"url": "https://www.meetup.com/porozmawiajmy-o-ai/events/313745224/"
-},
-{
-"name": "Mindstone Warsaw May AI Meetup",
-"city": "Warszawa",
-"date": "6 maja 2026",
-"type": "meetup",
-"free": true,
-"url": "https://www.meetup.com/mindstone-warsaw-ai-community/events/313831621/"
-},
-{
-"name": "AI-Powered Payments (GDG Cloud Bydgoszcz)",
-"city": "Bydgoszcz",
-"date": "20 maja 2026",
-"type": "meetup",
-"free": true,
-"url": "https://www.meetup.com/gdg-bydgoscz/events/313830962/"
-},
-{
-"name": "Data on Campus #4",
-"city": "Poznań",
-"date": "23 maja 2026",
-"type": "konferencja",
-"free": true,
-"url": "https://www.meetup.com/poznanski-horyzont-danych/events/312536394/"
-},
-{"name":"Beyond Tech Meetup: Agenci AI","city":"Warszawa","date":"9 kwietnia 2026","type":"meetup","free":true,"url":"https://crossweb.pl/en/events/aiml/"},
-{"name":"Eliminating AI Blind Spots & Enterprise LLM Ops","city":"Online","date":"9 kwietnia 2026","type":"meetup","free":true,"url":"https://crossweb.pl/en/events/aiml/"},
-{"name":"AWS Summit Warsaw 2026","city":"Online","date":"6 maja 2026","type":"konferencja","free":true,"url":"https://crossweb.pl/en/events/aiml/"},
-{"name":"Puzzle Kompetencji 2026: AI Flow","city":"Online","date":"6 maja 2026","type":"meetup","free":true,"url":"https://crossweb.pl/en/events/aiml/"},
-{"name":"Azure Congress 2026","city":"Warszawa","date":"13 maja 2026","type":"konferencja","free":true,"url":"https://crossweb.pl/en/events/aiml/"},
-{"name":"Puzzle Kompetencji 2026: AI Agent","city":"Online","date":"3 czerwca 2026","type":"meetup","free":true,"url":"https://crossweb.pl/en/events/aiml/"},
-{"name":"AI & MEDTECH CEE 2026","city":"Warszawa","date":"9 czerwca 2026","type":"konferencja","free":true,"url":"https://www.prawo.pl/zdrowie/konferencja-ai-medtech-cee-2026,1541799.html"},
-{"name":"MS Tech Summit 2026","city":"Warszawa","date":"15–16 czerwca 2026","type":"konferencja","free":false,"url":"https://crossweb.pl/en/events/aiml/"},
-{"name":"Health AI & CyberSec Summit 2026","city":"Warszawa","date":"16 czerwca 2026","type":"konferencja","free":false,"url":"https://crossweb.pl/en/events/aiml/"},
-{"name":"Śniadania AI Warszawa #46","city":"Warszawa","date":"28 kwietnia 2026","type":"sniadanie","free":false,"url":"https://crossweb.pl/en/events/sniadania-ai-warszawa-46/"},
-{"name":"Pytech Summit 2026 Spring Edition","city":"Online","date":"21 maja 2026","type":"konferencja","free":true,"url":"https://crossweb.pl/en/events/pytech-summit-2026-online-spring-edition/"},
-{"name":"AI Unlimited. Anti-Gödelian arguments","city":"Kraków","date":"28 maja 2026","type":"meetup","free":true,"url":"https://crossweb.pl/en/events/ai-unlimited-anti-g-delian-arguments-maj-2026/"},
-
-{"name":"Roo Code Poland #2","city":"Kraków","date":"20 kwietnia 2026","type":"meetup","free":true,"url":"https://crossweb.pl/en/events/roo-code-poland-2/"},
-{"name":"EDU: AI & Machine Learning in IT Audit","city":"Online","date":"21 kwietnia 2026","type":"meetup","free":true,"url":"https://crossweb.pl/en/events/edu-1-ai-machine-learning-in-it-audit-2-synchronizacja-czasu-niedoceniany-wektor-ataku/"},
-{"name":"Vibe-modeling: Power BI z agentem AI","city":"Online","date":"23 kwietnia 2026","type":"meetup","free":false,"url":"https://crossweb.pl/en/events/vibe-modeling-model-danych-power-bi-z-uzyciem-agenta-ai-kwiecien-2026/"},
-{"name":"Puzzle Kompetencji 2026: AI Expert","city":"Online","date":"29 kwietnia 2026","type":"meetup","free":true,"url":"https://crossweb.pl/en/events/puzzle-kompetencji-2026-ai-expert/"},
-{"name":"SQL Server z agentem AI","city":"Online","date":"19 maja 2026","type":"meetup","free":false,"url":"https://crossweb.pl/en/events/sql-server-z-agentem-ai-maj-2026/"},
-{"name":"Europejski Kongres Gospodarczy 2026","city":"Katowice","date":"22 kwietnia 2026","type":"konferencja","free":false,"url":"https://www.eecpoland.eu/2026/en/"},
-{"name":"AI Tinkerers Poland — Meetup Poznań #1","city":"Poznań","date":"22 kwietnia 2026","type":"meetup","free":true,"url":"https://poland.aitinkerers.org/"},
-{"name":"Warsaw AI Hackathon","city":"Warszawa","date":"5 maja 2026","type":"meetup","free":true,"url":"https://challengerocket.com/warsaw-artificial-intelligence-hackathon-google-campus-warsaw"},
-{"name":"Build With AI #4: Production-Ready AI Agents","city":"Kraków","date":"21 kwietnia 2026","type":"meetup","free":true,"url":"https://www.meetup.com/GDG-Krakow/events/314178939/"},
-{"name":"PyData Trójmiasto #42","city":"Gdynia","date":"22 kwietnia 2026","type":"meetup","free":true,"url":"https://www.meetup.com/PyData-Trojmiasto/events/314161432/"},
-{"name":"SQLDay 2026","city":"Wrocław","date":"11–13 maja 2026","type":"konferencja","free":false,"url":"https://sqlday.pl/"},
-{"name":"IDEASHACK 2026","city":"Online","date":"24 kwietnia – 8 maja 2026","type":"konferencja","free":true,"url":"https://itwiz.pl/ideashack-2026-hackathon-ktory-laczy-nauke-biznes-i-kapital-rejestracja-tylko-do-19-kwietnia/"},
-{"name":"AI Spring 2026 (SGH AI Lab)","city":"Online","date":"6 maja 2026","type":"konferencja","free":true,"url":"https://ailab.sgh.waw.pl/pl/nasza-dzialalnosc/konferencje-i-wydarzenia/konferencja-ai-spring"}
+  {
+    "name": "No-Code & AI Event #4",
+    "city": "Gdańsk",
+    "date": "7–8 maja 2026",
+    "type": "konferencja",
+    "free": false,
+    "url": "https://www.nocodepoland.com/no-code-ai-event-4"
+  },
+  {
+    "name": "Product Pro Summit 2026",
+    "city": "Sopot",
+    "date": "21–22 maja 2026",
+    "type": "konferencja",
+    "free": false,
+    "url": "https://productprosummit.pl/"
+  },
+  {
+    "name": "Lean TWI Summit 2026",
+    "city": "Wrocław",
+    "date": "9–10 czerwca 2026",
+    "type": "konferencja",
+    "free": false,
+    "url": "https://leantrix.com/pl/konferencja-lean-twi/"
+  },
+  {
+    "name": "Product Hive 2026",
+    "city": "Warszawa",
+    "date": "18–19 marca 2026",
+    "type": "konferencja",
+    "free": false,
+    "url": "https://producthive.pl/"
+  },
+  {
+    "name": "Warsaw AI Summit 2026",
+    "city": "Warszawa",
+    "date": "3–4 marca 2026",
+    "type": "konferencja",
+    "free": false,
+    "url": "https://warsawaisummit.com/"
+  },
+  {
+    "name": "AI Industry Expo 2026",
+    "city": "Nadarzyn",
+    "date": "4–5 marca 2026",
+    "type": "konferencja",
+    "free": false,
+    "url": "https://aiindustryexpo.com/en/"
+  },
+  {
+    "name": "Data & AI Warsaw Tech Summit",
+    "city": "Warszawa",
+    "date": "21–22 kwietnia 2026",
+    "type": "konferencja",
+    "free": false,
+    "url": "https://dataiwarsaw.tech/"
+  },
+  {
+    "name": "PP-RAI 2026",
+    "city": "Kraków",
+    "date": "20–22 kwietnia 2026",
+    "type": "konferencja",
+    "free": false,
+    "url": "https://pp-rai.pl/"
+  },
+  {
+    "name": "VIBE CONF 2026",
+    "city": "Gdynia",
+    "date": "20 kwietnia 2026",
+    "type": "konferencja",
+    "free": false,
+    "url": "https://www.vibeconf.pl/"
+  },
+  {
+    "name": "Impact CEE 2026",
+    "city": "Poznań",
+    "date": "13–14 maja 2026",
+    "type": "konferencja",
+    "free": false,
+    "url": "https://impactcee.com/impact/2026/"
+  },
+  {
+    "name": "Infoshare 2026",
+    "city": "Gdańsk",
+    "date": "20–21 maja 2026",
+    "type": "konferencja",
+    "free": false,
+    "url": "https://infoshare.pl/"
+  },
+  {
+    "name": "AI Creative Fest 2026",
+    "city": "Warszawa",
+    "date": "11 czerwca 2026",
+    "type": "konferencja",
+    "free": false,
+    "url": "https://aiwizards.pl/ai-creative-fest"
+  },
+  {
+    "name": "ICAISC 2026",
+    "city": "Zakopane",
+    "date": "14–18 czerwca 2026",
+    "type": "konferencja",
+    "free": false,
+    "url": "https://icaisc.eu/"
+  },
+  {
+    "name": "Data Science Summit 2026",
+    "city": "Warszawa",
+    "date": "18–19 czerwca 2026",
+    "type": "konferencja",
+    "free": false,
+    "url": "https://ml.dssconf.pl/"
+  },
+  {
+    "name": "AI Summit Poland 2026",
+    "city": "Warszawa",
+    "date": "8–9 października 2026",
+    "type": "konferencja",
+    "free": false,
+    "url": "https://aisummitpoland.pl/"
+  },
+  {
+    "name": "AI Biznes Forum 2026",
+    "city": "Warszawa",
+    "date": "23–24 listopada 2026",
+    "type": "konferencja",
+    "free": false,
+    "url": "https://aibiznesforum.pl/"
+  },
+  {
+    "name": "AI Sales Forum 2026",
+    "city": "Warszawa",
+    "date": "9–10 czerwca 2026",
+    "type": "konferencja",
+    "free": false,
+    "url": "https://aisalesforum.pl/"
+  },
+  {
+    "name": "CyberWave 2026",
+    "city": "Kraków",
+    "date": "10–11 marca 2026",
+    "type": "konferencja",
+    "free": true,
+    "url": "https://cyberwave.agh.edu.pl/"
+  },
+  {
+    "name": "DevAI by Data Science Summit",
+    "city": "Warszawa",
+    "date": "18–19 czerwca 2026",
+    "type": "konferencja",
+    "free": false,
+    "url": "https://devai.dssconf.pl/"
+  },
+  {
+    "name": "AI Summit PJAIT 2026",
+    "city": "Warszawa",
+    "date": "16 września 2026",
+    "type": "konferencja",
+    "free": false,
+    "url": "https://aisummit.pja.edu.pl/"
+  },
+  {
+    "name": "AI-CONNECT",
+    "city": "Szczecin",
+    "date": "październik 2026",
+    "type": "konferencja",
+    "free": false,
+    "url": "https://ai-connect.pl/"
+  },
+  {
+    "name": "AiBA Conference 2026",
+    "city": "Katowice",
+    "date": "21–22 października 2026",
+    "type": "konferencja",
+    "free": false,
+    "url": "https://aibaconference.com/"
+  },
+  {
+    "name": "AI HR Forum 2026",
+    "city": "Warszawa",
+    "date": "24–25 marca 2026",
+    "type": "konferencja",
+    "free": false,
+    "url": "https://aihrforum.pl/"
+  },
+  {
+    "name": "4Developers 2026",
+    "city": "Warszawa",
+    "date": "22 kwietnia 2026",
+    "type": "konferencja",
+    "free": false,
+    "url": "https://4developers.org.pl/4developers-2026-warszawa/"
+  },
+  {
+    "name": "AI Tinkerers Poland",
+    "city": "Warszawa",
+    "date": "Cyklicznie",
+    "type": "meetup",
+    "free": true,
+    "url": "https://poland.aitinkerers.org/"
+  },
+  {
+    "name": "Warsaw.AI",
+    "city": "Warszawa",
+    "date": "Co kilka tygodni",
+    "type": "meetup",
+    "free": true,
+    "url": "https://warsaw.ai/"
+  },
+  {
+    "name": "Mindstone Warsaw AI Community",
+    "city": "Warszawa",
+    "date": "Raz w miesiącu",
+    "type": "meetup",
+    "free": true,
+    "url": "https://www.meetup.com/mindstone-warsaw-ai-community/"
+  },
+  {
+    "name": "Machine Learning Warsaw",
+    "city": "Warszawa",
+    "date": "Cyklicznie",
+    "type": "meetup",
+    "free": true,
+    "url": "https://www.meetup.com/Machine-Learning-Warsaw/"
+  },
+  {
+    "name": "LLMday Warsaw",
+    "city": "Warszawa",
+    "date": "Kwartalnie",
+    "type": "meetup",
+    "free": false,
+    "url": "https://llmday.com/2026-warsaw-q1/"
+  },
+  {
+    "name": "Build With AI (GDG Kraków)",
+    "city": "Kraków",
+    "date": "Cyklicznie",
+    "type": "meetup",
+    "free": true,
+    "url": "https://www.meetup.com/gdg-krakow/"
+  },
+  {
+    "name": "Kraków AI Meetup",
+    "city": "Kraków",
+    "date": "Cyklicznie",
+    "type": "meetup",
+    "free": true,
+    "url": "https://www.meetup.com/krakow-technology-society-meetup-group/"
+  },
+  {
+    "name": "GenAI Cracow",
+    "city": "Kraków",
+    "date": "Cyklicznie",
+    "type": "meetup",
+    "free": true,
+    "url": "https://luma.com/genai-cracow"
+  },
+  {
+    "name": "WAIT Wrocław AI Team",
+    "city": "Wrocław",
+    "date": "Cyklicznie",
+    "type": "meetup",
+    "free": true,
+    "url": "https://www.meetup.com/wroclaw-r-users-group/"
+  },
+  {
+    "name": "Data Science & ML Wrocław",
+    "city": "Wrocław",
+    "date": "Cyklicznie",
+    "type": "meetup",
+    "free": true,
+    "url": "https://www.meetup.com/data-science-wroclaw/"
+  },
+  {
+    "name": "Artificial Intelligence Poznań",
+    "city": "Poznań",
+    "date": "Cyklicznie",
+    "type": "meetup",
+    "free": true,
+    "url": "https://www.meetup.com/Artificial-Intelligence-Poznan/"
+  },
+  {
+    "name": "Porozmawiajmy o AI",
+    "city": "Poznań",
+    "date": "Cyklicznie",
+    "type": "meetup",
+    "free": true,
+    "url": "https://www.meetup.com/porozmawiajmy-o-ai/"
+  },
+  {
+    "name": "Infoshare AI Poznań",
+    "city": "Poznań",
+    "date": "Cyklicznie",
+    "type": "meetup",
+    "free": true,
+    "url": "https://infoshare.pl/ai/poznan/"
+  },
+  {
+    "name": "Data Community Trójmiasto",
+    "city": "Gdańsk",
+    "date": "Cyklicznie",
+    "type": "meetup",
+    "free": true,
+    "url": "https://www.meetup.com/data-community-trojmiasto/"
+  },
+  {
+    "name": "AI Jam Łódź",
+    "city": "Łódź",
+    "date": "Cyklicznie",
+    "type": "meetup",
+    "free": true,
+    "url": "https://aijam.pl"
+  },
+  {
+    "name": "#AIUPMEETING",
+    "city": "Toruń",
+    "date": "Co kilka tygodni",
+    "type": "meetup",
+    "free": true,
+    "url": "https://www.linkedin.com/in/szymonjankowskicom"
+  },
+  {
+    "name": "Śniadania z AI (Sektor 3.0)",
+    "city": "Warszawa",
+    "date": "Co miesiąc",
+    "type": "sniadanie",
+    "free": true,
+    "url": "https://sektor3-0.pl/aktualnosci/sniadania-z-ai-nowy-cykl-spotkan-startuje-3-grudnia/"
+  },
+  {
+    "name": "Łódzkie Śniadania AI",
+    "city": "Łódź",
+    "date": "Co 3 tygodnie",
+    "type": "sniadanie",
+    "free": false,
+    "url": "https://crossweb.pl/wydarzenia/lodzkie-sniadania-ai-6/"
+  },
+  {
+    "name": "Śniadanie AI Śląsk",
+    "city": "Katowice",
+    "date": "Co kilka tygodni",
+    "type": "sniadanie",
+    "free": true,
+    "url": "https://lu.ma/bji62l1l"
+  },
+  {
+    "name": "Śniadania z PLLuM (NASK)",
+    "city": "Warszawa",
+    "date": "Cyklicznie",
+    "type": "sniadanie",
+    "free": true,
+    "url": "https://www.nask.pl/aktualnosci/ruszaja-sniadania-z-pllum-poznaj-polskie-ai"
+  },
+  {
+    "name": "Wait AI Meetup: AI & Law",
+    "city": "Wrocław",
+    "date": "Q1 2026 (data TBD)",
+    "type": "meetup",
+    "free": true,
+    "url": "https://www.meetup.com/wait-wroclaw-ai-team"
+  },
+  {
+    "name": "MIT Universal AI Summit 2026",
+    "city": "Warszawa",
+    "date": "23–24 marca 2026",
+    "type": "konferencja",
+    "free": false,
+    "url": "https://uaisummit.mit.edu/"
+  },
+  {
+    "name": "Masters & Robots 2026",
+    "city": "Warszawa",
+    "date": "n/d",
+    "type": "konferencja",
+    "free": false,
+    "url": "https://mastersandrobots.tech/"
+  },
+  {
+    "name": "HackYeah 2026",
+    "city": "Kraków",
+    "date": "3–4 października 2026",
+    "type": "konferencja",
+    "free": false,
+    "url": "https://hackyeah.pl/"
+  },
+  {
+    "name": "AI Legal Change Summit 2026",
+    "city": "Warszawa",
+    "date": "n/d",
+    "type": "konferencja",
+    "free": false,
+    "url": "https://www.wolterskluwer.com/pl-pl/solutions/lex/expert-ai/konferencja-ai-legal-change-summit"
+  },
+  {
+    "name": "Agent Pageant: Agentic Automation Hackathon",
+    "city": "Warszawa",
+    "date": "19 marca 2026",
+    "type": "konferencja",
+    "free": true,
+    "url": "https://crossweb.pl"
+  },
+  {
+    "name": "Webinar KIG: AI w pracy MŚP — od podstaw do zastosowań",
+    "city": "Online",
+    "date": "23 marca 2026",
+    "type": "konferencja",
+    "free": true,
+    "url": "https://kig.pl"
+  },
+  {
+    "name": "I Love Marketing & Technology 2026 (XXI edycja)",
+    "city": "Warszawa",
+    "date": "21–23 kwietnia 2026",
+    "type": "konferencja",
+    "free": false,
+    "url": "https://sprawnymarketing.pl/konferencja/warszawa/?utm_source=aiprzewodnik&utm_medium=post&utm_campaign=ilovemkt-04-26"
+  },
+  {
+    "name": "Automation Week 2026",
+    "city": "Online",
+    "date": "2026 (data TBC)",
+    "type": "konferencja",
+    "free": false,
+    "url": "https://crossweb.pl"
+  },
+  {
+    "name": "AIMed 2026 — AI in Medicine",
+    "city": "Kraków",
+    "date": "7–9 maja 2026",
+    "type": "konferencja",
+    "free": false,
+    "url": "https://neuroscience.cam.ac.uk/event-posts/artificial-intelligence-in-medicine-aimed-conference-in-krakow-poland-on-7-9-may-2026-call-for-abstracts-open-till-1st-march/"
+  },
+  {
+    "name": "Sztuczna Inteligencja Łódź",
+    "city": "Łódź",
+    "date": "Cyklicznie",
+    "type": "meetup",
+    "free": true,
+    "url": "https://www.meetup.com/sztuczna-inteligencja-lodz/"
+  },
+  {
+    "name": "Legal Hackathon 2026",
+    "city": "Warszawa",
+    "date": "n/d",
+    "type": "konferencja",
+    "free": false,
+    "url": "https://www.wolterskluwer.com/pl-pl/solutions/legal-hackathon"
+  },
+  {
+    "name": "Warsaw.AI Hackathon",
+    "city": "Warszawa",
+    "date": "n/d",
+    "type": "konferencja",
+    "free": false,
+    "url": "https://hackathon.warsaw.ai/"
+  },
+  {
+    "name": "AI Future Forum 2026",
+    "city": "Online",
+    "date": "n/d",
+    "type": "konferencja",
+    "free": false,
+    "url": "https://aifuturepoland.com/forum-2026/"
+  },
+  {
+    "name": "PyData Warsaw",
+    "city": "Warszawa",
+    "date": "Cyklicznie",
+    "type": "meetup",
+    "free": true,
+    "url": "https://www.meetup.com/pl-pl/pydata-warsaw/"
+  },
+  {
+    "name": "Future Meetup Kraków",
+    "city": "Kraków",
+    "date": "Cyklicznie",
+    "type": "meetup",
+    "free": true,
+    "url": "https://www.meetup.com/pl-pl/future-meetup/"
+  },
+  {
+    "name": "AI Industry Expo 2026",
+    "city": "Polska",
+    "date": "n/d",
+    "type": "konferencja",
+    "free": false,
+    "url": "https://aiindustryexpo.com/en/"
+  },
+  {
+    "name": "Copernicus Festival 2026",
+    "city": "Kraków",
+    "date": "19–24 maja 2026",
+    "type": "konferencja",
+    "free": false,
+    "url": "https://copernicusfestival.com/edycje/2026/"
+  },
+  {
+    "name": "Devoxx Poland 2026",
+    "city": "Kraków",
+    "date": "17–19 czerwca 2026",
+    "type": "konferencja",
+    "free": false,
+    "url": "https://devoxx.pl/"
+  },
+  {
+    "name": "Vibe Coding (Porozmawiajmy o AI)",
+    "city": "Poznań",
+    "date": "23 kwietnia 2026",
+    "type": "meetup",
+    "free": true,
+    "url": "https://www.meetup.com/porozmawiajmy-o-ai/events/313745224/"
+  },
+  {
+    "name": "Mindstone Warsaw May AI Meetup",
+    "city": "Warszawa",
+    "date": "6 maja 2026",
+    "type": "meetup",
+    "free": true,
+    "url": "https://www.meetup.com/mindstone-warsaw-ai-community/events/313831621/"
+  },
+  {
+    "name": "AI-Powered Payments (GDG Cloud Bydgoszcz)",
+    "city": "Bydgoszcz",
+    "date": "20 maja 2026",
+    "type": "meetup",
+    "free": true,
+    "url": "https://www.meetup.com/gdg-bydgoscz/events/313830962/"
+  },
+  {
+    "name": "Data on Campus #4",
+    "city": "Poznań",
+    "date": "23 maja 2026",
+    "type": "konferencja",
+    "free": true,
+    "url": "https://www.meetup.com/poznanski-horyzont-danych/events/312536394/"
+  },
+  {
+    "name": "Beyond Tech Meetup: Agenci AI",
+    "city": "Warszawa",
+    "date": "9 kwietnia 2026",
+    "type": "meetup",
+    "free": true,
+    "url": "https://crossweb.pl/en/events/aiml/"
+  },
+  {
+    "name": "Eliminating AI Blind Spots & Enterprise LLM Ops",
+    "city": "Online",
+    "date": "9 kwietnia 2026",
+    "type": "meetup",
+    "free": true,
+    "url": "https://crossweb.pl/en/events/aiml/"
+  },
+  {
+    "name": "AWS Summit Warsaw 2026",
+    "city": "Online",
+    "date": "6 maja 2026",
+    "type": "konferencja",
+    "free": true,
+    "url": "https://crossweb.pl/en/events/aiml/"
+  },
+  {
+    "name": "Puzzle Kompetencji 2026: AI Flow",
+    "city": "Online",
+    "date": "6 maja 2026",
+    "type": "meetup",
+    "free": true,
+    "url": "https://crossweb.pl/en/events/aiml/"
+  },
+  {
+    "name": "Azure Congress 2026",
+    "city": "Warszawa",
+    "date": "13 maja 2026",
+    "type": "konferencja",
+    "free": true,
+    "url": "https://crossweb.pl/en/events/aiml/"
+  },
+  {
+    "name": "Puzzle Kompetencji 2026: AI Agent",
+    "city": "Online",
+    "date": "3 czerwca 2026",
+    "type": "meetup",
+    "free": true,
+    "url": "https://crossweb.pl/en/events/aiml/"
+  },
+  {
+    "name": "AI & MEDTECH CEE 2026",
+    "city": "Warszawa",
+    "date": "9 czerwca 2026",
+    "type": "konferencja",
+    "free": true,
+    "url": "https://www.prawo.pl/zdrowie/konferencja-ai-medtech-cee-2026,1541799.html"
+  },
+  {
+    "name": "MS Tech Summit 2026",
+    "city": "Warszawa",
+    "date": "15–16 czerwca 2026",
+    "type": "konferencja",
+    "free": false,
+    "url": "https://crossweb.pl/en/events/aiml/"
+  },
+  {
+    "name": "Health AI & CyberSec Summit 2026",
+    "city": "Warszawa",
+    "date": "16 czerwca 2026",
+    "type": "konferencja",
+    "free": false,
+    "url": "https://crossweb.pl/en/events/aiml/"
+  },
+  {
+    "name": "Śniadania AI Warszawa #46",
+    "city": "Warszawa",
+    "date": "28 kwietnia 2026",
+    "type": "sniadanie",
+    "free": false,
+    "url": "https://crossweb.pl/en/events/sniadania-ai-warszawa-46/"
+  },
+  {
+    "name": "Pytech Summit 2026 Spring Edition",
+    "city": "Online",
+    "date": "21 maja 2026",
+    "type": "konferencja",
+    "free": true,
+    "url": "https://crossweb.pl/en/events/pytech-summit-2026-online-spring-edition/"
+  },
+  {
+    "name": "AI Unlimited. Anti-Gödelian arguments",
+    "city": "Kraków",
+    "date": "28 maja 2026",
+    "type": "meetup",
+    "free": true,
+    "url": "https://crossweb.pl/en/events/ai-unlimited-anti-g-delian-arguments-maj-2026/"
+  },
+  {
+    "name": "Roo Code Poland #2",
+    "city": "Kraków",
+    "date": "20 kwietnia 2026",
+    "type": "meetup",
+    "free": true,
+    "url": "https://crossweb.pl/en/events/roo-code-poland-2/"
+  },
+  {
+    "name": "EDU: AI & Machine Learning in IT Audit",
+    "city": "Online",
+    "date": "21 kwietnia 2026",
+    "type": "meetup",
+    "free": true,
+    "url": "https://crossweb.pl/en/events/edu-1-ai-machine-learning-in-it-audit-2-synchronizacja-czasu-niedoceniany-wektor-ataku/"
+  },
+  {
+    "name": "Vibe-modeling: Power BI z agentem AI",
+    "city": "Online",
+    "date": "23 kwietnia 2026",
+    "type": "meetup",
+    "free": false,
+    "url": "https://crossweb.pl/en/events/vibe-modeling-model-danych-power-bi-z-uzyciem-agenta-ai-kwiecien-2026/"
+  },
+  {
+    "name": "Puzzle Kompetencji 2026: AI Expert",
+    "city": "Online",
+    "date": "29 kwietnia 2026",
+    "type": "meetup",
+    "free": true,
+    "url": "https://crossweb.pl/en/events/puzzle-kompetencji-2026-ai-expert/"
+  },
+  {
+    "name": "SQL Server z agentem AI",
+    "city": "Online",
+    "date": "19 maja 2026",
+    "type": "meetup",
+    "free": false,
+    "url": "https://crossweb.pl/en/events/sql-server-z-agentem-ai-maj-2026/"
+  },
+  {
+    "name": "Europejski Kongres Gospodarczy 2026",
+    "city": "Katowice",
+    "date": "22 kwietnia 2026",
+    "type": "konferencja",
+    "free": false,
+    "url": "https://www.eecpoland.eu/2026/en/"
+  },
+  {
+    "name": "AI Tinkerers Poland — Meetup Poznań #1",
+    "city": "Poznań",
+    "date": "22 kwietnia 2026",
+    "type": "meetup",
+    "free": true,
+    "url": "https://poland.aitinkerers.org/"
+  },
+  {
+    "name": "Warsaw AI Hackathon",
+    "city": "Warszawa",
+    "date": "5 maja 2026",
+    "type": "meetup",
+    "free": true,
+    "url": "https://challengerocket.com/warsaw-artificial-intelligence-hackathon-google-campus-warsaw"
+  },
+  {
+    "name": "Build With AI #4: Production-Ready AI Agents",
+    "city": "Kraków",
+    "date": "21 kwietnia 2026",
+    "type": "meetup",
+    "free": true,
+    "url": "https://www.meetup.com/GDG-Krakow/events/314178939/"
+  },
+  {
+    "name": "PyData Trójmiasto #42",
+    "city": "Gdynia",
+    "date": "22 kwietnia 2026",
+    "type": "meetup",
+    "free": true,
+    "url": "https://www.meetup.com/PyData-Trojmiasto/events/314161432/"
+  },
+  {
+    "name": "SQLDay 2026",
+    "city": "Wrocław",
+    "date": "11–13 maja 2026",
+    "type": "konferencja",
+    "free": false,
+    "url": "https://sqlday.pl/"
+  },
+  {
+    "name": "IDEASHACK 2026",
+    "city": "Online",
+    "date": "24 kwietnia – 8 maja 2026",
+    "type": "konferencja",
+    "free": true,
+    "url": "https://itwiz.pl/ideashack-2026-hackathon-ktory-laczy-nauke-biznes-i-kapital-rejestracja-tylko-do-19-kwietnia/"
+  },
+  {
+    "name": "AI Spring 2026 (SGH AI Lab)",
+    "city": "Online",
+    "date": "6 maja 2026",
+    "type": "konferencja",
+    "free": true,
+    "url": "https://ailab.sgh.waw.pl/pl/nasza-dzialalnosc/konferencje-i-wydarzenia/konferencja-ai-spring"
+  },
+  {
+    "name": "Webinar PIK: Jak skutecznie korzystać z AI?",
+    "city": "Online",
+    "date": "28 kwietnia 2026",
+    "type": "meetup",
+    "free": true,
+    "url": "https://pik.org.pl/2026/04/15/jak-skutecznie-i-bezpiecznie-korzystac-z-ai-webinar-dla-czlonkow-pik/"
+  }
 ]
