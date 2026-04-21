@@ -1681,5 +1681,13 @@
     "url": "https://aininjas.pl/warsztat/",
     "price": "bezpłatny",
     "format": "Online"
+  },
+  {
+    "name": "Szkolenia AI i kompetencje cyfrowe dla firm",
+    "cat": "biznes",
+    "desc": "Szkolenia zamknięte i otwarte AI dla firm. Dostosowane do poziomu uczestników, z naciskiem na mierzalne efekty. Warsztaty praktyczne z kompetencji cyfrowych i narzędzi AI.",
+    "url": "https://www.polskaszkola.ai/",
+    "price": "",
+    "format": ""
   }
 ]

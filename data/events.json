@@ -64,14 +64,6 @@
     "url": "https://pp-rai.pl/"
   },
   {
-    "name": "VIBE CONF 2026",
-    "city": "Gdynia",
-    "date": "20 kwietnia 2026",
-    "type": "konferencja",
-    "free": false,
-    "url": "https://www.vibeconf.pl/"
-  },
-  {
     "name": "Impact CEE 2026",
     "city": "Poznań",
     "date": "13–14 maja 2026",
@@ -742,5 +734,13 @@
     "type": "meetup",
     "free": true,
     "url": "https://pik.org.pl/2026/04/15/jak-skutecznie-i-bezpiecznie-korzystac-z-ai-webinar-dla-czlonkow-pik/"
+  },
+  {
+    "name": "FutureMinds: AI & Robotics",
+    "city": "Kraków",
+    "date": "24–25 kwietnia 2026",
+    "type": "konferencja",
+    "free": false,
+    "url": "https://wieik.pk.edu.pl/aktualnosci/futureminds-ai-robotics-juz-24-25-kwietnia-2026/"
   }
 ]
