@@ -624,22 +624,6 @@
     "url": "https://crossweb.pl/en/events/ai-unlimited-anti-g-delian-arguments-maj-2026/"
   },
   {
-    "name": "Roo Code Poland #2",
-    "city": "Kraków",
-    "date": "20 kwietnia 2026",
-    "type": "meetup",
-    "free": true,
-    "url": "https://crossweb.pl/en/events/roo-code-poland-2/"
-  },
-  {
-    "name": "EDU: AI & Machine Learning in IT Audit",
-    "city": "Online",
-    "date": "21 kwietnia 2026",
-    "type": "meetup",
-    "free": true,
-    "url": "https://crossweb.pl/en/events/edu-1-ai-machine-learning-in-it-audit-2-synchronizacja-czasu-niedoceniany-wektor-ataku/"
-  },
-  {
     "name": "Vibe-modeling: Power BI z agentem AI",
     "city": "Online",
     "date": "23 kwietnia 2026",
@@ -686,14 +670,6 @@
     "type": "meetup",
     "free": true,
     "url": "https://challengerocket.com/warsaw-artificial-intelligence-hackathon-google-campus-warsaw"
-  },
-  {
-    "name": "Build With AI #4: Production-Ready AI Agents",
-    "city": "Kraków",
-    "date": "21 kwietnia 2026",
-    "type": "meetup",
-    "free": true,
-    "url": "https://www.meetup.com/GDG-Krakow/events/314178939/"
   },
   {
     "name": "PyData Trójmiasto #42",
