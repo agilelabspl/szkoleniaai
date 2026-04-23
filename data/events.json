@@ -48,22 +48,6 @@
     "url": "https://aiindustryexpo.com/en/"
   },
   {
-    "name": "Data & AI Warsaw Tech Summit",
-    "city": "Warszawa",
-    "date": "21–22 kwietnia 2026",
-    "type": "konferencja",
-    "free": false,
-    "url": "https://dataiwarsaw.tech/"
-  },
-  {
-    "name": "PP-RAI 2026",
-    "city": "Kraków",
-    "date": "20–22 kwietnia 2026",
-    "type": "konferencja",
-    "free": false,
-    "url": "https://pp-rai.pl/"
-  },
-  {
     "name": "Impact CEE 2026",
     "city": "Poznań",
     "date": "13–14 maja 2026",
@@ -174,14 +158,6 @@
     "type": "konferencja",
     "free": false,
     "url": "https://aihrforum.pl/"
-  },
-  {
-    "name": "4Developers 2026",
-    "city": "Warszawa",
-    "date": "22 kwietnia 2026",
-    "type": "konferencja",
-    "free": false,
-    "url": "https://4developers.org.pl/4developers-2026-warszawa/"
   },
   {
     "name": "AI Tinkerers Poland",
@@ -648,36 +624,12 @@
     "url": "https://crossweb.pl/en/events/sql-server-z-agentem-ai-maj-2026/"
   },
   {
-    "name": "Europejski Kongres Gospodarczy 2026",
-    "city": "Katowice",
-    "date": "22 kwietnia 2026",
-    "type": "konferencja",
-    "free": false,
-    "url": "https://www.eecpoland.eu/2026/en/"
-  },
-  {
-    "name": "AI Tinkerers Poland — Meetup Poznań #1",
-    "city": "Poznań",
-    "date": "22 kwietnia 2026",
-    "type": "meetup",
-    "free": true,
-    "url": "https://poland.aitinkerers.org/"
-  },
-  {
     "name": "Warsaw AI Hackathon",
     "city": "Warszawa",
     "date": "5 maja 2026",
     "type": "meetup",
     "free": true,
     "url": "https://challengerocket.com/warsaw-artificial-intelligence-hackathon-google-campus-warsaw"
-  },
-  {
-    "name": "PyData Trójmiasto #42",
-    "city": "Gdynia",
-    "date": "22 kwietnia 2026",
-    "type": "meetup",
-    "free": true,
-    "url": "https://www.meetup.com/PyData-Trojmiasto/events/314161432/"
   },
   {
     "name": "SQLDay 2026",
@@ -718,5 +670,21 @@
     "type": "konferencja",
     "free": false,
     "url": "https://wieik.pk.edu.pl/aktualnosci/futureminds-ai-robotics-juz-24-25-kwietnia-2026/"
+  },
+  {
+    "name": "AI Anonymous Warszawa",
+    "city": "Warszawa",
+    "date": "23 kwietnia 2026",
+    "type": "meetup",
+    "free": true,
+    "url": "https://crossweb.pl/en/"
+  },
+  {
+    "name": "Beyond Tech Meetup: Jak Agenci AI przejmują stery",
+    "city": "Warszawa",
+    "date": "kwiecień 2026",
+    "type": "meetup",
+    "free": true,
+    "url": "https://crossweb.pl/wydarzenia/beyond-tech-meetup-jak-agenci-ai-przejmuja-stery-w-organizacjach-kwiecien-2026/"
   }
 ]
