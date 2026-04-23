@@ -1689,5 +1689,13 @@
     "url": "https://www.polskaszkola.ai/",
     "price": "",
     "format": ""
+  },
+  {
+    "name": "Kurs AI: Sztuczna Inteligencja w Biznesie i Marketingu",
+    "cat": "biznes",
+    "desc": "Praktyczny kurs wideo o AI w marketingu i biznesie: prompt engineering, generowanie treści i grafik (ChatGPT, Midjourney, Canva AI), personalizacja kampanii (Google Ads, Facebook Ads). 9 modułów, dostęp 24/7.",
+    "url": "https://kursyszkolenia.online/kurs-ai/",
+    "price": "699",
+    "format": "Nagranie"
   }
 ]
