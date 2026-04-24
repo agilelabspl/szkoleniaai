@@ -472,14 +472,6 @@
     "url": "https://devoxx.pl/"
   },
   {
-    "name": "Vibe Coding (Porozmawiajmy o AI)",
-    "city": "Poznań",
-    "date": "23 kwietnia 2026",
-    "type": "meetup",
-    "free": true,
-    "url": "https://www.meetup.com/porozmawiajmy-o-ai/events/313745224/"
-  },
-  {
     "name": "Mindstone Warsaw May AI Meetup",
     "city": "Warszawa",
     "date": "6 maja 2026",
@@ -521,11 +513,11 @@
   },
   {
     "name": "AWS Summit Warsaw 2026",
-    "city": "Online",
+    "city": "Warszawa",
     "date": "6 maja 2026",
     "type": "konferencja",
     "free": true,
-    "url": "https://crossweb.pl/en/events/aiml/"
+    "url": "https://aws.amazon.com/events/summits/warsaw/"
   },
   {
     "name": "Puzzle Kompetencji 2026: AI Flow",
@@ -600,14 +592,6 @@
     "url": "https://crossweb.pl/en/events/ai-unlimited-anti-g-delian-arguments-maj-2026/"
   },
   {
-    "name": "Vibe-modeling: Power BI z agentem AI",
-    "city": "Online",
-    "date": "23 kwietnia 2026",
-    "type": "meetup",
-    "free": false,
-    "url": "https://crossweb.pl/en/events/vibe-modeling-model-danych-power-bi-z-uzyciem-agenta-ai-kwiecien-2026/"
-  },
-  {
     "name": "Puzzle Kompetencji 2026: AI Expert",
     "city": "Online",
     "date": "29 kwietnia 2026",
@@ -670,14 +654,6 @@
     "type": "konferencja",
     "free": false,
     "url": "https://wieik.pk.edu.pl/aktualnosci/futureminds-ai-robotics-juz-24-25-kwietnia-2026/"
-  },
-  {
-    "name": "AI Anonymous Warszawa",
-    "city": "Warszawa",
-    "date": "23 kwietnia 2026",
-    "type": "meetup",
-    "free": true,
-    "url": "https://crossweb.pl/en/"
   },
   {
     "name": "Beyond Tech Meetup: Jak Agenci AI przejmują stery",

@@ -1697,5 +1697,13 @@
     "url": "https://kursyszkolenia.online/kurs-ai/",
     "price": "699",
     "format": "Nagranie"
+  },
+  {
+    "name": "Akademia AI360 (5 modułów)",
+    "cat": "ogolne",
+    "desc": "5-modułowy program executive AI w formule stacjonarnej w Warszawie. Moduły: AI Fundamentals, AI Asystenci i Agenci, AI Vibe Coding, AI w Project Management i Negocjacjach.",
+    "url": "https://www.kozminski.edu.pl/pl/oferta-edukacyjna/kursy-i-szkolenia/ai-fundamentals-quick-wins-modul-i-akademii-ai360",
+    "price": "n/d",
+    "format": "Stacjonarnie"
   }
 ]
