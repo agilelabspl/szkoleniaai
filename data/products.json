@@ -35,5 +35,10 @@
 {"name":"Szkoła Przyszłości z AI","desc":"Platforma edukacyjna łącząca nauczanie z AI. Nowoczesna edukacja dla szkół i nauczycieli.","tag":"Edukacja","url":"https://szkolaprzyszlosciai.pl/pl"},
 {"name":"Parceel","desc":"Analizuj działki z AI. Sztuczna inteligencja sprawdzi potencjał nieruchomości gruntowej.","tag":"Biznes","url":"https://parceel.pl/"},
 {"name":"Dr Strona","desc":"Automatyczna diagnoza zdrowia strony: SEO, szybkość, AI Ready, indeksowanie, struktura, RODO.","tag":"IT","url":"https://drstrona.pl"},
-{"name":"Levelly.ai","desc":"Platforma AI do analizy luk płacowych z podziałem na płeć, narodowość i inne kryteria. Zgodność z unijną dyrektywą o transparentności wynagrodzeń.","tag":"HR","url":"https://start.levelly.ai/"}
+{"name":"Levelly.ai","desc":"Platforma AI do analizy luk płacowych z podziałem na płeć, narodowość i inne kryteria. Zgodność z unijną dyrektywą o transparentności wynagrodzeń.","tag":"HR","url":"https://start.levelly.ai/"},
+{"name":"Calendesk","desc":"Wygodne zarządzanie kalendarzem spotkań online dla profesjonalistów. Ponad 1 milion obsłużonych rezerwacji.","tag":"Biznes","url":"https://calendesk.com/pl"},
+{"name":"Lumeo","desc":"Praktyczne opracowanie książek biznesowych i poradnikowych. Dostajesz wiedzę, oszczędzasz czas.","tag":"Edukacja","url":"https://lumeo.pl/"},
+{"name":"Serynna","desc":"Aplikacja dla par. Codzienne pytania i rozmowy rozwijają relację.","tag":"Zdrowie","url":"https://www.serynna.pl/"},
+{"name":"Meavio","desc":"Wszystkie przepisy w jednym miejscu. Plan posiłków i lista potrzebnych zakupów.","tag":"Produktywność","url":"https://meavio.com/"},
+{"name":"QR-Cars","desc":"Cyfrowa książka serwisowa samochodu. Pełna historia napraw od mechanika z przypomnieniami o serwisie.","tag":"Produktywność","url":"https://qr-cars.pl/"}
 ]
