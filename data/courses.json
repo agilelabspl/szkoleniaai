@@ -1705,5 +1705,13 @@
     "url": "https://www.kozminski.edu.pl/pl/oferta-edukacyjna/kursy-i-szkolenia/ai-fundamentals-quick-wins-modul-i-akademii-ai360",
     "price": "n/d",
     "format": "Stacjonarnie"
+  },
+  {
+    "name": "Agenci AI no-code",
+    "cat": "automatyzacja",
+    "desc": "Warsztat budowania agentów AI bez kodowania dla użytkowników biznesowych. Projektowanie autonomicznych procesów bez znajomości programowania.",
+    "url": "https://academy.asseco.pl/szkolenie/agenci-ai-no-code/",
+    "price": "n/d",
+    "format": "Warsztat"
   }
 ]
