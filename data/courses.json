@@ -1713,5 +1713,29 @@
     "url": "https://academy.asseco.pl/szkolenie/agenci-ai-no-code/",
     "price": "n/d",
     "format": "Warsztat"
+  },
+  {
+    "name": "Inżynieria wymagań w AI",
+    "cat": "biznes",
+    "desc": "1-dniowy kurs online (8h). Automatyczne generowanie dokumentów wymagań z narzędziami Notion AI i Aqua Cloud. Integracja z Jira.",
+    "url": "https://www.sages.pl/szkolenia/inzynieria-wymagan-w-ai",
+    "price": "1350 netto",
+    "format": "Online"
+  },
+  {
+    "name": "Prompt Engineering (Sages)",
+    "cat": "ogolne",
+    "desc": "Techniki tworzenia efektywnych promptów dla modeli językowych. Zastosowania w automatyzacji procesów biznesowych i pracy z AI.",
+    "url": "https://www.sages.pl/szkolenia/prompt-engineering",
+    "price": "n/d",
+    "format": "Online"
+  },
+  {
+    "name": "Testing with Generative AI (CT-GenAI)",
+    "cat": "programisci",
+    "desc": "Certyfikacyjny kurs testowania z generatywną AI (ISTQB CT-GenAI). Metodyki testowania, ryzyka i narzędzia AI dla testerów oprogramowania.",
+    "url": "https://sii.pl/szkolenia/oferta/testing-with-generative-ai-ct-genai-online-21-09-2026-22-09-2026/",
+    "price": "n/d",
+    "format": "Online · live"
   }
 ]

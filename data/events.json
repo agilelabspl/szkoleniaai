@@ -640,19 +640,27 @@
     "url": "https://pik.org.pl/2026/04/15/jak-skutecznie-i-bezpiecznie-korzystac-z-ai-webinar-dla-czlonkow-pik/"
   },
   {
-    "name": "FutureMinds: AI & Robotics",
-    "city": "Kraków",
-    "date": "24–25 kwietnia 2026",
-    "type": "konferencja",
-    "free": false,
-    "url": "https://wieik.pk.edu.pl/aktualnosci/futureminds-ai-robotics-juz-24-25-kwietnia-2026/"
-  },
-  {
     "name": "Beyond Tech Meetup: Jak Agenci AI przejmują stery",
     "city": "Warszawa",
     "date": "kwiecień 2026",
     "type": "meetup",
     "free": true,
     "url": "https://crossweb.pl/wydarzenia/beyond-tech-meetup-jak-agenci-ai-przejmuja-stery-w-organizacjach-kwiecien-2026/"
+  },
+  {
+    "name": "CDO Forum 2026",
+    "city": "Warszawa",
+    "date": "10–11 czerwca 2026",
+    "type": "konferencja",
+    "free": false,
+    "url": "https://cdoforum.pl/"
+  },
+  {
+    "name": "AI Tinkerers Poland & GDG #3 — Meetup in Wrocław",
+    "city": "Wrocław",
+    "date": "6 maja 2026",
+    "type": "meetup",
+    "free": true,
+    "url": "https://gdg.community.dev/events/details/google-gdg-wroclaw-presents-ai-tinkerers-poland-amp-gdg-3-meetup-in-wroclaw/"
   }
 ]
