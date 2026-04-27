@@ -1737,5 +1737,45 @@
     "url": "https://sii.pl/szkolenia/oferta/testing-with-generative-ai-ct-genai-online-21-09-2026-22-09-2026/",
     "price": "n/d",
     "format": "Online · live"
+  },
+  {
+    "name": "Szkolenie Prompt Engineering",
+    "cat": "ogolne",
+    "desc": "Praktyczne szkolenie z prompt engineeringu. Tworzenie efektywnych promptów do ChatGPT, Claude i innych modeli językowych.",
+    "url": "https://www.bonavigator.pl/kurs-szkolenie-prompt-engineering.html",
+    "price": "n/d",
+    "format": "n/d"
+  },
+  {
+    "name": "Podstawy skutecznego promptowania",
+    "cat": "ogolne",
+    "desc": "Praktyczne warsztaty z tworzenia efektywnych promptów dla modeli AI. Dla menedżerów i specjalistów bez wiedzy technicznej.",
+    "url": "https://www.academyofbusiness.pl/techskills/podstawy-skutecznego-promptowania/",
+    "price": "1 550 zł netto",
+    "format": "n/d"
+  },
+  {
+    "name": "GPT Prompt Engineering",
+    "cat": "programisci",
+    "desc": "Zaawansowane techniki prompt engineeringu dla GPT. Kursy anglojęzyczne online, terminy od czerwca 2026.",
+    "url": "https://sii.pl/en/trainings/offer/gpt-prompt-engineering-eur/",
+    "price": "od 383 EUR",
+    "format": "Online · live"
+  },
+  {
+    "name": "ChatGPT i MidJourney",
+    "cat": "grafika",
+    "desc": "Generowanie i wykorzystanie obrazów AI. ChatGPT do tworzenia treści, MidJourney do grafiki. Dla marketerów i grafików.",
+    "url": "https://imperiumszkoleniowe.pl/szkolenie/chatgpt-i-midjourney-generowanie-i-wykorzystanie-ai/",
+    "price": "1 250 zł netto",
+    "format": "n/d"
+  },
+  {
+    "name": "AI Product Bootcamp",
+    "cat": "produkty",
+    "desc": "Warsztaty online dla product managerów. Budowanie produktów z AI, praca z modelami językowymi, tworzenie specyfikacji AI-first.",
+    "url": "https://www.productacademy.pl/c/ai-product-bootcamp",
+    "price": "od 799 zł netto",
+    "format": "Online · warsztaty"
   }
 ]
