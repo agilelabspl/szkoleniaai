@@ -1785,5 +1785,37 @@
     "url": "https://buzzcenter.pl/bezplatny-kurs-skuteczne-promptowanie/",
     "price": "bezpłatny",
     "format": "Online"
+  },
+  {
+    "name": "Bezpieczeństwo systemów AI",
+    "cat": "programisci",
+    "desc": "Szkolenie z bezpieczeństwa rozwiązań opartych na AI. Dostępne dofinansowanie z BUR.",
+    "url": "https://www.sages.pl/szkolenia/bezpieczenstwo-systemow-ai",
+    "price": "2 450 zł netto",
+    "format": "Online · live"
+  },
+  {
+    "name": "AI w utrzymaniu systemów IT",
+    "cat": "programisci",
+    "desc": "Zastosowanie AI do monitoringu, alertowania i automatyzacji IT Ops.",
+    "url": "https://www.sages.pl/szkolenia/ai-w-utrzymaniu-systemow-it",
+    "price": "2 450 zł netto",
+    "format": "Online · live"
+  },
+  {
+    "name": "Agentic Coding z AI — Claude Code i Cline w praktyce",
+    "cat": "programisci",
+    "desc": "Praktyczne programowanie z agentami AI: Claude Code i Cline w realnych projektach deweloperskich.",
+    "url": "https://www.sages.pl/szkolenia/ai-agentic-coding",
+    "price": "2 450 zł netto",
+    "format": "Online · live"
+  },
+  {
+    "name": "AI Toolchain — zestaw narzędzi dla programistów",
+    "cat": "programisci",
+    "desc": "Zestaw narzędzi AI dla programistów: przegląd ekosystemu i integracje w codziennej pracy dewelopera.",
+    "url": "https://www.sages.pl/szkolenia/ai-tools",
+    "price": "2 450 zł netto",
+    "format": "Online · live"
   }
 ]
