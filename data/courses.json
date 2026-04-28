@@ -1777,5 +1777,13 @@
     "url": "https://www.productacademy.pl/c/ai-product-bootcamp",
     "price": "od 799 zł netto",
     "format": "Online · warsztaty"
+  },
+  {
+    "name": "Skuteczne Promptowanie",
+    "cat": "ogolne",
+    "desc": "Bezpłatny kurs e-learningowy o formułowaniu poleceń dla modeli AI. 8 lekcji, case studies, metoda Walta Disneya, bonusowe narzędzie TOP Polecenie.",
+    "url": "https://buzzcenter.pl/bezplatny-kurs-skuteczne-promptowanie/",
+    "price": "bezpłatny",
+    "format": "Online"
   }
 ]
