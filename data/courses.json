@@ -1817,5 +1817,45 @@
     "url": "https://www.sages.pl/szkolenia/ai-tools",
     "price": "2 450 zł netto",
     "format": "Online · live"
+  },
+  {
+    "name": "AI DevOps z Claude, Cline i Terraform — CI/CD w praktyce",
+    "cat": "programisci",
+    "desc": "Szkolenie łączące AI z DevOps: Claude, Cline i Terraform w praktycznych scenariuszach CI/CD dla programistów.",
+    "url": "https://www.sages.pl/szkolenia/ai-devops-cicd",
+    "price": "",
+    "format": ""
+  },
+  {
+    "name": "Spring AI — sztuczna inteligencja w Spring Boot",
+    "cat": "programisci",
+    "desc": "Integracja AI z aplikacjami Spring Boot: LLM, embeddingi, bazy wektorowe, architektura RAG, agenty AI w środowisku Java.",
+    "url": "https://www.sages.pl/szkolenia/spring-ai-praktycznie",
+    "price": "",
+    "format": ""
+  },
+  {
+    "name": "Agentic Coding w Claude Code — podstawy",
+    "cat": "programisci",
+    "desc": "Kurs wprowadzający do tworzenia agentów kodujących z Claude Code.",
+    "url": "https://www.altkomakademia.pl/szkolenia/agentic-coding-w-claude-code-podstawy/",
+    "price": "",
+    "format": ""
+  },
+  {
+    "name": "Generatywne AI w praktyce: od podstaw do zaawansowanych zastosowań",
+    "cat": "ogolne",
+    "desc": "Praktyczny kurs ChatGPT, Dall-E, Gemini, Canva, Copilot dla osób bez wiedzy technicznej.",
+    "url": "https://www.sages.pl/szkolenia/generatywna-ai-basic",
+    "price": "",
+    "format": ""
+  },
+  {
+    "name": "Claude Code: Twój inteligentny asystent programowania (dla nietechnicznych)",
+    "cat": "ogolne",
+    "desc": "Kurs pokazujący możliwości Claude Code jako asystenta programowania dla osób bez wiedzy technicznej.",
+    "url": "https://www.altkomakademia.pl/szkolenia/claude-code-twoj-inteligentny-asystent-programowania-wprowadzenie-dla-nietechnicznych/",
+    "price": "",
+    "format": ""
   }
 ]
