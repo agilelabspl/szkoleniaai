@@ -584,14 +584,6 @@
     "url": "https://crossweb.pl/en/events/ai-unlimited-anti-g-delian-arguments-maj-2026/"
   },
   {
-    "name": "Puzzle Kompetencji 2026: AI Expert",
-    "city": "Online",
-    "date": "29 kwietnia 2026",
-    "type": "meetup",
-    "free": true,
-    "url": "https://crossweb.pl/en/events/puzzle-kompetencji-2026-ai-expert/"
-  },
-  {
     "name": "SQL Server z agentem AI",
     "city": "Online",
     "date": "19 maja 2026",
@@ -662,5 +654,13 @@
     "type": "meetup",
     "free": true,
     "url": "https://gdg.community.dev/events/details/google-gdg-wroclaw-presents-ai-tinkerers-poland-amp-gdg-3-meetup-in-wroclaw/"
+  },
+  {
+    "name": "World of AI & Big Data Expo",
+    "city": "Nadarzyn",
+    "date": "22–24 września 2026",
+    "type": "konferencja",
+    "free": false,
+    "url": "https://www.eventbrite.com/e/world-od-ai-big-data-expo-tickets-1981928533596"
   }
 ]
