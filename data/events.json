@@ -632,14 +632,6 @@
     "url": "https://pik.org.pl/2026/04/15/jak-skutecznie-i-bezpiecznie-korzystac-z-ai-webinar-dla-czlonkow-pik/"
   },
   {
-    "name": "Beyond Tech Meetup: Jak Agenci AI przejmują stery",
-    "city": "Warszawa",
-    "date": "kwiecień 2026",
-    "type": "meetup",
-    "free": true,
-    "url": "https://crossweb.pl/wydarzenia/beyond-tech-meetup-jak-agenci-ai-przejmuja-stery-w-organizacjach-kwiecien-2026/"
-  },
-  {
     "name": "CDO Forum 2026",
     "city": "Warszawa",
     "date": "10–11 czerwca 2026",
@@ -662,5 +654,53 @@
     "type": "konferencja",
     "free": false,
     "url": "https://www.eventbrite.com/e/world-od-ai-big-data-expo-tickets-1981928533596"
+  },
+  {
+    "name": "migawka AI",
+    "city": "Łódź",
+    "date": "6 maja 2026",
+    "type": "meetup",
+    "free": true,
+    "url": "https://luma.com/1ulnrlp4"
+  },
+  {
+    "name": "Pułapki AI w pracy Product Managera",
+    "city": "Poznań",
+    "date": "11 maja 2026",
+    "type": "meetup",
+    "free": true,
+    "url": "https://www.meetup.com/Agile-Poznan/events/314522396/"
+  },
+  {
+    "name": "SecureWay #10 — AI vs CyberSec",
+    "city": "Warszawa",
+    "date": "12 maja 2026",
+    "type": "meetup",
+    "free": false,
+    "url": "https://crossweb.pl/en/events/secureway-10-ai-vs-cybersec/"
+  },
+  {
+    "name": "Gemini CLI — Build with AI (GDG Warszawa)",
+    "city": "Warszawa",
+    "date": "13 maja 2026",
+    "type": "meetup",
+    "free": true,
+    "url": "https://crossweb.pl/en/events/gemini-cli-build-with-ai-google-campus-by-gdg-warszawa-maj-2026/"
+  },
+  {
+    "name": "AI Sync 2026",
+    "city": "Warszawa",
+    "date": "27 maja 2026",
+    "type": "meetup",
+    "free": false,
+    "url": "https://lu.ma/yzofpe3a"
+  },
+  {
+    "name": "Warsztaty Creation of AI Generation",
+    "city": "Kraków",
+    "date": "29–31 maja 2026",
+    "type": "konferencja",
+    "free": true,
+    "url": "https://crossweb.pl/en/events/warsztaty-creation-of-ai-generation-maj-2026/"
   }
 ]

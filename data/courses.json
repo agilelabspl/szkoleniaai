@@ -1857,5 +1857,13 @@
     "url": "https://www.altkomakademia.pl/szkolenia/claude-code-twoj-inteligentny-asystent-programowania-wprowadzenie-dla-nietechnicznych/",
     "price": "",
     "format": ""
+  },
+  {
+    "name": "AI w praktyce — sztuczna inteligencja",
+    "cat": "ogolne",
+    "desc": "Dwudniowe szkolenie praktyczne: podstawy AI i NLP, tworzenie i optymalizacja promptów, zaawansowane techniki AI, automatyzacja procesów biznesowych, zarządzanie projektami AI.",
+    "url": "https://www.jgt.pl/szkolenia,ai-w-praktyce-sik.html",
+    "price": "od 1490 zł netto",
+    "format": "Online · live / Stacjonarnie"
   }
 ]
