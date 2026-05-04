@@ -39,20 +39,21 @@
         "name": "AI Przewodnik",
         "url": "https://aiprzewodnik.pl/"
       },
-      "numberOfItems": 20,
+      "numberOfItems": 21,
       "mainEntity": {
         "@type": "ItemList",
         "itemListElement": [
-          { "@type": "ListItem", "position": 1, "name": "Biznes z AI", "url": "https://www.youtube.com/@agilelabs_scrum_kanban_agile" },
-          { "@type": "ListItem", "position": 2, "name": "Adrian Kilar", "url": "https://www.youtube.com/@mowikamera" },
-          { "@type": "ListItem", "position": 3, "name": "Mateusz Chrobok", "url": "https://www.youtube.com/@mateuszchrobok" },
-          { "@type": "ListItem", "position": 4, "name": "AI Codziennie", "url": "https://www.youtube.com/channel/UCvNy2f3gbaZXn3fm8V_8lAg" },
-          { "@type": "ListItem", "position": 5, "name": "99 Twarzy AI", "url": "https://open.spotify.com/show/69sBB9KRJy2tnCmYByncCm" },
-          { "@type": "ListItem", "position": 6, "name": "NetGonet", "url": "https://www.youtube.com/c/NetGonet" },
-          { "@type": "ListItem", "position": 7, "name": "Opanuj.AI Podcast", "url": "https://open.spotify.com/show/3D6LmchBdoqL2sWkQjvWOy" },
-          { "@type": "ListItem", "position": 8, "name": "Technofobia", "url": "https://open.spotify.com/show/3O6KNYX5sdSxMsKVsYxJXe" },
-          { "@type": "ListItem", "position": 9, "name": "Przeskok", "url": "https://www.youtube.com/@Przeskok" },
-          { "@type": "ListItem", "position": 10, "name": "Detechtive", "url": "https://www.youtube.com/@detechtiveinfo" }
+          { "@type": "ListItem", "position": 1, "name": "aiport.pl", "url": "https://aiport.pl/" },
+          { "@type": "ListItem", "position": 2, "name": "Biznes z AI", "url": "https://www.youtube.com/@agilelabs_scrum_kanban_agile" },
+          { "@type": "ListItem", "position": 3, "name": "Adrian Kilar", "url": "https://www.youtube.com/@mowikamera" },
+          { "@type": "ListItem", "position": 4, "name": "Mateusz Chrobok", "url": "https://www.youtube.com/@mateuszchrobok" },
+          { "@type": "ListItem", "position": 5, "name": "AI Codziennie", "url": "https://www.youtube.com/channel/UCvNy2f3gbaZXn3fm8V_8lAg" },
+          { "@type": "ListItem", "position": 6, "name": "99 Twarzy AI", "url": "https://open.spotify.com/show/69sBB9KRJy2tnCmYByncCm" },
+          { "@type": "ListItem", "position": 7, "name": "NetGonet", "url": "https://www.youtube.com/c/NetGonet" },
+          { "@type": "ListItem", "position": 8, "name": "Opanuj.AI Podcast", "url": "https://open.spotify.com/show/3D6LmchBdoqL2sWkQjvWOy" },
+          { "@type": "ListItem", "position": 9, "name": "Technofobia", "url": "https://open.spotify.com/show/3O6KNYX5sdSxMsKVsYxJXe" },
+          { "@type": "ListItem", "position": 10, "name": "Przeskok", "url": "https://www.youtube.com/@Przeskok" },
+          { "@type": "ListItem", "position": 11, "name": "Detechtive", "url": "https://www.youtube.com/@detechtiveinfo" }
         ]
       }
     }
@@ -230,6 +231,11 @@
         .type-podcast {
             background: #dbeafe;
             color: #2563eb;
+        }
+
+        .type-portal {
+            background: #d1fae5;
+            color: #059669;
         }
 
         .media-card h2 {
@@ -498,8 +504,8 @@
     <main id="main-content">
     <div class="container">
         <header>
-            <h1 class="main-title">Ogl&#261;daj i s&#322;uchaj o <span>AI</span></h1>
-            <p class="subtitle">Polskie podcasty i kanały YouTube o AI.<br>Najnowsze odcinki zawsze aktualne.</p>
+            <h1 class="main-title">Ogl&#261;daj, s&#322;uchaj i czytaj o <span>AI</span></h1>
+            <p class="subtitle">Polskie podcasty, kanały YouTube i portale o AI.<br>Najnowsze odcinki zawsze aktualne.</p>
             <p class="update-date"><strong id="media-count">0</strong> źródeł · odcinki aktualizują się na bieżąco</p>
         </header>
 
@@ -508,6 +514,7 @@
             <button class="filter-btn active" data-filter="all" onclick="filterMedia('all', this)">Wszystko</button>
             <button class="filter-btn" data-filter="youtube" onclick="filterMedia('youtube', this)">YouTube</button>
             <button class="filter-btn" data-filter="podcast" onclick="filterMedia('podcast', this)">Podcasty</button>
+            <button class="filter-btn" data-filter="portal" onclick="filterMedia('portal', this)">Portale</button>
         </div>
 
         <!-- Grid -->
@@ -588,6 +595,13 @@
     <script>
     /* ── Data ── */
     var MEDIA = [
+        /* Portals (text-based AI media) */
+        {
+            type: 'portal', name: 'aiport.pl', author: 'Portal o AI po polsku',
+            desc: 'Codzienne newsy ze \u015bwiata AI, poradniki bran\u017cowe (AI w rekrutacji, e-commerce, logistyce), recenzje narz\u0119dzi (ChatGPT, Claude, n8n, Make) oraz testy i rankingi modeli (Qwen, Mistral, Llama). Praktyczne zastosowania AI w pisaniu, grafice, wideo i marketingu. Felietony i analizy trend\u00f3w dla przedsi\u0119biorc\u00f3w i tw\u00f3rc\u00f3w.',
+            url: 'https://aiport.pl/'
+        },
+
         /* YouTube channels */
         {
             type: 'youtube', name: 'Biznes z AI', author: 'Pawe\u0142 Lewi\u0144ski',
@@ -723,10 +737,23 @@
             card.setAttribute('data-type', m.type);
             card.style.animationDelay = (i * 0.05 + 0.05) + 's';
 
-            var typeClass = m.type === 'youtube' ? 'type-youtube' : 'type-podcast';
-            var typeIcon = m.type === 'youtube' ? '&#9654;' : '&#127908;';
-            var typeLabel = m.type === 'youtube' ? 'YouTube' : 'Podcast';
-            var footerText = m.type === 'youtube' ? 'Oglądaj na YouTube' : 'Słuchaj na Spotify';
+            var typeClass, typeIcon, typeLabel, footerText;
+            if (m.type === 'youtube') {
+                typeClass = 'type-youtube';
+                typeIcon = '&#9654;';
+                typeLabel = 'YouTube';
+                footerText = 'Oglądaj na YouTube';
+            } else if (m.type === 'podcast') {
+                typeClass = 'type-podcast';
+                typeIcon = '&#127908;';
+                typeLabel = 'Podcast';
+                footerText = 'Słuchaj na Spotify';
+            } else if (m.type === 'portal') {
+                typeClass = 'type-portal';
+                typeIcon = '&#128240;';
+                typeLabel = 'Portal';
+                footerText = 'Czytaj na ' + m.name;
+            }
 
             var html = '';
             html += '<div class="media-card-type ' + typeClass + '">' + typeIcon + ' ' + typeLabel + '</div>';
