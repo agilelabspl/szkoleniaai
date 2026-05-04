@@ -1865,5 +1865,21 @@
     "url": "https://www.jgt.pl/szkolenia,ai-w-praktyce-sik.html",
     "price": "od 1490 zł netto",
     "format": "Online · live / Stacjonarnie"
+  },
+  {
+    "name": "AI Service Design Thinking",
+    "cat": "ogolne",
+    "desc": "Kurs online z metodologią Double Diamond. AI jako partner w procesie twórczym. Narzędzia: Mural, Google AI Studio, n8n, ChatGPT, Gemini, Midjourney.",
+    "url": "https://umiemy.com/ai-service-design-thinking-kurs-online-z-dr-iwo-zmyslony-termin-maj-2026/",
+    "price": "",
+    "format": "Online"
+  },
+  {
+    "name": "Kursy AI — AI HUB Poland",
+    "cat": "ogolne",
+    "desc": "Bezpłatne kursy AI na rządowej platformie AI HUB Poland. Poziomy: podstawowy, średniozaawansowany, zaawansowany.",
+    "url": "https://ai.gov.pl/ai-dla-ciebie/szkolenia-ai",
+    "price": "0",
+    "format": "Online"
   }
 ]
