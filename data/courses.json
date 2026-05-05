@@ -1881,5 +1881,13 @@
     "url": "https://ai.gov.pl/ai-dla-ciebie/szkolenia-ai",
     "price": "0",
     "format": "Online"
+  },
+  {
+    "name": "AI dla Lidera",
+    "cat": "biznes",
+    "desc": "Praktyczny program dla liderów IT i project managerów uczący wdrażania AI w codziennym zarządzaniu zespołem: 1:1, feedback, decyzje, rekrutacja.",
+    "url": "https://inspirujacylider.pl/ai-dla-lidera/",
+    "price": "od 497 zł",
+    "format": "Online · live"
   }
 ]
