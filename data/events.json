@@ -702,5 +702,13 @@
     "type": "konferencja",
     "free": true,
     "url": "https://crossweb.pl/en/events/warsztaty-creation-of-ai-generation-maj-2026/"
+  },
+  {
+    "name": "AI Makers Meetup #2",
+    "city": "Kraków",
+    "date": "21 maja 2026",
+    "type": "meetup",
+    "free": true,
+    "url": "https://www.eventbrite.com/e/ai-makers-meetup-2-tickets-1986418464099"
   }
 ]
