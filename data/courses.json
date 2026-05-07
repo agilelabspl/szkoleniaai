@@ -1,5 +1,13 @@
 [
   {
+    "name": "Umiejętności Jutra AI 3.0",
+    "cat": "ogolne",
+    "desc": "3. edycja bezpłatnego programu Google i SGH. 5 tygodni online: ponad 25 godzin wideo, webinary, sesje Q&A. Zakres: produktywność, marketing, sprzedaż, agenci AI w procesach biznesowych. Certyfikat Google + SGH.",
+    "url": "https://www.sgh.waw.pl/wydarzenia/program-szkoleniowy-umiejetnosci-jutra-ai-30-zgloszenia",
+    "price": "0",
+    "format": "Online"
+  },
+  {
     "name": "Kurs: AI w biznesie",
     "cat": "biznes",
     "desc": "Wprowadzenie do AI, rodzaje AI i zastosowania biznesowe, korzyści i ograniczenia wdrażania AI w MŚP, generowanie treści.",
