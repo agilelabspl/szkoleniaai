@@ -1897,5 +1897,13 @@
     "url": "https://inspirujacylider.pl/ai-dla-lidera/",
     "price": "od 497 zł",
     "format": "Online · live"
+  },
+  {
+    "name": "Bezpłatne webinaria: AI dla organizacji wiejskich",
+    "cat": "ogolne",
+    "desc": "Seria bezpłatnych webinarów o praktycznym zastosowaniu AI w codziennej pracy organizacji na obszarach wiejskich. Microsoft Copilot, Designer.",
+    "url": "https://www.kpodr.pl/bezplatne-webinaria-sztuczna-inteligencja-w-pracy-organizacji-na-wsi/",
+    "price": "0",
+    "format": "Online"
   }
 ]
