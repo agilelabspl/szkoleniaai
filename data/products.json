@@ -40,5 +40,10 @@
 {"name":"Lumeo","desc":"Praktyczne opracowanie książek biznesowych i poradnikowych. Dostajesz wiedzę, oszczędzasz czas.","tag":"Edukacja","url":"https://lumeo.pl/"},
 {"name":"Serynna","desc":"Aplikacja dla par. Codzienne pytania i rozmowy rozwijają relację.","tag":"Zdrowie","url":"https://www.serynna.pl/"},
 {"name":"Meavio","desc":"Wszystkie przepisy w jednym miejscu. Plan posiłków i lista potrzebnych zakupów.","tag":"Produktywność","url":"https://meavio.com/"},
-{"name":"QR-Cars","desc":"Cyfrowa książka serwisowa samochodu. Pełna historia napraw od mechanika z przypomnieniami o serwisie.","tag":"Produktywność","url":"https://qr-cars.pl/"}
+{"name":"QR-Cars","desc":"Cyfrowa książka serwisowa samochodu. Pełna historia napraw od mechanika z przypomnieniami o serwisie.","tag":"Produktywność","url":"https://qr-cars.pl/"},
+{"name":"LiquidRules","desc":"Sprawdź, czy na danym lotnisku obowiązuje limit 100 ml, 2 litry, czy zasady zależą od terminala.","tag":"Podróże","url":"https://www.liquidrules.com/"},
+{"name":"Brandiff","desc":"Analiza konkurencji i rekomendacje, co poprawić w ofercie, pricingu i komunikacji, żeby szybciej dogonić rynek.","tag":"Biznes","url":"https://www.brandiff.io/"},
+{"name":"MathEddie","desc":"AI tutor z matematyki, który pomaga uczniom przygotować się do egzaminu ósmoklasisty.","tag":"Edukacja","url":"https://www.tomaszweber.com/"},
+{"name":"StudySong","desc":"Zamienia notatki i nudne materiały do nauki w piosenki w wybranym stylu, żeby łatwiej je zapamiętać.","tag":"Edukacja","url":"https://studysongapp.com/"},
+{"name":"Archipelag Starości","desc":"Inicjatywa wspierająca osoby starsze, które często są samotne i zostają bez wsparcia w codziennych obszarach życia.","tag":"Społeczność","url":"https://vibecoding-championship.vercel.app/"}
 ]
