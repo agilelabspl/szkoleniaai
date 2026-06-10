@@ -2,16 +2,16 @@
    When adding/removing a course, update the number here. Everything else auto-updates. */
 (function() {
     var counts = {
-        "biznes": 32,
-        "produkty": 18,
-        "marketing": 17,
-        "programisci": 20,
-        "automatyzacja": 10,
-        "ogolne": 28,
-        "grafika": 11,
-        "hr": 10,
-        "finanse": 9,
-        "prawo": 9,
+        "biznes": 52,
+        "produkty": 16,
+        "marketing": 19,
+        "programisci": 37,
+        "automatyzacja": 19,
+        "ogolne": 58,
+        "grafika": 12,
+        "hr": 11,
+        "finanse": 13,
+        "prawo": 12,
         "wideo": 5,
         "studia-podyplomowe": 7
     };

@@ -1905,5 +1905,37 @@
     "url": "https://www.kpodr.pl/bezplatne-webinaria-sztuczna-inteligencja-w-pracy-organizacji-na-wsi/",
     "price": "0",
     "format": "Online"
+  },
+  {
+    "name": "AI w pracy i biznesie – poziom ogólny",
+    "cat": "biznes",
+    "desc": "Wprowadzenie do wykorzystania AI w codziennej pracy: promptowanie, praca z plikami, analiza danych, grafika i automatyzacja z użyciem ChatGPT lub Gemini.",
+    "url": "https://jelesnianski.pl/szkolenia-ai/ai-w-pracy-i-biznesie-poziom-ogolny/",
+    "price": "1 500 zł netto",
+    "format": "Online / Stacjonarnie · 2 dni / 16h"
+  },
+  {
+    "name": "AI w pracy i biznesie – poziom zaawansowany",
+    "cat": "biznes",
+    "desc": "Zaawansowane promptowanie i inżynieria kontekstu, analiza danych, własne modele GPT, Deep Research, Agent Mode oraz bezpieczne wdrażanie AI do procesów.",
+    "url": "https://jelesnianski.pl/szkolenia-ai/ai-w-pracy-i-biznesie-poziom-zaawansowany/",
+    "price": "2 000 zł netto",
+    "format": "Online / Stacjonarnie · 2 dni / 16h"
+  },
+  {
+    "name": "Automatyzacja codziennej pracy dzięki AI",
+    "cat": "biznes",
+    "desc": "Automatyzacja zadań i procesów z użyciem AI, Make.com, OpenAI Platform, Agent Builder i agentów AI. Bez wymogu programowania.",
+    "url": "https://jelesnianski.pl/szkolenia-ai/automatyzacja-codziennej-pracy-dzieki-ai/",
+    "price": "2 100 zł netto",
+    "format": "Online / Stacjonarnie · 2 dni / 16h"
+  },
+  {
+    "name": "AI w pracy managera",
+    "cat": "biznes",
+    "desc": "Wykorzystanie AI w pracy managera oraz w zarządzaniu i usprawnianiu pracy zespołu.",
+    "url": "https://jelesnianski.pl/szkolenia-ai/",
+    "price": "",
+    "format": "Online / Stacjonarnie"
   }
 ]
