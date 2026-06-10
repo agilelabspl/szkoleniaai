@@ -40,30 +40,6 @@
     "url": "https://warsawaisummit.com/"
   },
   {
-    "name": "AI Industry Expo 2026",
-    "city": "Nadarzyn",
-    "date": "4–5 marca 2026",
-    "type": "konferencja",
-    "free": false,
-    "url": "https://aiindustryexpo.com/en/"
-  },
-  {
-    "name": "Impact CEE 2026",
-    "city": "Poznań",
-    "date": "13–14 maja 2026",
-    "type": "konferencja",
-    "free": false,
-    "url": "https://impactcee.com/impact/2026/"
-  },
-  {
-    "name": "Infoshare 2026",
-    "city": "Gdańsk",
-    "date": "20–21 maja 2026",
-    "type": "konferencja",
-    "free": false,
-    "url": "https://infoshare.pl/"
-  },
-  {
     "name": "AI Creative Fest 2026",
     "city": "Warszawa",
     "date": "11 czerwca 2026",
@@ -440,44 +416,12 @@
     "url": "https://aiindustryexpo.com/en/"
   },
   {
-    "name": "Copernicus Festival 2026",
-    "city": "Kraków",
-    "date": "19–24 maja 2026",
-    "type": "konferencja",
-    "free": false,
-    "url": "https://copernicusfestival.com/edycje/2026/"
-  },
-  {
     "name": "Devoxx Poland 2026",
     "city": "Kraków",
     "date": "17–19 czerwca 2026",
     "type": "konferencja",
     "free": false,
     "url": "https://devoxx.pl/"
-  },
-  {
-    "name": "AI-Powered Payments (GDG Cloud Bydgoszcz)",
-    "city": "Bydgoszcz",
-    "date": "20 maja 2026",
-    "type": "meetup",
-    "free": true,
-    "url": "https://www.meetup.com/gdg-bydgoscz/events/313830962/"
-  },
-  {
-    "name": "Data on Campus #4",
-    "city": "Poznań",
-    "date": "23 maja 2026",
-    "type": "konferencja",
-    "free": true,
-    "url": "https://www.meetup.com/poznanski-horyzont-danych/events/312536394/"
-  },
-  {
-    "name": "CONFidence 2026",
-    "city": "Kraków",
-    "date": "25–26 maja 2026",
-    "type": "konferencja",
-    "free": false,
-    "url": "https://confidence-conference.org/"
   },
   {
     "name": "Beyond Tech Meetup: Agenci AI",
@@ -494,30 +438,6 @@
     "type": "meetup",
     "free": true,
     "url": "https://crossweb.pl/en/events/aiml/"
-  },
-  {
-    "name": "Azure Congress 2026",
-    "city": "Warszawa",
-    "date": "13 maja 2026",
-    "type": "konferencja",
-    "free": true,
-    "url": "https://crossweb.pl/en/events/aiml/"
-  },
-  {
-    "name": "Puzzle Kompetencji 2026: AI Agent",
-    "city": "Online",
-    "date": "3 czerwca 2026",
-    "type": "meetup",
-    "free": true,
-    "url": "https://crossweb.pl/en/events/aiml/"
-  },
-  {
-    "name": "AI & MEDTECH CEE 2026",
-    "city": "Warszawa",
-    "date": "9 czerwca 2026",
-    "type": "konferencja",
-    "free": true,
-    "url": "https://www.prawo.pl/zdrowie/konferencja-ai-medtech-cee-2026,1541799.html"
   },
   {
     "name": "MS Tech Summit 2026",
@@ -544,38 +464,6 @@
     "url": "https://crossweb.pl/en/events/sniadania-ai-warszawa-46/"
   },
   {
-    "name": "Pytech Summit 2026 Spring Edition",
-    "city": "Online",
-    "date": "21 maja 2026",
-    "type": "konferencja",
-    "free": true,
-    "url": "https://crossweb.pl/en/events/pytech-summit-2026-online-spring-edition/"
-  },
-  {
-    "name": "AI Unlimited. Anti-Gödelian arguments",
-    "city": "Kraków",
-    "date": "28 maja 2026",
-    "type": "meetup",
-    "free": true,
-    "url": "https://crossweb.pl/en/events/ai-unlimited-anti-g-delian-arguments-maj-2026/"
-  },
-  {
-    "name": "SQL Server z agentem AI",
-    "city": "Online",
-    "date": "19 maja 2026",
-    "type": "meetup",
-    "free": false,
-    "url": "https://crossweb.pl/en/events/sql-server-z-agentem-ai-maj-2026/"
-  },
-  {
-    "name": "SQLDay 2026",
-    "city": "Wrocław",
-    "date": "11–13 maja 2026",
-    "type": "konferencja",
-    "free": false,
-    "url": "https://sqlday.pl/"
-  },
-  {
     "name": "Webinar PIK: Jak skutecznie korzystać z AI?",
     "city": "Online",
     "date": "28 kwietnia 2026",
@@ -600,59 +488,67 @@
     "url": "https://www.eventbrite.com/e/world-od-ai-big-data-expo-tickets-1981928533596"
   },
   {
-    "name": "Pułapki AI w pracy Product Managera",
-    "city": "Poznań",
-    "date": "11 maja 2026",
+    "name": "Pionierzy AI – pierwsza edycja",
+    "city": "Warszawa",
+    "date": "10 czerwca 2026",
     "type": "meetup",
     "free": true,
-    "url": "https://www.meetup.com/Agile-Poznan/events/314522396/"
+    "url": "https://crossweb.pl/wydarzenia/pionierzy-ai-pierwsza-edycja-czerwiec-2026/"
   },
   {
-    "name": "SecureWay #10 — AI vs CyberSec",
-    "city": "Warszawa",
-    "date": "12 maja 2026",
-    "type": "meetup",
-    "free": false,
-    "url": "https://crossweb.pl/en/events/secureway-10-ai-vs-cybersec/"
-  },
-  {
-    "name": "Gemini CLI — Build with AI (GDG Warszawa)",
-    "city": "Warszawa",
-    "date": "13 maja 2026",
+    "name": "Mapa zawodów wokół AI. Gdzie jest miejsce dla Ciebie?",
+    "city": "Online",
+    "date": "10 czerwca 2026",
     "type": "meetup",
     "free": true,
-    "url": "https://crossweb.pl/en/events/gemini-cli-build-with-ai-google-campus-by-gdg-warszawa-maj-2026/"
+    "url": "https://crossweb.pl/wydarzenia/mapa-zawodow-wokol-ai-gdzie-jest-miejsce-dla-ciebie-czerwiec-2026/"
   },
   {
-    "name": "AI Sync 2026",
-    "city": "Warszawa",
-    "date": "27 maja 2026",
+    "name": "AI Jam Łódź #28",
+    "city": "Łódź",
+    "date": "11 czerwca 2026",
     "type": "meetup",
-    "free": false,
-    "url": "https://lu.ma/yzofpe3a"
+    "free": true,
+    "url": "https://crossweb.pl/wydarzenia/ai-jam-lodz-28/"
   },
   {
-    "name": "Warsztaty Creation of AI Generation",
+    "name": "How AI Sees the World: Explainable AI for Vision Transformers",
     "city": "Kraków",
-    "date": "29–31 maja 2026",
-    "type": "konferencja",
-    "free": true,
-    "url": "https://crossweb.pl/en/events/warsztaty-creation-of-ai-generation-maj-2026/"
-  },
-  {
-    "name": "AI Makers Meetup #2",
-    "city": "Kraków",
-    "date": "21 maja 2026",
+    "date": "12 czerwca 2026",
     "type": "meetup",
     "free": true,
-    "url": "https://www.eventbrite.com/e/ai-makers-meetup-2-tickets-1986418464099"
+    "url": "https://crossweb.pl/wydarzenia/how-ai-sees-the-world-explainable-ai-for-vision-transformers-czerwiec-2026/"
   },
   {
-    "name": "Evolutions Partner Network Festival 2026",
-    "city": "Wrocław",
-    "date": "27–28 maja 2026",
-    "type": "konferencja",
-    "free": false,
-    "url": "https://crossweb.pl/en/events/evolutions-partner-network-festival-maj-2026/"
+    "name": "AI & Chill. Meet-up w Ogrodach — Brave AI Community Szczecin #4",
+    "city": "Szczecin",
+    "date": "16 czerwca 2026",
+    "type": "meetup",
+    "free": true,
+    "url": "https://crossweb.pl/wydarzenia/ai-chill-meet-up-w-ogrodach-brave-ai-community-szczecin-4/"
+  },
+  {
+    "name": "Polish JUG meeting: Spring AI in Action and Ultimate Docker Images",
+    "city": "Kraków",
+    "date": "16 czerwca 2026",
+    "type": "meetup",
+    "free": true,
+    "url": "https://crossweb.pl/wydarzenia/polish-jug-meeting-spring-ai-in-action-and-ultimate-docker-images-czerwiec-2026/"
+  },
+  {
+    "name": "PyData Warsaw #34 — Ruslan Korniichuk & Rafał Małanij",
+    "city": "Warszawa",
+    "date": "17 czerwca 2026",
+    "type": "meetup",
+    "free": true,
+    "url": "https://crossweb.pl/wydarzenia/pydata-warsaw-34-ruslan-korniichuk-rafal-malanij/"
+  },
+  {
+    "name": "Connect IT: Building with AI: DevOps, Agents, Enterprise Tools, and Super Apps",
+    "city": "Kraków",
+    "date": "18 czerwca 2026",
+    "type": "meetup",
+    "free": true,
+    "url": "https://crossweb.pl/wydarzenia/connect-it-building-with-ai-devops-agents-enterprise-tools-and-super-apps-czerwiec-2026/"
   }
 ]

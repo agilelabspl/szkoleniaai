@@ -27,6 +27,7 @@ def main():
     errors = []
     warnings = []
     courses = load_json(ROOT / "data/courses.json", errors)
+    events = load_json(ROOT / "data/events.json", errors)
     counts = load_json(ROOT / "data/category-counts.json", errors)
 
     if isinstance(courses, list):
@@ -42,6 +43,24 @@ def main():
             fail(
                 errors,
                 "data/courses.json: zduplikowane szkolenia: "
+                + ", ".join(f"{name} ({url})" for name, url in duplicates),
+            )
+
+    if isinstance(events, list):
+        event_keys = [
+            (
+                x.get("name", "").strip().lower(),
+                x.get("url", "").strip().rstrip("/").lower(),
+            )
+            for x in events
+        ]
+        duplicates = sorted(
+            key for key, count in Counter(event_keys).items() if all(key) and count > 1
+        )
+        if duplicates:
+            fail(
+                errors,
+                "data/events.json: zduplikowane wydarzenia: "
                 + ", ".join(f"{name} ({url})" for name, url in duplicates),
             )
 
