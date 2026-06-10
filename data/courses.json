@@ -16,13 +16,6 @@
     "format": "Online · nagranie"
   },
   {
-    "name": "AI Biznes Lab – Master Program",
-    "cat": "biznes",
-    "desc": "Kompleksowa transformacja biznesu z AI — strategia, wdrażanie, automatyzacja procesów, biblioteka promptów, warsztaty...",
-    "url": "https://aibizneslab.pl/",
-    "format": "Online · live + nagrania"
-  },
-  {
     "name": "AI dla Biznesu",
     "cat": "biznes",
     "desc": "GenAI i LLM, analiza danych, innowacje biznesowe, automatyzacja marketingu i sprzedaży. ChatGPT Plus, Claude, DALL-E,...",
@@ -183,30 +176,6 @@
     "desc": "Szkolenie dla audytorów wewnętrznych: prawne i strategiczne aspekty wdrażania AI w organizacjach.",
     "url": "https://www.iia.org.pl/szkolenia/szkolenia-iia-polska",
     "format": "Online"
-  },
-  {
-    "name": "AI-Powered Product Discovery Practitioner™",
-    "cat": "produkty",
-    "desc": "Sprawdzone praktyki i framework odkrywania produktu ze wsparciem AI. Opportunity Solution Tree, techniki badawcze, id...",
-    "url": "https://productpro.pl/product-discovery-pro/",
-    "price": "2 000 zł + VAT",
-    "format": "Online · live"
-  },
-  {
-    "name": "AI-Powered Product Analytics Practitioner™",
-    "cat": "produkty",
-    "desc": "Analityka produktowa: North Star Metrics, AARRR, analiza funneli, retencji, testy A/B. Ćwiczenia na platformie Amplit...",
-    "url": "https://productpro.pl/product-analytics-pro/",
-    "price": "2 000 zł + VAT",
-    "format": "Online · live"
-  },
-  {
-    "name": "AI-Powered Product Strategy Practitioner™",
-    "cat": "produkty",
-    "desc": "Strategia produktowa: analiza rynku, JTBD, framework SMT, Strategic Product Discovery, roadmapping. AI jako copilot s...",
-    "url": "https://productpro.pl/product-strategy-pro/",
-    "price": "2 000 zł + VAT",
-    "format": "Online · live"
   },
   {
     "name": "AI-Empowered Product Practitioner™",
@@ -1937,5 +1906,101 @@
     "url": "https://jelesnianski.pl/szkolenia-ai/",
     "price": "",
     "format": "Online / Stacjonarnie"
+  },
+  {
+    "name": "AI Automation Expert",
+    "cat": "automatyzacja",
+    "desc": "Automatyzacja procesów z AI. N8n, Make, Gumloop, workflow, API i agenty. Zamknięta społeczność na Discordzie.",
+    "url": "https://sensai.io/pl/ai-automation-expert",
+    "price": "1 194 zł netto",
+    "format": "Online"
+  },
+  {
+    "name": "AI Agents Expert",
+    "cat": "automatyzacja",
+    "desc": "Tworzenie agentów AI działających autonomicznie w biznesie. Skomplikowane zadania bez nadzoru.",
+    "url": "https://sensai.io/pl/ai-agents-expert",
+    "price": "1 194 zł netto",
+    "format": "Online"
+  },
+  {
+    "name": "OMAAI — Seria 4 Warsztatów AI",
+    "cat": "biznes",
+    "desc": "4 spotkania online w środy o 20:00. AI dla menedżerów, Claude Code, automatyzacja w biznesie.",
+    "url": "https://omaai.pl/warsztat",
+    "price": "",
+    "format": "Online · live"
+  },
+  {
+    "name": "Szkolenie AI dla Firm",
+    "cat": "biznes",
+    "desc": "Praktyczne szkolenie z AI i automatyzacji dla marketingu i e-commerce.",
+    "url": "https://szkolenieai.harbingers.io/",
+    "price": "",
+    "format": "Szkolenie firmowe"
+  },
+  {
+    "name": "Agenci AI: od podstaw do wdrożenia",
+    "cat": "biznes",
+    "desc": "Autonomiczne systemy AI, które analizują dane, podejmują decyzje i wykonują zadania. Aspekty technologiczne, organizacyjne i strategiczne bez programowania.",
+    "url": "https://www.altkomakademia.pl/szkolenia/agenci-ai-od-podstaw-do-wdrozenia/",
+    "price": "",
+    "format": "Online / Stacjonarnie"
+  },
+  {
+    "name": "AI w biznesie i codziennym życiu",
+    "cat": "ogolne",
+    "desc": "Praktyczny kurs o zastosowaniu AI w biznesie i życiu codziennym. Lekcje wideo z certyfikatem ukończenia.",
+    "url": "https://kursyai.digitaluniversity.pl/course/ai-w-biznesie-i-codziennym-zyciu",
+    "price": "",
+    "format": "Online"
+  },
+  {
+    "name": "Sztuczna inteligencja w pracy dydaktycznej",
+    "cat": "ogolne",
+    "desc": "8-godzinne warsztaty dla nauczycieli i wykładowców. Narzędzia: Perplexity, Claude, Gemini, NotebookLM.",
+    "url": "https://www.sciencewatch.pl/525-szzz",
+    "price": "",
+    "format": "Warsztaty"
+  },
+  {
+    "name": "Warsztaty AI dla Uczelni w Polsce 2026",
+    "cat": "ogolne",
+    "desc": "Program 5-godzinny, 4 poziomy trudności: od Microsoft Copilot po budowanie agentów i MCP. 19 ćwiczeń praktycznych.",
+    "url": "https://cwiczenia.vercel.app/",
+    "price": "",
+    "format": "Warsztaty"
+  },
+  {
+    "name": "Poznaj 10 umiejętności AI niezbędnych w 2026 roku!",
+    "cat": "ogolne",
+    "desc": "10 kluczowych umiejętności AI z praktycznymi pokazami. Perplexity Pro, Claude, Make, Gemini, OpenAI Agents. Prompt engineering, agentic AI, RAG.",
+    "url": "https://sklep.securitum.pl/poznaj-ai-2026",
+    "price": "od 0 zł",
+    "format": "Nagranie"
+  },
+  {
+    "name": "Generatywna AI: prawne aspekty",
+    "cat": "prawo",
+    "desc": "Copyright, AI Act, ochrona danych, TDM, polityki wdrożeń AI w firmie. 20 lat specjalizacji prowadzącego w prawie technologicznym.",
+    "url": "https://www.academyofbusiness.pl/trainings/generatywna-ai-prawne-aspekty/",
+    "price": "1 300 zł netto",
+    "format": "Stacjonarnie · Warszawa"
+  },
+  {
+    "name": "Bootcamp Data Science + AI",
+    "cat": "programisci",
+    "desc": "2-miesięczny intensywny bootcamp online. Dofinansowanie do 95% przez BUR/PARP.",
+    "url": "https://codebrainers.pl/kurs/bootcamp-data-science-ai",
+    "price": "5 280 zł",
+    "format": "Online · live"
+  },
+  {
+    "name": "AgentKit: budowa i wdrażanie agentów AI",
+    "cat": "programisci",
+    "desc": "Praktyczne warsztaty z budowy agentów AI. Architektura agentowa, narzędzia, orkiestracja, wdrażanie w środowisku produkcyjnym.",
+    "url": "https://www.sages.pl/szkolenia/agentkit-budowa-i-wdrazanie-agentow-ai",
+    "price": "2 450 zł netto",
+    "format": "Online"
   }
 ]

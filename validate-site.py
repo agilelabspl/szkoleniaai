@@ -66,12 +66,20 @@ def main():
 
     actual_counts = {}
     total_cards = 0
+    unique_card_keys = set()
     for path in CATEGORY_FILES:
         content = path.read_text(encoding="utf-8")
         cards = len(re.findall(r'class="course-card"', content))
         total_cards += cards
         slug = path.stem.removeprefix("szkolenia-ai-")
         actual_counts[slug] = cards
+        for url, body in re.findall(
+            r'<a href="([^"]+)" class="course-card"[^>]*>(.*?)</a>', content, re.DOTALL
+        ):
+            title = re.search(r"<h3>(.*?)</h3>", body, re.DOTALL)
+            if title:
+                name = re.sub(r"<[^>]+>", "", title.group(1)).strip().lower()
+                unique_card_keys.add((name, url.rstrip("/").lower()))
 
         blocks = re.findall(
             r'<script type="application/ld\+json">\s*(.*?)\s*</script>',
@@ -107,8 +115,11 @@ def main():
             if declared != actual:
                 fail(errors, f"data/category-counts.json: {slug}={declared}, kart={actual}")
 
-    if isinstance(courses, list) and len(courses) != total_cards:
-        warnings.append(f"data/courses.json: wpisów={len(courses)}, kart HTML={total_cards}")
+    if isinstance(courses, list) and len(courses) != len(unique_card_keys):
+        fail(
+            errors,
+            f"data/courses.json: wpisów={len(courses)}, unikalnych kart HTML={len(unique_card_keys)}",
+        )
 
     if errors:
         print("WALIDACJA: BŁĄD")
