@@ -366,5 +366,37 @@
     "type": "meetup",
     "free": true,
     "url": "https://crossweb.pl/wydarzenia/jak-skutecznie-przeksztalcic-system-ocen-w-realny-system-rozwoju-wrzesien-2026/"
+  },
+  {
+    "name": "Claude Community Kraków",
+    "city": "Kraków",
+    "date": "4 sierpnia 2026",
+    "type": "meetup",
+    "free": true,
+    "url": "https://crossweb.pl/wydarzenia/claude-community-krakow-sierpien-2026/"
+  },
+  {
+    "name": "TECH RACE summit 2026",
+    "city": "Warszawa",
+    "date": "10 września 2026",
+    "type": "konferencja",
+    "free": false,
+    "url": "https://crossweb.pl/wydarzenia/tech-race-summit-2026/"
+  },
+  {
+    "name": "migawka AI #2",
+    "city": "Łódź",
+    "date": "6 października 2026",
+    "type": "meetup",
+    "free": true,
+    "url": "https://crossweb.pl/wydarzenia/migawka-ai-2/"
+  },
+  {
+    "name": "AI Biznes Forum Marketing 2026",
+    "city": "Warszawa",
+    "date": "26–27 października 2026",
+    "type": "konferencja",
+    "free": false,
+    "url": "https://crossweb.pl/wydarzenia/ai-biznes-forum-marketing-2026/"
   }
 ]
