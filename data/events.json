@@ -398,5 +398,29 @@
     "type": "konferencja",
     "free": false,
     "url": "https://crossweb.pl/wydarzenia/ai-biznes-forum-marketing-2026/"
+  },
+  {
+    "name": "AI Boook Club #35",
+    "city": "Online",
+    "date": "16 lipca 2026",
+    "type": "meetup",
+    "free": true,
+    "url": "https://crossweb.pl/wydarzenia/ai-boook-club-35/"
+  },
+  {
+    "name": "#350 W. Żołnowski: Agile is not dead - 2 lata z AI i...",
+    "city": "Warszawa",
+    "date": "20 lipca 2026",
+    "type": "meetup",
+    "free": true,
+    "url": "https://crossweb.pl/wydarzenia/"
+  },
+  {
+    "name": "AI Now Polska Webinar #4",
+    "city": "Online",
+    "date": "11 sierpnia 2026",
+    "type": "meetup",
+    "free": true,
+    "url": "https://crossweb.pl/wydarzenia/ai-now-polska-webinar-4/"
   }
 ]
