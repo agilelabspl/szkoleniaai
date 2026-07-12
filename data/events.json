@@ -422,5 +422,29 @@
     "type": "meetup",
     "free": true,
     "url": "https://crossweb.pl/wydarzenia/ai-now-polska-webinar-4/"
+  },
+  {
+    "name": "Jakie triki można użyć, aby zwiększyć skuteczność używania agentów AI",
+    "city": "Wrocław",
+    "date": "15 lipca 2026",
+    "type": "meetup",
+    "free": true,
+    "url": "https://crossweb.pl/wydarzenia/jaki-triki-mozna-uzyc-aby-zwiekszyc-skutecznosc-uzywania-agentow-ai-jci-wroclaw-bezplatne-lipiec-2026/"
+  },
+  {
+    "name": "(CS)²AI Fellow Fireside Chat: Leadership Talks on ICS/OT Incident Response",
+    "city": "Online",
+    "date": "15 lipca 2026",
+    "type": "meetup",
+    "free": true,
+    "url": "https://crossweb.pl/wydarzenia/csai-fellow-fireside-chat-leadership-talks-on-icsot-incident-response-lipiec-2026/"
+  },
+  {
+    "name": "SForce Europe 2026 | Conference about Salesforce",
+    "city": "Warszawa",
+    "date": "1 października 2026",
+    "type": "konferencja",
+    "free": true,
+    "url": "https://crossweb.pl/wydarzenia/sforce-europe-2026-conference-about-salesforce/"
   }
 ]
