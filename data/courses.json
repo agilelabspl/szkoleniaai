@@ -2002,5 +2002,13 @@
     "url": "https://www.sages.pl/szkolenia/agentkit-budowa-i-wdrazanie-agentow-ai",
     "price": "2 450 zł netto",
     "format": "Online"
+  },
+  {
+    "name": "Microsoft AI Upskilling program",
+    "cat": "ogolne",
+    "desc": "Program edukacyjny przy DevAI by Data Science Summit: praktyczne tutoriale online oraz ścieżka VoD z quizem.",
+    "url": "https://devai.dssconf.pl/",
+    "price": "Bezpłatne",
+    "format": "Online"
   }
 ]
