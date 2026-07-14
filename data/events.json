@@ -320,14 +320,6 @@
     "url": "https://www.eventbrite.com/e/world-od-ai-big-data-expo-tickets-1981928533596"
   },
   {
-    "name": "LLMs in Production: Engineering, Platforms & Compliance",
-    "city": "Kraków",
-    "date": "13 lipca 2026",
-    "type": "meetup",
-    "free": true,
-    "url": "https://crossweb.pl/wydarzenia/llms-in-production-engineering-platforms-compliance-lipiec-2026/"
-  },
-  {
     "name": "AI Now Polska Webinar #3",
     "city": "Online",
     "date": "14 lipca 2026",
@@ -518,5 +510,21 @@
     "type": "konferencja",
     "free": false,
     "url": "https://dssconf.pl/"
+  },
+  {
+    "name": "How to Build Without a Team Using AI with Jonathan Greechan",
+    "city": "Online",
+    "date": "14 lipca 2026",
+    "type": "meetup",
+    "free": true,
+    "url": "https://crossweb.pl/wydarzenia/how-to-build-without-a-team-using-ai-with-jonathan-greechan-lipiec-2026/"
+  },
+  {
+    "name": "AI Anonymous",
+    "city": "Warszawa",
+    "date": "16 lipca 2026",
+    "type": "meetup",
+    "free": true,
+    "url": "https://crossweb.pl/wydarzenia/ai-anonymous-16-lipiec-2026/"
   }
 ]
