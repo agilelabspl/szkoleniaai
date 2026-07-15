@@ -2010,5 +2010,54 @@
     "url": "https://devai.dssconf.pl/",
     "price": "Bezpłatne",
     "format": "Online"
+  },
+  {
+    "name": "Microsoft 365 Advanced Techniques for building smart agents in Copilot Studio",
+    "cat": "automatyzacja",
+    "desc": "Szkolenie: zaawansowane techniki budowania inteligentnych agentów w Copilot Studio.",
+    "url": "https://www.altkomakademia.pl/szkolenia/advanced-techniques-for-building-smart-agents-in-copilot-studio/",
+    "price": "od 3 200 PLN + 23% VAT"
+  },
+  {
+    "name": "AI w Automatyzacji Procesów Biurowych",
+    "cat": "automatyzacja",
+    "desc": "Szkolenie: wykorzystanie AI w automatyzacji procesów biurowych.",
+    "url": "https://www.altkomakademia.pl/szkolenia/ai-w-automatyzacji-procesow-biurowych/",
+    "price": "od 2 500 PLN + 23% VAT"
+  },
+  {
+    "name": "AI dla ESG: Inteligentnie o zrównoważonym rozwoju",
+    "cat": "biznes",
+    "desc": "Szkolenie: wykorzystanie AI w obszarze ESG i zrównoważonego rozwoju.",
+    "url": "https://www.altkomakademia.pl/szkolenia/ai-dla-esg-inteligentnie-o-zrownowazonym-rozwoju/",
+    "price": "300 PLN + 23% VAT"
+  },
+  {
+    "name": "AI dla menedżerów: Jak szybciej podejmować trafne decyzje i unikać błędów w biznesie",
+    "cat": "biznes",
+    "desc": "Szkolenie: AI dla menedżerów wspierające szybsze decyzje i ograniczanie błędów w biznesie.",
+    "url": "https://www.altkomakademia.pl/szkolenia/ai-dla-menedzerow-jak-szybciej-podejmowac-trafne-decyzje-i-unikac-bledow-w-biznesie/",
+    "price": "od 1 400 PLN + 23% VAT"
+  },
+  {
+    "name": "AI w biznesie: Jak wykorzystać sztuczną inteligencję i ChatGPT do budowania przewagi konkurencyjnej i zwiększenia sprzedaży. AI jako system operacyjny",
+    "cat": "biznes",
+    "desc": "Szkolenie: wykorzystanie sztucznej inteligencji i ChatGPT do budowania przewagi konkurencyjnej i zwiększenia sprzedaży.",
+    "url": "https://www.altkomakademia.pl/szkolenia/ai-w-biznesie-jak-wykorzystac-sztuczna-inteligencje-i-chatgpt-do-budowania-przewagi-konkurencyjnej-i-zwiekszenia-sprzedazy/",
+    "price": "1 450 PLN + 23% VAT"
+  },
+  {
+    "name": "AI w biznesie: Jak wykorzystać sztuczną inteligencję i ChatGPT w analizie rynku i konkurencji",
+    "cat": "biznes",
+    "desc": "Szkolenie: wykorzystanie sztucznej inteligencji i ChatGPT w analizie rynku i konkurencji.",
+    "url": "https://www.altkomakademia.pl/szkolenia/ai-w-biznesie-jak-wykorzystac-sztuczna-inteligencje-i-chatgpt-w-analizie-rynku-i-konkurencji/",
+    "price": "od 1 400 PLN + 23% VAT"
+  },
+  {
+    "name": "Optymalizacja modeli uczenia głębokiego w procesie treningu i inferencji",
+    "cat": "programisci",
+    "desc": "Szkolenie: optymalizacja modeli uczenia głębokiego w procesie treningu i inferencji.",
+    "url": "https://www.kodolamacz.pl/szkolenie/optymalizacja-modeli-uczenia-glebokiego-w-procesie-treningu-i-inferencji",
+    "price": "2 450 zł netto + 23% VAT"
   }
 ]

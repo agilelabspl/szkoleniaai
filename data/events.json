@@ -320,14 +320,6 @@
     "url": "https://www.eventbrite.com/e/world-od-ai-big-data-expo-tickets-1981928533596"
   },
   {
-    "name": "AI Now Polska Webinar #3",
-    "city": "Online",
-    "date": "14 lipca 2026",
-    "type": "meetup",
-    "free": true,
-    "url": "https://crossweb.pl/wydarzenia/ai-now-polska-webinar-3/"
-  },
-  {
     "name": "Pie & AI: Kraków #3 - Talk to my Data",
     "city": "Kraków",
     "date": "16 lipca 2026",
@@ -512,19 +504,35 @@
     "url": "https://dssconf.pl/"
   },
   {
-    "name": "How to Build Without a Team Using AI with Jonathan Greechan",
-    "city": "Online",
-    "date": "14 lipca 2026",
-    "type": "meetup",
-    "free": true,
-    "url": "https://crossweb.pl/wydarzenia/how-to-build-without-a-team-using-ai-with-jonathan-greechan-lipiec-2026/"
-  },
-  {
     "name": "AI Anonymous",
     "city": "Warszawa",
     "date": "16 lipca 2026",
     "type": "meetup",
     "free": true,
     "url": "https://crossweb.pl/wydarzenia/ai-anonymous-16-lipiec-2026/"
+  },
+  {
+    "name": "Inside AI: From Early Ideas to Modern Approaches and Best Practices",
+    "city": "Warszawa",
+    "date": "20 lipca 2026",
+    "type": "meetup",
+    "free": true,
+    "url": "https://crossweb.pl/wydarzenia/inside-ai-from-early-ideas-to-modern-approaches-and-best-practices-lipiec-2026/"
+  },
+  {
+    "name": "Wait AI Meetup #22: AI & e-Commerce",
+    "city": "Wrocław",
+    "date": "28 lipca 2026",
+    "type": "meetup",
+    "free": true,
+    "url": "https://crossweb.pl/wydarzenia/wait-ai-meetup-22-ai-e-commerce/"
+  },
+  {
+    "name": "AI Deep Dive (Virtual) - Building Self-Improving Agents",
+    "city": "Online",
+    "date": "29 lipca 2026",
+    "type": "meetup",
+    "free": true,
+    "url": "https://crossweb.pl/wydarzenia/ai-deep-dive-virtual-building-self-improving-agents-lipiec-2026/"
   }
 ]
