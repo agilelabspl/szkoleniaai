@@ -2059,5 +2059,77 @@
     "desc": "Szkolenie: optymalizacja modeli uczenia głębokiego w procesie treningu i inferencji.",
     "url": "https://www.kodolamacz.pl/szkolenie/optymalizacja-modeli-uczenia-glebokiego-w-procesie-treningu-i-inferencji",
     "price": "2 450 zł netto + 23% VAT"
+  },
+  {
+    "name": "Szkolenie sztuczna inteligencja AI w pracy i biznesie - tworzenie prostych agentów AI",
+    "cat": "automatyzacja",
+    "desc": "19-godzinne szkolenie stacjonarne w Świlczy o narzędziach AI, pracy z AI w biznesie i budowaniu prostych agentów AI.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3688638",
+    "price": "7134 PLN brutto / 5800 PLN netto",
+    "format": "Stacjonarnie"
+  },
+  {
+    "name": "Szkolenie - Sztuczna inteligencja w biznesie: ChatGPT, Claude, Gemini, Deep Research, NotebookLM, Runway, Nano Banana, Video AI, zaawansowany prompt engineering",
+    "cat": "biznes",
+    "desc": "16-godzinne szkolenie online o zastosowaniach AI w biznesie, modelach ChatGPT, Claude, Gemini i Grok, Deep Research, prompt engineeringu, treściach, wideo AI i planie wdrożenia.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3690817",
+    "price": "1440 PLN brutto / netto",
+    "format": "Online"
+  },
+  {
+    "name": "Przedsiębiorczość i AI w biznesie - od cyfryzacji do skutecznego prowadzenia firmy",
+    "cat": "biznes",
+    "desc": "24-godzinne szkolenie online łączące przedsiębiorczość, cyfryzację i wykorzystanie AI w prowadzeniu firmy.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3688642",
+    "price": "3000 PLN brutto / netto",
+    "format": "Online"
+  },
+  {
+    "name": "Unico Biznes: AI w biznesie - kompleksowe szkolenie od pomysłu do wdrożenia rozwiązania",
+    "cat": "biznes",
+    "desc": "40-godzinne szkolenie online dla MŚP, od pomysłu na użycie AI do wdrożenia rozwiązania w procesach biznesowych.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3688671",
+    "price": "4920 PLN brutto / 4000 PLN netto",
+    "format": "Online"
+  },
+  {
+    "name": "Projektowanie grafik i treści wideo w programie Canva z wykorzystaniem narzędzi AI - praktyczne szkolenie od podstaw",
+    "cat": "grafika",
+    "desc": "16-godzinne szkolenie online z projektowania grafik i wideo w Canvie z użyciem narzędzi AI.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3687625",
+    "price": "1600 PLN brutto / netto",
+    "format": "Online"
+  },
+  {
+    "name": "AI w marketingu i komunikacji firmy - praktyczne wykorzystanie sztucznej inteligencji. Szkolenie od podstaw",
+    "cat": "marketing",
+    "desc": "16-godzinne szkolenie online od podstaw dla firm chcących używać AI w marketingu i komunikacji.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3687885",
+    "price": "1600 PLN brutto / netto",
+    "format": "Online"
+  },
+  {
+    "name": "Kurs AI Sztuczna inteligencja AI w praktyce - od podstaw do zaawansowanych promptów - szkolenie zakończone egzaminem",
+    "cat": "ogolne",
+    "desc": "18-godzinny kurs stacjonarny w Katowicach, od podstaw AI do zaawansowanych promptów, zakończony egzaminem.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3693942",
+    "price": "5000 PLN brutto / netto",
+    "format": "Stacjonarnie"
+  },
+  {
+    "name": "AI w ochronie środowiska - automatyzacja obowiązków środowiskowych, sprawozdań, analiz danych i dokumentacji",
+    "cat": "ogolne",
+    "desc": "12-godzinne warsztaty online o użyciu AI do automatyzacji obowiązków środowiskowych, dokumentacji, analiz i sprawozdań.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3692335",
+    "price": "2324,70 PLN brutto / 1890 PLN netto",
+    "format": "Online"
+  },
+  {
+    "name": "Szkolenie: AI w zarządzaniu środowiskowym - analiza danych, monitorowanie zasobów i działania zgodne z GOZ",
+    "cat": "ogolne",
+    "desc": "Szkolenie mieszane w Katowicach o wykorzystaniu AI w zarządzaniu środowiskowym i działaniach zgodnych z GOZ.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3691256",
+    "price": "6027 PLN brutto / 4900 PLN netto",
+    "format": "Mieszane"
   }
 ]
