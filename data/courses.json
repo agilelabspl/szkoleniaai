@@ -2131,5 +2131,85 @@
     "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3691256",
     "price": "6027 PLN brutto / 4900 PLN netto",
     "format": "Mieszane"
+  },
+  {
+    "name": "Inżynieria promptów i zaawansowana automatyzacja procesów biurowych z wykorzystaniem sztucznej inteligencji (Generative AI)",
+    "cat": "automatyzacja",
+    "desc": "28-godzinne szkolenie stacjonarne w Dębicy z inżynierii promptów i zaawansowanej automatyzacji pracy biurowej.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3688727",
+    "price": "7 000 PLN brutto / netto",
+    "format": "Stacjonarnie"
+  },
+  {
+    "name": "Automatyzacja pracy biurowej z wykorzystaniem sztucznej inteligencji (AI) w praktyce – kurs online",
+    "cat": "automatyzacja",
+    "desc": "12-godzinny kurs online o promptach, wyszukiwaniu z AI i automatyzacji typowych zadań administracyjno-biurowych.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3690180",
+    "price": "1 586,70 PLN brutto / 1 290 PLN netto",
+    "format": "Online"
+  },
+  {
+    "name": "AI w branży poligraficznej – zaawansowana automatyzacja procesów i budowanie asystentów AI",
+    "cat": "automatyzacja",
+    "desc": "6-godzinne szkolenie stacjonarne w Poznaniu o automatyzacji procesów i budowie wyspecjalizowanych asystentów AI dla poligrafii.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3693529",
+    "price": "1 758,90 PLN brutto / 1 430 PLN netto",
+    "format": "Stacjonarnie"
+  },
+  {
+    "name": "Automatyzacja procesów biznesowych z wykorzystaniem AI i narzędzi no-code – szkolenie online na żywo",
+    "cat": "automatyzacja",
+    "desc": "14,5-godzinne szkolenie online o projektowaniu automatyzacji procesów biznesowych przy użyciu AI i narzędzi no-code.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3694176",
+    "price": "6 150 PLN brutto / 5 000 PLN netto",
+    "format": "Online · na żywo"
+  },
+  {
+    "name": "Projektowanie i wykorzystanie agentów AI w pracy biurowej i biznesowej – szkolenie online na żywo",
+    "cat": "automatyzacja",
+    "desc": "14,5-godzinne szkolenie online o projektowaniu i wykorzystywaniu agentów AI w pracy biurowej i biznesowej.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3694765",
+    "price": "6 150 PLN brutto / 5 000 PLN netto",
+    "format": "Online · na żywo"
+  },
+  {
+    "name": "Szkolenie AI dla każdego – od podstaw do praktycznych zastosowań w biznesie z uwzględnieniem zielonych kompetencji",
+    "cat": "ogolne",
+    "desc": "14-godzinne szkolenie stacjonarne w Grabinku o podstawach AI, zastosowaniach biznesowych, automatyzacji i zielonych kompetencjach.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3687626",
+    "price": "4 340 PLN brutto / netto",
+    "format": "Stacjonarnie"
+  },
+  {
+    "name": "ChatGPT – fundamenty i praktyczne zastosowanie sztucznej inteligencji AI – szkolenie zdalne w czasie rzeczywistym",
+    "cat": "ogolne",
+    "desc": "11-godzinne szkolenie online z fundamentów ChatGPT, generowania tekstu i obrazu oraz praktycznych zastosowań zawodowych.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3690240",
+    "price": "1 320 PLN brutto / netto",
+    "format": "Online"
+  },
+  {
+    "name": "Animator AI – praktyczne wykorzystanie sztucznej inteligencji w działaniach społecznych i zawodowych",
+    "cat": "ogolne",
+    "desc": "23-godzinne szkolenie stacjonarne w Wiśle o użyciu AI w działaniach społecznych, komunikacyjnych i zawodowych.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3691842",
+    "price": "5 000 PLN brutto / netto",
+    "format": "Stacjonarnie"
+  },
+  {
+    "name": "Bezpieczne i efektywne wykorzystanie narzędzi AI w pracy zawodowej – szkolenie online na żywo",
+    "cat": "ogolne",
+    "desc": "14,5-godzinne szkolenie online o bezpiecznym, odpowiedzialnym i efektywnym korzystaniu z narzędzi AI w pracy.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3694950",
+    "price": "6 150 PLN brutto / 5 000 PLN netto",
+    "format": "Online · na żywo"
+  },
+  {
+    "name": "AI w praktyce – tworzenie treści, grafiki i audio (ChatGPT, Claude, Gemini, Midjourney, Veo, Suno AI)",
+    "cat": "ogolne",
+    "desc": "9-godzinne szkolenie online z generowania treści tekstowych, grafiki, dźwięku i wideo przy użyciu popularnych narzędzi AI.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3695386",
+    "price": "1 600 PLN brutto / netto",
+    "format": "Online"
   }
 ]
