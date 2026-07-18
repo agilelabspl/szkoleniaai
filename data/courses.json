@@ -2211,5 +2211,45 @@
     "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3695386",
     "price": "1 600 PLN brutto / netto",
     "format": "Online"
+  },
+  {
+    "name": "Agenci AI (low-code/no-code) i automatyzacja procesów biznesowych",
+    "cat": "automatyzacja",
+    "desc": "28-godzinne szkolenie online o budowaniu agentów low-code/no-code oraz automatyzacji procesów biznesowych.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3691333",
+    "price": "3 677,70 PLN brutto / 2 990 PLN netto",
+    "format": "Online"
+  },
+  {
+    "name": "Automatyzacja pracy z wykorzystaniem AI (ChatGPT) – tworzenie prostych automatyzacji bez kodowania",
+    "cat": "automatyzacja",
+    "desc": "8-godzinny kurs online dla początkujących z tworzenia prostych automatyzacji bez kodowania przy użyciu ChatGPT.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3691673",
+    "price": "800 PLN brutto / netto",
+    "format": "Online"
+  },
+  {
+    "name": "AI w administracji publicznej",
+    "cat": "ogolne",
+    "desc": "14-godzinne szkolenie online o praktycznym, bezpiecznym i zgodnym z prawem wykorzystaniu AI w administracji publicznej.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3688604",
+    "price": "3 550 PLN brutto / netto",
+    "format": "Online"
+  },
+  {
+    "name": "Microsoft 365 Copilot w praktyce – automatyzacja zadań i zwiększenie produktywności z AI",
+    "cat": "ogolne",
+    "desc": "12-godzinne warsztaty online o automatyzacji zadań i zwiększaniu produktywności w środowisku Microsoft 365.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3690021",
+    "price": "2 324,70 PLN brutto / 1 890 PLN netto",
+    "format": "Online"
+  },
+  {
+    "name": "Sztuczna inteligencja w praktyce – wprowadzenie do wykorzystania narzędzi AI w pracy zawodowej dla osób bez doświadczenia technicznego",
+    "cat": "ogolne",
+    "desc": "12-godzinne szkolenie online wprowadzające osoby bez doświadczenia technicznego do praktycznego używania narzędzi AI w pracy.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3692523",
+    "price": "2 656,80 PLN brutto / 2 160 PLN netto",
+    "format": "Online"
   }
 ]
