@@ -470,5 +470,37 @@
     "type": "meetup",
     "free": true,
     "url": "https://crossweb.pl/wydarzenia/csai-online-ubiquitous-ot-cybersecurity-consequences-in-thrill-rides-lipiec-2026/"
+  },
+  {
+    "name": "AWS Agentic Football Cup – Poland",
+    "city": "Warszawa",
+    "date": "21 lipca 2026",
+    "type": "meetup",
+    "free": true,
+    "url": "https://www.agenticfootballcup.com/"
+  },
+  {
+    "name": "Webinar: Wdrażanie AI Governance w praktyce",
+    "city": "Online",
+    "date": "29 lipca 2026",
+    "type": "meetup",
+    "free": false,
+    "url": "https://www.kozminski.edu.pl/pl/wydarzenia/webinar-wdrazanie-ai-governance-w-praktyce"
+  },
+  {
+    "name": "AI-DLC: One integrated workflow",
+    "city": "Online",
+    "date": "30 lipca 2026",
+    "type": "meetup",
+    "free": false,
+    "url": "https://chaosgears.com/events/aws-kiro-claude-code-ai-dlc"
+  },
+  {
+    "name": "Sztuczna inteligencja w praktyce biznesu",
+    "city": "Warszawa",
+    "date": "24 września 2026",
+    "type": "konferencja",
+    "free": false,
+    "url": "https://www.bcc.org.pl/zapraszamy-na-konferencje-sztuczna-inteligencja-w-praktyce-biznesu/"
   }
 ]

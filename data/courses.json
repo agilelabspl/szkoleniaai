@@ -2251,5 +2251,21 @@
     "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3692523",
     "price": "2 656,80 PLN brutto / 2 160 PLN netto",
     "format": "Online"
+  },
+  {
+    "name": "Wykorzystanie AI w marketingu i sprzedaży – szkolenie online na żywo",
+    "cat": "marketing",
+    "desc": "14 godzin i 30 minut online o tworzeniu treści, analizie odbiorców i wsparciu procesów sprzedażowych.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3694145",
+    "price": "6 150 PLN brutto / 5 000 PLN netto",
+    "format": "Online · na żywo"
+  },
+  {
+    "name": "Nowoczesny wykonawca w zamówieniach publicznych – jak AI i analiza konkurencji zwiększają skuteczność ofertowania",
+    "cat": "prawo",
+    "desc": "12 godzin online o łączeniu wiedzy przetargowej, AI i analizy konkurencji.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3694859",
+    "price": "2 078,70 PLN brutto / 1 690 PLN netto",
+    "format": "Online"
   }
 ]
