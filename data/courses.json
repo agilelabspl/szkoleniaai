@@ -2267,5 +2267,13 @@
     "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3694859",
     "price": "2 078,70 PLN brutto / 1 690 PLN netto",
     "format": "Online"
+  },
+  {
+    "name": "Revit – parametryczne modelowanie architektury i tworzenie rodzin z wykorzystaniem AI w pracy z dokumentacją projektową",
+    "cat": "grafika",
+    "desc": "84-godzinne szkolenie mieszane w Gdańsku łączy Revit/BIM z analizą dokumentacji, agentami, lokalnymi modelami i bazami wiedzy AI.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3687863",
+    "price": "8 118 PLN brutto / 6 600 PLN netto",
+    "format": "Mieszane · Gdańsk"
   }
 ]
