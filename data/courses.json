@@ -2275,5 +2275,37 @@
     "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3687863",
     "price": "8 118 PLN brutto / 6 600 PLN netto",
     "format": "Mieszane · Gdańsk"
+  },
+  {
+    "name": "European Agentic AI Bootcamp",
+    "cat": "programisci",
+    "desc": "Intensywny bootcamp o systemach agentowych, MCP, NVIDIA NIM, LangGraph i NeMo, zakończony zadaniem projektowym. Udział dla zakwalifikowanych uczestników z Europy; nabór jest zamknięty.",
+    "url": "https://events.plgrid.pl/event/129/",
+    "price": "Bezpłatne dla zakwalifikowanych · nabór zamknięty",
+    "format": "Online"
+  },
+  {
+    "name": "Sztuczna inteligencja (AI) w analizie danych",
+    "cat": "finanse",
+    "desc": "8-godzinne szkolenie dla biegłych rewidentów i osób pracujących z danymi. Obejmuje dane tekstowe i liczbowe, ograniczanie halucynacji oraz agentów AI. Terminy: 8 września i 26 października.",
+    "url": "https://ce.pibr.org.pl/pl/kursy/386%2CSztuczna-inteligencja-AI-w-analizie-danych",
+    "price": "460 PLN netto; zwolnienie z VAT na zasadach organizatora",
+    "format": "Online"
+  },
+  {
+    "name": "Weekendowy Warsztat AI",
+    "cat": "biznes",
+    "desc": "Pierwsza edycja szkolenia online na żywo dla grupy do 15 osób, poświęconego mapowaniu procesów, bezpieczeństwu danych i ocenie opłacalności zastosowań AI. Termin nie został jeszcze opublikowany.",
+    "url": "https://www.aipmc.pl/",
+    "price": "1 297 PLN brutto",
+    "format": "Online · na żywo"
+  },
+  {
+    "name": "Sztuczna inteligencja a władza publiczna. Odpowiedzialność, granice automatyzacji i rola urzędnika w podejmowaniu decyzji",
+    "cat": "prawo",
+    "desc": "16-godzinne szkolenie stacjonarne 24–25 września o odpowiedzialności prawnej, granicach automatyzacji i roli człowieka w decyzjach administracji.",
+    "url": "https://ksap.gov.pl/ksap/szkolenia/najblizsze-szkolenia/sztuczna-inteligencja-a-wladza-publiczna-odpowiedzialnosc-granice",
+    "price": "1 190 PLN",
+    "format": "Stacjonarnie"
   }
 ]

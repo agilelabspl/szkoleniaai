@@ -502,5 +502,173 @@
     "type": "konferencja",
     "free": false,
     "url": "https://www.bcc.org.pl/zapraszamy-na-konferencje-sztuczna-inteligencja-w-praktyce-biznesu/"
+  },
+  {
+    "name": "AI, AR i Autonomiczna Robotyzacja 2026: Nowy Wymiar Przemysłu",
+    "city": "Lubin",
+    "date": "20 lipca 2026",
+    "type": "konferencja",
+    "free": true,
+    "url": "https://pracodawcy.pl/ai2026/"
+  },
+  {
+    "name": "Sztuczna inteligencja: Jak przygotować się do zmian związanych z AI — 2. edycja",
+    "city": "Online",
+    "date": "23 lipca 2026",
+    "type": "meetup",
+    "free": true,
+    "url": "https://pracodawcy.pl/aizmiana2/"
+  },
+  {
+    "name": "Przetargi na systemy AI – praktyka i dotychczasowe doświadczenia",
+    "city": "Online",
+    "date": "23 lipca 2026",
+    "type": "meetup",
+    "free": false,
+    "url": "https://www.kozminski.edu.pl/pl/wydarzenia/webinar-przetargi-na-systemy-ai-praktyka-i-dotychczasowe-doswiadczenia"
+  },
+  {
+    "name": "The New Role of AI in Big Data Science: Tools, Practice and Future Jobs",
+    "city": "Online",
+    "date": "28 lipca 2026",
+    "type": "meetup",
+    "free": false,
+    "url": "https://www.kozminski.edu.pl/en/events/new-role-ai-big-data-science-tools-practice-and-future-jobs"
+  },
+  {
+    "name": "Wdrażanie AI w praktyce: Od strategii po wymagania prawne",
+    "city": "Online",
+    "date": "18 sierpnia 2026",
+    "type": "meetup",
+    "free": false,
+    "url": "https://www.kozminski.edu.pl/pl/oferta-edukacyjna/studia-podyplomowe/wdrazanie-i-wykorzystanie-ai-w-organizacji"
+  },
+  {
+    "name": "Generatywna AI – okiem prawnika",
+    "city": "Online",
+    "date": "14 września 2026",
+    "type": "meetup",
+    "free": false,
+    "url": "https://www.kozminski.edu.pl/pl/oferta-edukacyjna/studia-podyplomowe/wdrazenie-ai-aspekty-prawne"
+  },
+  {
+    "name": "AI i RODO w praktyce kontraktowej – specyfika umów o przetwarzaniu danych przy wdrożeniach AI",
+    "city": "Online",
+    "date": "16 września 2026",
+    "type": "meetup",
+    "free": false,
+    "url": "https://www.kozminski.edu.pl/pl/wydarzenia/webinar-ai-i-rodo-w-praktyce-kontraktowej-specyfika-umow-o-przetwarzaniu-danych-przy-wdrozeniach-ai"
+  },
+  {
+    "name": "Bochnia International AI Film Festival 2026",
+    "city": "Bochnia",
+    "date": "17 września 2026",
+    "type": "konferencja",
+    "free": false,
+    "url": "https://www.biaiff.pl/"
+  },
+  {
+    "name": "Dzień Otwarty Online studiów AI Governance & Compliance",
+    "city": "Online",
+    "date": "17 września 2026",
+    "type": "meetup",
+    "free": false,
+    "url": "https://www.kozminski.edu.pl/pl/wydarzenia/dzien-otwarty-online-studiow-podyplomowych-ai-governance-compliance"
+  },
+  {
+    "name": "OCTO AI 2026 – Kobiety jutra",
+    "city": "Warszawa",
+    "date": "19–20 września 2026",
+    "type": "konferencja",
+    "free": false,
+    "url": "https://www.octofoundation.org/"
+  },
+  {
+    "name": "AI-Forum",
+    "city": "Bydgoszcz",
+    "date": "21 września 2026",
+    "type": "konferencja",
+    "free": false,
+    "url": "https://www.ai-forum.pl/"
+  },
+  {
+    "name": "Cyfrowe Horyzonty 2026 – PR w erze dezinformacji, AI i nowych modeli komunikacji",
+    "city": "Rzeszów",
+    "date": "24–25 września 2026",
+    "type": "konferencja",
+    "free": false,
+    "url": "https://cyfrowehoryzonty.pl/"
+  },
+  {
+    "name": "AI Governance – zapewnienie zgodności wykorzystania systemów AI w organizacji",
+    "city": "Online",
+    "date": "30 września 2026",
+    "type": "meetup",
+    "free": false,
+    "url": "https://www.kozminski.edu.pl/pl/wydarzenia/webinar-ai-governance-zapewnienie-zgodnosci-wykorzystania-systemow-ai-w-organizacji"
+  },
+  {
+    "name": "Laboratoria innowacji. AI w archiwach. Twierdza Archiwum",
+    "city": "Miejsce niepodane",
+    "date": "30 września 2026",
+    "type": "konferencja",
+    "free": false,
+    "url": "https://instytutpileckiego.pl/pl/instytut/kalendarz/konferencja-laboratoria-innowacji-ai-w-archiwach-twierdza?setlang=1"
+  },
+  {
+    "name": "Ochrona systemów AI w ramach prawa własności intelektualnej – od tajemnicy przedsiębiorstwa po patenty",
+    "city": "Online",
+    "date": "1 października 2026",
+    "type": "meetup",
+    "free": false,
+    "url": "https://www.kozminski.edu.pl/pl/wydarzenia/webinar-studiow-podyplomowych-ochrona-systemow-ai-w-ramach-prawa-wlasnosci-intelektualnej-od-tajemnicy-przedsiebiorstwa-po-patenty"
+  },
+  {
+    "name": "European AI Hackathon",
+    "city": "Online",
+    "date": "6–29 października 2026",
+    "type": "konferencja",
+    "free": true,
+    "url": "https://events.plgrid.pl/event/132/"
+  },
+  {
+    "name": "ML in PL Conference 2026",
+    "city": "Warszawa",
+    "date": "8–11 października 2026",
+    "type": "konferencja",
+    "free": false,
+    "url": "https://conference.mlinpl.org/2026/"
+  },
+  {
+    "name": "Sztuczna inteligencja w praktyce zawodowej tłumacza – wyzwania i szanse",
+    "city": "Poznań",
+    "date": "10–11 października 2026",
+    "type": "konferencja",
+    "free": false,
+    "url": "https://ils.amu.edu.pl/wiadomosci/na-glowna/tepis.-zapraszamy-na-konferencje-sztuczna-inteligencja-w-praktyce-zawodowej-tlumacza-wyzwania-i-szanse-w-dniach-1011-pazdziernika-2026-r."
+  },
+  {
+    "name": "AI Implementation Summit",
+    "city": "Warszawa",
+    "date": "22 października 2026",
+    "type": "konferencja",
+    "free": false,
+    "url": "https://www.pb.pl/konferencje/ai-implementation-summit-6ae7b285-e48b-46c2-b11e-a35a6a741c21"
+  },
+  {
+    "name": "Jak sztuczna inteligencja zmienia polski biznes — III edycja",
+    "city": "Jasionka",
+    "date": "27 października 2026",
+    "type": "konferencja",
+    "free": false,
+    "url": "https://konferencja.ai.rze.pl/"
+  },
+  {
+    "name": "Tech4Life 2026: Zdrowe AI?",
+    "city": "Łódź",
+    "date": "29 października 2026",
+    "type": "konferencja",
+    "free": false,
+    "url": "https://tech4life.lodz.pl/"
   }
 ]
