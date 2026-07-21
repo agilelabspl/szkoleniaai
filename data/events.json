@@ -344,14 +344,6 @@
     "url": "https://crossweb.pl/wydarzenia/ai-biznes-forum-marketing-2026/"
   },
   {
-    "name": "#350 W. Żołnowski: Agile is not dead - 2 lata z AI i...",
-    "city": "Warszawa",
-    "date": "20 lipca 2026",
-    "type": "meetup",
-    "free": true,
-    "url": "https://crossweb.pl/wydarzenia/"
-  },
-  {
     "name": "AI Now Polska Webinar #4",
     "city": "Online",
     "date": "11 sierpnia 2026",
@@ -440,14 +432,6 @@
     "url": "https://dssconf.pl/"
   },
   {
-    "name": "Inside AI: From Early Ideas to Modern Approaches and Best Practices",
-    "city": "Warszawa",
-    "date": "20 lipca 2026",
-    "type": "meetup",
-    "free": true,
-    "url": "https://crossweb.pl/wydarzenia/inside-ai-from-early-ideas-to-modern-approaches-and-best-practices-lipiec-2026/"
-  },
-  {
     "name": "Wait AI Meetup #22: AI & e-Commerce",
     "city": "Wrocław",
     "date": "28 lipca 2026",
@@ -502,14 +486,6 @@
     "type": "konferencja",
     "free": false,
     "url": "https://www.bcc.org.pl/zapraszamy-na-konferencje-sztuczna-inteligencja-w-praktyce-biznesu/"
-  },
-  {
-    "name": "AI, AR i Autonomiczna Robotyzacja 2026: Nowy Wymiar Przemysłu",
-    "city": "Lubin",
-    "date": "20 lipca 2026",
-    "type": "konferencja",
-    "free": true,
-    "url": "https://pracodawcy.pl/ai2026/"
   },
   {
     "name": "Sztuczna inteligencja: Jak przygotować się do zmian związanych z AI — 2. edycja",
@@ -670,5 +646,13 @@
     "type": "konferencja",
     "free": false,
     "url": "https://tech4life.lodz.pl/"
+  },
+  {
+    "name": "AI Jam Łódź #30",
+    "city": "Łódź",
+    "date": "23 lipca 2026",
+    "type": "meetup",
+    "free": true,
+    "url": "https://crossweb.pl/en/events/ai-jam-lodz-30/"
   }
 ]

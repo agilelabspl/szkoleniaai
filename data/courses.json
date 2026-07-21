@@ -2307,5 +2307,53 @@
     "url": "https://ksap.gov.pl/ksap/szkolenia/najblizsze-szkolenia/sztuczna-inteligencja-a-wladza-publiczna-odpowiedzialnosc-granice",
     "price": "1 190 PLN",
     "format": "Stacjonarnie"
+  },
+  {
+    "name": "Szkolenie – zastosowanie AI w codziennej pracy w przedsiębiorstwie",
+    "cat": "biznes",
+    "desc": "16-godzinne szkolenie online na żywo 21–22 października o zastosowaniu AI w bieżącej pracy firmy.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3698435",
+    "price": "3 570 PLN brutto / netto",
+    "format": "Online · na żywo"
+  },
+  {
+    "name": "Specjalista ds. sztucznej inteligencji (AI) w zakresie zrównoważonego rozwoju (kwalifikacje)",
+    "cat": "biznes",
+    "desc": "16-godzinne szkolenie stacjonarne w Sosnowcu 22–27 sierpnia, prowadzące do uzyskania kwalifikacji.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3699292",
+    "price": "4 950 PLN brutto / netto",
+    "format": "Stacjonarnie · Sosnowiec"
+  },
+  {
+    "name": "Specjalista ds. AI w środowisku Google Workspace – szkolenie przygotowujące do uzyskania kwalifikacji (FIL)",
+    "cat": "ogolne",
+    "desc": "16-godzinne szkolenie stacjonarne w Gliwicach 4–5 listopada, przygotowujące do uzyskania kwalifikacji związanej z wykorzystaniem AI w środowisku Google Workspace.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3699456",
+    "price": "5 535 PLN brutto / 4 500 PLN netto",
+    "format": "Stacjonarnie · Gliwice"
+  },
+  {
+    "name": "AI na tablicy: Praktyczny przewodnik po sztucznej inteligencji dla nauczycieli",
+    "cat": "ogolne",
+    "desc": "38-godzinne szkolenie mieszane w Szczecinie 24–28/29 sierpnia, skierowane do nauczycieli i poświęcone praktycznemu wykorzystaniu AI.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3697898",
+    "price": "8 413,20 PLN brutto / 6 840 PLN netto",
+    "format": "Mieszane · Szczecin"
+  },
+  {
+    "name": "Office AI: GenAI w pracy administracyjno-biurowej w kontekście zielonych kompetencji zgodnych z ramami GreenComp – szkolenie kończące się egzaminem",
+    "cat": "ogolne",
+    "desc": "16 godzin zajęć online na żywo 3–4 października o GenAI w pracy administracyjno-biurowej, powiązanych z ramami GreenComp i zakończonych egzaminem.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3699104",
+    "price": "6 473,69 PLN brutto / 5 263,16 PLN netto",
+    "format": "Online · na żywo"
+  },
+  {
+    "name": "Certified Tester – AI Testing v. 2.0. Szkolenie wraz z egzaminem certyfikującym online",
+    "cat": "programisci",
+    "desc": "25 godzin i 15 minut zajęć online na żywo 12–23 listopada, wraz z egzaminem certyfikującym.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3698639",
+    "price": "4 119,27 PLN brutto / 3 349 PLN netto",
+    "format": "Online · na żywo"
   }
 ]
