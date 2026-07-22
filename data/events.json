@@ -456,14 +456,6 @@
     "url": "https://crossweb.pl/wydarzenia/csai-online-ubiquitous-ot-cybersecurity-consequences-in-thrill-rides-lipiec-2026/"
   },
   {
-    "name": "AWS Agentic Football Cup – Poland",
-    "city": "Warszawa",
-    "date": "21 lipca 2026",
-    "type": "meetup",
-    "free": true,
-    "url": "https://www.agenticfootballcup.com/"
-  },
-  {
     "name": "Webinar: Wdrażanie AI Governance w praktyce",
     "city": "Online",
     "date": "29 lipca 2026",
@@ -654,5 +646,29 @@
     "type": "meetup",
     "free": true,
     "url": "https://crossweb.pl/en/events/ai-jam-lodz-30/"
+  },
+  {
+    "name": "Explain AI: Spotkanie #1",
+    "city": "Poznań",
+    "date": "23 lipca 2026, 17:00–20:00",
+    "type": "meetup",
+    "free": true,
+    "url": "https://wydarzenia.ngo.pl/543485-explain-ai-spotkanie-1.html"
+  },
+  {
+    "name": "AI Safety PL Social Meetup – Warsaw",
+    "city": "Warszawa",
+    "date": "23 lipca 2026, 18:00–21:00",
+    "type": "meetup",
+    "free": true,
+    "url": "https://somo.social/en/e/ai-safety-pl-social-meetup-723"
+  },
+  {
+    "name": "Analityk & Architekt w erze AI",
+    "city": "Warszawa",
+    "date": "1 października 2026, 09:00–16:00",
+    "type": "konferencja",
+    "free": true,
+    "url": "https://analitykarchitekt.ai/"
   }
 ]
