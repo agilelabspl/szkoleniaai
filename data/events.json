@@ -670,5 +670,13 @@
     "type": "konferencja",
     "free": true,
     "url": "https://analitykarchitekt.ai/"
+  },
+  {
+    "name": "AI w firmie pod kontrolą – AI Governance, odpowiedzialność i nowe obowiązki organizacji",
+    "city": "Online",
+    "date": "30 lipca 2026, 10:00–11:00",
+    "type": "meetup",
+    "free": true,
+    "url": "https://www.crowe.com/pl/events/ai-w-firmie-pod-kontrola"
   }
 ]
