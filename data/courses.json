@@ -2363,5 +2363,45 @@
     "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3699952",
     "price": "6 150 PLN brutto / 5 000 PLN netto",
     "format": "Stacjonarnie"
+  },
+  {
+    "name": "Grafika do Internetu + AI – Canva PRO – szkolenie zdalne w czasie rzeczywistym, grupowe",
+    "cat": "grafika",
+    "desc": "20-godzinne szkolenie online na żywo 17–24 sierpnia z projektowania materiałów internetowych w Canva PRO i wykorzystywania funkcji AI.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3699189",
+    "price": "1 800 PLN brutto / netto",
+    "format": "Online · na żywo"
+  },
+  {
+    "name": "Canva z AI – tworzenie multimedialnych projektów z wykorzystaniem sztucznej inteligencji",
+    "cat": "grafika",
+    "desc": "4-godzinne szkolenie online na żywo 25 września z tworzenia multimedialnych projektów w Canvie przy użyciu funkcji sztucznej inteligencji.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3704597",
+    "price": "360 PLN brutto / netto",
+    "format": "Online · na żywo"
+  },
+  {
+    "name": "Social media manager: Canva PRO + AI – szkolenie zdalne w czasie rzeczywistym, grupowe",
+    "cat": "marketing",
+    "desc": "29 godzin zajęć online na żywo 5–14 sierpnia o tworzeniu i prowadzeniu komunikacji w mediach społecznościowych z pomocą Canvy i AI.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3699172",
+    "price": "2 610 PLN brutto / netto",
+    "format": "Online · na żywo"
+  },
+  {
+    "name": "Specjalista ds. sztucznej inteligencji – kurs obsługi i zastosowania narzędzi AI",
+    "cat": "ogolne",
+    "desc": "Indywidualny, 17-godzinny kurs stacjonarny w Nakle Śląskim od 31 lipca do 2 sierpnia, skupiony na obsłudze i praktycznych zastosowaniach narzędzi AI.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3699667",
+    "price": "6 461,19 PLN brutto / 5 253 PLN netto",
+    "format": "Stacjonarnie · Nakło Śląskie"
+  },
+  {
+    "name": "MS Excel podstawy z AI – szkolenie w Autoryzowanym Ośrodku Szkoleniowym Microsoft",
+    "cat": "ogolne",
+    "desc": "12-godzinne szkolenie 8–9 października, dostępne stacjonarnie w Łodzi lub online na żywo, obejmujące podstawy Excela i pracę wspieraną przez AI.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3704385",
+    "price": "1 200 PLN brutto / netto",
+    "format": "Łódź lub online · na żywo"
   }
 ]
