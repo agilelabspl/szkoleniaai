@@ -472,22 +472,6 @@
     "url": "https://www.bcc.org.pl/zapraszamy-na-konferencje-sztuczna-inteligencja-w-praktyce-biznesu/"
   },
   {
-    "name": "Sztuczna inteligencja: Jak przygotować się do zmian związanych z AI — 2. edycja",
-    "city": "Online",
-    "date": "23 lipca 2026",
-    "type": "meetup",
-    "free": true,
-    "url": "https://pracodawcy.pl/aizmiana2/"
-  },
-  {
-    "name": "Przetargi na systemy AI – praktyka i dotychczasowe doświadczenia",
-    "city": "Online",
-    "date": "23 lipca 2026",
-    "type": "meetup",
-    "free": false,
-    "url": "https://www.kozminski.edu.pl/pl/wydarzenia/webinar-przetargi-na-systemy-ai-praktyka-i-dotychczasowe-doswiadczenia"
-  },
-  {
     "name": "The New Role of AI in Big Data Science: Tools, Practice and Future Jobs",
     "city": "Online",
     "date": "28 lipca 2026",
@@ -632,30 +616,6 @@
     "url": "https://tech4life.lodz.pl/"
   },
   {
-    "name": "AI Jam Łódź #30",
-    "city": "Łódź",
-    "date": "23 lipca 2026",
-    "type": "meetup",
-    "free": true,
-    "url": "https://crossweb.pl/en/events/ai-jam-lodz-30/"
-  },
-  {
-    "name": "Explain AI: Spotkanie #1",
-    "city": "Poznań",
-    "date": "23 lipca 2026, 17:00–20:00",
-    "type": "meetup",
-    "free": true,
-    "url": "https://wydarzenia.ngo.pl/543485-explain-ai-spotkanie-1.html"
-  },
-  {
-    "name": "AI Safety PL Social Meetup – Warsaw",
-    "city": "Warszawa",
-    "date": "23 lipca 2026, 18:00–21:00",
-    "type": "meetup",
-    "free": true,
-    "url": "https://somo.social/en/e/ai-safety-pl-social-meetup-723"
-  },
-  {
     "name": "Analityk & Architekt w erze AI",
     "city": "Warszawa",
     "date": "1 października 2026, 09:00–16:00",
@@ -670,5 +630,37 @@
     "type": "meetup",
     "free": true,
     "url": "https://www.crowe.com/pl/events/ai-w-firmie-pod-kontrola"
+  },
+  {
+    "name": "AI Anonymous",
+    "city": "Warszawa",
+    "date": "30 lipca 2026, 19:00",
+    "type": "meetup",
+    "free": true,
+    "url": "https://crossweb.pl/wydarzenia/ai-anonymous-30-lipiec-2026/"
+  },
+  {
+    "name": "AI & Tech Talks #12",
+    "city": "Poznań",
+    "date": "11 sierpnia 2026, 18:00",
+    "type": "meetup",
+    "free": true,
+    "url": "https://crossweb.pl/wydarzenia/ai-tech-talks-12/"
+  },
+  {
+    "name": "AI Anonymous",
+    "city": "Warszawa",
+    "date": "13 sierpnia 2026, 19:00",
+    "type": "meetup",
+    "free": true,
+    "url": "https://crossweb.pl/wydarzenia/ai-anonymous-13-sierpien-2026/"
+  },
+  {
+    "name": "AI Anonymous",
+    "city": "Warszawa",
+    "date": "27 sierpnia 2026, 19:00",
+    "type": "meetup",
+    "free": true,
+    "url": "https://crossweb.pl/wydarzenia/ai-anonymous-27-sierpien-2026/"
   }
 ]

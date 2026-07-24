@@ -2403,5 +2403,45 @@
     "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3704385",
     "price": "1 200 PLN brutto / netto",
     "format": "Łódź lub online · na żywo"
+  },
+  {
+    "name": "Wprowadzenie do sztucznej inteligencji w biznesie – praktyczna praca z ChatGPT i narzędziami AI",
+    "cat": "biznes",
+    "desc": "16 godzin online na żywo 25–28 września o praktycznej pracy z ChatGPT i innymi narzędziami AI w zadaniach operacyjnych, administracyjnych, marketingowych i analitycznych.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3706363",
+    "price": "5 000 PLN brutto / netto",
+    "format": "Online · na żywo"
+  },
+  {
+    "name": "AI w mikroprzedsiębiorstwie – praktyczne wykorzystanie sztucznej inteligencji w codziennej pracy i automatyzacji procesów",
+    "cat": "biznes",
+    "desc": "8-godzinne szkolenie indywidualne w Poznaniu 21 września o codziennych zastosowaniach AI i automatyzacji procesów w mikrofirmie.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3707247",
+    "price": "2 635,72 PLN brutto / 2 142,86 PLN netto",
+    "format": "Stacjonarnie · Poznań"
+  },
+  {
+    "name": "SoMe AI: GenAI w Social Media i stronach www w kontekście zielonych kompetencji zgodnych z ramami GreenComp – szkolenie kończące się egzaminem",
+    "cat": "marketing",
+    "desc": "16 godzin online 10–11 października o projektowaniu strategii i tworzeniu tekstów, grafik, wideo oraz stron z GenAI, z uwzględnieniem SEO, UX, etyki, ESG i egzaminu.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3701876",
+    "price": "6 473,69 PLN brutto / 5 263,16 PLN netto",
+    "format": "Online"
+  },
+  {
+    "name": "AI w marketingu i komunikacji biznesowej – treści, obrazy, wideo, kampanie",
+    "cat": "marketing",
+    "desc": "16 godzin online na żywo 19–20 października o tworzeniu tekstów, obrazów i wideo, planowaniu kampanii oraz automatyzacji działań marketingowych z AI.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3706415",
+    "price": "5 000 PLN brutto / netto",
+    "format": "Online · na żywo"
+  },
+  {
+    "name": "Wykorzystanie narzędzi sztucznej inteligencji (AI) w codziennej pracy – budowa marki osobistej, wizerunku eksperckiego oraz wsparcie działań sprzedażowych",
+    "cat": "marketing",
+    "desc": "12 godzin online na żywo 12–14 sierpnia o wykorzystaniu AI do budowy marki osobistej i eksperckiej oraz wsparcia sprzedaży.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3706626",
+    "price": "3 468,60 PLN brutto / 2 820 PLN netto",
+    "format": "Online · na żywo"
   }
 ]
