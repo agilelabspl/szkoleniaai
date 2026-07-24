@@ -2443,5 +2443,61 @@
     "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3706626",
     "price": "3 468,60 PLN brutto / 2 820 PLN netto",
     "format": "Online · na żywo"
+  },
+  {
+    "name": "Praktyczne zastosowanie AI w centrum medycznym – narzędzia wspierające obsługę pacjenta, marketing, komunikację i automatyzację procesów",
+    "cat": "automatyzacja",
+    "desc": "32-godzinne szkolenie mieszane w Warszawie od 29 sierpnia do 1 września o wykorzystaniu AI w obsłudze pacjenta, marketingu, komunikacji i automatyzacji procesów.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3705754",
+    "price": "8 500 PLN brutto / 6 910,57 PLN netto",
+    "format": "Mieszane · Warszawa"
+  },
+  {
+    "name": "Akademia Lidera – program zaawansowany: komunikacja i delegowanie, kultura organizacyjna oraz zarządzanie sobą w czasie z wykorzystaniem AI",
+    "cat": "biznes",
+    "desc": "18 godzin online na żywo od 3 do 24 listopada, łączących komunikację, delegowanie i organizację czasu z wykorzystaniem AI.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3704394",
+    "price": "4 870,80 PLN brutto / 3 960 PLN netto",
+    "format": "Online · na żywo"
+  },
+  {
+    "name": "AI w pracy projektanta wnętrz plus prompty do wizualizacji wnętrz",
+    "cat": "grafika",
+    "desc": "5-godzinny kurs zdalny dostępny od 28 lipca do 18 września, dotyczący wykorzystania AI i promptów do wizualizacji wnętrz.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3701962",
+    "price": "997 PLN brutto / 810,57 PLN netto",
+    "format": "Zdalnie"
+  },
+  {
+    "name": "Projektowanie wnętrz: projektowanie kuchni, dokumentacja techniczna i wsparcie pracy architekta narzędziami AI",
+    "cat": "grafika",
+    "desc": "23-godzinny kurs zdalny dostępny od 3 sierpnia do 30 września, łączący dokumentację techniczną ze wsparciem pracy architekta przez narzędzia AI.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3701991",
+    "price": "2 835 PLN brutto / 2 304,88 PLN netto",
+    "format": "Zdalnie"
+  },
+  {
+    "name": "Projektowanie wnętrz: projektowanie kuchni z dodatkowym wykorzystaniem narzędzi AI",
+    "cat": "grafika",
+    "desc": "22-godzinny kurs zdalny dostępny od 7 sierpnia do 30 października, uzupełniający projektowanie kuchni o wykorzystanie narzędzi AI.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3702003",
+    "price": "3 285,99 PLN brutto / 2 671,54 PLN netto",
+    "format": "Zdalnie"
+  },
+  {
+    "name": "Reklama w internecie i AI w marketingu: od treści viralowych po skuteczny lejek sprzedażowy",
+    "cat": "marketing",
+    "desc": "Szkolenie online na żywo 29–30 lipca o tworzeniu treści, reklamie internetowej i budowie lejka sprzedażowego z wykorzystaniem AI.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3703160",
+    "price": "5 166 PLN brutto / 4 200 PLN netto",
+    "format": "Online · na żywo"
+  },
+  {
+    "name": "Facebook Ads – skuteczna reklama na Facebooku i Instagramie + AI",
+    "cat": "marketing",
+    "desc": "Szkolenie stacjonarne w Warszawie 8–9 października o planowaniu, tworzeniu i optymalizacji kampanii Meta Ads z wykorzystaniem narzędzi AI.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3705553",
+    "price": "2 324,70 PLN brutto / 1 890 PLN netto",
+    "format": "Stacjonarnie · Warszawa"
   }
 ]
