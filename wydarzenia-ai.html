@@ -143,6 +143,33 @@
             color: var(--text-muted);
         }
 
+        .event-detail-highlight {
+            margin: 0 auto 1.5rem;
+            padding: 1rem 1.25rem;
+            border: 1px solid #c7d2fe;
+            border-radius: 12px;
+            background: #eef2ff;
+            text-align: center;
+        }
+
+        .event-detail-highlight span {
+            display: block;
+            margin-bottom: 0.25rem;
+            color: var(--text-muted);
+            font-size: 0.75rem;
+            font-weight: 700;
+            letter-spacing: 0.04em;
+            text-transform: uppercase;
+        }
+
+        .event-detail-highlight a {
+            color: var(--primary-dark);
+            font-weight: 700;
+            text-decoration: none;
+        }
+
+        .event-detail-highlight a:hover { text-decoration: underline; }
+
         /* Back nav */
         .back-nav {
             display: inline-flex;
@@ -612,12 +639,17 @@
         <header>
             <h1 class="main-title">Wydarzenia <span>AI</span> w Polsce</h1>
             <p class="subtitle">Konferencje, meetupy i warsztaty.<br>Znajdź wydarzenie AI w swoim mieście</p>
-            <p class="update-date">Ostatnia aktualizacja: 24 lipca 2026</p>
+            <p class="update-date">Ostatnia aktualizacja: 25 lipca 2026</p>
             <p class="event-count"><span id="total-events">0</span> wydarzeń AI na mapie</p>
         </header>
         <div style="text-align:center; margin-bottom:1.5rem;">
             <a href="https://forms.gle/3LLFTqy9Mg2d7BuY6" class="submit-event-cta" target="_blank" rel="noopener noreferrer" onclick="typeof gtag==='function'&&gtag('event','cta_click',{event_label:'zglos_wydarzenie'})">Organizujesz wydarzenie AI? Zg&#322;o&#347; je tutaj &rarr;</a>
         </div>
+
+        <aside class="event-detail-highlight">
+            <span>Wydarzenie zweryfikowane u organizatora</span>
+            <a href="wydarzenia-ai-summit-poland-2026.html">AI Summit Poland 2026 — data, miejsce i format &rarr;</a>
+        </aside>
 
         <!-- Mapa — krok 2 -->
         <div id="map"></div>
@@ -803,6 +835,8 @@
         { name: 'AI & Tech Talks #12', city: 'Poznań', date: '11 sierpnia 2026, 18:00', type: 'meetup', free: true, nowe: true, url: 'https://crossweb.pl/wydarzenia/ai-tech-talks-12/', desc: 'Bezpłatne spotkanie AI & Tech Talks #12 w Business Link Poznań przy Wierzbięcice 1A, budynek E.' },
         { name: 'AI Anonymous', city: 'Warszawa', date: '13 sierpnia 2026, 19:00', type: 'meetup', free: true, nowe: true, url: 'https://crossweb.pl/wydarzenia/ai-anonymous-13-sierpien-2026/', desc: 'Bezpłatne spotkanie AI Anonymous w Kolektyw3 by ETHWarsaw przy Koszykowej 54 w Warszawie.' },
         { name: 'AI Anonymous', city: 'Warszawa', date: '27 sierpnia 2026, 19:00', type: 'meetup', free: true, nowe: true, url: 'https://crossweb.pl/wydarzenia/ai-anonymous-27-sierpien-2026/', desc: 'Bezpłatne spotkanie AI Anonymous w Kolektyw3 by ETHWarsaw przy Koszykowej 54 w Warszawie.' },
+        { name: 'Sztuczna inteligencja w edukacji – top 10 na nowy rok szkolny', city: 'Online', date: '27 sierpnia 2026, 19:00', type: 'meetup', free: true, nowe: true, url: 'https://aktywnynauczyciel.pl/darmowe-webinary', desc: 'Bezpłatny webinar online o dziesięciu zastosowaniach sztucznej inteligencji na nowy rok szkolny.' },
+        { name: 'Canva AI 2.0 – praktyczne triki AI, które zmienią sposób przygotowania lekcji', city: 'Online', date: '3 września 2026, 19:00', type: 'meetup', free: true, nowe: true, url: 'https://aktywnynauczyciel.pl/darmowe-webinary', desc: 'Bezpłatny webinar online o praktycznych trikach AI w Canvie wspierających przygotowanie lekcji.' },
     ];
 
     // === KROK 2: Mapa Leaflet ===

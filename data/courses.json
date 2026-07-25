@@ -2499,5 +2499,29 @@
     "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3705553",
     "price": "2 324,70 PLN brutto / 1 890 PLN netto",
     "format": "Stacjonarnie · Warszawa"
+  },
+  {
+    "name": "Zielone kompetencje cyfrowe. Sztuczna inteligencja w pracy biurowej – zastosowanie AI w zielonej transformacji – kurs z egzaminem ECDL/ICDL AI",
+    "cat": "ogolne",
+    "desc": "Indywidualny, 18-godzinny kurs stacjonarny w Gliwicach od 8 do 30 września, zakończony egzaminem ECDL/ICDL AI.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3708157",
+    "price": "5 000 PLN brutto / netto",
+    "format": "Stacjonarnie · Gliwice"
+  },
+  {
+    "name": "AI w zarządzaniu projektami – kompleksowe szkolenie",
+    "cat": "produkty",
+    "desc": "13-godzinne szkolenie online na żywo 8–9 sierpnia o wykorzystaniu AI do planowania, zarządzania ryzykiem i budżetem oraz analizy danych projektowych.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3708422",
+    "price": "1 832,70 PLN brutto / 1 490 PLN netto",
+    "format": "Online · na żywo"
+  },
+  {
+    "name": "Tester Oprogramowania & AI – Future Collars",
+    "cat": "programisci",
+    "desc": "37 godzin zajęć online na żywo od 21 września do 13 listopada w ramach ośmiotygodniowego bootcampu łączącego podstawy testowania oprogramowania z wykorzystaniem AI.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3707869",
+    "price": "6 500 PLN brutto / netto",
+    "format": "Online · na żywo"
   }
 ]

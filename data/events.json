@@ -662,5 +662,21 @@
     "type": "meetup",
     "free": true,
     "url": "https://crossweb.pl/wydarzenia/ai-anonymous-27-sierpien-2026/"
+  },
+  {
+    "name": "Sztuczna inteligencja w edukacji – top 10 na nowy rok szkolny",
+    "city": "Online",
+    "date": "27 sierpnia 2026, 19:00",
+    "type": "meetup",
+    "free": true,
+    "url": "https://aktywnynauczyciel.pl/darmowe-webinary"
+  },
+  {
+    "name": "Canva AI 2.0 – praktyczne triki AI, które zmienią sposób przygotowania lekcji",
+    "city": "Online",
+    "date": "3 września 2026, 19:00",
+    "type": "meetup",
+    "free": true,
+    "url": "https://aktywnynauczyciel.pl/darmowe-webinary"
   }
 ]
