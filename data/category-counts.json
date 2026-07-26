@@ -1,14 +1,14 @@
 {
-  "biznes": 65,
+  "biznes": 69,
   "produkty": 17,
   "marketing": 27,
-  "programisci": 41,
-  "automatyzacja": 31,
-  "ogolne": 76,
-  "grafika": 19,
+  "programisci": 45,
+  "automatyzacja": 33,
+  "ogolne": 81,
+  "grafika": 21,
   "hr": 11,
-  "finanse": 14,
-  "prawo": 14,
-  "wideo": 5,
+  "finanse": 16,
+  "prawo": 15,
+  "wideo": 6,
   "studia-podyplomowe": 7
 }

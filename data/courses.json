@@ -2523,5 +2523,171 @@
     "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3707869",
     "price": "6 500 PLN brutto / netto",
     "format": "Online · na żywo"
+  },
+  {
+    "name": "Wdrażanie zielonych i cyfrowych procesów zarządzania placówką oświatową z wykorzystaniem Google Workspace i AI",
+    "cat": "automatyzacja",
+    "desc": "16 godzin zajęć w Gliwicach 12–13 listopada o cyfrowym zarządzaniu szkołą, współpracy zespołu i użyciu AI z uwzględnieniem zielonych procesów.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3699748",
+    "price": "5 996,25 PLN brutto / 4 875 PLN netto"
+  },
+  {
+    "name": "Wdrażanie zielonych i cyfrowych procesów administracyjnych w placówkach oświatowych z wykorzystaniem Google Workspace i AI",
+    "cat": "automatyzacja",
+    "desc": "16 godzin zajęć w Gliwicach 26–27 listopada o cyfryzacji dokumentów i procesów administracyjnych placówki z pomocą Google Workspace i AI.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3699802",
+    "price": "5 996,25 PLN brutto / 4 875 PLN netto"
+  },
+  {
+    "name": "HomoTech Leadership® – Przywództwo Przyszłości w Erze AI",
+    "cat": "biznes",
+    "desc": "23-godzinny program stacjonarny w Warszawie 4–6 listopada o przywództwie, współpracy człowieka z technologią i zarządzaniu w erze AI.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3701496",
+    "price": "4 612,50 PLN brutto / 3 750 PLN netto",
+    "format": "Stacjonarnie · Warszawa"
+  },
+  {
+    "name": "Wykorzystanie sztucznej inteligencji AI do wspierania zielonej transformacji i efektywnego zarządzania zasobami w organizacji",
+    "cat": "biznes",
+    "desc": "17-godzinne szkolenie stacjonarne w Wiśle 18–20 września o wykorzystywaniu AI do ograniczania zużycia zasobów i wspierania zmian środowiskowych w organizacji.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3702871",
+    "price": "5 250 PLN brutto / netto",
+    "format": "Stacjonarnie · Wisła"
+  },
+  {
+    "name": "Od ekologii do innowacji – praktyczne zastosowania sztucznej inteligencji w Zielonej Gospodarce",
+    "cat": "biznes",
+    "desc": "14-godzinne szkolenie stacjonarne w Sosnowcu 5–6 września o zastosowaniu AI w ekologii i zielonej gospodarce.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3708708",
+    "price": "260 PLN brutto / 211,38 PLN netto",
+    "format": "Stacjonarnie · Sosnowiec"
+  },
+  {
+    "name": "AI jako element ESG – praktyczne zastosowania sztucznej inteligencji przy budowie zielonej gospodarki",
+    "cat": "biznes",
+    "desc": "16-godzinne szkolenie stacjonarne w Sosnowcu 5–6 września o wykorzystaniu AI przy budowie zielonej gospodarki i realizacji celów ESG.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3709210",
+    "price": "5 265 PLN brutto / netto",
+    "format": "Stacjonarnie · Sosnowiec"
+  },
+  {
+    "name": "Osobisty asystent AI autora wniosku o dofinansowanie – jak mądrze korzystać z chatów AI",
+    "cat": "finanse",
+    "desc": "6-godzinne szkolenie online na żywo 5 listopada o używaniu chatbotów do przygotowywania i sprawdzania wniosków bez zastępowania eksperckiej oceny.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3706860",
+    "price": "499 PLN brutto / netto",
+    "format": "Online · na żywo"
+  },
+  {
+    "name": "Wykorzystanie sztucznej inteligencji (AI) w działach księgowości i kadr",
+    "cat": "finanse",
+    "desc": "12 godzin online na żywo 16–27 października o zastosowaniu AI w zadaniach księgowych, kadrowych i płacowych.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3707896",
+    "price": "1 832,70 PLN brutto / 1 490 PLN netto",
+    "format": "Online · na żywo"
+  },
+  {
+    "name": "Przetwarzanie grafik w chatbotach – kreatywne wykorzystanie sztucznej inteligencji w obrazie: Gemini, Nano Banana",
+    "cat": "grafika",
+    "desc": "4-godzinne szkolenie online na żywo 3 września o generowaniu i przetwarzaniu obrazów w narzędziach AI Gemini i Nano Banana.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3704605",
+    "price": "360 PLN brutto / netto",
+    "format": "Online · na żywo"
+  },
+  {
+    "name": "Unico Design: Projektowanie wnętrz z wykorzystaniem AI – od briefu, przez dokumentację po wizualizacje AI i moodboard",
+    "cat": "grafika",
+    "desc": "32-godzinne szkolenie online na żywo 7–10 września, prowadzące od briefu i dokumentacji do moodboardów oraz wizualizacji generowanych z AI.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3708019",
+    "price": "5 166 PLN brutto / 4 200 PLN netto",
+    "format": "Online · na żywo"
+  },
+  {
+    "name": "Podstawy sztucznej inteligencji AI i narzędzi cyfrowych w codziennej pracy",
+    "cat": "ogolne",
+    "desc": "38 godzin zajęć stacjonarnych w Piotrkowie Trybunalskim od 28 lipca do 4 sierpnia o praktycznym użyciu AI i narzędzi cyfrowych w codziennej pracy.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3703312",
+    "price": "3 800 PLN brutto / netto",
+    "format": "Stacjonarnie · Piotrków Trybunalski"
+  },
+  {
+    "name": "Wykorzystanie narzędzi cyfrowych (AI) w praktyce",
+    "cat": "ogolne",
+    "desc": "11 godzin i 45 minut zajęć online na żywo 15–16 września, pokazujących praktyczne zastosowania narzędzi AI w pracy zawodowej.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3703416",
+    "price": "900 PLN brutto / netto",
+    "format": "Online · na żywo"
+  },
+  {
+    "name": "Pierwsze kroki w wykorzystaniu sztucznej inteligencji w aspekcie zrównoważonego rozwoju i zielonych kompetencji z egzaminem GreenComp",
+    "cat": "ogolne",
+    "desc": "16-godzinne szkolenie stacjonarne w Katowicach w terminach 30 września–1 października oraz 8–9 października, zakończone egzaminem GreenComp.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3703481",
+    "price": "6 150 PLN brutto / 5 000 PLN netto",
+    "format": "Stacjonarnie · Katowice"
+  },
+  {
+    "name": "Eco Prompt Engineering Basics: praktyczne wykorzystanie narzędzi AI w zgodzie z ideą zrównoważonego rozwoju",
+    "cat": "ogolne",
+    "desc": "16 godzin zajęć stacjonarnych w Katowicach 10–16 października o konstruowaniu promptów i odpowiedzialnym, zasobooszczędnym użyciu AI.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3704579",
+    "price": "6 081,12 PLN brutto / 4 944 PLN netto",
+    "format": "Stacjonarnie · Katowice"
+  },
+  {
+    "name": "Sztuczna inteligencja (AI) w pracy biurowej",
+    "cat": "ogolne",
+    "desc": "8-godzinne szkolenie online na żywo 9 września o praktycznym zastosowaniu AI w typowych zadaniach biurowych.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3708461",
+    "price": "1 340,70 PLN brutto / 1 090 PLN netto",
+    "format": "Online · na żywo"
+  },
+  {
+    "name": "AI w zamówieniach publicznych – jak skutecznie i bezpiecznie wdrożyć sztuczną inteligencję do automatyzacji i kontroli postępowań",
+    "cat": "prawo",
+    "desc": "12 godzin online na żywo 8–9 października o bezpiecznym wdrażaniu AI do automatyzacji, analizy i kontroli postępowań.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3701658",
+    "price": "1 351,77 PLN brutto / 1 099 PLN netto",
+    "format": "Online · na żywo"
+  },
+  {
+    "name": "Masterclass – Analityk Danych 2.0: Excel, Power BI, SQL, Python i AI",
+    "cat": "programisci",
+    "desc": "138-godzinny program mieszany od 5 sierpnia do 20 grudnia, łączący Excel, Power BI, SQL i Python z analizą wspieraną przez AI.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3701798",
+    "price": "6 027 PLN brutto / 4 900 PLN netto",
+    "format": "Mieszane"
+  },
+  {
+    "name": "Analiza danych wspomagana sztuczną inteligencją (AI)",
+    "cat": "programisci",
+    "desc": "22 godziny szkolenia online na żywo 23–25 września o stosowaniu AI w analizie i interpretacji danych.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3702976",
+    "price": "3 130,35 PLN brutto / 2 545 PLN netto",
+    "format": "Online · na żywo"
+  },
+  {
+    "name": "Cyberbezpieczeństwo + Pentest + AI – od podstaw",
+    "cat": "programisci",
+    "desc": "141-godzinny kurs online na żywo od 22 października 2026 do 5 kwietnia 2027, łączący cyberbezpieczeństwo i testy penetracyjne z agentami AI oraz MCP.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3704098",
+    "price": "7 100 PLN brutto / netto",
+    "format": "Online · na żywo"
+  },
+  {
+    "name": "AI-First Analityk / Architekt – program szkoleniowy online",
+    "cat": "programisci",
+    "desc": "Osiem trzygodzinnych spotkań na żywo od 18 listopada do 14 grudnia o inżynierii kontekstu, repozytoriach wiedzy, agentach AI, walidacji artefaktów, SDD oraz architekturze systemów z komponentami AI.",
+    "url": "https://analitykarchitekt.ai/ai-first",
+    "price": "731,85 PLN brutto / 595 PLN netto do 7 września; potem 977,85 PLN brutto / 795 PLN netto",
+    "format": "Online · na żywo"
+  },
+  {
+    "name": "Rolki od podstaw – planowanie, nagrywanie i montaż wideo smartfonem z wykorzystaniem AI",
+    "cat": "wideo",
+    "desc": "18 godzin zajęć stacjonarnych w Rzeszowie 10–18 października o planowaniu, nagrywaniu i montażu krótkiego wideo smartfonem z wykorzystaniem narzędzi AI.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3701854",
+    "price": "4 428 PLN brutto / 3 600 PLN netto",
+    "format": "Stacjonarnie · Rzeszów"
   }
 ]

@@ -678,5 +678,37 @@
     "type": "meetup",
     "free": true,
     "url": "https://aktywnynauczyciel.pl/darmowe-webinary"
+  },
+  {
+    "name": "Czy potrafimy wykorzystać wartość, którą AI tworzy w przedsiębiorstwach?",
+    "city": "Online",
+    "date": "2 września 2026, 18:30",
+    "type": "meetup",
+    "free": false,
+    "url": "https://www.kozminski.edu.pl/pl/wydarzenia/webinar-czy-potrafimy-wykorzystac-wartosc-ktora-ai-tworzy-w-przedsiebiorstwach"
+  },
+  {
+    "name": "Sztuczna inteligencja w marketingu – dzień otwarty kursu",
+    "city": "Online",
+    "date": "22 września 2026, 18:00",
+    "type": "meetup",
+    "free": false,
+    "url": "https://www.kozminski.edu.pl/pl/wydarzenia/sztuczna-inteligencja-w-marketingu-dzien-otwarty-kursu"
+  },
+  {
+    "name": "Analiza ryzyka dla ochrony danych osobowych przy wdrożeniach systemów typu RAG",
+    "city": "Online",
+    "date": "23 września 2026, 18:00",
+    "type": "meetup",
+    "free": false,
+    "url": "https://www.kozminski.edu.pl/pl/wydarzenia/webinar-studiow-podyplomowych-analiza-ryzyka-dla-ochrony-danych-osobowych-przy-wdrozeniach-systemow-typu-rag"
+  },
+  {
+    "name": "Dzień Otwarty Online studiów podyplomowych „Prawo sztucznej inteligencji”",
+    "city": "Online",
+    "date": "29 września 2026, 18:00",
+    "type": "meetup",
+    "free": false,
+    "url": "https://www.kozminski.edu.pl/pl/wydarzenia/dzien-otwarty-online-studiow-podyplomowych-prawo-sztucznej-inteligencji"
   }
 ]
