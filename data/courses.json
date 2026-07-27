@@ -2689,5 +2689,125 @@
     "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3701854",
     "price": "4 428 PLN brutto / 3 600 PLN netto",
     "format": "Stacjonarnie · Rzeszów"
+  },
+  {
+    "name": "Cyfrowa produktywność w środowisku Microsoft 365 z wykorzystaniem Copilot AI",
+    "cat": "automatyzacja",
+    "desc": "16 godzin online 22–23 września o zwiększaniu produktywności w Wordzie, Excelu, PowerPoincie, Outlooku i Teams.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3695758",
+    "price": "4 428 PLN brutto / 3 600 PLN netto",
+    "format": "Online"
+  },
+  {
+    "name": "Sztuczna inteligencja w praktyce biznesowej: automatyzacja, asystenci AI i zaawansowane narzędzia",
+    "cat": "automatyzacja",
+    "desc": "32-godzinne szkolenie stacjonarne w Poznaniu 17–20 sierpnia o zaawansowanym promptowaniu, asystentach i automatyzacji zadań firmowych.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3696083",
+    "price": "7 680 PLN brutto / netto",
+    "format": "Stacjonarnie · Poznań"
+  },
+  {
+    "name": "Akademia AI — zostań liderem sztucznej inteligencji",
+    "cat": "biznes",
+    "desc": "64-godzinny program stacjonarny w Łodzi od 24 października do 22 listopada, obejmujący pracę z generatywną AI, automatyzacje i przygotowanie do roli lidera wdrożeń.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3694908",
+    "price": "6 400 PLN brutto / netto",
+    "format": "Stacjonarnie · Łódź"
+  },
+  {
+    "name": "Sztuczna inteligencja i zielone kompetencje w nowoczesnym przedsiębiorstwie",
+    "cat": "biznes",
+    "desc": "16 godzin stacjonarnie w Wiśle; dwie potwierdzone edycje 19–21 września i 10–12 października, łączące zastosowania AI z zasadami zrównoważonego rozwoju.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3696097",
+    "price": "6 027 PLN brutto / 4 900 PLN netto",
+    "format": "Stacjonarnie · Wisła"
+  },
+  {
+    "name": "Sztuczna inteligencja w biznesie — praktyczne wprowadzenie do AI dla początkujących",
+    "cat": "biznes",
+    "desc": "32 godziny i 30 minut zajęć online od 1 do 30 września o promptach, analizie danych, tworzeniu treści, agentach i bezpiecznym wdrażaniu AI.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3696948",
+    "price": "3 500 PLN brutto / netto",
+    "format": "Online"
+  },
+  {
+    "name": "Jak napisać projekt B+R z zastosowaniem AI?",
+    "cat": "finanse",
+    "desc": "6 godzin i 30 minut online 16 września o wykorzystaniu AI przy opisie problemu badawczego, planowaniu prac i redagowaniu projektu B+R.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3695679",
+    "price": "613,77 PLN brutto / 499 PLN netto",
+    "format": "Online"
+  },
+  {
+    "name": "Fundamenty rozpoznawalnej marki osobistej, autentycznej komunikacji i monetyzacji wiedzy z wykorzystaniem AI",
+    "cat": "marketing",
+    "desc": "7-godzinne szkolenie online 24 września dla kobiet budujących ekspercką markę, komunikację i model monetyzacji wiedzy z pomocą AI.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3694779",
+    "price": "2 152,50 PLN brutto / 1 750 PLN netto",
+    "format": "Online"
+  },
+  {
+    "name": "AI w pracy kreatywnej i reklamie",
+    "cat": "marketing",
+    "desc": "Jednodniowe szkolenie online 26 sierpnia o generowaniu koncepcji, tekstów i materiałów reklamowych z pomocą AI.",
+    "url": "https://kfk.pl/szkolenie/event/AI-Marketing",
+    "price": "950 PLN netto + 23% VAT",
+    "format": "Online"
+  },
+  {
+    "name": "Nowe technologie w budownictwie — drony, druk 3D, AI w projektowaniu",
+    "cat": "ogolne",
+    "desc": "12 godzin online 7–8 czerwca 2027; przegląd dronów, druku 3D oraz zastosowań AI w projektowaniu, analizie ryzyka i zarządzaniu inwestycją.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3694802",
+    "price": "2 078,70 PLN brutto / 1 690 PLN netto",
+    "format": "Online"
+  },
+  {
+    "name": "Kurs Copilot w Excelu — wykorzystanie AI w analizie i raportowaniu danych",
+    "cat": "ogolne",
+    "desc": "16 godzin online na żywo 17–18 sierpnia o analizie, formułach, raportowaniu i automatyzacji pracy w Excelu z użyciem Microsoft Copilot.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3695677",
+    "price": "2 324,70 PLN brutto / 1 890 PLN netto",
+    "format": "Online · na żywo"
+  },
+  {
+    "name": "Sztuczna inteligencja od podstaw — kompetencje cyfrowe i zielone w pracy z narzędziami AI",
+    "cat": "ogolne",
+    "desc": "16 godzin online 26–27 września dla początkujących; prompty, tekst, grafika, analiza dokumentów, bezpieczeństwo danych i green IT.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3696917",
+    "price": "4 900 PLN brutto / netto",
+    "format": "Online"
+  },
+  {
+    "name": "Sztuczna inteligencja w szkole — praktyczne wprowadzenie do AI dla nauczycieli",
+    "cat": "ogolne",
+    "desc": "32 godziny i 30 minut online od 1 do 31 sierpnia dla nauczycieli; materiały dydaktyczne, dokumentacja, personalizacja nauczania, agenci, prawo i ochrona danych. Rekrutacja według karty BUR kończy się 30 lipca.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3696967",
+    "price": "3 500 PLN brutto / netto",
+    "format": "Online"
+  },
+  {
+    "name": "AI w praktyce — jak usprawnić codzienną pracę i oszczędzić czas",
+    "cat": "ogolne",
+    "desc": "Dwudniowe szkolenie stacjonarne w Warszawie 28–29 lipca o codziennych zastosowaniach AI, tworzeniu treści, analizie i automatyzowaniu powtarzalnych zadań.",
+    "url": "https://kfk.pl/szkolenie/event/ai-warszawa",
+    "price": "2 150 PLN netto + 23% VAT",
+    "format": "Stacjonarnie · Warszawa"
+  },
+  {
+    "name": "AI Evolution Polska 2026 — Jak działa sztuczna inteligencja?",
+    "cat": "ogolne",
+    "desc": "Bezpłatny, samodzielny kurs online trwający około 2,5 godziny; 31 modułów od podstaw AI i promptowania po agentów, zastosowania biznesowe i AI Act, zakończonych testem i certyfikatem.",
+    "url": "https://ai-evolution.online/",
+    "price": "Bezpłatne po założeniu konta",
+    "format": "Online · samodzielnie"
+  },
+  {
+    "name": "AI w testowaniu oprogramowania dla testerów i QA",
+    "cat": "programisci",
+    "desc": "Czterotygodniowy kurs online z nagraniami, czterema spotkaniami live, ćwiczeniami i egzaminem; strona pozwala wybrać start 8 lub 25 sierpnia.",
+    "url": "https://qualityisland.pl/produkt/ai-w-testowaniu-oprogramowania-kurs/",
+    "price": "1 150 PLN netto + 23% VAT",
+    "format": "Online"
   }
 ]

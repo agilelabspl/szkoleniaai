@@ -710,5 +710,69 @@
     "type": "meetup",
     "free": false,
     "url": "https://www.kozminski.edu.pl/pl/wydarzenia/dzien-otwarty-online-studiow-podyplomowych-prawo-sztucznej-inteligencji"
+  },
+  {
+    "name": "Jak zdominować marketing i sprzedaż w dobie AI",
+    "city": "Warszawa",
+    "date": "7 sierpnia 2026, 17:00–21:00",
+    "type": "konferencja",
+    "free": false,
+    "url": "https://event.eduheros.pl/"
+  },
+  {
+    "name": "CreativeTech Poland Meetup_03",
+    "city": "Warszawa",
+    "date": "19 sierpnia 2026, 18:00",
+    "type": "meetup",
+    "free": true,
+    "url": "https://crossweb.pl/wydarzenia/creativetech-poland-meetup03/"
+  },
+  {
+    "name": "Management 2026: Zarządzanie i jakość w erze AI",
+    "city": "Miejsce do ogłoszenia",
+    "date": "21–22 września 2026",
+    "type": "konferencja",
+    "free": false,
+    "url": "https://konferencje.uws.edu.pl/pl/conference/management-2026-2026/"
+  },
+  {
+    "name": "Opole Meets AI",
+    "city": "Opole",
+    "date": "22 września 2026",
+    "type": "konferencja",
+    "free": true,
+    "url": "https://opolemeets.ai/"
+  },
+  {
+    "name": "Sympozjum Polskiego Stowarzyszenia Sztucznej Inteligencji",
+    "city": "Gdańsk",
+    "date": "24–25 września 2026",
+    "type": "konferencja",
+    "free": false,
+    "url": "https://pssi.org.pl/pl%3Astart"
+  },
+  {
+    "name": "Myśl szybciej, licz mądrzej — Excel wspomagany AI",
+    "city": "Lublin",
+    "date": "25 września 2026, 15:00–17:00",
+    "type": "meetup",
+    "free": false,
+    "url": "https://www.lubelskifestiwalnauki.eu/wydarzenia/mysl-szybciej-licz-madrzej-excel-wspomagany-ai/"
+  },
+  {
+    "name": "hackoWatt — AI dla Zielonej Energii",
+    "city": "Katowice",
+    "date": "28–30 września 2026",
+    "type": "konferencja",
+    "free": false,
+    "url": "https://us.edu.pl/wydzial/wnst/event/hackowatt/"
+  },
+  {
+    "name": "Jak robić naukę w dobie AI — AI as international collaboration",
+    "city": "Warszawa",
+    "date": "5 listopada 2026",
+    "type": "konferencja",
+    "free": false,
+    "url": "https://www.gov.pl/web/ncbr/zapytanie-o-wycene-zamowienia-na-organizacje-i-realizacje-jednodniowej-miedzynarodowej-konferencji-dla-narodowego-centrum-badan-i-rozwoju"
   }
 ]
