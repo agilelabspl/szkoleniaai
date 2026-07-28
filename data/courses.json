@@ -2809,5 +2809,21 @@
     "url": "https://qualityisland.pl/produkt/ai-w-testowaniu-oprogramowania-kurs/",
     "price": "1 150 PLN netto + 23% VAT",
     "format": "Online"
+  },
+  {
+    "name": "Sztuczna inteligencja w codziennej pracy — praktyczne wykorzystanie ChatGPT, Microsoft Copilot oraz nowoczesnych narzędzi AI",
+    "cat": "ogolne",
+    "desc": "12-godzinne warsztaty online na żywo o wykorzystaniu ChatGPT, Microsoft Copilot i innych narzędzi AI do automatyzacji zadań, tworzenia treści, analizy danych oraz zwiększania efektywności. Potwierdzone edycje: 14–15 września, 8–9 października, 5–6 listopada i 21–22 grudnia 2026.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3711860",
+    "price": "2 324,70 PLN brutto / 1 890 PLN netto",
+    "format": "Online · na żywo"
+  },
+  {
+    "name": "Sztuczna inteligencja w pracy biurowej i administracji z elementami zielonych kompetencji — intensywne warsztaty jednodniowe",
+    "cat": "ogolne",
+    "desc": "Jednodniowe, 8-godzinne warsztaty online na żywo 26 września 2026, łączące praktyczne zastosowania AI w pracy biurowej i administracyjnej z elementami zielonych kompetencji.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3712105",
+    "price": "2 900 PLN brutto / netto",
+    "format": "Online · na żywo"
   }
 ]
