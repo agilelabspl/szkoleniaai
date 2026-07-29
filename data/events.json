@@ -432,14 +432,6 @@
     "url": "https://dssconf.pl/"
   },
   {
-    "name": "Wait AI Meetup #22: AI & e-Commerce",
-    "city": "Wrocław",
-    "date": "28 lipca 2026",
-    "type": "meetup",
-    "free": true,
-    "url": "https://crossweb.pl/wydarzenia/wait-ai-meetup-22-ai-e-commerce/"
-  },
-  {
     "name": "AI Deep Dive (Virtual) - Building Self-Improving Agents",
     "city": "Online",
     "date": "29 lipca 2026",
@@ -470,14 +462,6 @@
     "type": "konferencja",
     "free": false,
     "url": "https://www.bcc.org.pl/zapraszamy-na-konferencje-sztuczna-inteligencja-w-praktyce-biznesu/"
-  },
-  {
-    "name": "The New Role of AI in Big Data Science: Tools, Practice and Future Jobs",
-    "city": "Online",
-    "date": "28 lipca 2026",
-    "type": "meetup",
-    "free": false,
-    "url": "https://www.kozminski.edu.pl/en/events/new-role-ai-big-data-science-tools-practice-and-future-jobs"
   },
   {
     "name": "Wdrażanie AI w praktyce: Od strategii po wymagania prawne",
@@ -774,5 +758,29 @@
     "type": "konferencja",
     "free": false,
     "url": "https://www.gov.pl/web/ncbr/zapytanie-o-wycene-zamowienia-na-organizacje-i-realizacje-jednodniowej-miedzynarodowej-konferencji-dla-narodowego-centrum-badan-i-rozwoju"
+  },
+  {
+    "name": "Baza wiedzy dla Claude Code — webinar Pionierzy AI",
+    "city": "Online",
+    "date": "13 sierpnia 2026, 12:00",
+    "type": "meetup",
+    "free": true,
+    "url": "https://pionierzy.ai/"
+  },
+  {
+    "name": "Pionierzy AI — Edycja 2: AI w medycynie",
+    "city": "Gdańsk",
+    "date": "20 sierpnia 2026, 17:30",
+    "type": "meetup",
+    "free": true,
+    "url": "https://pionierzy.ai/"
+  },
+  {
+    "name": "VII Ogólnopolska Konferencja Naukowa „Sztuczna inteligencja — nadzieja na przyszłość czy zagrożenie dla ludzkości?”",
+    "city": "Online",
+    "date": "22 października 2026",
+    "type": "konferencja",
+    "free": false,
+    "url": "https://sztuczna-inteligencja.fundacja-tygiel.pl/"
   }
 ]

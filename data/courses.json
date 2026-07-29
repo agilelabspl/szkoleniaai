@@ -2825,5 +2825,61 @@
     "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3712105",
     "price": "2 900 PLN brutto / netto",
     "format": "Online · na żywo"
+  },
+  {
+    "name": "AI w sprzedaży i obsłudze klienta w MŚP",
+    "cat": "biznes",
+    "desc": "16 godzin online 2–3 listopada o praktycznych zastosowaniach AI w procesach sprzedaży i obsługi klienta.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3711770",
+    "price": "5 000 PLN brutto / netto",
+    "format": "Online"
+  },
+  {
+    "name": "Wykorzystanie sztucznej inteligencji w zarządzaniu projektami w MŚP",
+    "cat": "biznes",
+    "desc": "16 godzin online 14–15 października o wykorzystaniu sztucznej inteligencji w pracy projektowej małych i średnich firm.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3711764",
+    "price": "5 000 PLN brutto / netto",
+    "format": "Online"
+  },
+  {
+    "name": "Sztuczna inteligencja w biznesie i marketingu z uwzględnieniem zielonych i cyfrowych kompetencji",
+    "cat": "marketing",
+    "desc": "16-godzinne szkolenie stacjonarne w Olsztynie 7–8 września, łączące zastosowania sztucznej inteligencji w biznesie i marketingu z kompetencjami cyfrowymi i zielonymi.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3712628",
+    "price": "3 600 PLN brutto / netto",
+    "format": "Stacjonarnie · Olsztyn"
+  },
+  {
+    "name": "Sztuczna inteligencja dla nauczycieli z elementami zielonych kompetencji — tworzenie treści edukacyjnych dla dzieci oraz dokumentów i sprawozdań — 2-dniowe szkolenie",
+    "cat": "ogolne",
+    "desc": "16-godzinne szkolenie online 3–4 października o tworzeniu z pomocą AI treści edukacyjnych dla dzieci, dokumentów i sprawozdań, z elementami zielonych kompetencji.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3711982",
+    "price": "4 900 PLN brutto / netto",
+    "format": "Online"
+  },
+  {
+    "name": "Sztuczna inteligencja dla nauczycieli z elementami zielonych kompetencji — treści edukacyjne dla dzieci, dokumenty i sprawozdania",
+    "cat": "ogolne",
+    "desc": "8-godzinne szkolenie online 10 października, będące krótszym wariantem pracy nad treściami edukacyjnymi, dokumentami i sprawozdaniami wspieranymi przez AI.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3711750",
+    "price": "2 900 PLN brutto / netto",
+    "format": "Online"
+  },
+  {
+    "name": "Wyszukiwanie i analiza informacji z wykorzystaniem narzędzi AI",
+    "cat": "ogolne",
+    "desc": "16 godzin online 4–5 listopada, poświęconych wykorzystaniu narzędzi AI do researchu i analizy informacji.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3711776",
+    "price": "5 000 PLN brutto / netto",
+    "format": "Online"
+  },
+  {
+    "name": "Wykorzystanie sztucznej inteligencji w tworzeniu, optymalizacji, bezpieczeństwie i promocji stron internetowych w MŚP",
+    "cat": "programisci",
+    "desc": "16 godzin online 12–13 października o tworzeniu, optymalizacji, zabezpieczaniu i promowaniu stron z wykorzystaniem AI.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3711754",
+    "price": "5 000 PLN brutto / netto",
+    "format": "Online"
   }
 ]
