@@ -432,22 +432,6 @@
     "url": "https://dssconf.pl/"
   },
   {
-    "name": "AI Deep Dive (Virtual) - Building Self-Improving Agents",
-    "city": "Online",
-    "date": "29 lipca 2026",
-    "type": "meetup",
-    "free": true,
-    "url": "https://crossweb.pl/wydarzenia/ai-deep-dive-virtual-building-self-improving-agents-lipiec-2026/"
-  },
-  {
-    "name": "Webinar: Wdrażanie AI Governance w praktyce",
-    "city": "Online",
-    "date": "29 lipca 2026",
-    "type": "meetup",
-    "free": false,
-    "url": "https://www.kozminski.edu.pl/pl/wydarzenia/webinar-wdrazanie-ai-governance-w-praktyce"
-  },
-  {
     "name": "AI-DLC: One integrated workflow",
     "city": "Online",
     "date": "30 lipca 2026",
@@ -782,5 +766,21 @@
     "type": "konferencja",
     "free": false,
     "url": "https://sztuczna-inteligencja.fundacja-tygiel.pl/"
+  },
+  {
+    "name": "Google AI Deep Dive (Ep 2)",
+    "city": "Online",
+    "date": "5 sierpnia 2026, 19:00",
+    "type": "meetup",
+    "free": true,
+    "url": "https://crossweb.pl/wydarzenia/google-ai-deep-dive-ep-2/"
+  },
+  {
+    "name": "AI Boook Club #36",
+    "city": "Online",
+    "date": "6 sierpnia 2026",
+    "type": "meetup",
+    "free": true,
+    "url": "https://crossweb.pl/wydarzenia/ai-boook-club-36/"
   }
 ]
