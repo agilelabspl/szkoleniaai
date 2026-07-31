@@ -432,14 +432,6 @@
     "url": "https://dssconf.pl/"
   },
   {
-    "name": "AI-DLC: One integrated workflow",
-    "city": "Online",
-    "date": "30 lipca 2026",
-    "type": "meetup",
-    "free": false,
-    "url": "https://chaosgears.com/events/aws-kiro-claude-code-ai-dlc"
-  },
-  {
     "name": "Sztuczna inteligencja w praktyce biznesu",
     "city": "Warszawa",
     "date": "24 września 2026",
@@ -590,22 +582,6 @@
     "type": "konferencja",
     "free": true,
     "url": "https://analitykarchitekt.ai/"
-  },
-  {
-    "name": "AI w firmie pod kontrolą – AI Governance, odpowiedzialność i nowe obowiązki organizacji",
-    "city": "Online",
-    "date": "30 lipca 2026, 10:00–11:00",
-    "type": "meetup",
-    "free": true,
-    "url": "https://www.crowe.com/pl/events/ai-w-firmie-pod-kontrola"
-  },
-  {
-    "name": "AI Anonymous",
-    "city": "Warszawa",
-    "date": "30 lipca 2026, 19:00",
-    "type": "meetup",
-    "free": true,
-    "url": "https://crossweb.pl/wydarzenia/ai-anonymous-30-lipiec-2026/"
   },
   {
     "name": "AI & Tech Talks #12",
