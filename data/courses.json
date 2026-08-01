@@ -2881,5 +2881,29 @@
     "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3711754",
     "price": "5 000 PLN brutto / netto",
     "format": "Online"
+  },
+  {
+    "name": "Arkusze kalkulacyjne — Excel dla średniozaawansowanych z elementami sztucznej inteligencji (AI)",
+    "cat": "ogolne",
+    "desc": "8-godzinne szkolenie online na żywo 16–18 listopada 2026, rozwijające pracę w Excelu o elementy sztucznej inteligencji.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3722995",
+    "price": "720 PLN brutto / netto",
+    "format": "Online · na żywo"
+  },
+  {
+    "name": "Wejdź w świat sztucznej inteligencji (AI) — przegląd narzędzi i zastosowań — małe grupy",
+    "cat": "ogolne",
+    "desc": "8-godzinne szkolenie online na żywo w małej grupie 15–16 września 2026, stanowiące przegląd narzędzi AI i ich zastosowań.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3722993",
+    "price": "720 PLN brutto / netto",
+    "format": "Online · na żywo"
+  },
+  {
+    "name": "Arkusze kalkulacyjne — Excel dla początkujących z elementami sztucznej inteligencji (AI)",
+    "cat": "ogolne",
+    "desc": "12-godzinne szkolenie online na żywo 6–10 listopada 2026, łączące podstawy Excela z elementami sztucznej inteligencji.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3722978",
+    "price": "1 080 PLN brutto / netto",
+    "format": "Online · na żywo"
   }
 ]

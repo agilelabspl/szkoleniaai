@@ -758,5 +758,13 @@
     "type": "meetup",
     "free": true,
     "url": "https://crossweb.pl/wydarzenia/ai-boook-club-36/"
+  },
+  {
+    "name": "(CS)²AI Online™ REPLAY: Ask Me Anything: AI in OT Cybersecurity",
+    "city": "Online",
+    "date": "12 sierpnia 2026",
+    "type": "meetup",
+    "free": true,
+    "url": "https://crossweb.pl/wydarzenia/cs-ai-online-replay-ask-me-anything-ai-in-ot-cybersecurity-sierpien-2026/"
   }
 ]
