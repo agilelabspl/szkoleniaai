@@ -766,5 +766,13 @@
     "type": "meetup",
     "free": true,
     "url": "https://crossweb.pl/wydarzenia/cs-ai-online-replay-ask-me-anything-ai-in-ot-cybersecurity-sierpien-2026/"
+  },
+  {
+    "name": "AI Anonymous",
+    "city": "Warszawa",
+    "date": "10 września 2026, 19:00",
+    "type": "meetup",
+    "free": true,
+    "url": "https://crossweb.pl/wydarzenia/ai-anonymous-10-wrzesien-2026/"
   }
 ]
