@@ -312,14 +312,6 @@
     "url": "https://crossweb.pl/wydarzenia/jak-skutecznie-przeksztalcic-system-ocen-w-realny-system-rozwoju-wrzesien-2026/"
   },
   {
-    "name": "Claude Community Kraków",
-    "city": "Kraków",
-    "date": "4 sierpnia 2026",
-    "type": "meetup",
-    "free": true,
-    "url": "https://crossweb.pl/wydarzenia/claude-community-krakow-sierpien-2026/"
-  },
-  {
     "name": "TECH RACE summit 2026",
     "city": "Warszawa",
     "date": "10 września 2026",
@@ -744,14 +736,6 @@
     "url": "https://sztuczna-inteligencja.fundacja-tygiel.pl/"
   },
   {
-    "name": "Google AI Deep Dive (Ep 2)",
-    "city": "Online",
-    "date": "5 sierpnia 2026, 19:00",
-    "type": "meetup",
-    "free": true,
-    "url": "https://crossweb.pl/wydarzenia/google-ai-deep-dive-ep-2/"
-  },
-  {
     "name": "AI Boook Club #36",
     "city": "Online",
     "date": "6 sierpnia 2026",
@@ -774,5 +758,29 @@
     "type": "meetup",
     "free": true,
     "url": "https://crossweb.pl/wydarzenia/ai-anonymous-10-wrzesien-2026/"
+  },
+  {
+    "name": "Google Agents in Production for Enterprises (Virtual) — Ep 1",
+    "city": "Online",
+    "date": "2026-08-11",
+    "type": "meetup",
+    "free": true,
+    "url": "https://crossweb.pl/wydarzenia/google-agents-in-production-for-enterprises-virtual-ep-1/"
+  },
+  {
+    "name": "AI Meetup Kraków",
+    "city": "Kraków",
+    "date": "2026-09-14",
+    "type": "meetup",
+    "free": true,
+    "url": "https://crossweb.pl/wydarzenia/ai-meetup-krakow-wrzesien-2026/"
+  },
+  {
+    "name": "Mindstone Warsaw September AI Meetup",
+    "city": "Warszawa",
+    "date": "2026-09-24",
+    "type": "meetup",
+    "free": true,
+    "url": "https://crossweb.pl/wydarzenia/mindstone-warsaw-september-ai-meetup-wrzesien-2026/"
   }
 ]
