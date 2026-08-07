@@ -736,14 +736,6 @@
     "url": "https://sztuczna-inteligencja.fundacja-tygiel.pl/"
   },
   {
-    "name": "AI Boook Club #36",
-    "city": "Online",
-    "date": "6 sierpnia 2026",
-    "type": "meetup",
-    "free": true,
-    "url": "https://crossweb.pl/wydarzenia/ai-boook-club-36/"
-  },
-  {
     "name": "(CS)²AI Online™ REPLAY: Ask Me Anything: AI in OT Cybersecurity",
     "city": "Online",
     "date": "12 sierpnia 2026",
@@ -782,5 +774,45 @@
     "type": "meetup",
     "free": true,
     "url": "https://crossweb.pl/wydarzenia/mindstone-warsaw-september-ai-meetup-wrzesien-2026/"
+  },
+  {
+    "name": "Od danych do AI. Jak przygotować zakład produkcyjny na nową erę zarządzania energią",
+    "city": "Online",
+    "date": "2026-08-12",
+    "type": "meetup",
+    "free": true,
+    "url": "https://crossweb.pl/wydarzenia/od-danych-do-ai-jak-przygotowac-zaklad-produkcyjny-na-nowa-ere-zarzadzania-energia-sierpien-2026/"
+  },
+  {
+    "name": "AWS B-STOK #7 — Building with Amazon Bedrock: AI Agents Workshop",
+    "city": "Białystok",
+    "date": "2026-08-20",
+    "type": "meetup",
+    "free": true,
+    "url": "https://crossweb.pl/wydarzenia/building-with-amazon-bedrock-ai-agents-workshop-sierpien-2026/"
+  },
+  {
+    "name": "Agent Conf 2026",
+    "city": "Warszawa",
+    "date": "2026-09-17–2026-09-18",
+    "type": "konferencja",
+    "free": false,
+    "url": "https://www.agent.sh/"
+  },
+  {
+    "name": "People Communication & Employer Branding in the AI era",
+    "city": "Warszawa",
+    "date": "2026-09-30, 16:30",
+    "type": "meetup",
+    "free": false,
+    "url": "https://crossweb.pl/wydarzenia/people-communication-employer-branding-in-the-ai-era-wrzesien-2026/"
+  },
+  {
+    "name": "Policy — Checked, Attributable, Revocable, Provable AI Agent Authorization",
+    "city": "Online",
+    "date": "2026-10-02",
+    "type": "meetup",
+    "free": true,
+    "url": "https://crossweb.pl/wydarzenia/policy-checked-attributable-revocable-provable-ai-agent-authorization-pazdziernik-2026/"
   }
 ]
