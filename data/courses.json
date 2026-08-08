@@ -2905,5 +2905,85 @@
     "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3722978",
     "price": "1 080 PLN brutto / netto",
     "format": "Online · na żywo"
+  },
+  {
+    "name": "Modele AI w pracy zawodowej — od promptu do nadinstrukcji stanowiskowej",
+    "cat": "ogolne",
+    "desc": "23-godzinne szkolenie mieszane w Białymstoku, realizowane 2–10 września 2026; od pracy z promptem do przygotowania instrukcji AI dopasowanych do stanowiska.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3728392",
+    "price": "7 146,10 PLN brutto / netto",
+    "format": "Mieszane · Białystok"
+  },
+  {
+    "name": "Fundamenty sztucznej inteligencji w firmie: osobisty asystent AI (Claude, NotebookLM) oraz automatyzacja i wdrożenie AI w codziennej pracy",
+    "cat": "biznes",
+    "desc": "27 godzin stacjonarnie w Gnieźnie 21–24 września 2026; praktyczna praca z Claude i NotebookLM, budowa osobistego asystenta oraz automatyzacja codziennych procesów.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3733740",
+    "price": "9 298,80 PLN brutto / 7 560 PLN netto",
+    "format": "Stacjonarnie · Gniezno"
+  },
+  {
+    "name": "AI w praktyce biznesowej z Katarzyną Absyl — warsztaty z wykorzystaniem zielonych kompetencji i produktów proekologicznych",
+    "cat": "biznes",
+    "desc": "16-godzinne warsztaty stacjonarne w Rybniku 28 października–4 listopada 2026; zastosowania AI w biznesie połączone z zielonymi kompetencjami.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3731252",
+    "price": "6 027 PLN brutto / 4 900 PLN netto",
+    "format": "Stacjonarnie · Rybnik"
+  },
+  {
+    "name": "System zielonej komunikacji z AI: automatyzacja, monitoring i doskonalenie komunikacji działań środowiskowych — Moduł II",
+    "cat": "marketing",
+    "desc": "16 godzin online na żywo 30 września–1 października 2026; automatyzacja, monitoring i doskonalenie komunikacji działań środowiskowych.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3733814",
+    "price": "5 000 PLN brutto / netto",
+    "format": "Online · na żywo"
+  },
+  {
+    "name": "Zielone kompetencje w komunikacji online: identyfikacja działań środowiskowych i tworzenie wiarygodnych treści z AI — Moduł I",
+    "cat": "marketing",
+    "desc": "16 godzin online na żywo 28–29 września 2026; identyfikowanie działań środowiskowych oraz tworzenie wiarygodnych treści przy wsparciu AI.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3733775",
+    "price": "5 000 PLN brutto / netto",
+    "format": "Online · na żywo"
+  },
+  {
+    "name": "Tworzenie użytecznych i zielonych treści na strony internetowe z wykorzystaniem AI — Moduł III",
+    "cat": "marketing",
+    "desc": "8-godzinne szkolenie online na żywo 2 października 2026 o przygotowywaniu treści internetowych z wykorzystaniem AI.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3735523",
+    "price": "2 256 PLN brutto / netto",
+    "format": "Online · na żywo"
+  },
+  {
+    "name": "Reklama na Facebooku i Instagramie z wykorzystaniem AI: kampanie Meta Ads od podstaw do optymalizacji",
+    "cat": "marketing",
+    "desc": "30 godzin online na żywo 14 października–2 listopada 2026; tworzenie i optymalizacja kampanii reklamowych na Facebooku i Instagramie przy wsparciu AI.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3735240",
+    "price": "7 380 PLN brutto / 6 000 PLN netto",
+    "format": "Online · na żywo"
+  },
+  {
+    "name": "Zielona transformacja cyfrowa — bezpieczne wykorzystanie AI w ograniczaniu zużycia zasobów przedsiębiorstwa energetycznego",
+    "cat": "biznes",
+    "desc": "16 godzin stacjonarnie w Paniówkach 21–22 października 2026; bezpieczne użycie AI do ograniczania zużycia zasobów w przedsiębiorstwie energetycznym.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3734506",
+    "price": "6 076,20 PLN brutto / 4 940 PLN netto",
+    "format": "Stacjonarnie · Paniówki"
+  },
+  {
+    "name": "Komunikacja interpersonalna, autoprezentacja oraz tworzenie treści multimedialnych z wykorzystaniem narzędzi AI",
+    "cat": "ogolne",
+    "desc": "18 godzin stacjonarnie w Skwierzynie 12–14 sierpnia 2026; rozwój komunikacji i autoprezentacji połączony z tworzeniem treści multimedialnych za pomocą AI.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3734807",
+    "price": "4 700 PLN brutto / netto",
+    "format": "Stacjonarnie · Skwierzyna"
+  },
+  {
+    "name": "Canva: projektowanie grafik, dokumentów i wideo na social media oraz obsługa AI",
+    "cat": "grafika",
+    "desc": "7-godzinne szkolenie online na żywo 2 września 2026; praktyczne tworzenie grafik, dokumentów i wideo na social media z użyciem funkcji AI.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3735804",
+    "price": "984 PLN brutto / 800 PLN netto",
+    "format": "Online · na żywo"
   }
 ]
