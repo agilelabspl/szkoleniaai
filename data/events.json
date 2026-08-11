@@ -822,5 +822,13 @@
     "type": "meetup",
     "free": true,
     "url": "https://crossweb.pl/wydarzenia/angular-jam-3-ai-workflow/"
+  },
+  {
+    "name": "GenAI Cracow #30 — Neurosymbolic AI",
+    "city": "Kraków",
+    "date": "24 sierpnia 2026, 18:00",
+    "type": "meetup",
+    "free": false,
+    "url": "https://crossweb.pl/wydarzenia/genai-cracow-30-neurosymbolic-ai/"
   }
 ]
