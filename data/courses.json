@@ -2985,5 +2985,29 @@
     "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3735804",
     "price": "984 PLN brutto / 800 PLN netto",
     "format": "Online · na żywo"
+  },
+  {
+    "name": "Projektowanie grafik i prowadzenie Social Mediów z AI: Canva, Meta Ads, ChatGPT i automatyzacja treści",
+    "cat": "grafika",
+    "desc": "30 godzin online na żywo, 3–24 listopada 2026; kurs łączy ChatGPT, Canvę, CapCut, Meta Ads i automatyzację treści dla początkujących social media managerów i grafików.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3740371",
+    "price": "6 150 PLN brutto / 5 000 PLN netto",
+    "format": "Online · na żywo"
+  },
+  {
+    "name": "Nowoczesny marketing cyfrowy w przedsiębiorstwie: Google Ads, TikTok, LinkedIn oraz wykorzystanie sztucznej inteligencji (AI) w kreacji i promocji",
+    "cat": "marketing",
+    "desc": "16-godzinne indywidualne szkolenie stacjonarne w Kielcach, 8–9 października 2026; obejmuje Google Ads, TikTok, LinkedIn oraz wykorzystanie AI do tworzenia i promocji treści.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3741329",
+    "price": "5 719,50 PLN brutto / 4 650 PLN netto",
+    "format": "Stacjonarnie · Kielce"
+  },
+  {
+    "name": "Planowanie i tworzenie treści do social mediów z wykorzystaniem AI, ChatGPT, Canvy i CapCut",
+    "cat": "marketing",
+    "desc": "10,5 godziny zajęć online na żywo, 14–22 listopada 2026; praktyczna praca z AI, ChatGPT, Canvą i CapCut przy planowaniu oraz produkcji treści.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3740707",
+    "price": "2 999 PLN brutto / 2 438,21 PLN netto",
+    "format": "Online · na żywo"
   }
 ]
