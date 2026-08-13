@@ -712,14 +712,6 @@
     "url": "https://sztuczna-inteligencja.fundacja-tygiel.pl/"
   },
   {
-    "name": "(CS)²AI Online™ REPLAY: Ask Me Anything: AI in OT Cybersecurity",
-    "city": "Online",
-    "date": "12 sierpnia 2026",
-    "type": "meetup",
-    "free": true,
-    "url": "https://crossweb.pl/wydarzenia/cs-ai-online-replay-ask-me-anything-ai-in-ot-cybersecurity-sierpien-2026/"
-  },
-  {
     "name": "AI Anonymous",
     "city": "Warszawa",
     "date": "10 września 2026, 19:00",
@@ -742,14 +734,6 @@
     "type": "meetup",
     "free": true,
     "url": "https://crossweb.pl/wydarzenia/mindstone-warsaw-september-ai-meetup-wrzesien-2026/"
-  },
-  {
-    "name": "Od danych do AI. Jak przygotować zakład produkcyjny na nową erę zarządzania energią",
-    "city": "Online",
-    "date": "2026-08-12",
-    "type": "meetup",
-    "free": true,
-    "url": "https://crossweb.pl/wydarzenia/od-danych-do-ai-jak-przygotowac-zaklad-produkcyjny-na-nowa-ere-zarzadzania-energia-sierpien-2026/"
   },
   {
     "name": "AWS B-STOK #7 — Building with Amazon Bedrock: AI Agents Workshop",
@@ -822,5 +806,21 @@
     "type": "meetup",
     "free": true,
     "url": "https://crossweb.pl/wydarzenia/ai-w-rekach-kreatywnych-uzytkownikow-jak-ograniczyc-ryzyka-nowej-normalnosci-wrzesien-2026/"
+  },
+  {
+    "name": "Agentic AI: jak zmienia firmę, rynek i kto za to odpowiada?",
+    "city": "Online",
+    "date": "2 września 2026, 15:30–17:00",
+    "type": "meetup",
+    "free": true,
+    "url": "https://aisummitpoland.pl/agentic-ai/"
+  },
+  {
+    "name": "Prawne aspekty wykorzystania AI w biznesie — co musisz wiedzieć?",
+    "city": "Online",
+    "date": "4 września 2026, 11:00–11:55",
+    "type": "meetup",
+    "free": true,
+    "url": "https://aisummitpoland.pl/webinar-prawne-aspekty-wykorzystania-ai-w-biznesie-co-musisz-wiedziec/"
   }
 ]
