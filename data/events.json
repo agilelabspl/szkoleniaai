@@ -424,14 +424,6 @@
     "url": "https://www.bcc.org.pl/zapraszamy-na-konferencje-sztuczna-inteligencja-w-praktyce-biznesu/"
   },
   {
-    "name": "Wdrażanie AI w praktyce: Od strategii po wymagania prawne",
-    "city": "Online",
-    "date": "18 sierpnia 2026",
-    "type": "meetup",
-    "free": false,
-    "url": "https://www.kozminski.edu.pl/pl/oferta-edukacyjna/studia-podyplomowe/wdrazanie-i-wykorzystanie-ai-w-organizacji"
-  },
-  {
     "name": "Generatywna AI – okiem prawnika",
     "city": "Online",
     "date": "14 września 2026",
@@ -570,14 +562,6 @@
   {
     "name": "AI Anonymous",
     "city": "Warszawa",
-    "date": "13 sierpnia 2026, 19:00",
-    "type": "meetup",
-    "free": true,
-    "url": "https://crossweb.pl/wydarzenia/ai-anonymous-13-sierpien-2026/"
-  },
-  {
-    "name": "AI Anonymous",
-    "city": "Warszawa",
     "date": "27 sierpnia 2026, 19:00",
     "type": "meetup",
     "free": true,
@@ -632,14 +616,6 @@
     "url": "https://www.kozminski.edu.pl/pl/wydarzenia/dzien-otwarty-online-studiow-podyplomowych-prawo-sztucznej-inteligencji"
   },
   {
-    "name": "CreativeTech Poland Meetup_03",
-    "city": "Warszawa",
-    "date": "19 sierpnia 2026, 18:00",
-    "type": "meetup",
-    "free": true,
-    "url": "https://crossweb.pl/wydarzenia/creativetech-poland-meetup03/"
-  },
-  {
     "name": "Management 2026: Zarządzanie i jakość w erze AI",
     "city": "Miejsce do ogłoszenia",
     "date": "21–22 września 2026",
@@ -686,14 +662,6 @@
     "type": "konferencja",
     "free": false,
     "url": "https://www.gov.pl/web/ncbr/zapytanie-o-wycene-zamowienia-na-organizacje-i-realizacje-jednodniowej-miedzynarodowej-konferencji-dla-narodowego-centrum-badan-i-rozwoju"
-  },
-  {
-    "name": "Baza wiedzy dla Claude Code — webinar Pionierzy AI",
-    "city": "Online",
-    "date": "13 sierpnia 2026, 12:00",
-    "type": "meetup",
-    "free": true,
-    "url": "https://pionierzy.ai/"
   },
   {
     "name": "Pionierzy AI — Edycja 2: AI w medycynie",
@@ -792,14 +760,6 @@
     "url": "https://crossweb.pl/wydarzenia/genai-cracow-30-neurosymbolic-ai/"
   },
   {
-    "name": "RAG Systems, Compression, and Agentic Engineering",
-    "city": "Kraków",
-    "date": "17 sierpnia 2026, 18:45–21:00",
-    "type": "meetup",
-    "free": true,
-    "url": "https://crossweb.pl/wydarzenia/rag-systems-compression-and-agentic-engineering-sierpien-2026/"
-  },
-  {
     "name": "AI w rękach (kreatywnych) użytkowników — jak ograniczyć ryzyka nowej normalności",
     "city": "Online",
     "date": "10 września 2026",
@@ -822,5 +782,13 @@
     "type": "meetup",
     "free": true,
     "url": "https://aisummitpoland.pl/webinar-prawne-aspekty-wykorzystania-ai-w-biznesie-co-musisz-wiedziec/"
+  },
+  {
+    "name": "AI Summer LAB — hackathon onsite",
+    "city": "Warszawa",
+    "date": "27–28 sierpnia 2026",
+    "type": "konferencja",
+    "free": true,
+    "url": "https://careers-stx.webflow.io/events-advartis-ai-summer-hackaton"
   }
 ]
