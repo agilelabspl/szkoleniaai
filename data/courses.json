@@ -3017,5 +3017,108 @@
     "url": "https://pcdk.pl/szkolenia-i-konferencje/kategorie-szkolen/szkolenia-ksef/104-szkolenia-sztuczna-inteligencja-ai/8909-wstep-do-sztucznej-inteligencji-i-narzedzia-ai-w-codziennej-pracy20260522075615",
     "price": "540 PLN netto; 299 PLN dla posiadaczy dostępu PCDK Know How Standard/Premium",
     "format": "Online"
+  },
+  {
+    "name": "Twój Asystent AI — automatyzacja pracy z Agentami AI",
+    "cat": "automatyzacja",
+    "desc": "Szkolenie online realizowane 28–29 września 2026, poświęcone automatyzacji pracy z agentami AI.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3783845",
+    "price": "1 476,00 PLN brutto / 1 200,00 PLN netto",
+    "format": "Online"
+  },
+  {
+    "name": "Inżynieria promptów i zaawansowana automatyzacja procesów biurowych z Generative AI",
+    "cat": "automatyzacja",
+    "desc": "Szkolenie stacjonarne w Ropczycach, realizowane 13–20 października 2026.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3787105",
+    "price": "12 000,00 PLN brutto / netto",
+    "format": "Stacjonarnie · Ropczyce"
+  },
+  {
+    "name": "Projektowanie i wdrażanie automatyzacji AI no-code",
+    "cat": "automatyzacja",
+    "desc": "Szkolenie online realizowane 15–27 września 2026, poświęcone projektowaniu i wdrażaniu automatyzacji AI bez kodowania.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3788359",
+    "price": "4 800,00 PLN brutto / netto",
+    "format": "Online"
+  },
+  {
+    "name": "AI — sztuczna inteligencja w biznesie i rozwoju osobistym",
+    "cat": "biznes",
+    "desc": "Kurs o promptach, organizacji pracy, dokumentach, treściach i planowaniu wdrożeń AI.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3782794",
+    "price": "3 150,00 PLN brutto / netto",
+    "format": "Online"
+  },
+  {
+    "name": "Wykorzystanie sztucznej inteligencji w procesach biznesowych — poziom średni",
+    "cat": "biznes",
+    "desc": "Szkolenie 1–6 października 2026 o automatyzacji, marketingu i sprzedaży, RAG oraz agentach AI.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3785893",
+    "price": "5 000,00 PLN brutto / netto",
+    "format": "Online"
+  },
+  {
+    "name": "Zastosowanie AI w biznesie — automatyzacja pracy, analiza danych i wsparcie procesów HR",
+    "cat": "biznes",
+    "desc": "Kurs e-learningowy realizowany 8–29 września 2026 o zastosowaniach AI w automatyzacji pracy, analizie danych i procesach HR.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3787730",
+    "price": "9 500,00 PLN brutto / netto",
+    "format": "E-learning"
+  },
+  {
+    "name": "Kurs na AI. Inteligentne narzędzia w bibliotece — 5. edycja",
+    "cat": "ogolne",
+    "desc": "Hybrydowy cykl dla bibliotekarek i bibliotekarzy: około 16 godzin online oraz szkolenie stacjonarne w Gdańsku.",
+    "url": "https://biblioteki.org/aktualnosci/juz-jutro-start-rekrutacji-do-5-edycji-programu-kurs-na-ai-inteligentne-narzedzia-w-bibliotece/",
+    "price": "",
+    "format": "Hybrydowy · Gdańsk"
+  },
+  {
+    "name": "Mój Doradca Zawodowy",
+    "cat": "ogolne",
+    "desc": "Warsztat dla uczniów o budowie asystenta w Google Gemini, promptach i bezpiecznym korzystaniu z AI; finansowany w ramach Meet and Code 2026.",
+    "url": "https://publicystyka.ngo.pl/do-zobaczenia-w-pcimiu-organizujemy-warsztaty-ai-moj-doradca-zawodowy",
+    "price": ""
+  },
+  {
+    "name": "Sztuczna inteligencja w pracy zawodowej i nauce",
+    "cat": "ogolne",
+    "desc": "Praktyczny warsztat stacjonarny w Toruniu, 13 listopada 2026.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3782806",
+    "price": "984,00 PLN brutto / 800,00 PLN netto",
+    "format": "Stacjonarnie · Toruń"
+  },
+  {
+    "name": "Sztuczna inteligencja w codziennej pracy — zaawansowane techniki",
+    "cat": "ogolne",
+    "desc": "Szkolenie 24–25 września 2026 obejmujące prompting, własne GPT, pracę z plikami, bezpieczeństwo i automatyzacje.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3783838",
+    "price": "1 771,20 PLN brutto / 1 440,00 PLN netto",
+    "format": "Online"
+  },
+  {
+    "name": "AI w praktyce — sztuczna inteligencja od codzienności do biznesu",
+    "cat": "ogolne",
+    "desc": "Kurs od podstaw realizowany online 16–20 listopada 2026, pokazujący zastosowania sztucznej inteligencji od codzienności do biznesu.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3785918",
+    "price": "3 600,00 PLN brutto / netto",
+    "format": "Online"
+  },
+  {
+    "name": "Specjalista ds. sztucznej inteligencji w zakresie zrównoważonego rozwoju",
+    "cat": "ogolne",
+    "desc": "Szkolenie kwalifikacyjne w Sosnowcu, realizowane 24–29 października 2026.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3786128",
+    "price": "4 950,00 PLN brutto / netto",
+    "format": "Stacjonarnie · Sosnowiec"
+  },
+  {
+    "name": "AI od podstaw do praktyki",
+    "cat": "ogolne",
+    "desc": "Intensywny warsztat z promptowania i narzędzi ChatGPT, Gemini, Perplexity, NotebookLM i MS Copilot, realizowany 21–25 września 2026.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3787887",
+    "price": "4 700,00 PLN brutto / netto",
+    "format": "Online"
   }
 ]

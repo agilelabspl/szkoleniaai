@@ -560,38 +560,6 @@
     "url": "https://analitykarchitekt.ai/"
   },
   {
-    "name": "AI Anonymous",
-    "city": "Warszawa",
-    "date": "27 sierpnia 2026, 19:00",
-    "type": "meetup",
-    "free": true,
-    "url": "https://crossweb.pl/wydarzenia/ai-anonymous-27-sierpien-2026/"
-  },
-  {
-    "name": "Sztuczna inteligencja w edukacji – top 10 na nowy rok szkolny",
-    "city": "Online",
-    "date": "27 sierpnia 2026, 19:00",
-    "type": "meetup",
-    "free": true,
-    "url": "https://aktywnynauczyciel.pl/darmowe-webinary"
-  },
-  {
-    "name": "Canva AI 2.0 – praktyczne triki AI, które zmienią sposób przygotowania lekcji",
-    "city": "Online",
-    "date": "3 września 2026, 19:00",
-    "type": "meetup",
-    "free": true,
-    "url": "https://aktywnynauczyciel.pl/darmowe-webinary"
-  },
-  {
-    "name": "Czy potrafimy wykorzystać wartość, którą AI tworzy w przedsiębiorstwach?",
-    "city": "Online",
-    "date": "2 września 2026, 18:30",
-    "type": "meetup",
-    "free": false,
-    "url": "https://www.kozminski.edu.pl/pl/wydarzenia/webinar-czy-potrafimy-wykorzystac-wartosc-ktora-ai-tworzy-w-przedsiebiorstwach"
-  },
-  {
     "name": "Sztuczna inteligencja w marketingu – dzień otwarty kursu",
     "city": "Online",
     "date": "22 września 2026, 18:00",
@@ -664,14 +632,6 @@
     "url": "https://www.gov.pl/web/ncbr/zapytanie-o-wycene-zamowienia-na-organizacje-i-realizacje-jednodniowej-miedzynarodowej-konferencji-dla-narodowego-centrum-badan-i-rozwoju"
   },
   {
-    "name": "Pionierzy AI — Edycja 2: AI w medycynie",
-    "city": "Gdańsk",
-    "date": "20 sierpnia 2026, 17:30",
-    "type": "meetup",
-    "free": true,
-    "url": "https://pionierzy.ai/"
-  },
-  {
     "name": "VII Ogólnopolska Konferencja Naukowa „Sztuczna inteligencja — nadzieja na przyszłość czy zagrożenie dla ludzkości?”",
     "city": "Online",
     "date": "22 października 2026",
@@ -704,14 +664,6 @@
     "url": "https://crossweb.pl/wydarzenia/mindstone-warsaw-september-ai-meetup-wrzesien-2026/"
   },
   {
-    "name": "AWS B-STOK #7 — Building with Amazon Bedrock: AI Agents Workshop",
-    "city": "Białystok",
-    "date": "2026-08-20",
-    "type": "meetup",
-    "free": true,
-    "url": "https://crossweb.pl/wydarzenia/building-with-amazon-bedrock-ai-agents-workshop-sierpien-2026/"
-  },
-  {
     "name": "Agent Conf 2026",
     "city": "Warszawa",
     "date": "2026-09-17–2026-09-18",
@@ -736,44 +688,12 @@
     "url": "https://crossweb.pl/wydarzenia/policy-checked-attributable-revocable-provable-ai-agent-authorization-pazdziernik-2026/"
   },
   {
-    "name": "Codaro Coding Challenge II — AI Hackathon (Codaro × GDG Warszawa)",
-    "city": "Warszawa",
-    "date": "20 sierpnia 2026, 09:30–20:30",
-    "type": "konferencja",
-    "free": true,
-    "url": "https://gdg.community.dev/events/details/google-gdg-warszawa-presents-codaro-coding-challenge-ii-ai-hackathon-codaro-x-gdg-warszawa/"
-  },
-  {
-    "name": "Angular Jam 3: AI & workflow",
-    "city": "Warszawa",
-    "date": "21 sierpnia 2026, 18:00",
-    "type": "meetup",
-    "free": true,
-    "url": "https://crossweb.pl/wydarzenia/angular-jam-3-ai-workflow/"
-  },
-  {
-    "name": "GenAI Cracow #30 — Neurosymbolic AI",
-    "city": "Kraków",
-    "date": "24 sierpnia 2026, 18:00",
-    "type": "meetup",
-    "free": false,
-    "url": "https://crossweb.pl/wydarzenia/genai-cracow-30-neurosymbolic-ai/"
-  },
-  {
     "name": "AI w rękach (kreatywnych) użytkowników — jak ograniczyć ryzyka nowej normalności",
     "city": "Online",
     "date": "10 września 2026",
     "type": "meetup",
     "free": true,
     "url": "https://crossweb.pl/wydarzenia/ai-w-rekach-kreatywnych-uzytkownikow-jak-ograniczyc-ryzyka-nowej-normalnosci-wrzesien-2026/"
-  },
-  {
-    "name": "Agentic AI: jak zmienia firmę, rynek i kto za to odpowiada?",
-    "city": "Online",
-    "date": "2 września 2026, 15:30–17:00",
-    "type": "meetup",
-    "free": true,
-    "url": "https://aisummitpoland.pl/agentic-ai/"
   },
   {
     "name": "Prawne aspekty wykorzystania AI w biznesie — co musisz wiedzieć?",
@@ -784,11 +704,43 @@
     "url": "https://aisummitpoland.pl/webinar-prawne-aspekty-wykorzystania-ai-w-biznesie-co-musisz-wiedziec/"
   },
   {
-    "name": "AI Summer LAB — hackathon onsite",
+    "name": "Przyszłość zaczyna się dziś — jak przygotować dzieci i nauczycieli do życia w świecie AI?",
+    "city": "Online",
+    "date": "10 września 2026, 18:00",
+    "type": "meetup",
+    "free": true,
+    "url": "https://pti.org.pl/przyszlosc-zaczyna-sie-dzis-jak-przygotowac-dzieci-i-nauczycieli-do-zycia-w-swiecie-ai/"
+  },
+  {
+    "name": "Sztuczna inteligencja a prawo — trzeci Otwarty Wykład Ekspercki UODO",
     "city": "Warszawa",
-    "date": "27–28 sierpnia 2026",
+    "date": "11 września 2026, 10:00–12:00",
+    "type": "meetup",
+    "free": false,
+    "url": "https://sdt.uodo.gov.pl/pl/589/4556"
+  },
+  {
+    "name": "Optimization in Machine Learning and Optimization with Fractional Calculus Methods — warsztaty przed GPCO 2026",
+    "city": "Białystok",
+    "date": "19–20 września 2026",
+    "type": "meetup",
+    "free": true,
+    "url": "https://gpco2026.pb.edu.pl/workshop/"
+  },
+  {
+    "name": "9th German-Polish Conference on Optimization — Methods and Applications (GPCO 2026)",
+    "city": "Białystok",
+    "date": "21–25 września 2026",
+    "type": "konferencja",
+    "free": false,
+    "url": "https://gpco2026.pb.edu.pl/"
+  },
+  {
+    "name": "III Konferencja Nauczycieli Informatyki „Wykorzystanie sztucznej inteligencji w edukacji — możliwości, szanse, zagrożenia”",
+    "city": "Wrocław",
+    "date": "25 września 2026, 09:00–14:30",
     "type": "konferencja",
     "free": true,
-    "url": "https://careers-stx.webflow.io/events-advartis-ai-summer-hackaton"
+    "url": "https://pti.org.pl/konferencja-wykorzystanie-sztucznej-inteligencji-w-edukacji-mozliwosci-szanse-zagrozenia/"
   }
 ]
