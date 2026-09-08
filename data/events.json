@@ -296,14 +296,6 @@
     "url": "https://www.eventbrite.com/e/world-od-ai-big-data-expo-tickets-1981928533596"
   },
   {
-    "name": "Biznes Misja Event 8.0",
-    "city": "Warszawa",
-    "date": "4–5 września 2026",
-    "type": "konferencja",
-    "free": false,
-    "url": "https://crossweb.pl/wydarzenia/biznes-misja-event-80/"
-  },
-  {
     "name": "Jak skutecznie przekształcić system ocen w realny system rozwoju?",
     "city": "Warszawa",
     "date": "18 września 2026",
@@ -696,14 +688,6 @@
     "url": "https://crossweb.pl/wydarzenia/ai-w-rekach-kreatywnych-uzytkownikow-jak-ograniczyc-ryzyka-nowej-normalnosci-wrzesien-2026/"
   },
   {
-    "name": "Prawne aspekty wykorzystania AI w biznesie — co musisz wiedzieć?",
-    "city": "Online",
-    "date": "4 września 2026, 11:00–11:55",
-    "type": "meetup",
-    "free": true,
-    "url": "https://aisummitpoland.pl/webinar-prawne-aspekty-wykorzystania-ai-w-biznesie-co-musisz-wiedziec/"
-  },
-  {
     "name": "Przyszłość zaczyna się dziś — jak przygotować dzieci i nauczycieli do życia w świecie AI?",
     "city": "Online",
     "date": "10 września 2026, 18:00",
@@ -742,5 +726,45 @@
     "type": "konferencja",
     "free": true,
     "url": "https://pti.org.pl/konferencja-wykorzystanie-sztucznej-inteligencji-w-edukacji-mozliwosci-szanse-zagrozenia/"
+  },
+  {
+    "name": "Pionierzy AI #3 — AI w MŚP",
+    "city": "Warszawa",
+    "date": "23 września 2026, 17:30–22:00",
+    "type": "meetup",
+    "free": true,
+    "url": "https://kigeit.org.pl/2026/09/07/zaproszenie-na-cykl-spotkan-pionierzy-ai-praktyczne-wdrozenia-sztucznej-inteligencji-w-firmach/"
+  },
+  {
+    "name": "Pionierzy AI #4",
+    "city": "Łódź",
+    "date": "21 października 2026",
+    "type": "meetup",
+    "free": true,
+    "url": "https://kigeit.org.pl/2026/09/07/zaproszenie-na-cykl-spotkan-pionierzy-ai-praktyczne-wdrozenia-sztucznej-inteligencji-w-firmach/"
+  },
+  {
+    "name": "Pionierzy AI #5",
+    "city": "Warszawa",
+    "date": "1 grudnia 2026",
+    "type": "meetup",
+    "free": true,
+    "url": "https://kigeit.org.pl/2026/09/07/zaproszenie-na-cykl-spotkan-pionierzy-ai-praktyczne-wdrozenia-sztucznej-inteligencji-w-firmach/"
+  },
+  {
+    "name": "Pionierzy AI — maraton webinarów AI",
+    "city": "Online",
+    "date": "2–23 grudnia 2026",
+    "type": "meetup",
+    "free": true,
+    "url": "https://kigeit.org.pl/2026/09/07/zaproszenie-na-cykl-spotkan-pionierzy-ai-praktyczne-wdrozenia-sztucznej-inteligencji-w-firmach/"
+  },
+  {
+    "name": "Forum Cyfryzacji 2026",
+    "city": "Karpacz",
+    "date": "8–10 września 2026",
+    "type": "konferencja",
+    "free": false,
+    "url": "https://pap-mediaroom.pl/nauka-i-technologie/mc-forum-cyfryzacji-2026-trzy-dni-rozmow-o-ai-cyberbezpieczenstwie-i-cyfrowej"
   }
 ]

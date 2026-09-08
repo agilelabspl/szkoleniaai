@@ -3120,5 +3120,53 @@
     "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3787887",
     "price": "4 700,00 PLN brutto / netto",
     "format": "Online"
+  },
+  {
+    "name": "Sztuczna inteligencja w pracy biurowej: automatyzacja zadań, analiza danych i tworzenie treści",
+    "cat": "automatyzacja",
+    "desc": "Szkolenie 6–7 października 2026 o promptingu, tekstach biznesowych, analizie dokumentów i optymalizacji rutynowych zadań.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3795234",
+    "price": "4 000,00 PLN brutto / netto",
+    "format": "Online"
+  },
+  {
+    "name": "AI w praktyce biurowej: bliźniacza transformacja",
+    "cat": "automatyzacja",
+    "desc": "Szkolenie 17–22 października 2026 o automatyzacji pracy i zielonej optymalizacji zasobów organizacji.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3794140",
+    "price": "5 000,00 PLN brutto / netto",
+    "format": "Online"
+  },
+  {
+    "name": "Szkolenie — Sztuczna inteligencja w biznesie: AI Act, bezpieczeństwo danych i automatyzacja procesów",
+    "cat": "biznes",
+    "desc": "Szkolenie 23–24 listopada 2026 o AI Act, bezpieczeństwie danych i automatyzacji procesów.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3793378",
+    "price": "5 000,00 PLN brutto / netto",
+    "format": "Stacjonarnie · Olsztyn"
+  },
+  {
+    "name": "Praktyczne wykorzystanie AI w pracy menedżera i lidera zespołu",
+    "cat": "biznes",
+    "desc": "Szkolenie 28 października 2026 o planowaniu, komunikacji, analizie spotkań i budowie własnego asystenta AI.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3795075",
+    "price": "1 869,60 PLN brutto / 1 520,00 PLN netto",
+    "format": "Online"
+  },
+  {
+    "name": "Zasobooszczędny zespół agentów AI w marketingu i firmie",
+    "cat": "marketing",
+    "desc": "Szkolenie 24–28 października 2026 o agentach graficznym, reklamowym i dokumentacyjnym z użyciem Claude i Meta Ads.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3793332",
+    "price": "5 000,00 PLN brutto / netto",
+    "format": "Online"
+  },
+  {
+    "name": "Pracownik gminy w świecie AI — od podstaw do praktycznego działania",
+    "cat": "ogolne",
+    "desc": "Szkolenie od podstaw dla pracowników urzędów i jednostek gminnych, realizowane 26–28 października 2026.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3794180",
+    "price": "4 950,00 PLN brutto / netto",
+    "format": "Online"
   }
 ]
