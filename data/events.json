@@ -766,5 +766,21 @@
     "type": "konferencja",
     "free": false,
     "url": "https://pap-mediaroom.pl/nauka-i-technologie/mc-forum-cyfryzacji-2026-trzy-dni-rozmow-o-ai-cyberbezpieczenstwie-i-cyfrowej"
+  },
+  {
+    "name": "Insurance Risk Radar: AI między kosztem a wartością – gdzie teoria ustępuje praktyce",
+    "city": "Warszawa",
+    "date": "9 września 2026, 09:30–13:00",
+    "type": "konferencja",
+    "free": true,
+    "url": "https://www.deloitte.com/pl/pl/events/insurance-risk-radar-ai-miedzy-kosztem-a-wartoscia-gdzie-teoria-ustepuje-praktyce.html"
+  },
+  {
+    "name": "Webinar kursu AI Summer Academy",
+    "city": "Online",
+    "date": "9 września 2026, 18:00",
+    "type": "meetup",
+    "free": false,
+    "url": "https://www.kozminski.edu.pl/pl/wydarzenia/webinar-kursu-ai-summer-academy"
   }
 ]

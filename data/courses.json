@@ -3168,5 +3168,93 @@
     "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3794180",
     "price": "4 950,00 PLN brutto / netto",
     "format": "Online"
+  },
+  {
+    "name": "AI Content Studio III (Sztuczna inteligencja w komunikacji z klientem: budowa i wdrożenie asystenta AI)",
+    "cat": "automatyzacja",
+    "desc": "Szkolenie online na żywo, 7–8 października 2026; budowa asystenta na podstawie firmowych FAQ, procedur, cenników i regulaminów.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3797489",
+    "price": "3 936 zł brutto (3 200 zł netto)",
+    "format": "Online · na żywo"
+  },
+  {
+    "name": "AI Business Lab (Sztuczna inteligencja w firmie: modele, prompty, research, wdrożenie)",
+    "cat": "biznes",
+    "desc": "Szkolenie online na żywo, 1–2 października 2026; praktyczne wykorzystanie modeli AI, promptów, researchu i zasad wdrażania AI w firmie.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3796816",
+    "price": "4 059 zł brutto (3 300 zł netto)",
+    "format": "Online · na żywo"
+  },
+  {
+    "name": "AI dla menedżerów – poziom bazowy",
+    "cat": "biznes",
+    "desc": "Szkolenie stacjonarne we Wrocławiu, 23 listopada 2026; podstawy używania narzędzi AI przez kadrę zarządzającą.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3797667",
+    "price": "1 660,50 zł brutto (1 350 zł netto)",
+    "format": "Stacjonarnie · Wrocław"
+  },
+  {
+    "name": "AI dla menedżerów – poziom zaawansowany",
+    "cat": "biznes",
+    "desc": "Szkolenie stacjonarne we Wrocławiu, 12 października 2026; zastosowanie AI w analizie informacji, decyzjach, procesach, zarządzaniu zespołem i innowacjach.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3797698",
+    "price": "1 660,50 zł brutto (1 350 zł netto)",
+    "format": "Stacjonarnie · Wrocław"
+  },
+  {
+    "name": "AI Content Studio I (Sztuczna inteligencja w produkcji treści: tekst, obraz, wideo, dźwięk, automatyzacja)",
+    "cat": "marketing",
+    "desc": "Szkolenie online na żywo, 5–6 października 2026; tworzenie i automatyzowanie treści marketingowych przy użyciu AI.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3797446",
+    "price": "3 936 zł brutto (3 200 zł netto)",
+    "format": "Online · na żywo"
+  },
+  {
+    "name": "Tworzenie treści na Instagram, Facebook i TikTok z wykorzystaniem AI – nowoczesny marketing w mediach społecznościowych",
+    "cat": "marketing",
+    "desc": "Szkolenie stacjonarne w Katowicach, 2–30 października 2026; tworzenie treści i prowadzenie komunikacji w social media z pomocą AI.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3796115",
+    "price": "6 027 zł brutto (4 900 zł netto)",
+    "format": "Stacjonarnie · Katowice"
+  },
+  {
+    "name": "AI – Twój asystent w codziennej pracy",
+    "cat": "ogolne",
+    "desc": "Szkolenie stacjonarne we Wrocławiu, 9 listopada 2026; wykorzystanie m.in. ChatGPT, Copilot, Canva AI i Make do automatyzacji zadań, komunikacji i pracy z danymi.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3797617",
+    "price": "1 771,20 zł brutto (1 440 zł netto)",
+    "format": "Stacjonarnie · Wrocław"
+  },
+  {
+    "name": "Wykorzystanie internetowych usług AI w codziennej pracy zawodowej",
+    "cat": "ogolne",
+    "desc": "Szkolenie online na żywo, 8–16 października 2026; internetowe narzędzia AI, pakiety biurowe, dokumentowanie spotkań, komunikacja i odpowiedzialne użycie AI.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3797722",
+    "price": "9 655,50 zł brutto (7 850 zł netto)",
+    "format": "Online · na żywo"
+  },
+  {
+    "name": "AI w pracy biurowej – narzędzia, praktyka i pierwsze wdrożenie – termin 28 września 2026",
+    "cat": "ogolne",
+    "desc": "6-godzinne szkolenie online na żywo 28 września 2026; praktyczne narzędzia AI i przygotowanie pierwszego wdrożenia w pracy biurowej.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3795831",
+    "price": "660 zł",
+    "format": "Online · na żywo"
+  },
+  {
+    "name": "AI w pracy biurowej – narzędzia, praktyka i pierwsze wdrożenie – termin 26 października 2026",
+    "cat": "ogolne",
+    "desc": "6-godzinne szkolenie online na żywo 26 października 2026; praktyczne narzędzia AI i przygotowanie pierwszego wdrożenia w pracy biurowej.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3795850",
+    "price": "660 zł",
+    "format": "Online · na żywo"
+  },
+  {
+    "name": "AI w pracy biurowej – narzędzia, praktyka i pierwsze wdrożenie – termin 26 listopada 2026",
+    "cat": "ogolne",
+    "desc": "6-godzinne szkolenie online na żywo 26 listopada 2026; praktyczne narzędzia AI i przygotowanie pierwszego wdrożenia w pracy biurowej.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3795860",
+    "price": "660 zł",
+    "format": "Online · na żywo"
   }
 ]
