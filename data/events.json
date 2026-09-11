@@ -304,14 +304,6 @@
     "url": "https://crossweb.pl/wydarzenia/jak-skutecznie-przeksztalcic-system-ocen-w-realny-system-rozwoju-wrzesien-2026/"
   },
   {
-    "name": "TECH RACE summit 2026",
-    "city": "Warszawa",
-    "date": "10 września 2026",
-    "type": "konferencja",
-    "free": false,
-    "url": "https://crossweb.pl/wydarzenia/tech-race-summit-2026/"
-  },
-  {
     "name": "migawka AI #2",
     "city": "Łódź",
     "date": "6 października 2026",
@@ -632,14 +624,6 @@
     "url": "https://sztuczna-inteligencja.fundacja-tygiel.pl/"
   },
   {
-    "name": "AI Anonymous",
-    "city": "Warszawa",
-    "date": "10 września 2026, 19:00",
-    "type": "meetup",
-    "free": true,
-    "url": "https://crossweb.pl/wydarzenia/ai-anonymous-10-wrzesien-2026/"
-  },
-  {
     "name": "AI Meetup Kraków",
     "city": "Kraków",
     "date": "2026-09-14",
@@ -678,22 +662,6 @@
     "type": "meetup",
     "free": true,
     "url": "https://crossweb.pl/wydarzenia/policy-checked-attributable-revocable-provable-ai-agent-authorization-pazdziernik-2026/"
-  },
-  {
-    "name": "AI w rękach (kreatywnych) użytkowników — jak ograniczyć ryzyka nowej normalności",
-    "city": "Online",
-    "date": "10 września 2026",
-    "type": "meetup",
-    "free": true,
-    "url": "https://crossweb.pl/wydarzenia/ai-w-rekach-kreatywnych-uzytkownikow-jak-ograniczyc-ryzyka-nowej-normalnosci-wrzesien-2026/"
-  },
-  {
-    "name": "Przyszłość zaczyna się dziś — jak przygotować dzieci i nauczycieli do życia w świecie AI?",
-    "city": "Online",
-    "date": "10 września 2026, 18:00",
-    "type": "meetup",
-    "free": true,
-    "url": "https://pti.org.pl/przyszlosc-zaczyna-sie-dzis-jak-przygotowac-dzieci-i-nauczycieli-do-zycia-w-swiecie-ai/"
   },
   {
     "name": "Sztuczna inteligencja a prawo — trzeci Otwarty Wykład Ekspercki UODO",
@@ -758,29 +726,5 @@
     "type": "meetup",
     "free": true,
     "url": "https://kigeit.org.pl/2026/09/07/zaproszenie-na-cykl-spotkan-pionierzy-ai-praktyczne-wdrozenia-sztucznej-inteligencji-w-firmach/"
-  },
-  {
-    "name": "Forum Cyfryzacji 2026",
-    "city": "Karpacz",
-    "date": "8–10 września 2026",
-    "type": "konferencja",
-    "free": false,
-    "url": "https://pap-mediaroom.pl/nauka-i-technologie/mc-forum-cyfryzacji-2026-trzy-dni-rozmow-o-ai-cyberbezpieczenstwie-i-cyfrowej"
-  },
-  {
-    "name": "Insurance Risk Radar: AI między kosztem a wartością – gdzie teoria ustępuje praktyce",
-    "city": "Warszawa",
-    "date": "9 września 2026, 09:30–13:00",
-    "type": "konferencja",
-    "free": true,
-    "url": "https://www.deloitte.com/pl/pl/events/insurance-risk-radar-ai-miedzy-kosztem-a-wartoscia-gdzie-teoria-ustepuje-praktyce.html"
-  },
-  {
-    "name": "Webinar kursu AI Summer Academy",
-    "city": "Online",
-    "date": "9 września 2026, 18:00",
-    "type": "meetup",
-    "free": false,
-    "url": "https://www.kozminski.edu.pl/pl/wydarzenia/webinar-kursu-ai-summer-academy"
   }
 ]

@@ -3256,5 +3256,53 @@
     "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3795860",
     "price": "660 zł",
     "format": "Online · na żywo"
+  },
+  {
+    "name": "Cyfrowa transformacja i sztuczna inteligencja w przedsiębiorstwie — praktyczne wykorzystanie AI, automatyzacja procesów i zarządzanie zmianą",
+    "cat": "automatyzacja",
+    "desc": "32-godzinne indywidualne szkolenie online na żywo, 4 grudnia 2026–15 stycznia 2027; wdrażanie AI, automatyzacja procesów i zarządzanie zmianą.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3801634",
+    "price": "5 500,00 PLN brutto / 4 471,54 PLN netto",
+    "format": "Online · na żywo"
+  },
+  {
+    "name": "Sztuczna inteligencja i jej wykorzystanie w biznesie",
+    "cat": "biznes",
+    "desc": "15-godzinne szkolenie stacjonarne w Ostrowcu Świętokrzyskim, 21–22 września 2026; praktyczne zastosowania AI w firmie oraz zagrożenia związane z jej użyciem.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3801730",
+    "price": "4 500,00 PLN brutto / netto",
+    "format": "Stacjonarnie · Ostrowiec Świętokrzyski"
+  },
+  {
+    "name": "Canva i narzędzia AI od podstaw — tworzenie grafik, prezentacji oraz kreacji do mediów społecznościowych",
+    "cat": "grafika",
+    "desc": "16-godzinne szkolenie online na żywo, 12–13 października 2026; praktyczne projektowanie w Canvie z wykorzystaniem funkcji AI.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3800972",
+    "price": "4 000,00 PLN brutto / netto",
+    "format": "Online · na żywo"
+  },
+  {
+    "name": "Canva Pro i ChatGPT w Social Media — praktyczne tworzenie grafik, treści, filmów i rolek z wykorzystaniem AI",
+    "cat": "marketing",
+    "desc": "42-godzinne szkolenie indywidualne w formule mieszanej, 15–28 września 2026 w Rzeszowie i online; tworzenie publikacji, materiałów wideo i scenariuszy z Canva Pro i ChatGPT.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3801771",
+    "price": "6 180,75 PLN brutto / 5 025,00 PLN netto",
+    "format": "Hybrydowo · Rzeszów/online"
+  },
+  {
+    "name": "Sztuczna inteligencja w projektach FE SL jako skuteczne narzędzie przy tworzeniu treści, grafik, raportów i analizie danych",
+    "cat": "ogolne",
+    "desc": "Bezpłatne szkolenie stacjonarne dla beneficjentów FE SL, 22 września 2026 w Katowicach; obejmuje promptowanie, tworzenie treści i grafik, analizę danych, automatyzację, bezpieczeństwo, etykę i RODO.",
+    "url": "https://funduszeue.slaskie.pl/w/sztuczna-inteligencja-22092026",
+    "price": "",
+    "format": "Stacjonarnie · Katowice"
+  },
+  {
+    "name": "Efektywne wykorzystanie AI w testowaniu: od ChatGPT do generacji kodu — warsztat dla testerów oprogramowania",
+    "cat": "programisci",
+    "desc": "24-godzinny warsztat online na żywo, 26–28 października 2026; LLM-y w testowaniu, generowanie danych i przypadków testowych, wsparcie pisania kodu oraz automatyzacja QA.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3801641",
+    "price": "2 200,00 PLN brutto / netto",
+    "format": "Online · na żywo"
   }
 ]
