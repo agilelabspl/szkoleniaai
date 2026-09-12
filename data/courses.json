@@ -3304,5 +3304,106 @@
     "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3801641",
     "price": "2 200,00 PLN brutto / netto",
     "format": "Online · na żywo"
+  },
+  {
+    "name": "Automatyzacja pracy biurowej z wykorzystaniem AI w praktyce",
+    "cat": "automatyzacja",
+    "desc": "Automatyzacja dokumentów, raportowania, analizy danych i prezentacji z wykorzystaniem AI.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3802439",
+    "price": "1 476,00 PLN brutto / 1 200,00 PLN netto"
+  },
+  {
+    "name": "Microsoft Copilot w praktyce biurowej — produktywność, automatyzacja zadań oraz bezpieczne korzystanie z AI",
+    "cat": "automatyzacja",
+    "desc": "Produktywność, automatyzacja zadań oraz bezpieczne korzystanie z AI przy użyciu Microsoft Copilot.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3804337",
+    "price": "848,70 PLN brutto / 690,00 PLN netto"
+  },
+  {
+    "name": "Automatyzacja pracy biurowej z wykorzystaniem AI w praktyce — nowy 12-godzinny kurs online",
+    "cat": "automatyzacja",
+    "desc": "12-godzinny kurs online o automatyzacji pracy biurowej z wykorzystaniem AI.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3804983",
+    "price": "1 586,70 PLN brutto / 1 290,00 PLN netto",
+    "format": "Online"
+  },
+  {
+    "name": "AI w firmie — automatyzacja i cyfryzacja procesów, analiza danych oraz tworzenie grafik i filmów reklamowych",
+    "cat": "automatyzacja",
+    "desc": "Automatyzacja i cyfryzacja procesów, analiza danych oraz tworzenie grafik i filmów reklamowych z wykorzystaniem AI.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3804198",
+    "price": "3 000,00 PLN brutto / netto"
+  },
+  {
+    "name": "Claude Skills — zbuduj własny zespół ekspertów AI",
+    "cat": "automatyzacja",
+    "desc": "Praktyczne zastosowanie zespołu ekspertów AI w marketingu i codziennej pracy.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3805238",
+    "price": "1 845,00 PLN brutto / 1 500,00 PLN netto"
+  },
+  {
+    "name": "Wdrożenie systemu CRM i wykorzystanie narzędzi AI do automatyzacji procesów w firmie usługowej",
+    "cat": "automatyzacja",
+    "desc": "Wdrożenie systemu CRM i wykorzystanie narzędzi AI do automatyzacji procesów w firmie usługowej.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3806213",
+    "price": "4 571,36 PLN brutto / netto"
+  },
+  {
+    "name": "AI w biznesie — od podstaw do praktycznych umiejętności",
+    "cat": "biznes",
+    "desc": "6-godzinne szkolenie indywidualne online o praktycznych zastosowaniach AI w biznesie.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3802491",
+    "price": "738,00 PLN brutto / 600,00 PLN netto",
+    "format": "Online"
+  },
+  {
+    "name": "Unico Biznes: Inteligentna firma — wykorzystanie AI do automatyzacji, marketingu i sprzedaży",
+    "cat": "biznes",
+    "desc": "Wykorzystanie AI do automatyzacji, marketingu i sprzedaży.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3803228",
+    "price": "6 949,50 PLN brutto / 5 650,00 PLN netto"
+  },
+  {
+    "name": "Cyfrowy gabinet — AI jako asystent menedżera, Excel i bezpieczna elektroniczna obsługa klienta",
+    "cat": "biznes",
+    "desc": "AI jako asystent menedżera, Excel i bezpieczna elektroniczna obsługa klienta.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3804907",
+    "price": "6 027,00 PLN brutto / 4 900,00 PLN netto"
+  },
+  {
+    "name": "Grafika do Internetu + AI — Canva PRO",
+    "cat": "grafika",
+    "desc": "Tworzenie materiałów internetowych z wykorzystaniem funkcji AI w Canva PRO.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3797300",
+    "price": "1 800,00 PLN"
+  },
+  {
+    "name": "Claude Design — kreatywny asystent marki",
+    "cat": "grafika",
+    "desc": "Projektowanie materiałów wizualnych, stron i animacji z AI.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3805242",
+    "price": "1 845,00 PLN brutto / 1 500,00 PLN netto"
+  },
+  {
+    "name": "Eco Reels & Edits — social media marketing z wykorzystaniem AI i krótkich form wideo",
+    "cat": "marketing",
+    "desc": "Social media marketing z wykorzystaniem AI i krótkich form wideo.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3804023",
+    "price": "6 081,12 PLN brutto / 4 944,00 PLN netto"
+  },
+  {
+    "name": "Comarch Bootcamp — zaawansowana analiza danych z użyciem AI w MS Excel, Power Query i Power Pivot",
+    "cat": "ogolne",
+    "desc": "Zaawansowana analiza danych z użyciem AI w MS Excel, Power Query i Power Pivot.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3803619",
+    "price": "2 460,00 PLN brutto / 2 000,00 PLN netto"
+  },
+  {
+    "name": "Szkolenie przygotowujące do certyfikacji ISTQB Testing with Generative AI wraz z egzaminem online",
+    "cat": "programisci",
+    "desc": "Szkolenie przygotowujące do certyfikacji ISTQB Testing with Generative AI wraz z egzaminem online.",
+    "url": "https://uslugirozwojowe.parp.gov.pl/wyszukiwarka/uslugi/podglad?id=3804982",
+    "price": "3 382,50 PLN brutto / 2 750,00 PLN netto",
+    "format": "Online"
   }
 ]
