@@ -328,14 +328,6 @@
     "url": "https://crossweb.pl/wydarzenia/sforce-europe-2026-conference-about-salesforce/"
   },
   {
-    "name": "Code Europe 2026",
-    "city": "Warszawa",
-    "date": "14–15 września 2026",
-    "type": "konferencja",
-    "free": false,
-    "url": "https://crossweb.pl/wydarzenia/code-europe-2026/"
-  },
-  {
     "name": "SQLDay Lite 2026",
     "city": "Trójmiasto",
     "date": "24–25 września 2026",
@@ -398,14 +390,6 @@
     "type": "konferencja",
     "free": false,
     "url": "https://www.bcc.org.pl/zapraszamy-na-konferencje-sztuczna-inteligencja-w-praktyce-biznesu/"
-  },
-  {
-    "name": "Generatywna AI – okiem prawnika",
-    "city": "Online",
-    "date": "14 września 2026",
-    "type": "meetup",
-    "free": false,
-    "url": "https://www.kozminski.edu.pl/pl/oferta-edukacyjna/studia-podyplomowe/wdrazenie-ai-aspekty-prawne"
   },
   {
     "name": "AI i RODO w praktyce kontraktowej – specyfika umów o przetwarzaniu danych przy wdrożeniach AI",
@@ -616,14 +600,6 @@
     "url": "https://sztuczna-inteligencja.fundacja-tygiel.pl/"
   },
   {
-    "name": "AI Meetup Kraków",
-    "city": "Kraków",
-    "date": "2026-09-14",
-    "type": "meetup",
-    "free": true,
-    "url": "https://crossweb.pl/wydarzenia/ai-meetup-krakow-wrzesien-2026/"
-  },
-  {
     "name": "Mindstone Warsaw September AI Meetup",
     "city": "Warszawa",
     "date": "2026-09-24",
@@ -712,14 +688,6 @@
     "url": "https://kigeit.org.pl/2026/09/07/zaproszenie-na-cykl-spotkan-pionierzy-ai-praktyczne-wdrozenia-sztucznej-inteligencji-w-firmach/"
   },
   {
-    "name": "CRASH Mondays № 63: AI w planowaniu contentu",
-    "city": "Gdynia",
-    "date": "2026-09-14, 18:00",
-    "type": "meetup",
-    "free": true,
-    "url": "https://crossweb.pl/wydarzenia/crash-mondays-63-ai-w-planowaniu-contentu-gdynia/"
-  },
-  {
     "name": "AI makers meetup #3",
     "city": "Kraków",
     "date": "2026-09-24, 18:00",
@@ -766,14 +734,6 @@
     "type": "konferencja",
     "free": false,
     "url": "https://crossweb.pl/wydarzenia/ai-europe-congress-2026/"
-  },
-  {
-    "name": "AI Now Polska Webinar #5 — m.in. prototypowanie aplikacji AI i przejście od PoC do produkcji",
-    "city": "Online",
-    "date": "2026-09-15, 11:00",
-    "type": "meetup",
-    "free": true,
-    "url": "https://crossweb.pl/wydarzenia/ai-now-polska-webinar-5/"
   },
   {
     "name": "Who's Watching the Agents? Open Verification Standards for AI",
